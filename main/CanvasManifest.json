@@ -134,6 +134,7 @@
   "ScreenOrder": [
     "Login",
     "Account Dashboard Screen",
+    "Project Dashboard Screen",
     "Deepdiving_Each_Record",
     "New Project"
   ]
