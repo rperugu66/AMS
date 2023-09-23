@@ -1,50 +1,44 @@
-Deepdiving_Each_Record As screen:
+"'Deepdiving Each Account Record' As screen":
 
-    Form2 As form:
-        DataSource: ='Project list_AMS'
-        Height: =669
+    Form3 As form:
+        DataSource: ='Account list- AMS'
+        Height: =650
         NumberOfColumns: =2
-        Width: =1336
-        X: =16
-        Y: =86
+        Width: =1319
+        X: =22
+        Y: =112
         ZIndex: =1
 
-        "'Account Name_DataCard3' As typedDataCard.textualEditCard":
+        "'Account Name_DataCard2' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="Title"
             Default: =ThisItem.'Account Name'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Project list_AMS'],DataSourceInfo.DisplayName,"Title")
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"Title")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Title")
+            MaxLength: =DataSourceInfo([@'Account list- AMS'], DataSourceInfo.MaxLength, "Title")
             Required: =false
-            Update: =DataCardValue53.Text
-            Width: =668
+            Update: =DataCardValue1.Text
+            Width: =659
             X: =0
             Y: =0
             ZIndex: =2
 
-            DataCardKey56 As label:
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
-                Height: =35
-                Size: =14
+            DataCardKey32 As label:
+                Height: =39
                 Text: =Parent.DisplayName
-                Width: =256
+                Width: =244
                 Wrap: =false
                 X: =30
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue53 As text:
+            DataCardValue1 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
-                Font: =Font.'Segoe UI'
-                Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -52,12 +46,12 @@ Deepdiving_Each_Record As screen:
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =281
-                X: =303
+                Width: =371
+                X: =239
                 Y: =10
                 ZIndex: =2
 
-            ErrorMessage56 As label:
+            ErrorMessage32 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -69,272 +63,50 @@ Deepdiving_Each_Record As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue53.Y + DataCardValue53.Height
+                Y: =DataCardValue1.Y + DataCardValue1.Height
                 ZIndex: =3
 
-            StarVisible56 As label:
+            StarVisible32 As label:
                 Align: =Align.Center
-                Height: =DataCardKey56.Height
+                Height: =DataCardKey32.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey56.Y
+                Y: =DataCardKey32.Y
                 ZIndex: =4
 
-        Geo_DataCard2 As typedDataCard.textualEditCard:
+        "'Project Manager_DataCard2' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
-            DataField: ="Geo"
-            Default: =ThisItem.Geo
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Project list_AMS'],DataSourceInfo.DisplayName,"Geo")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Geo")
-            Required: =false
-            Update: =DataCardValue54.Text
-            Width: =668
-            X: =1
-            Y: =0
-            ZIndex: =2
-
-            DataCardKey57 As label:
-                AutoHeight: =true
-                FontWeight: =FontWeight.Semibold
-                Height: =35
-                Text: =Parent.DisplayName
-                Width: =256
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue54 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                BorderThickness: =1
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
-                Height: =35
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Tooltip: =Parent.DisplayName
-                Width: =281
-                X: =303
-                Y: =10
-                ZIndex: =2
-
-            ErrorMessage57 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue54.Y + DataCardValue54.Height
-                ZIndex: =3
-
-            StarVisible57 As label:
-                Align: =Align.Center
-                Height: =DataCardKey57.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey57.Y
-                ZIndex: =4
-
-        "'Project code_DataCard2' As typedDataCard.textualEditCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Project_x0020_code"
-            Default: =ThisItem.'Project code'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Project list_AMS'],DataSourceInfo.DisplayName,"Project_x0020_code")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =55
-            MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Project_x0020_code")
-            Required: =false
-            Update: =DataCardValue55.Text
-            Width: =668
-            X: =0
-            Y: =1
-            ZIndex: =2
-
-            DataCardKey58 As label:
-                AutoHeight: =true
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
-                Height: =35
-                Size: =14
-                Text: =Parent.DisplayName
-                Width: =256
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue55 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                BorderThickness: =1
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
-                Height: =35
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Tooltip: =Parent.DisplayName
-                Width: =281
-                X: =303
-                Y: =10
-                ZIndex: =2
-
-            ErrorMessage58 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue55.Y + DataCardValue55.Height
-                ZIndex: =3
-
-            StarVisible58 As label:
-                Align: =Align.Center
-                Height: =DataCardKey58.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey58.Y
-                ZIndex: =4
-
-        "'Project Name_DataCard2' As typedDataCard.textualEditCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Project_x0020_Name"
-            Default: =ThisItem.'Project Name'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Project list_AMS'],DataSourceInfo.DisplayName,"Project_x0020_Name")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Project_x0020_Name")
-            Required: =false
-            Update: =DataCardValue56.Text
-            Width: =668
-            X: =1
-            Y: =1
-            ZIndex: =2
-
-            DataCardKey59 As label:
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
-                Height: =35
-                Size: =14
-                Text: =Parent.DisplayName
-                Width: =256
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue56 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
-                Font: =Font.'Segoe UI'
-                Height: =35
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Tooltip: =Parent.DisplayName
-                Width: =281
-                X: =303
-                Y: =10
-                ZIndex: =2
-
-            ErrorMessage59 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue56.Y + DataCardValue56.Height
-                ZIndex: =3
-
-            StarVisible59 As label:
-                Align: =Align.Center
-                Height: =DataCardKey59.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey59.Y
-                ZIndex: =4
-
-        "'Project Manager_DataCard3' As typedDataCard.textualEditCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Project_x0020_Manager"
+            DataField: ="field_1"
             Default: =ThisItem.'Project Manager'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Project list_AMS'],DataSourceInfo.DisplayName,"Project_x0020_Manager")
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_1")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Project_x0020_Manager")
+            MaxLength: =DataSourceInfo([@'Account list- AMS'], DataSourceInfo.MaxLength, "field_1")
             Required: =false
-            Update: =DataCardValue57.Text
-            Width: =668
-            X: =0
-            Y: =2
+            Update: =DataCardValue2.Text
+            Width: =659
+            X: =1
+            Y: =0
             ZIndex: =2
 
-            DataCardKey60 As label:
+            DataCardKey33 As label:
                 AutoHeight: =true
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
-                Height: =35
-                Size: =14
+                Height: =34
                 Text: =Parent.DisplayName
-                Width: =256
+                Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue57 As text:
+            DataCardValue2 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
-                Font: =Font.'Segoe UI'
-                Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -342,12 +114,12 @@ Deepdiving_Each_Record As screen:
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =281
-                X: =303
-                Y: =10
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey33.Y + DataCardKey33.Height + 5
                 ZIndex: =2
 
-            ErrorMessage60 As label:
+            ErrorMessage33 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -359,67 +131,267 @@ Deepdiving_Each_Record As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue57.Y + DataCardValue57.Height
+                Y: =DataCardValue2.Y + DataCardValue2.Height
                 ZIndex: =3
 
-            StarVisible60 As label:
+            StarVisible33 As label:
                 Align: =Align.Center
-                Height: =DataCardKey60.Height
+                Height: =DataCardKey33.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey60.Y
+                Y: =DataCardKey33.Y
                 ZIndex: =4
 
-        "'Delivery Manager_DataCard3' As typedDataCard.textualEditCard":
+        "'Delivery Manager_DataCard2' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
-            DataField: ="Delivery_x0020_Manager"
+            DataField: ="field_2"
             Default: =ThisItem.'Delivery Manager'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Project list_AMS'],DataSourceInfo.DisplayName,"Delivery_x0020_Manager")
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_2")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Delivery_x0020_Manager")
+            MaxLength: =DataSourceInfo([@'Account list- AMS'], DataSourceInfo.MaxLength, "field_2")
             Required: =false
-            Update: =DataCardValue58.Text
-            Width: =668
+            Update: =DataCardValue10.Text
+            Width: =659
+            X: =0
+            Y: =1
+            ZIndex: =2
+
+            DataCardKey34 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue10 As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                Default: =Parent.Default
+                DelayOutput: =true
+                DisplayMode: =Parent.DisplayMode
+                MaxLength: =Parent.MaxLength
+                PaddingLeft: =5
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey34.Y + DataCardKey34.Height + 5
+                ZIndex: =2
+
+            ErrorMessage34 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue10.Y + DataCardValue10.Height
+                ZIndex: =3
+
+            StarVisible34 As label:
+                Align: =Align.Center
+                Height: =DataCardKey34.Height
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey34.Y
+                ZIndex: =4
+
+        "'Delivery Head_DataCard2' As typedDataCard.textualEditCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_3"
+            Default: =ThisItem.'Delivery Head'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_3")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            MaxLength: =DataSourceInfo([@'Account list- AMS'], DataSourceInfo.MaxLength, "field_3")
+            Required: =false
+            Update: =DataCardValue32.Text
+            Width: =659
+            X: =1
+            Y: =1
+            ZIndex: =2
+
+            DataCardKey35 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue32 As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                Default: =Parent.Default
+                DelayOutput: =true
+                DisplayMode: =Parent.DisplayMode
+                MaxLength: =Parent.MaxLength
+                PaddingLeft: =5
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey35.Y + DataCardKey35.Height + 5
+                ZIndex: =2
+
+            ErrorMessage35 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue32.Y + DataCardValue32.Height
+                ZIndex: =3
+
+            StarVisible35 As label:
+                Align: =Align.Center
+                Height: =DataCardKey35.Height
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey35.Y
+                ZIndex: =4
+
+        "'Onsite/offshore_DataCard1' As typedDataCard.textualEditCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_4"
+            Default: =ThisItem.'Onsite/offshore'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_4")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            MaxLength: =DataSourceInfo([@'Account list- AMS'], DataSourceInfo.MaxLength, "field_4")
+            Required: =false
+            Update: =DataCardValue33.Text
+            Width: =659
+            X: =0
+            Y: =2
+            ZIndex: =2
+
+            DataCardKey36 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue33 As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                Default: =Parent.Default
+                DelayOutput: =true
+                DisplayMode: =Parent.DisplayMode
+                MaxLength: =Parent.MaxLength
+                PaddingLeft: =5
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey36.Y + DataCardKey36.Height + 5
+                ZIndex: =2
+
+            ErrorMessage36 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue33.Y + DataCardValue33.Height
+                ZIndex: =3
+
+            StarVisible36 As label:
+                Align: =Align.Center
+                Height: =DataCardKey36.Height
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey36.Y
+                ZIndex: =4
+
+        "'# projects_DataCard1' As typedDataCard.numberEditCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_5"
+            Default: |-
+                =ThisItem.'# projects'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_5")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =Value(DataCardValue34.Text)
+            Width: =659
             X: =1
             Y: =2
             ZIndex: =2
 
-            DataCardKey61 As label:
+            DataCardKey37 As label:
                 AutoHeight: =true
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
-                Height: =35
-                Size: =14
+                Height: =34
                 Text: =Parent.DisplayName
-                Width: =256
+                Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue58 As text:
+            DataCardValue34 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
-                Height: =35
-                MaxLength: =Parent.MaxLength
+                Format: =TextFormat.Number
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =281
-                X: =303
-                Y: =10
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey37.Y + DataCardKey37.Height + 5
                 ZIndex: =2
 
-            ErrorMessage61 As label:
+            ErrorMessage37 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -431,55 +403,50 @@ Deepdiving_Each_Record As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue58.Y + DataCardValue58.Height
+                Y: =DataCardValue34.Y + DataCardValue34.Height
                 ZIndex: =3
 
-            StarVisible61 As label:
+            StarVisible37 As label:
                 Align: =Align.Center
-                Height: =DataCardKey61.Height
+                Height: =DataCardKey37.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey61.Y
+                Y: =DataCardKey37.Y
                 ZIndex: =4
 
-        "'Delivery Head_DataCard3' As typedDataCard.textualEditCard":
+        Currency_DataCard1 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
-            DataField: ="Delivery_x0020_Head"
-            Default: =ThisItem.'Delivery Head'
+            DataField: ="field_6"
+            Default: =ThisItem.Currency
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Project list_AMS'],DataSourceInfo.DisplayName,"Delivery_x0020_Head")
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_6")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Delivery_x0020_Head")
+            MaxLength: =DataSourceInfo([@'Account list- AMS'], DataSourceInfo.MaxLength, "field_6")
             Required: =false
-            Update: =DataCardValue59.Text
-            Width: =668
+            Update: =DataCardValue35.Text
+            Width: =659
             X: =0
             Y: =3
             ZIndex: =2
 
-            DataCardKey62 As label:
+            DataCardKey38 As label:
                 AutoHeight: =true
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
                 Height: =34
-                Size: =14
                 Text: =Parent.DisplayName
-                Width: =256
+                Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue59 As text:
+            DataCardValue35 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
-                Font: =Font.'Segoe UI'
-                Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -487,12 +454,12 @@ Deepdiving_Each_Record As screen:
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =281
-                X: =303
-                Y: =10
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey38.Y + DataCardKey38.Height + 5
                 ZIndex: =2
 
-            ErrorMessage62 As label:
+            ErrorMessage38 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -504,208 +471,62 @@ Deepdiving_Each_Record As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue59.Y + DataCardValue59.Height
+                Y: =DataCardValue35.Y + DataCardValue35.Height
                 ZIndex: =3
 
-            StarVisible62 As label:
+            StarVisible38 As label:
                 Align: =Align.Center
-                Height: =DataCardKey62.Height
+                Height: =DataCardKey38.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey62.Y
+                Y: =DataCardKey38.Y
                 ZIndex: =4
 
-        "'Project Start Date_DataCard2' As typedDataCard.dateEditCard":
+        "'Account Cost in USD_DataCard1' As typedDataCard.numberEditCard":
             BorderStyle: =BorderStyle.Solid
-            DataField: ="Project_x0020_Start_x0020_Date"
-            Default: =ThisItem.'Project Start Date'
+            DataField: ="field_7"
+            Default: =ThisItem.'Account Cost in USD'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Project list_AMS'],DataSourceInfo.DisplayName,"Project_x0020_Start_x0020_Date")
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_7")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =DataCardValue60.SelectedDate
-            Width: =668
-            X: =0
-            Y: =4
-            ZIndex: =2
-
-            DataCardKey63 As label:
-                AutoHeight: =true
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
-                Height: =34
-                Size: =14
-                Text: =Parent.DisplayName
-                Width: =256
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue60 As datepicker:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                DefaultDate: =Parent.Default
-                DisplayMode: =Parent.DisplayMode
-                EndYear: =Year(Today())+100
-                Font: =Font.'Segoe UI'
-                Height: =35
-                IsEditable: =true
-                PaddingBottom: =0
-                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                Size: =13
-                StartYear: =1899
-                Tooltip: =Parent.DisplayName
-                Width: =281
-                X: =303
-                Y: =10
-                ZIndex: =2
-
-            ErrorMessage63 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue60.Y + DataCardValue60.Height
-                ZIndex: =3
-
-            StarVisible63 As label:
-                Align: =Align.Center
-                Height: =DataCardKey63.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey63.Y
-                ZIndex: =4
-
-        "'Project end date_DataCard2' As typedDataCard.dateEditCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Project_x0020_end_x0020_date"
-            Default: =ThisItem.'Project end date'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Project list_AMS'],DataSourceInfo.DisplayName,"Project_x0020_end_x0020_date")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            Required: =false
-            Update: =DataCardValue61.SelectedDate
-            Width: =668
-            X: =1
-            Y: =4
-            ZIndex: =2
-
-            DataCardKey64 As label:
-                AutoHeight: =true
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
-                Height: =34
-                Size: =14
-                Text: =Parent.DisplayName
-                Width: =256
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue61 As datepicker:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                DefaultDate: =Parent.Default
-                DisplayMode: =Parent.DisplayMode
-                EndYear: =Year(Today())+100
-                Height: =35
-                IsEditable: =true
-                PaddingBottom: =0
-                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                StartYear: =1899
-                Tooltip: =Parent.DisplayName
-                Width: =281
-                X: =303
-                Y: =10
-                ZIndex: =2
-
-            ErrorMessage64 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue61.Y + DataCardValue61.Height
-                ZIndex: =3
-
-            StarVisible64 As label:
-                Align: =Align.Center
-                Height: =DataCardKey64.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey64.Y
-                ZIndex: =4
-
-        "'Type of Engagement_DataCard2' As typedDataCard.textualEditCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Type_x0020_of_x0020_Engagement"
-            Default: =ThisItem.'Type of Engagement'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Project list_AMS'],DataSourceInfo.DisplayName,"Type_x0020_of_x0020_Engagement")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Type_x0020_of_x0020_Engagement")
-            Required: =false
-            Update: =DataCardValue62.Text
-            Width: =668
+            Update: =Value(DataCardValue36.Text)
+            Width: =659
             X: =1
             Y: =3
             ZIndex: =2
 
-            DataCardKey65 As label:
+            DataCardKey39 As label:
                 AutoHeight: =true
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
                 Height: =34
-                Size: =14
                 Text: =Parent.DisplayName
-                Width: =256
+                Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue62 As text:
+            DataCardValue36 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
-                Font: =Font.'Segoe UI'
-                Height: =35
-                MaxLength: =Parent.MaxLength
+                Format: =TextFormat.Number
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =281
-                X: =303
-                Y: =10
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey39.Y + DataCardKey39.Height + 5
                 ZIndex: =2
 
-            ErrorMessage65 As label:
+            ErrorMessage39 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -717,67 +538,62 @@ Deepdiving_Each_Record As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue62.Y + DataCardValue62.Height
+                Y: =DataCardValue36.Y + DataCardValue36.Height
                 ZIndex: =3
 
-            StarVisible65 As label:
+            StarVisible39 As label:
                 Align: =Align.Center
-                Height: =DataCardKey65.Height
+                Height: =DataCardKey39.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey65.Y
+                Y: =DataCardKey39.Y
                 ZIndex: =4
 
-        "'Total Cost in USD_DataCard2' As typedDataCard.numberEditCard":
+        "'Gross Margin %_DataCard1' As typedDataCard.numberEditCard":
             BorderStyle: =BorderStyle.Solid
-            DataField: ="Total_x0020_Cost_x0020_in_x0020_"
-            Default: =ThisItem.'Total Cost in USD'
+            DataField: ="field_8"
+            Default: =ThisItem.'Gross Margin %'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Project list_AMS'],DataSourceInfo.DisplayName,"Total_x0020_Cost_x0020_in_x0020_")
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_8")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =Value(DataCardValue63.Text)
-            Width: =668
-            X: =1
-            Y: =6
+            Update: =Value(DataCardValue37.Text)
+            Width: =659
+            X: =0
+            Y: =4
             ZIndex: =2
 
-            DataCardKey66 As label:
+            DataCardKey40 As label:
                 AutoHeight: =true
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
                 Height: =34
-                Size: =14
                 Text: =Parent.DisplayName
-                Width: =256
+                Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue63 As text:
+            DataCardValue37 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
-                Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
-                Height: =35
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =281
-                X: =303
-                Y: =10
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey40.Y + DataCardKey40.Height + 5
                 ZIndex: =2
 
-            ErrorMessage66 As label:
+            ErrorMessage40 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -789,68 +605,129 @@ Deepdiving_Each_Record As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue63.Y + DataCardValue63.Height
+                Y: =DataCardValue37.Y + DataCardValue37.Height
                 ZIndex: =3
 
-            StarVisible66 As label:
+            StarVisible40 As label:
                 Align: =Align.Center
-                Height: =DataCardKey66.Height
+                Height: =DataCardKey40.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey66.Y
+                Y: =DataCardKey40.Y
                 ZIndex: =4
 
-        "'Onsite #_DataCard2' As typedDataCard.numberEditCard":
+        "'Tax %_DataCard1' As typedDataCard.numberEditCard":
             BorderStyle: =BorderStyle.Solid
-            DataField: ="Onsite_x0020__x0023_"
-            Default: |-
-                =ThisItem.'Onsite #'
+            DataField: ="field_9"
+            Default: =ThisItem.'Tax %'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Project list_AMS'],DataSourceInfo.DisplayName,"Onsite_x0020__x0023_")
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_9")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =Value(DataCardValue64.Text)
-            Width: =668
+            Update: =Value(DataCardValue38.Text)
+            Width: =659
+            X: =1
+            Y: =4
+            ZIndex: =2
+
+            DataCardKey41 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue38 As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                Default: =Parent.Default
+                DelayOutput: =true
+                DisplayMode: =Parent.DisplayMode
+                Format: =TextFormat.Number
+                PaddingLeft: =5
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey41.Y + DataCardKey41.Height + 5
+                ZIndex: =2
+
+            ErrorMessage41 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue38.Y + DataCardValue38.Height
+                ZIndex: =3
+
+            StarVisible41 As label:
+                Align: =Align.Center
+                Height: =DataCardKey41.Height
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey41.Y
+                ZIndex: =4
+
+        "'Tax Amount in Usd_DataCard1' As typedDataCard.numberEditCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_10"
+            Default: =ThisItem.'Tax Amount in Usd'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_10")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =Value(DataCardValue39.Text)
+            Width: =659
             X: =0
             Y: =5
             ZIndex: =2
 
-            DataCardKey67 As label:
+            DataCardKey42 As label:
                 AutoHeight: =true
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
                 Height: =34
-                Size: =14
                 Text: =Parent.DisplayName
-                Width: =256
+                Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue64 As text:
+            DataCardValue39 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
-                Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
-                Height: =35
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =281
-                X: =303
-                Y: =10
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey42.Y + DataCardKey42.Height + 5
                 ZIndex: =2
 
-            ErrorMessage67 As label:
+            ErrorMessage42 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -862,68 +739,62 @@ Deepdiving_Each_Record As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue64.Y + DataCardValue64.Height
+                Y: =DataCardValue39.Y + DataCardValue39.Height
                 ZIndex: =3
 
-            StarVisible67 As label:
+            StarVisible42 As label:
                 Align: =Align.Center
-                Height: =DataCardKey67.Height
+                Height: =DataCardKey42.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey67.Y
+                Y: =DataCardKey42.Y
                 ZIndex: =4
 
-        "'Offshore #_DataCard2' As typedDataCard.numberEditCard":
+        Revenue_DataCard1 As typedDataCard.numberEditCard:
             BorderStyle: =BorderStyle.Solid
-            DataField: ="Offshore_x0020__x0023_"
-            Default: |-
-                =ThisItem.'Offshore #'
+            DataField: ="field_11"
+            Default: =ThisItem.Revenue
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Project list_AMS'],DataSourceInfo.DisplayName,"Offshore_x0020__x0023_")
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_11")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =Value(DataCardValue65.Text)
-            Width: =668
+            Update: =Value(DataCardValue40.Text)
+            Width: =659
             X: =1
             Y: =5
             ZIndex: =2
 
-            DataCardKey68 As label:
+            DataCardKey43 As label:
                 AutoHeight: =true
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
                 Height: =34
-                Size: =14
                 Text: =Parent.DisplayName
-                Width: =256
+                Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue65 As text:
+            DataCardValue40 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
-                Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
-                Height: =35
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =281
-                X: =303
-                Y: =10
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey43.Y + DataCardKey43.Height + 5
                 ZIndex: =2
 
-            ErrorMessage68 As label:
+            ErrorMessage43 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -935,68 +806,62 @@ Deepdiving_Each_Record As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue65.Y + DataCardValue65.Height
+                Y: =DataCardValue40.Y + DataCardValue40.Height
                 ZIndex: =3
 
-            StarVisible68 As label:
+            StarVisible43 As label:
                 Align: =Align.Center
-                Height: =DataCardKey68.Height
+                Height: =DataCardKey43.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey68.Y
+                Y: =DataCardKey43.Y
                 ZIndex: =4
 
-        "'Total #_DataCard2' As typedDataCard.numberEditCard":
+        Cost_DataCard1 As typedDataCard.numberEditCard:
             BorderStyle: =BorderStyle.Solid
-            DataField: ="Total_x0020__x0023_"
-            Default: |-
-                =ThisItem.'Total #'
+            DataField: ="field_12"
+            Default: =ThisItem.Cost
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Project list_AMS'],DataSourceInfo.DisplayName,"Total_x0020__x0023_")
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_12")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =Value(DataCardValue66.Text)
-            Width: =668
+            Update: =Value(DataCardValue41.Text)
+            Width: =659
             X: =0
             Y: =6
             ZIndex: =2
 
-            DataCardKey69 As label:
+            DataCardKey44 As label:
                 AutoHeight: =true
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
                 Height: =34
-                Size: =14
                 Text: =Parent.DisplayName
-                Width: =256
+                Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue66 As text:
+            DataCardValue41 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
-                Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
-                Height: =35
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =281
-                X: =303
-                Y: =10
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey44.Y + DataCardKey44.Height + 5
                 ZIndex: =2
 
-            ErrorMessage69 As label:
+            ErrorMessage44 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -1008,67 +873,129 @@ Deepdiving_Each_Record As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue66.Y + DataCardValue66.Height
+                Y: =DataCardValue41.Y + DataCardValue41.Height
                 ZIndex: =3
 
-            StarVisible69 As label:
+            StarVisible44 As label:
                 Align: =Align.Center
-                Height: =DataCardKey69.Height
+                Height: =DataCardKey44.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey69.Y
+                Y: =DataCardKey44.Y
                 ZIndex: =4
 
-        "'GM %_DataCard2' As typedDataCard.numberEditCard":
+        "'P&L_DataCard1' As typedDataCard.numberEditCard":
             BorderStyle: =BorderStyle.Solid
-            DataField: ="GM_x0020__x0025_"
-            Default: =ThisItem.'GM %'
+            DataField: ="field_13"
+            Default: =ThisItem.'P&L'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Project list_AMS'],DataSourceInfo.DisplayName,"GM_x0020__x0025_")
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_13")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =Value(DataCardValue67.Text)
-            Width: =668
+            Update: =Value(DataCardValue42.Text)
+            Width: =659
+            X: =1
+            Y: =6
+            ZIndex: =2
+
+            DataCardKey45 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue42 As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                Default: =Parent.Default
+                DelayOutput: =true
+                DisplayMode: =Parent.DisplayMode
+                Format: =TextFormat.Number
+                PaddingLeft: =5
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey45.Y + DataCardKey45.Height + 5
+                ZIndex: =2
+
+            ErrorMessage45 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue42.Y + DataCardValue42.Height
+                ZIndex: =3
+
+            StarVisible45 As label:
+                Align: =Align.Center
+                Height: =DataCardKey45.Height
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey45.Y
+                ZIndex: =4
+
+        "'P&L %_DataCard1' As typedDataCard.numberEditCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_14"
+            Default: =ThisItem.'P&L %'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_14")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =Value(DataCardValue43.Text)
+            Width: =659
             X: =0
             Y: =7
             ZIndex: =2
 
-            DataCardKey70 As label:
+            DataCardKey46 As label:
                 AutoHeight: =true
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
                 Height: =34
-                Size: =14
                 Text: =Parent.DisplayName
-                Width: =256
+                Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue67 As text:
+            DataCardValue43 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
-                Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
-                Height: =35
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =281
-                X: =303
-                Y: =10
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey46.Y + DataCardKey46.Height + 5
                 ZIndex: =2
 
-            ErrorMessage70 As label:
+            ErrorMessage46 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -1080,207 +1007,60 @@ Deepdiving_Each_Record As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue67.Y + DataCardValue67.Height
+                Y: =DataCardValue43.Y + DataCardValue43.Height
                 ZIndex: =3
 
-            StarVisible70 As label:
+            StarVisible46 As label:
                 Align: =Align.Center
-                Height: =DataCardKey70.Height
+                Height: =DataCardKey46.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey70.Y
+                Y: =DataCardKey46.Y
                 ZIndex: =4
 
-        "'Blended rate offshore (Per Month in USD)_DataCard2' As typedDataCard.numberEditCard":
+        "'Account Start date_DataCard1' As typedDataCard.dateEditCard":
             BorderStyle: =BorderStyle.Solid
-            DataField: ="Blended_x0020_rate_x0020_offshor"
-            Default: =ThisItem.'Blended rate offshore (Per Month in USD)'
+            DataField: ="field_15"
+            Default: =ThisItem.'Account Start date'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Project list_AMS'],DataSourceInfo.DisplayName,"Blended_x0020_rate_x0020_offshor")
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_15")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =Value(DataCardValue68.Text)
-            Width: =668
-            X: =0
-            Y: =8
-            ZIndex: =2
-
-            DataCardKey71 As label:
-                AutoHeight: =true
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
-                Height: =35
-                Size: =14
-                Text: =Parent.DisplayName
-                Width: =256
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue68 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
-                Font: =Font.'Segoe UI'
-                Format: =TextFormat.Number
-                Height: =35
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Tooltip: =Parent.DisplayName
-                Width: =281
-                X: =303
-                Y: =10
-                ZIndex: =2
-
-            ErrorMessage71 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue68.Y + DataCardValue68.Height
-                ZIndex: =3
-
-            StarVisible71 As label:
-                Align: =Align.Center
-                Height: =DataCardKey71.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey71.Y
-                ZIndex: =4
-
-        "'Blended rate onsite (Per Month in USD)_DataCard2' As typedDataCard.numberEditCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Blended_x0020_rate_x0020_onsite_"
-            Default: =ThisItem.'Blended rate onsite (Per Month in USD)'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Project list_AMS'],DataSourceInfo.DisplayName,"Blended_x0020_rate_x0020_onsite_")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            Required: =false
-            Update: =Value(DataCardValue69.Text)
-            Width: =668
-            X: =1
-            Y: =8
-            ZIndex: =2
-
-            DataCardKey72 As label:
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
-                Height: =55
-                Size: =14
-                Text: =Parent.DisplayName
-                Width: =256
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue69 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
-                Format: =TextFormat.Number
-                Height: =35
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Tooltip: =Parent.DisplayName
-                Width: =281
-                X: =303
-                Y: =10
-                ZIndex: =2
-
-            ErrorMessage72 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue69.Y + DataCardValue69.Height
-                ZIndex: =3
-
-            StarVisible72 As label:
-                Align: =Align.Center
-                Height: =DataCardKey72.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey72.Y
-                ZIndex: =4
-
-        "'Blended rate in USD_DataCard2' As typedDataCard.numberEditCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Blended_x0020_rate_x0020_in_x002"
-            Default: =ThisItem.'Blended rate in USD'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Project list_AMS'],DataSourceInfo.DisplayName,"Blended_x0020_rate_x0020_in_x002")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            Required: =false
-            Update: =Value(DataCardValue70.Text)
-            Width: =668
+            Update: =DataCardValue44.SelectedDate
+            Width: =659
             X: =1
             Y: =7
             ZIndex: =2
 
-            DataCardKey73 As label:
+            DataCardKey47 As label:
                 AutoHeight: =true
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
                 Height: =34
-                Size: =14
                 Text: =Parent.DisplayName
-                Width: =256
+                Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue70 As text:
+            DataCardValue44 As datepicker:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
-                DelayOutput: =true
+                DefaultDate: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
-                Font: =Font.'Segoe UI'
-                Format: =TextFormat.Number
-                Height: =35
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
+                EndYear: =Year(Today())+100
+                IsEditable: =true
+                PaddingBottom: =0
+                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                StartYear: =1899
                 Tooltip: =Parent.DisplayName
-                Width: =281
-                X: =303
-                Y: =10
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey47.Y + DataCardKey47.Height + 5
                 ZIndex: =2
 
-            ErrorMessage73 As label:
+            ErrorMessage47 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -1292,68 +1072,195 @@ Deepdiving_Each_Record As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue70.Y + DataCardValue70.Height
+                Y: =DataCardValue44.Y + DataCardValue44.Height
                 ZIndex: =3
 
-            StarVisible73 As label:
+            StarVisible47 As label:
                 Align: =Align.Center
-                Height: =DataCardKey73.Height
+                Height: =DataCardKey47.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey73.Y
+                Y: =DataCardKey47.Y
                 ZIndex: =4
 
-        "'Type of contract_DataCard2' As typedDataCard.textualEditCard":
+        "'Account End date_DataCard1' As typedDataCard.dateEditCard":
             BorderStyle: =BorderStyle.Solid
-            DataField: ="Type_x0020_of_x0020_contract"
-            Default: =ThisItem.'Type of contract'
+            DataField: ="field_16"
+            Default: =ThisItem.'Account End date'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Project list_AMS'],DataSourceInfo.DisplayName,"Type_x0020_of_x0020_contract")
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_16")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Type_x0020_of_x0020_contract")
             Required: =false
-            Update: =DataCardValue73.Text
-            Width: =668
+            Update: =DataCardValue45.SelectedDate
+            Width: =659
+            X: =0
+            Y: =8
+            ZIndex: =2
+
+            DataCardKey48 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue45 As datepicker:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                DefaultDate: =Parent.Default
+                DisplayMode: =Parent.DisplayMode
+                EndYear: =Year(Today())+100
+                IsEditable: =true
+                PaddingBottom: =0
+                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                StartYear: =1899
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey48.Y + DataCardKey48.Height + 5
+                ZIndex: =2
+
+            ErrorMessage48 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue45.Y + DataCardValue45.Height
+                ZIndex: =3
+
+            StarVisible48 As label:
+                Align: =Align.Center
+                Height: =DataCardKey48.Height
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey48.Y
+                ZIndex: =4
+
+        Quarter_DataCard2 As typedDataCard.textualEditCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_17"
+            Default: =ThisItem.Quarter
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_17")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            MaxLength: =DataSourceInfo([@'Account list- AMS'], DataSourceInfo.MaxLength, "field_17")
+            Required: =false
+            Update: =DataCardValue46.Text
+            Width: =659
+            X: =1
+            Y: =8
+            ZIndex: =2
+
+            DataCardKey49 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue46 As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                Default: =Parent.Default
+                DelayOutput: =true
+                DisplayMode: =Parent.DisplayMode
+                MaxLength: =Parent.MaxLength
+                PaddingLeft: =5
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey49.Y + DataCardKey49.Height + 5
+                ZIndex: =2
+
+            ErrorMessage49 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue46.Y + DataCardValue46.Height
+                ZIndex: =3
+
+            StarVisible49 As label:
+                Align: =Align.Center
+                Height: =DataCardKey49.Height
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey49.Y
+                ZIndex: =4
+
+        "'Revenue Year_DataCard1' As typedDataCard.numberEditCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_18"
+            Default: =ThisItem.'Revenue Year'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_18")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =Value(DataCardValue47.Text)
+            Width: =659
             X: =0
             Y: =9
             ZIndex: =2
 
-            DataCardKey76 As label:
+            DataCardKey50 As label:
                 AutoHeight: =true
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
                 Height: =34
-                Size: =14
                 Text: =Parent.DisplayName
-                Width: =256
+                Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue73 As text:
+            DataCardValue47 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
-                Font: =Font.'Segoe UI'
-                Height: =35
-                MaxLength: =Parent.MaxLength
+                Format: =TextFormat.Number
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =281
-                X: =303
-                Y: =10
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey50.Y + DataCardKey50.Height + 5
                 ZIndex: =2
 
-            ErrorMessage76 As label:
+            ErrorMessage50 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -1365,67 +1272,62 @@ Deepdiving_Each_Record As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue73.Y + DataCardValue73.Height
+                Y: =DataCardValue47.Y + DataCardValue47.Height
                 ZIndex: =3
 
-            StarVisible76 As label:
+            StarVisible50 As label:
                 Align: =Align.Center
-                Height: =DataCardKey76.Height
+                Height: =DataCardKey50.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey76.Y
+                Y: =DataCardKey50.Y
                 ZIndex: =4
 
-        "'Project status_DataCard2' As typedDataCard.textualEditCard":
+        "'Duration in yr_DataCard1' As typedDataCard.numberEditCard":
             BorderStyle: =BorderStyle.Solid
-            DataField: ="Project_x0020_status"
-            Default: =ThisItem.'Project status'
+            DataField: ="field_19"
+            Default: =ThisItem.'Duration in yr'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Project list_AMS'],DataSourceInfo.DisplayName,"Project_x0020_status")
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_19")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Project_x0020_status")
             Required: =false
-            Update: =DataCardValue74.Text
-            Width: =668
+            Update: =Value(DataCardValue48.Text)
+            Width: =659
             X: =1
             Y: =9
             ZIndex: =2
 
-            DataCardKey77 As label:
+            DataCardKey51 As label:
                 AutoHeight: =true
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
                 Height: =34
-                Size: =14
                 Text: =Parent.DisplayName
-                Width: =256
+                Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue74 As text:
+            DataCardValue48 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
-                Height: =35
-                MaxLength: =Parent.MaxLength
+                Format: =TextFormat.Number
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =281
-                X: =303
-                Y: =10
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey51.Y + DataCardKey51.Height + 5
                 ZIndex: =2
 
-            ErrorMessage77 As label:
+            ErrorMessage51 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -1437,55 +1339,50 @@ Deepdiving_Each_Record As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue74.Y + DataCardValue74.Height
+                Y: =DataCardValue48.Y + DataCardValue48.Height
                 ZIndex: =3
 
-            StarVisible77 As label:
+            StarVisible51 As label:
                 Align: =Align.Center
-                Height: =DataCardKey77.Height
+                Height: =DataCardKey51.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey77.Y
+                Y: =DataCardKey51.Y
                 ZIndex: =4
 
-        "'Risk Status (RAG)_DataCard2' As typedDataCard.textualEditCard":
+        "'Account Status_DataCard1' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
-            DataField: ="Risk_x0020_Status_x0020__x0028_R"
-            Default: =ThisItem.'Risk Status (RAG)'
+            DataField: ="field_20"
+            Default: =ThisItem.'Account Status'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Project list_AMS'],DataSourceInfo.DisplayName,"Risk_x0020_Status_x0020__x0028_R")
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_20")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Risk_x0020_Status_x0020__x0028_R")
+            MaxLength: =DataSourceInfo([@'Account list- AMS'], DataSourceInfo.MaxLength, "field_20")
             Required: =false
-            Update: =DataCardValue75.Text
-            Width: =668
+            Update: =DataCardValue49.Text
+            Width: =659
             X: =0
             Y: =10
             ZIndex: =2
 
-            DataCardKey78 As label:
+            DataCardKey52 As label:
                 AutoHeight: =true
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
                 Height: =34
-                Size: =14
                 Text: =Parent.DisplayName
-                Width: =256
+                Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue75 As text:
+            DataCardValue49 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
-                Font: =Font.'Segoe UI'
-                Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -1493,12 +1390,12 @@ Deepdiving_Each_Record As screen:
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =281
-                X: =303
-                Y: =10
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey52.Y + DataCardKey52.Height + 5
                 ZIndex: =2
 
-            ErrorMessage78 As label:
+            ErrorMessage52 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -1510,359 +1407,196 @@ Deepdiving_Each_Record As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue75.Y + DataCardValue75.Height
+                Y: =DataCardValue49.Y + DataCardValue49.Height
                 ZIndex: =3
 
-            StarVisible78 As label:
+            StarVisible52 As label:
                 Align: =Align.Center
-                Height: =DataCardKey78.Height
+                Height: =DataCardKey52.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey78.Y
+                Y: =DataCardKey52.Y
                 ZIndex: =4
 
-        "'Execution Status_DataCard2' As typedDataCard.textualEditCard":
+        "'Record status_DataCard2' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
-            DataField: ="Execution_x0020_Status"
-            Default: =ThisItem.'Execution Status'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Project list_AMS'],DataSourceInfo.DisplayName,"Execution_x0020_Status")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Execution_x0020_Status")
-            Required: =false
-            Update: =DataCardValue76.Text
-            Width: =668
-            X: =1
-            Y: =10
-            ZIndex: =2
-
-            DataCardKey79 As label:
-                AutoHeight: =true
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
-                Height: =34
-                Size: =14
-                Text: =Parent.DisplayName
-                Width: =256
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue76 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
-                Font: =Font.'Segoe UI'
-                Height: =35
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Tooltip: =Parent.DisplayName
-                Width: =281
-                X: =303
-                Y: =10
-                ZIndex: =2
-
-            ErrorMessage79 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue76.Y + DataCardValue76.Height
-                ZIndex: =3
-
-            StarVisible79 As label:
-                Align: =Align.Center
-                Height: =DataCardKey79.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey79.Y
-                ZIndex: =4
-
-        "'Type of project_DataCard2' As typedDataCard.textualEditCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Type_x0020_of_x0020_project"
-            Default: =ThisItem.'Type of project'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Project list_AMS'],DataSourceInfo.DisplayName,"Type_x0020_of_x0020_project")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Type_x0020_of_x0020_project")
-            Required: =false
-            Update: =DataCardValue77.Text
-            Width: =668
-            X: =0
-            Y: =11
-            ZIndex: =2
-
-            DataCardKey80 As label:
-                AutoHeight: =true
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
-                Height: =34
-                Size: =14
-                Text: =Parent.DisplayName
-                Width: =256
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue77 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
-                Font: =Font.'Segoe UI'
-                Height: =35
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Tooltip: =Parent.DisplayName
-                Width: =281
-                X: =303
-                Y: =10
-                ZIndex: =2
-
-            ErrorMessage80 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue77.Y + DataCardValue77.Height
-                ZIndex: =3
-
-            StarVisible80 As label:
-                Align: =Align.Center
-                Height: =DataCardKey80.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey80.Y
-                ZIndex: =4
-
-        "'Effort Slippage (in days)_DataCard2' As typedDataCard.numberEditCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Effort_x0020_Slippage_x0020__x00"
-            Default: =ThisItem.'Effort Slippage (in days)'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Project list_AMS'],DataSourceInfo.DisplayName,"Effort_x0020_Slippage_x0020__x00")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            Required: =false
-            Update: =Value(DataCardValue78.Text)
-            Width: =668
-            X: =0
-            Y: =12
-            ZIndex: =2
-
-            DataCardKey81 As label:
-                AutoHeight: =true
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
-                Height: =34
-                Size: =14
-                Text: =Parent.DisplayName
-                Width: =256
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue78 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
-                Font: =Font.'Segoe UI'
-                Format: =TextFormat.Number
-                Height: =35
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Tooltip: =Parent.DisplayName
-                Width: =281
-                X: =303
-                Y: =10
-                ZIndex: =2
-
-            ErrorMessage81 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue78.Y + DataCardValue78.Height
-                ZIndex: =3
-
-            StarVisible81 As label:
-                Align: =Align.Center
-                Height: =DataCardKey81.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey81.Y
-                ZIndex: =4
-
-        "'Schedule variance (# days)_DataCard2' As typedDataCard.numberEditCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Schedule_x0020_variance_x0020__x"
-            Default: |-
-                =ThisItem.'Schedule variance (# days)'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Project list_AMS'],DataSourceInfo.DisplayName,"Schedule_x0020_variance_x0020__x")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            Required: =false
-            Update: =Value(DataCardValue79.Text)
-            Width: =668
-            X: =1
-            Y: =12
-            ZIndex: =2
-
-            DataCardKey82 As label:
-                AutoHeight: =true
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
-                Height: =34
-                Size: =14
-                Text: =Parent.DisplayName
-                Width: =256
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue79 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
-                Font: =Font.'Segoe UI'
-                Format: =TextFormat.Number
-                Height: =35
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Tooltip: =Parent.DisplayName
-                Width: =281
-                X: =303
-                Y: =10
-                ZIndex: =2
-
-            ErrorMessage82 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue79.Y + DataCardValue79.Height
-                ZIndex: =3
-
-            StarVisible82 As label:
-                Align: =Align.Center
-                Height: =DataCardKey82.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey82.Y
-                ZIndex: =4
-
-        "'Record status_DataCard3' As typedDataCard.textualEditCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Record_x0020_status"
+            DataField: ="field_21"
             Default: =ThisItem.'Record status'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Project list_AMS'],DataSourceInfo.DisplayName,"Record_x0020_status")
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_21")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Record_x0020_status")
+            MaxLength: =DataSourceInfo([@'Account list- AMS'], DataSourceInfo.MaxLength, "field_21")
             Required: =false
-            Update: =DataCardValue81.Text
-            Width: =668
+            Update: =DataCardValue50.Text
+            Width: =659
+            X: =1
+            Y: =10
+            ZIndex: =2
+
+            DataCardKey53 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue50 As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                Default: =Parent.Default
+                DelayOutput: =true
+                DisplayMode: =Parent.DisplayMode
+                MaxLength: =Parent.MaxLength
+                PaddingLeft: =5
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey53.Y + DataCardKey53.Height + 5
+                ZIndex: =2
+
+            ErrorMessage53 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue50.Y + DataCardValue50.Height
+                ZIndex: =3
+
+            StarVisible53 As label:
+                Align: =Align.Center
+                Height: =DataCardKey53.Height
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey53.Y
+                ZIndex: =4
+
+        "'record comments_DataCard1' As typedDataCard.textualEditCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_22"
+            Default: =ThisItem.'record comments'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_22")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            MaxLength: =DataSourceInfo([@'Account list- AMS'], DataSourceInfo.MaxLength, "field_22")
+            Required: =false
+            Update: =DataCardValue51.Text
+            Width: =659
+            X: =0
+            Y: =11
+            ZIndex: =2
+
+            DataCardKey54 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue51 As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                Default: =Parent.Default
+                DelayOutput: =true
+                DisplayMode: =Parent.DisplayMode
+                MaxLength: =Parent.MaxLength
+                PaddingLeft: =5
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey54.Y + DataCardKey54.Height + 5
+                ZIndex: =2
+
+            ErrorMessage54 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue51.Y + DataCardValue51.Height
+                ZIndex: =3
+
+            StarVisible54 As label:
+                Align: =Align.Center
+                Height: =DataCardKey54.Height
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey54.Y
+                ZIndex: =4
+
+        Attachments_DataCard1 As typedDataCard.attachmentsEditCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="{Attachments}"
+            Default: =ThisItem.Attachments
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"{Attachments}")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =DataCardValue52.Attachments
+            Width: =659
             X: =1
             Y: =11
             ZIndex: =2
 
-            DataCardKey84 As label:
+            DataCardKey55 As label:
                 AutoHeight: =true
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
                 Height: =34
-                Size: =14
                 Text: =Parent.DisplayName
-                Width: =256
+                Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue81 As text:
+            DataCardValue52 As attachments:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
-                DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
-                Font: =Font.'Segoe UI'
-                Height: =35
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
+                IsInDataCard: =true
+                Items: =Parent.Default
+                PaddingBottom: =5
+                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                PaddingRight: =5
+                PaddingTop: =5
                 Tooltip: =Parent.DisplayName
-                Width: =281
-                X: =303
-                Y: =10
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey55.Y + DataCardKey55.Height + 5
                 ZIndex: =2
 
-            ErrorMessage84 As label:
+            ErrorMessage55 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -1874,162 +1608,16 @@ Deepdiving_Each_Record As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue81.Y + DataCardValue81.Height
+                Y: =DataCardValue52.Y + DataCardValue52.Height
                 ZIndex: =3
 
-            StarVisible84 As label:
+            StarVisible55 As label:
                 Align: =Align.Center
-                Height: =DataCardKey84.Height
+                Height: =DataCardKey55.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey84.Y
-                ZIndex: =4
-
-        "'Record comments_DataCard2' As typedDataCard.textualEditCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Record_x0020_comments"
-            Default: =ThisItem.'Record comments'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Project list_AMS'],DataSourceInfo.DisplayName,"Record_x0020_comments")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Record_x0020_comments")
-            Required: =false
-            Update: =DataCardValue82.Text
-            Width: =668
-            X: =1
-            Y: =13
-            ZIndex: =2
-
-            DataCardKey85 As label:
-                AutoHeight: =true
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
-                Height: =34
-                Size: =14
-                Text: =Parent.DisplayName
-                Width: =256
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue82 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
-                Font: =Font.'Segoe UI'
-                Height: =35
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Tooltip: =Parent.DisplayName
-                Width: =281
-                X: =303
-                Y: =10
-                ZIndex: =2
-
-            ErrorMessage85 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue82.Y + DataCardValue82.Height
-                ZIndex: =3
-
-            StarVisible85 As label:
-                Align: =Align.Center
-                Height: =DataCardKey85.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey85.Y
-                ZIndex: =4
-
-        Comments_DataCard2 As typedDataCard.textualEditCard:
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Comments"
-            Default: =ThisItem.Comments
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Project list_AMS'],DataSourceInfo.DisplayName,"Comments")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Comments")
-            Required: =false
-            Update: =DataCardValue83.Text
-            Width: =668
-            X: =0
-            Y: =13
-            ZIndex: =2
-
-            DataCardKey86 As label:
-                AutoHeight: =true
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
-                Height: =34
-                Size: =14
-                Text: =Parent.DisplayName
-                Width: =256
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue83 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
-                Font: =Font.'Segoe UI'
-                Height: =35
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Tooltip: =Parent.DisplayName
-                Width: =281
-                X: =303
-                Y: =10
-                ZIndex: =2
-
-            ErrorMessage86 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue83.Y + DataCardValue83.Height
-                ZIndex: =3
-
-            StarVisible86 As label:
-                Align: =Align.Center
-                Height: =DataCardKey86.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey86.Y
+                Y: =DataCardKey55.Y
                 ZIndex: =4
 
