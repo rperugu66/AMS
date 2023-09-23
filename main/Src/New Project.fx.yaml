@@ -2,11 +2,11 @@
 
     Form1 As form:
         DataSource: ='Project list_AMS'
-        Height: =642
+        Height: =561
         NumberOfColumns: =2
         Width: =1267
         X: =40
-        Y: =88
+        Y: =60
         ZIndex: =1
 
         "'Account Name_DataCard1' As typedDataCard.textualEditCard":
