@@ -1,0 +1,29 @@
+{
+  "ComponentAllowCustomization": true,
+  "ComponentChangedSinceFileImport": true,
+  "ComponentManifest": {
+    "AllowAccessToGlobals": false,
+    "AllowCustomization": true,
+    "Description": "",
+    "Name": "Component1_1",
+    "TemplateGuid": "ba4b9730a2a542e9a6d7429ca58b71bc"
+  },
+  "ComponentType": "CanvasComponent",
+  "CustomGroupControlTemplateName": "",
+  "CustomProperties": [],
+  "FirstParty": true,
+  "Id": "http://microsoft.com/appmagic/Component",
+  "IsComponentLocked": true,
+  "IsComponentTemplate": true,
+  "IsCustomGroupControlTemplate": false,
+  "IsPcfControl": false,
+  "IsPremiumPcfControl": false,
+  "IsWidgetTemplate": false,
+  "LastModifiedTimestamp": "638310565927563550",
+  "Name": "ba4b9730a2a542e9a6d7429ca58b71bc",
+  "OverridableProperties": {},
+  "SourceLibraryId": "fa6a4d8e-0ead-44e2-8806-fe17fa624af2",
+  "SourceLibraryLogicalName": "cre86_cmtloginscreen_209b2",
+  "TemplateOriginalName": "0028d09a65a64e90bf2365b14c0218da",
+  "Version": "638300214424195646"
+}

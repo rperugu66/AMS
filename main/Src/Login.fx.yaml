@@ -1,0 +1,209 @@
+Login As screen:
+
+    rct_Login1 As rectangle:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Fill: =RGBA(128, 128, 128, 0.1)
+        Height: =513
+        Width: =476
+        X: =423
+        Y: =153
+        ZIndex: =1
+
+    rct_Login As rectangle:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Fill: =RGBA(251, 251, 251, 1)
+        Height: =450
+        OnSelect: |
+            =/*ClearCollect(
+                UserData,
+                Filter(
+                    'New Business_ Username',
+                    Username = txt_Username.Text
+                )
+            );
+            Set(
+                UserPassword,
+                First(UserData).Password
+            );*/
+        Width: =409
+        X: =456
+        Y: =184
+        ZIndex: =2
+
+    txt_Password As text:
+        BorderColor: =Color.Black
+        BorderThickness: =1
+        Default: =""
+        FocusedBorderThickness: =1
+        Font: =Font.'Segoe UI'
+        HoverBorderColor: =Self.BorderColor
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Mode: =If(varIsPasswordMode, TextMode.SingleLine,TextMode.Password)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Width: =328
+        X: =497
+        Y: =404
+        ZIndex: =3
+
+    btn_Signin As button:
+        DisplayMode: =If(txt_Username.Text = "" || txt_Password.Text = "", DisplayMode.Disabled, DisplayMode.Edit)
+        Fill: =RGBA(0, 13, 75, 1)
+        Font: =Font.'Segoe UI'
+        HoverFill: =RGBA(0, 13, 75, 1)
+        OnSelect: |
+            =/*Set(
+                varLoginUser,
+                LookUp(
+                    'New Business_ Username',
+                    Username = txt_Username.Text && Password = txt_Password.Text
+                )
+            );
+            UpdateContext({ShowLabel: true});
+            If(
+                IsEmpty(
+                    Filter(
+                        'New Business_ Username',
+                        Username = txt_Username.Text && Password = txt_Password.Text
+                    )
+                ),
+                Set(
+                    ErrorMessage,
+                    "Invalid username or password."
+                ),
+                Navigate('Dashboard Screen')// Replace with navigation to your home screen upon successful login
+            );
+            Set(
+                varPolicyNumber,
+                LookUp(
+                    'New Business_ Username',
+                    varLoginUser.Username = Username
+                )
+            );
+            Set(
+                varCurrentPolicyGlobalVariable,
+                LookUp(
+                    'New Business_new car data',
+                    Email = varPolicyNumber.Username
+                )
+            );*/
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Text: ="Sign In"
+        Visible: |-
+            =true
+            //If(TextInput2_1.Text = "" || TextInput2.Text = "", false, true)
+        X: =576
+        Y: =556
+        ZIndex: =4
+
+    lbl_Login As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =43
+        Size: =22
+        Text: ="Login"
+        Width: =286
+        X: =508
+        Y: =197
+        ZIndex: =5
+
+    "'lbl-Username' As label":
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =41
+        Size: =14
+        Text: ="Username"
+        Width: =320
+        X: =497
+        Y: =269
+        ZIndex: =6
+
+    lbl_Password As label:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =41
+        Size: =14
+        Text: ="Password"
+        Width: =320
+        X: =497
+        Y: =363
+        ZIndex: =7
+
+    lbl_Forgotpassword As label:
+        Align: =Align.Right
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(56, 96, 178, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =43
+        OnSelect: =/*Navigate('Reset Password Screen');*/
+        Text: ="Forgot Password?"
+        Width: =286
+        X: =539
+        Y: =470
+        ZIndex: =8
+
+    txt_Username As text:
+        BorderColor: =Color.Black
+        BorderThickness: =1
+        Default: =
+        FocusedBorderThickness: =1
+        Font: =Font.'Segoe UI'
+        HoverBorderColor: =Self.BorderColor
+        HoverFill: =RGBA(0, 0, 0, 0)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Width: =328
+        X: =497
+        Y: =307
+        ZIndex: =9
+
+    "'lbl_errormessage for username and password' As label":
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(255, 0, 0, 1)
+        Font: =Font.'Segoe UI'
+        Height: =24
+        Text: =/*ErrorMessage*/
+        Visible: =/*If(ShowLabel = true, true, false)*/
+        Width: =342
+        X: =497
+        Y: =451
+        ZIndex: =10
+
+    "'lbl_Don''t have an account?' As label":
+        Align: =Align.Center
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(56, 96, 178, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =30
+        OnSelect: =/*NewForm(frm_SignUp);Navigate('SignUp Screen',ScreenTransition.Cover);*/
+        Text: ="Don't have an account?"
+        Underline: =true
+        Width: =400
+        X: =456
+        Y: =596
+        ZIndex: =11
+
+    ico_EyeIcon As icon.View:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =25
+        Icon: =Icon.View
+        OnSelect: =Set(varIsPasswordMode, !varIsPasswordMode)
+        Width: =25
+        X: =779
+        Y: =412
+        ZIndex: =12
+

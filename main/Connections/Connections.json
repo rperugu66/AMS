@@ -1,1 +1,32 @@
-{}
+{
+  "c353e36c-7f67-4df5-8123-1678d478645c": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1656/1.0.1656.3432/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://ntlgnoida.sharepoint.com/sites/LCNCPowerPlatformPractice": {
+        "dataSources": {
+          "Account list- AMS": {
+            "tableName": "c307ed13-d9b7-4778-ae70-3a171bd380f6"
+          },
+          "AMS-Roles": {
+            "tableName": "bab79d69-be21-447d-a4de-320746cfb13a"
+          },
+          "Project list_AMS": {
+            "tableName": "a1d483e5-ba8e-4781-9860-9bbfb6614e8e"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Account list- AMS",
+      "Project list_AMS",
+      "AMS-Roles"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "c353e36c-7f67-4df5-8123-1678d478645c"
+  }
+}

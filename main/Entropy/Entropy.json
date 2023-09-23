@@ -1,47 +1,176 @@
 {
-  "ComponentIndexes": {},
+  "ComponentIndexes": {
+    "Component1": 2,
+    "Component1_1": 1
+  },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
+    "btn_Signin": 21,
+    "Button1": 39,
+    "Component1": 30,
+    "Component1_1": 31,
+    "grp_header": 41,
+    "grp_logout": 42,
     "Host": 3,
-    "Screen1": 4
+    "ico_EyeIcon": 29,
+    "Icon1": 35,
+    "Icon2": 37,
+    "Icon3": 40,
+    "Image1": 34,
+    "Label1": 33,
+    "Label2": 38,
+    "lbl_Don't have an account?": 28,
+    "lbl_errormessage for username and password": 27,
+    "lbl_Forgotpassword": 25,
+    "lbl_Login": 22,
+    "lbl_Password": 24,
+    "lbl-Username": 23,
+    "Login": 4,
+    "rct_Login": 19,
+    "rct_Login1": 18,
+    "Rectangle1": 32,
+    "Rectangle2": 36,
+    "txt_Password": 20,
+    "txt_Username": 26
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "09/22/2023 10:22:40",
+  "HeaderLastSavedDateTimeUTC": "09/23/2023 09:06:58",
   "IsLegacyComponentAllowGlobalScopeCase": false,
-  "LocalConnectionIDReferences": {},
+  "LocalConnectionIDReferences": {
+    "c353e36c-7f67-4df5-8123-1678d478645c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/9af857fd31f24b27931fb3d6b5e79e18\""
+  },
   "LocalDatabaseReferencesAsEmpty": false,
-  "LocalResourceFileNames": {},
-  "LocalResourceRootPaths": {},
-  "OrderComponentMetadata": {},
-  "OrderComponentTemplate": {},
-  "OrderDataSource": {},
-  "OrderGroupControls": {},
+  "LocalResourceFileNames": {
+    "Coforge logo (1)": "0c3328fc-2cce-4595-bba5-1c16bce76b8c.png",
+    "COFORGE.NS_BIG-6fe17054": "fc0e09f4-745d-4e00-a4d2-dc4a8a1f4771.png"
+  },
+  "LocalResourceRootPaths": {
+    "Coforge logo (1)": "https://docserverpwaprodcin.blob.core.windows.net/e673b599-0a1a-447d-9db5-67c3797812c7-1/resource/Assets0Images06baab448-211c-44d5-b82e-3226eed70c2b.png?sv=2018-03-28&sr=b&sig=kKcUPkPJ8Cyqi2NWQ4XCNAVLy2unBWofWhfbZr%2B9bTY%3D&spr=https&se=2023-09-24T09%3A18%3A12Z&sp=r",
+    "COFORGE.NS_BIG-6fe17054": "https://docserverpwaprodcin.blob.core.windows.net/e673b599-0a1a-447d-9db5-67c3797812c7-1/resource/Assets0Images08a80891b-3eb6-4834-9343-5251118f3766.png?sv=2018-03-28&sr=b&sig=if2wh1lj2eQLT32cbVHW7as3%2BJoZViwybGSoYMZ6MS8%3D&spr=https&se=2023-09-24T09%3A18%3A12Z&sp=r"
+  },
+  "OrderComponentMetadata": {
+    "699152de78404eecb92d4702c879ae9a": 0,
+    "ba4b9730a2a542e9a6d7429ca58b71bc": 1
+  },
+  "OrderComponentTemplate": {
+    "699152de78404eecb92d4702c879ae9a": 0,
+    "ba4b9730a2a542e9a6d7429ca58b71bc": 1
+  },
+  "OrderDataSource": {
+    "Account list- AMS": 0,
+    "AMS-Roles": 2,
+    "Project list_AMS": 1
+  },
+  "OrderGroupControls": {
+    "grp_header": {
+      "Image1": 1,
+      "Label1": 0,
+      "Rectangle1": 2
+    },
+    "grp_logout": {
+      "Button1": 2,
+      "Icon1": 5,
+      "Icon2": 1,
+      "Icon3": 3,
+      "Label2": 4,
+      "Rectangle2": 0
+    }
+  },
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
+  "OrderXMLTemplate": {
+    "button": 4,
+    "icon": 3,
+    "image": 5,
+    "label": 1,
+    "rectangle": 0,
+    "text": 2
+  },
   "OverridablePropertiesEntry": {
     "App": {},
+    "btn_Signin": {},
+    "Button1": {},
+    "Component1": {},
+    "Component1_1": {},
+    "grp_header": {},
+    "grp_logout": {},
     "Host": {},
-    "Screen1": {}
+    "ico_EyeIcon": {},
+    "Icon1": {},
+    "Icon2": {},
+    "Icon3": {},
+    "Image1": {},
+    "Label1": {},
+    "Label2": {},
+    "lbl_Don't have an account?": {},
+    "lbl_errormessage for username and password": {},
+    "lbl_Forgotpassword": {},
+    "lbl_Login": {},
+    "lbl_Password": {},
+    "lbl-Username": {},
+    "Login": {},
+    "rct_Login": {},
+    "rct_Login1": {},
+    "Rectangle1": {},
+    "Rectangle2": {},
+    "txt_Password": {},
+    "txt_Username": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
+    "btn_Signin": 11,
+    "Button1": 9,
+    "Component1": 0,
+    "Component1_1": 0,
+    "grp_header": 1,
+    "grp_logout": 6,
     "Host": 0,
-    "Screen1": 0
+    "ico_EyeIcon": 8,
+    "Icon1": 4,
+    "Icon2": 7,
+    "Icon3": 10,
+    "Image1": 3,
+    "Label1": 2,
+    "Label2": 8,
+    "lbl_Don't have an account?": 12,
+    "lbl_errormessage for username and password": 9,
+    "lbl_Forgotpassword": 10,
+    "lbl_Login": 3,
+    "lbl_Password": 6,
+    "lbl-Username": 4,
+    "Login": 0,
+    "rct_Login": 2,
+    "rct_Login1": 1,
+    "Rectangle1": 0,
+    "Rectangle2": 5,
+    "txt_Password": 7,
+    "txt_Username": 5
   },
-  "ResourcesJsonIndices": {},
+  "ResourcesJsonIndices": {
+    "Image-Coforge logo (1)": 0,
+    "Image-COFORGE.NS_BIG-6fe17054": 1,
+    "Image-SampleImage": 2
+  },
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0406148,
+    "AnalysisLoadTime": 0.0352317,
     "ControlCount": {
-      "screen": 1
+      "ba4b9730a2a542e9a6d7429ca58b71bc": 2,
+      "button": 3,
+      "group": 2,
+      "icon": 5,
+      "image": 1,
+      "label": 14,
+      "rectangle": 6,
+      "screen": 1,
+      "text": 4
     },
-    "DeserializationLoadTime": 0.9719724
+    "DeserializationLoadTime": 2.8030959
   },
   "WasLocalDatabaseReferencesEmpty": true
 }

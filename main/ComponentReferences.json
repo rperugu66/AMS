@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "HasLibraryLogicalName": true,
+    "InstanceCount": 0,
+    "LibraryId": "fa6a4d8e-0ead-44e2-8806-fe17fa624af2",
+    "LibraryLogicalName": "cre86_cmtloginscreen_209b2",
+    "LibraryVersion": "2023-09-11T10:52:08Z",
+    "OriginalComponentDefinitionTemplateId": "0028d09a65a64e90bf2365b14c0218da",
+    "RefusedSourceLastTimeSaved": "0001-01-01T00:00:00",
+    "SourceLastTimeSaved": "2023-09-11T11:11:45.879+00:00"
+  }
+]
