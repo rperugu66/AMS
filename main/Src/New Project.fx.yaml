@@ -2,6 +2,7 @@
 
     Form1 As form:
         DataSource: ='Project list_AMS'
+        DefaultMode: =FormMode.New
         Height: =561
         NumberOfColumns: =2
         Width: =1267
