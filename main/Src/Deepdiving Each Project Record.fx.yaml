@@ -1,2 +1,7 @@
 "'Deepdiving Each Project Record' As screen":
 
+    Form2 As form:
+        X: =40
+        Y: =40
+        ZIndex: =1
+
