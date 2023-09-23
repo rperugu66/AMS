@@ -70,7 +70,7 @@
                 Height: =35
                 Items: =["NAB", "SCB", "ABC", "DB Systel", "Tokyo Marine", "AFLAC", "SEI", "Ofcom"]
                 Width: =281
-                X: =286
+                X: =303
                 Y: =10
                 ZIndex: =5
 
@@ -98,7 +98,7 @@
                 Height: =34
                 Size: =14
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -131,9 +131,10 @@
 
             Dropdown2 As dropdown:
                 BorderColor: =RGBA(0, 0, 0, 1)
+                Height: =35
                 Items: =["APAC", "MEA", "Europe", "NAM"]
-                Width: =362
-                X: =227
+                Width: =281
+                X: =303
                 Y: =10
                 ZIndex: =5
 
@@ -181,7 +182,7 @@
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
                 Width: =281
-                X: =286
+                X: =303
                 Y: =10
                 ZIndex: =2
 
@@ -234,7 +235,7 @@
                 Height: =34
                 Size: =14
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -246,6 +247,7 @@
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Font: =Font.'Segoe UI'
+                Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -253,9 +255,9 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =281
                 X: =303
-                Y: =DataCardKey4.Y + DataCardKey4.Height + 5
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage4 As label:
@@ -381,7 +383,7 @@
                 Height: =34
                 Size: =14
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -393,6 +395,7 @@
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Font: =Font.'Segoe UI'
+                Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -400,9 +403,9 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey6.Y + DataCardKey6.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage6 As label:
@@ -526,7 +529,7 @@
                 Height: =34
                 Size: =14
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -538,14 +541,15 @@
                 DisplayMode: =Parent.DisplayMode
                 EndYear: =Year(Today())+100
                 Font: =Font.'Segoe UI'
+                Height: =35
                 IsEditable: =true
                 PaddingBottom: =0
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 StartYear: =1899
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey8.Y + DataCardKey8.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage8 As label:
@@ -668,7 +672,7 @@
                 Height: =34
                 Size: =14
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -702,10 +706,11 @@
             Dropdown3 As dropdown:
                 BorderColor: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
+                Height: =35
                 Items: =DropDownSample
-                Width: =362
-                X: =30
-                Y: =49
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =5
 
         "'Total Cost in USD_DataCard1' As typedDataCard.numberEditCard":
@@ -805,7 +810,7 @@
                 Height: =34
                 Size: =14
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -818,15 +823,16 @@
                 DisplayMode: =Parent.DisplayMode
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
+                Height: =35
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey12.Y + DataCardKey12.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage12 As label:
@@ -946,9 +952,9 @@
 
             DataCardKey14 As label:
                 AutoHeight: =true
-                Height: =34
+                Height: =35
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -960,15 +966,16 @@
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Format: =TextFormat.Number
+                Height: =35
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey14.Y + DataCardKey14.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage14 As label:
@@ -1081,10 +1088,9 @@
 
             DataCardKey16 As label:
                 AutoHeight: =true
-                Height: =34
+                Height: =35
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
+                Width: =256
                 X: =30
                 Y: =10
                 ZIndex: =1
@@ -1095,15 +1101,16 @@
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Format: =TextFormat.Number
+                Height: =35
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey16.Y + DataCardKey16.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage16 As label:
@@ -1213,9 +1220,9 @@
 
             DataCardKey18 As label:
                 AutoHeight: =true
-                Height: =34
+                Height: =35
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -1227,15 +1234,16 @@
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Format: =TextFormat.Number
+                Height: =35
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey18.Y + DataCardKey18.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage18 As label:
@@ -1349,9 +1357,9 @@
 
             DataCardKey20 As label:
                 AutoHeight: =true
-                Height: =34
+                Height: =35
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -1362,6 +1370,7 @@
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -1369,9 +1378,9 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey20.Y + DataCardKey20.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage20 As label:
@@ -1486,9 +1495,9 @@
 
             DataCardKey22 As label:
                 AutoHeight: =true
-                Height: =34
+                Height: =35
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -1499,6 +1508,7 @@
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -1506,9 +1516,9 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey22.Y + DataCardKey22.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage22 As label:
@@ -1567,6 +1577,7 @@
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -1574,9 +1585,9 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =281
                 X: =303
-                Y: =DataCardKey23.Y + DataCardKey23.Height + 5
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage23 As label:
@@ -1622,9 +1633,9 @@
 
             DataCardKey24 As label:
                 AutoHeight: =true
-                Height: =34
+                Height: =35
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -1635,6 +1646,7 @@
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -1642,9 +1654,9 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey24.Y + DataCardKey24.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage24 As label:
@@ -1703,6 +1715,7 @@
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -1710,9 +1723,9 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey25.Y + DataCardKey25.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage25 As label:
@@ -1757,9 +1770,9 @@
 
             DataCardKey26 As label:
                 AutoHeight: =true
-                Height: =34
+                Height: =35
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -1771,15 +1784,16 @@
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Format: =TextFormat.Number
+                Height: =35
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey26.Y + DataCardKey26.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage26 As label:
@@ -1839,15 +1853,16 @@
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Format: =TextFormat.Number
+                Height: =35
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey27.Y + DataCardKey27.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage27 As label:
@@ -1893,9 +1908,9 @@
 
             DataCardKey28 As label:
                 AutoHeight: =true
-                Height: =34
+                Height: =35
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -1906,6 +1921,7 @@
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -1913,9 +1929,9 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey28.Y + DataCardKey28.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage28 As label:
@@ -1974,6 +1990,7 @@
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -1981,9 +1998,9 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey29.Y + DataCardKey29.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage29 As label:
@@ -2029,9 +2046,9 @@
 
             DataCardKey30 As label:
                 AutoHeight: =true
-                Height: =34
+                Height: =35
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -2042,6 +2059,7 @@
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -2049,9 +2067,9 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey30.Y + DataCardKey30.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage30 As label:
@@ -2110,6 +2128,7 @@
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -2117,9 +2136,9 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey31.Y + DataCardKey31.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage31 As label:
