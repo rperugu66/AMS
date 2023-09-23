@@ -117,7 +117,7 @@
     "ManualOfflineProfileId": "",
     "Name": "Account Management System",
     "OriginatingVersion": "1.334",
-    "ParserErrorCount": 0,
+    "ParserErrorCount": 5,
     "ShowStatusBar": false
   },
   "PublishInfo": {
@@ -135,6 +135,10 @@
     "Login",
     "Deepdiving_Each_Record",
     "New Project",
-    "Add a new account"
+    "Add a new account",
+    "Account Dashboard Screen",
+    "Deepdiving Each Account Record",
+    "Deepdiving Each Project Record",
+    "Project Dashboard Screen"
   ]
 }

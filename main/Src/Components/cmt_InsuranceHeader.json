@@ -5,8 +5,8 @@
     "AllowAccessToGlobals": false,
     "AllowCustomization": true,
     "Description": "",
-    "Name": "Component1_1",
-    "TemplateGuid": "ba4b9730a2a542e9a6d7429ca58b71bc"
+    "Name": "cmt_InsuranceHeader",
+    "TemplateGuid": "e20a402af7de411fa32417369e90a871"
   },
   "ComponentType": "CanvasComponent",
   "CustomGroupControlTemplateName": "",
@@ -19,11 +19,11 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638310577870023608",
-  "Name": "ba4b9730a2a542e9a6d7429ca58b71bc",
+  "LastModifiedTimestamp": "638310568776456465",
+  "Name": "e20a402af7de411fa32417369e90a871",
   "OverridableProperties": {},
-  "SourceLibraryId": "fa6a4d8e-0ead-44e2-8806-fe17fa624af2",
-  "SourceLibraryLogicalName": "cre86_cmtloginscreen_209b2",
-  "TemplateOriginalName": "0028d09a65a64e90bf2365b14c0218da",
-  "Version": "638300214424195646"
+  "SourceLibraryId": "3649db36-7d13-410f-a002-e4f15b656fad",
+  "SourceLibraryLogicalName": "cre86_componentinsuranceheader_582c4",
+  "TemplateOriginalName": "5e84380e815244d098dd910aaba1582f",
+  "Version": "638273265880487439"
 }
