@@ -70,7 +70,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Attachments_DataCard1",
-      "ParentIndex": 2,
+      "ParentIndex": 23,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3084,7 +3084,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "record comments_DataCard1",
-      "ParentIndex": 1,
+      "ParentIndex": 22,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3244,7 +3244,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Record status_DataCard2",
-      "ParentIndex": 0,
+      "ParentIndex": 21,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
