@@ -1,9 +1,9 @@
 {
   "ComponentIndexes": {
-    "cmt_Header": 7,
-    "cmt_InsuranceHeader": 8,
-    "cmt_loginHeader": 9,
-    "Component1_1": 10
+    "cmt_Header": 8,
+    "cmt_InsuranceHeader": 9,
+    "cmt_loginHeader": 10,
+    "Component1_1": 11
   },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
@@ -12,6 +12,7 @@
     "Account Name_DataCard3": 89,
     "Add a new account": 69,
     "App": 1,
+    "Approval for Project": 361,
     "Attachments_DataCard1": 82,
     "Attachments_DataCard2": 216,
     "Blended rate in USD_DataCard1": 322,
@@ -369,7 +370,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "09/23/2023 11:26:23",
+  "HeaderLastSavedDateTimeUTC": "09/23/2023 11:31:39",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "c353e36c-7f67-4df5-8123-1678d478645c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/7f17d42ce7404c7391d1fa78edffc41f\""
@@ -443,6 +444,7 @@
     "Account Name_DataCard3": {},
     "Add a new account": {},
     "App": {},
+    "Approval for Project": {},
     "Attachments_DataCard1": {},
     "Attachments_DataCard2": {},
     "Blended rate in USD_DataCard1": {},
@@ -806,6 +808,7 @@
     "Account Name_DataCard3": 88,
     "Add a new account": 66,
     "App": 0,
+    "Approval for Project": 0,
     "Attachments_DataCard1": 73,
     "Attachments_DataCard2": 119,
     "Blended rate in USD_DataCard1": 253,
