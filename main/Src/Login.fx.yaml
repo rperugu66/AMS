@@ -5,8 +5,8 @@ Login As screen:
         Fill: =RGBA(128, 128, 128, 0.1)
         Height: =513
         Width: =476
-        X: =423
-        Y: =153
+        X: =445
+        Y: =158
         ZIndex: =1
 
     rct_Login As rectangle:
@@ -26,8 +26,8 @@ Login As screen:
                 First(UserData).Password
             );*/
         Width: =409
-        X: =456
-        Y: =184
+        X: =478
+        Y: =189
         ZIndex: =2
 
     txt_Password As text:
@@ -44,8 +44,8 @@ Login As screen:
         RadiusTopLeft: =0
         RadiusTopRight: =0
         Width: =328
-        X: =497
-        Y: =404
+        X: =519
+        Y: =409
         ZIndex: =3
 
     btn_Signin As button:
@@ -97,8 +97,8 @@ Login As screen:
         Visible: |-
             =true
             //If(TextInput2_1.Text = "" || TextInput2.Text = "", false, true)
-        X: =576
-        Y: =556
+        X: =598
+        Y: =561
         ZIndex: =4
 
     lbl_Login As label:
@@ -110,8 +110,8 @@ Login As screen:
         Size: =22
         Text: ="Login"
         Width: =286
-        X: =508
-        Y: =197
+        X: =530
+        Y: =202
         ZIndex: =5
 
     "'lbl-Username' As label":
@@ -122,8 +122,8 @@ Login As screen:
         Size: =14
         Text: ="Username"
         Width: =320
-        X: =497
-        Y: =269
+        X: =519
+        Y: =274
         ZIndex: =6
 
     lbl_Password As label:
@@ -134,8 +134,8 @@ Login As screen:
         Size: =14
         Text: ="Password"
         Width: =320
-        X: =497
-        Y: =363
+        X: =519
+        Y: =368
         ZIndex: =7
 
     lbl_Forgotpassword As label:
@@ -148,8 +148,8 @@ Login As screen:
         OnSelect: =/*Navigate('Reset Password Screen');*/
         Text: ="Forgot Password?"
         Width: =286
-        X: =539
-        Y: =470
+        X: =561
+        Y: =475
         ZIndex: =8
 
     txt_Username As text:
@@ -165,8 +165,8 @@ Login As screen:
         RadiusTopLeft: =0
         RadiusTopRight: =0
         Width: =328
-        X: =497
-        Y: =307
+        X: =519
+        Y: =312
         ZIndex: =9
 
     "'lbl_errormessage for username and password' As label":
@@ -177,8 +177,8 @@ Login As screen:
         Text: =/*ErrorMessage*/
         Visible: =/*If(ShowLabel = true, true, false)*/
         Width: =342
-        X: =497
-        Y: =451
+        X: =519
+        Y: =456
         ZIndex: =10
 
     "'lbl_Don''t have an account?' As label":
@@ -192,8 +192,8 @@ Login As screen:
         Text: ="Don't have an account?"
         Underline: =true
         Width: =400
-        X: =456
-        Y: =596
+        X: =478
+        Y: =601
         ZIndex: =11
 
     ico_EyeIcon As icon.View:
@@ -203,7 +203,10 @@ Login As screen:
         Icon: =Icon.View
         OnSelect: =Set(varIsPasswordMode, !varIsPasswordMode)
         Width: =25
-        X: =779
-        Y: =412
+        X: =801
+        Y: =417
         ZIndex: =12
+
+    cmt_loginHeader_1 As cmt_loginHeader:
+        ZIndex: =13
 

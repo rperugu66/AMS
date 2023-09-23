@@ -14,160 +14,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Account Dashboard Screen'.Gallery3_1.lbl_DealType.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Account Dashboard Screen'.Gallery3_1.lbl_DealType.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 12,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".'Deal Type'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Account Dashboard Screen",
-                "type": "'Account Dashboard Screen'.Gallery3_1.lbl_DealType"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Deal Type"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Account Dashboard Screen'.Gallery3_1.lbl_DealType.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Account Dashboard Screen'.Gallery3_1.lbl_DealType.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 20,
-                  "snippet": {
-                    "text": ".Value"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Account Dashboard Screen",
-                "type": "'Account Dashboard Screen'.Gallery3_1.lbl_DealType"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Account Dashboard Screen'.Gallery3_1.lbl_Region.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Account Dashboard Screen'.Gallery3_1.lbl_Region.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".Region"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Account Dashboard Screen",
-                "type": "'Account Dashboard Screen'.Gallery3_1.lbl_Region"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Region"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Account Dashboard Screen'.Gallery3_1.lbl_Region.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Account Dashboard Screen'.Gallery3_1.lbl_Region.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 15,
-                  "snippet": {
-                    "text": ".Value"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Account Dashboard Screen",
-                "type": "'Account Dashboard Screen'.Gallery3_1.lbl_Region"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Component1_1.Icon1.AccessibleLabel"
                 }
               ],
@@ -191,7 +37,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -221,26 +67,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Account Dashboard Screen'.Icon_Duration.AccessibleLabel"
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Account Name_DataCard3'.DataCardValue53.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Account Dashboard Screen'.Icon_Duration.AccessibleLabel",
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Account Name_DataCard3'.DataCardValue53.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Account Dashboard Screen",
-                "type": "'Account Dashboard Screen'.Icon_Duration"
+                "module": "Deepdiving_Each_Record",
+                "type": "Deepdiving_Each_Record.Form2.'Account Name_DataCard3'.DataCardValue53"
               }
             }
           ],
@@ -251,56 +97,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Account Dashboard Screen'.Icon_Duration.TabIndex"
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.Geo_DataCard2.DataCardValue54.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Account Dashboard Screen'.Icon_Duration.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Account Dashboard Screen",
-                "type": "'Account Dashboard Screen'.Icon_Duration"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Account Dashboard Screen'.Icon_StartDate.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Account Dashboard Screen'.Icon_StartDate.AccessibleLabel",
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.Geo_DataCard2.DataCardValue54.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Account Dashboard Screen",
-                "type": "'Account Dashboard Screen'.Icon_StartDate"
+                "module": "Deepdiving_Each_Record",
+                "type": "Deepdiving_Each_Record.Form2.Geo_DataCard2.DataCardValue54"
               }
             }
           ],
@@ -311,56 +127,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Account Dashboard Screen'.Icon_StartDate.TabIndex"
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Project code_DataCard2'.DataCardValue55.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Account Dashboard Screen'.Icon_StartDate.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Account Dashboard Screen",
-                "type": "'Account Dashboard Screen'.Icon_StartDate"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Account Dashboard Screen'.Gallery3_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Account Dashboard Screen'.Gallery3_1.AccessibleLabel",
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Project code_DataCard2'.DataCardValue55.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Account Dashboard Screen",
-                "type": "'Account Dashboard Screen'.Gallery3_1"
+                "module": "Deepdiving_Each_Record",
+                "type": "Deepdiving_Each_Record.Form2.'Project code_DataCard2'.DataCardValue55"
               }
             }
           ],
@@ -371,56 +157,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Account Dashboard Screen'.Gallery3_1.TabIndex"
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Project Name_DataCard2'.DataCardValue56.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Account Dashboard Screen'.Gallery3_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Account Dashboard Screen",
-                "type": "'Account Dashboard Screen'.Gallery3_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Account Dashboard Screen'.Gallery3_1.NextArrow_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Account Dashboard Screen'.Gallery3_1.NextArrow_1.AccessibleLabel",
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Project Name_DataCard2'.DataCardValue56.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Account Dashboard Screen",
-                "type": "'Account Dashboard Screen'.Gallery3_1.NextArrow_1"
+                "module": "Deepdiving_Each_Record",
+                "type": "Deepdiving_Each_Record.Form2.'Project Name_DataCard2'.DataCardValue56"
               }
             }
           ],
@@ -431,56 +187,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Account Dashboard Screen'.Gallery3_1.NextArrow_1.TabIndex"
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Project Manager_DataCard3'.DataCardValue57.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Account Dashboard Screen'.Gallery3_1.NextArrow_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Account Dashboard Screen",
-                "type": "'Account Dashboard Screen'.Gallery3_1.NextArrow_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Account Name_DataCard3'.DataCardValue53.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Account Name_DataCard3'.DataCardValue53.AccessibleLabel",
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Project Manager_DataCard3'.DataCardValue57.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Deepdiving Each Project Record",
-                "type": "'Deepdiving Each Project Record'.Form2.'Account Name_DataCard3'.DataCardValue53"
+                "module": "Deepdiving_Each_Record",
+                "type": "Deepdiving_Each_Record.Form2.'Project Manager_DataCard3'.DataCardValue57"
               }
             }
           ],
@@ -491,26 +217,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.Geo_DataCard2.DataCardValue54.AccessibleLabel"
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Delivery Manager_DataCard3'.DataCardValue58.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.Geo_DataCard2.DataCardValue54.AccessibleLabel",
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Delivery Manager_DataCard3'.DataCardValue58.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Deepdiving Each Project Record",
-                "type": "'Deepdiving Each Project Record'.Form2.Geo_DataCard2.DataCardValue54"
+                "module": "Deepdiving_Each_Record",
+                "type": "Deepdiving_Each_Record.Form2.'Delivery Manager_DataCard3'.DataCardValue58"
               }
             }
           ],
@@ -521,26 +247,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Project code_DataCard2'.DataCardValue55.AccessibleLabel"
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Delivery Head_DataCard3'.DataCardValue59.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Project code_DataCard2'.DataCardValue55.AccessibleLabel",
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Delivery Head_DataCard3'.DataCardValue59.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Deepdiving Each Project Record",
-                "type": "'Deepdiving Each Project Record'.Form2.'Project code_DataCard2'.DataCardValue55"
+                "module": "Deepdiving_Each_Record",
+                "type": "Deepdiving_Each_Record.Form2.'Delivery Head_DataCard3'.DataCardValue59"
               }
             }
           ],
@@ -551,26 +277,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Project Name_DataCard2'.DataCardValue56.AccessibleLabel"
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Project Start Date_DataCard2'.DataCardValue60.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Project Name_DataCard2'.DataCardValue56.AccessibleLabel",
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Project Start Date_DataCard2'.DataCardValue60.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Deepdiving Each Project Record",
-                "type": "'Deepdiving Each Project Record'.Form2.'Project Name_DataCard2'.DataCardValue56"
+                "module": "Deepdiving_Each_Record",
+                "type": "Deepdiving_Each_Record.Form2.'Project Start Date_DataCard2'.DataCardValue60"
               }
             }
           ],
@@ -581,26 +307,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Project Manager_DataCard3'.DataCardValue57.AccessibleLabel"
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Project end date_DataCard2'.DataCardValue61.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Project Manager_DataCard3'.DataCardValue57.AccessibleLabel",
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Project end date_DataCard2'.DataCardValue61.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Deepdiving Each Project Record",
-                "type": "'Deepdiving Each Project Record'.Form2.'Project Manager_DataCard3'.DataCardValue57"
+                "module": "Deepdiving_Each_Record",
+                "type": "Deepdiving_Each_Record.Form2.'Project end date_DataCard2'.DataCardValue61"
               }
             }
           ],
@@ -611,26 +337,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Delivery Manager_DataCard3'.DataCardValue58.AccessibleLabel"
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Type of Engagement_DataCard2'.DataCardValue62.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Delivery Manager_DataCard3'.DataCardValue58.AccessibleLabel",
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Type of Engagement_DataCard2'.DataCardValue62.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Deepdiving Each Project Record",
-                "type": "'Deepdiving Each Project Record'.Form2.'Delivery Manager_DataCard3'.DataCardValue58"
+                "module": "Deepdiving_Each_Record",
+                "type": "Deepdiving_Each_Record.Form2.'Type of Engagement_DataCard2'.DataCardValue62"
               }
             }
           ],
@@ -641,26 +367,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Delivery Head_DataCard3'.DataCardValue59.AccessibleLabel"
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Total Cost in USD_DataCard2'.DataCardValue63.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Delivery Head_DataCard3'.DataCardValue59.AccessibleLabel",
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Total Cost in USD_DataCard2'.DataCardValue63.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Deepdiving Each Project Record",
-                "type": "'Deepdiving Each Project Record'.Form2.'Delivery Head_DataCard3'.DataCardValue59"
+                "module": "Deepdiving_Each_Record",
+                "type": "Deepdiving_Each_Record.Form2.'Total Cost in USD_DataCard2'.DataCardValue63"
               }
             }
           ],
@@ -671,26 +397,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Project Start Date_DataCard2'.DataCardValue60.AccessibleLabel"
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Onsite #_DataCard2'.DataCardValue64.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Project Start Date_DataCard2'.DataCardValue60.AccessibleLabel",
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Onsite #_DataCard2'.DataCardValue64.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Deepdiving Each Project Record",
-                "type": "'Deepdiving Each Project Record'.Form2.'Project Start Date_DataCard2'.DataCardValue60"
+                "module": "Deepdiving_Each_Record",
+                "type": "Deepdiving_Each_Record.Form2.'Onsite #_DataCard2'.DataCardValue64"
               }
             }
           ],
@@ -701,26 +427,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Project end date_DataCard2'.DataCardValue61.AccessibleLabel"
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Offshore #_DataCard2'.DataCardValue65.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Project end date_DataCard2'.DataCardValue61.AccessibleLabel",
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Offshore #_DataCard2'.DataCardValue65.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Deepdiving Each Project Record",
-                "type": "'Deepdiving Each Project Record'.Form2.'Project end date_DataCard2'.DataCardValue61"
+                "module": "Deepdiving_Each_Record",
+                "type": "Deepdiving_Each_Record.Form2.'Offshore #_DataCard2'.DataCardValue65"
               }
             }
           ],
@@ -731,26 +457,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Type of Engagement_DataCard2'.DataCardValue62.AccessibleLabel"
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Total #_DataCard2'.DataCardValue66.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Type of Engagement_DataCard2'.DataCardValue62.AccessibleLabel",
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Total #_DataCard2'.DataCardValue66.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Deepdiving Each Project Record",
-                "type": "'Deepdiving Each Project Record'.Form2.'Type of Engagement_DataCard2'.DataCardValue62"
+                "module": "Deepdiving_Each_Record",
+                "type": "Deepdiving_Each_Record.Form2.'Total #_DataCard2'.DataCardValue66"
               }
             }
           ],
@@ -761,26 +487,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Total Cost in USD_DataCard2'.DataCardValue63.AccessibleLabel"
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'GM %_DataCard2'.DataCardValue67.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Total Cost in USD_DataCard2'.DataCardValue63.AccessibleLabel",
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'GM %_DataCard2'.DataCardValue67.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Deepdiving Each Project Record",
-                "type": "'Deepdiving Each Project Record'.Form2.'Total Cost in USD_DataCard2'.DataCardValue63"
+                "module": "Deepdiving_Each_Record",
+                "type": "Deepdiving_Each_Record.Form2.'GM %_DataCard2'.DataCardValue67"
               }
             }
           ],
@@ -791,26 +517,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Onsite #_DataCard2'.DataCardValue64.AccessibleLabel"
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Blended rate offshore (Per Month in USD)_DataCard2'.DataCardValue68.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Onsite #_DataCard2'.DataCardValue64.AccessibleLabel",
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Blended rate offshore (Per Month in USD)_DataCard2'.DataCardValue68.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Deepdiving Each Project Record",
-                "type": "'Deepdiving Each Project Record'.Form2.'Onsite #_DataCard2'.DataCardValue64"
+                "module": "Deepdiving_Each_Record",
+                "type": "Deepdiving_Each_Record.Form2.'Blended rate offshore (Per Month in USD)_DataCard2'.DataCardValue68"
               }
             }
           ],
@@ -821,26 +547,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Offshore #_DataCard2'.DataCardValue65.AccessibleLabel"
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Blended rate onsite (Per Month in USD)_DataCard2'.DataCardValue69.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Offshore #_DataCard2'.DataCardValue65.AccessibleLabel",
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Blended rate onsite (Per Month in USD)_DataCard2'.DataCardValue69.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Deepdiving Each Project Record",
-                "type": "'Deepdiving Each Project Record'.Form2.'Offshore #_DataCard2'.DataCardValue65"
+                "module": "Deepdiving_Each_Record",
+                "type": "Deepdiving_Each_Record.Form2.'Blended rate onsite (Per Month in USD)_DataCard2'.DataCardValue69"
               }
             }
           ],
@@ -851,26 +577,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Total #_DataCard2'.DataCardValue66.AccessibleLabel"
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Blended rate in USD_DataCard2'.DataCardValue70.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Total #_DataCard2'.DataCardValue66.AccessibleLabel",
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Blended rate in USD_DataCard2'.DataCardValue70.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Deepdiving Each Project Record",
-                "type": "'Deepdiving Each Project Record'.Form2.'Total #_DataCard2'.DataCardValue66"
+                "module": "Deepdiving_Each_Record",
+                "type": "Deepdiving_Each_Record.Form2.'Blended rate in USD_DataCard2'.DataCardValue70"
               }
             }
           ],
@@ -881,26 +607,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'GM %_DataCard2'.DataCardValue67.AccessibleLabel"
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.year_DataCard2.DataCardValue71.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'GM %_DataCard2'.DataCardValue67.AccessibleLabel",
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.year_DataCard2.DataCardValue71.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Deepdiving Each Project Record",
-                "type": "'Deepdiving Each Project Record'.Form2.'GM %_DataCard2'.DataCardValue67"
+                "module": "Deepdiving_Each_Record",
+                "type": "Deepdiving_Each_Record.Form2.year_DataCard2.DataCardValue71"
               }
             }
           ],
@@ -911,26 +637,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Blended rate offshore (Per Month in USD)_DataCard2'.DataCardValue68.AccessibleLabel"
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.Quarter_DataCard3.DataCardValue72.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Blended rate offshore (Per Month in USD)_DataCard2'.DataCardValue68.AccessibleLabel",
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.Quarter_DataCard3.DataCardValue72.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Deepdiving Each Project Record",
-                "type": "'Deepdiving Each Project Record'.Form2.'Blended rate offshore (Per Month in USD)_DataCard2'.DataCardValue68"
+                "module": "Deepdiving_Each_Record",
+                "type": "Deepdiving_Each_Record.Form2.Quarter_DataCard3.DataCardValue72"
               }
             }
           ],
@@ -941,26 +667,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Blended rate onsite (Per Month in USD)_DataCard2'.DataCardValue69.AccessibleLabel"
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Type of contract_DataCard2'.DataCardValue73.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Blended rate onsite (Per Month in USD)_DataCard2'.DataCardValue69.AccessibleLabel",
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Type of contract_DataCard2'.DataCardValue73.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Deepdiving Each Project Record",
-                "type": "'Deepdiving Each Project Record'.Form2.'Blended rate onsite (Per Month in USD)_DataCard2'.DataCardValue69"
+                "module": "Deepdiving_Each_Record",
+                "type": "Deepdiving_Each_Record.Form2.'Type of contract_DataCard2'.DataCardValue73"
               }
             }
           ],
@@ -971,26 +697,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Blended rate in USD_DataCard2'.DataCardValue70.AccessibleLabel"
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Project status_DataCard2'.DataCardValue74.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Blended rate in USD_DataCard2'.DataCardValue70.AccessibleLabel",
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Project status_DataCard2'.DataCardValue74.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Deepdiving Each Project Record",
-                "type": "'Deepdiving Each Project Record'.Form2.'Blended rate in USD_DataCard2'.DataCardValue70"
+                "module": "Deepdiving_Each_Record",
+                "type": "Deepdiving_Each_Record.Form2.'Project status_DataCard2'.DataCardValue74"
               }
             }
           ],
@@ -1001,26 +727,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Type of contract_DataCard2'.DataCardValue73.AccessibleLabel"
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Risk Status (RAG)_DataCard2'.DataCardValue75.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Type of contract_DataCard2'.DataCardValue73.AccessibleLabel",
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Risk Status (RAG)_DataCard2'.DataCardValue75.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Deepdiving Each Project Record",
-                "type": "'Deepdiving Each Project Record'.Form2.'Type of contract_DataCard2'.DataCardValue73"
+                "module": "Deepdiving_Each_Record",
+                "type": "Deepdiving_Each_Record.Form2.'Risk Status (RAG)_DataCard2'.DataCardValue75"
               }
             }
           ],
@@ -1031,26 +757,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Project status_DataCard2'.DataCardValue74.AccessibleLabel"
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Execution Status_DataCard2'.DataCardValue76.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Project status_DataCard2'.DataCardValue74.AccessibleLabel",
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Execution Status_DataCard2'.DataCardValue76.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Deepdiving Each Project Record",
-                "type": "'Deepdiving Each Project Record'.Form2.'Project status_DataCard2'.DataCardValue74"
+                "module": "Deepdiving_Each_Record",
+                "type": "Deepdiving_Each_Record.Form2.'Execution Status_DataCard2'.DataCardValue76"
               }
             }
           ],
@@ -1061,26 +787,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Risk Status (RAG)_DataCard2'.DataCardValue75.AccessibleLabel"
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Type of project_DataCard2'.DataCardValue77.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Risk Status (RAG)_DataCard2'.DataCardValue75.AccessibleLabel",
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Type of project_DataCard2'.DataCardValue77.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Deepdiving Each Project Record",
-                "type": "'Deepdiving Each Project Record'.Form2.'Risk Status (RAG)_DataCard2'.DataCardValue75"
+                "module": "Deepdiving_Each_Record",
+                "type": "Deepdiving_Each_Record.Form2.'Type of project_DataCard2'.DataCardValue77"
               }
             }
           ],
@@ -1091,26 +817,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Execution Status_DataCard2'.DataCardValue76.AccessibleLabel"
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Effort Slippage (in days)_DataCard2'.DataCardValue78.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Execution Status_DataCard2'.DataCardValue76.AccessibleLabel",
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Effort Slippage (in days)_DataCard2'.DataCardValue78.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Deepdiving Each Project Record",
-                "type": "'Deepdiving Each Project Record'.Form2.'Execution Status_DataCard2'.DataCardValue76"
+                "module": "Deepdiving_Each_Record",
+                "type": "Deepdiving_Each_Record.Form2.'Effort Slippage (in days)_DataCard2'.DataCardValue78"
               }
             }
           ],
@@ -1121,26 +847,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Type of project_DataCard2'.DataCardValue77.AccessibleLabel"
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Schedule variance (# days)_DataCard2'.DataCardValue79.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Type of project_DataCard2'.DataCardValue77.AccessibleLabel",
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Schedule variance (# days)_DataCard2'.DataCardValue79.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Deepdiving Each Project Record",
-                "type": "'Deepdiving Each Project Record'.Form2.'Type of project_DataCard2'.DataCardValue77"
+                "module": "Deepdiving_Each_Record",
+                "type": "Deepdiving_Each_Record.Form2.'Schedule variance (# days)_DataCard2'.DataCardValue79"
               }
             }
           ],
@@ -1151,26 +877,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Effort Slippage (in days)_DataCard2'.DataCardValue78.AccessibleLabel"
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Upload DM approval email _DataCard2'.DataCardValue80.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Effort Slippage (in days)_DataCard2'.DataCardValue78.AccessibleLabel",
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Upload DM approval email _DataCard2'.DataCardValue80.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Deepdiving Each Project Record",
-                "type": "'Deepdiving Each Project Record'.Form2.'Effort Slippage (in days)_DataCard2'.DataCardValue78"
+                "module": "Deepdiving_Each_Record",
+                "type": "Deepdiving_Each_Record.Form2.'Upload DM approval email _DataCard2'.DataCardValue80"
               }
             }
           ],
@@ -1181,26 +907,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Schedule variance (# days)_DataCard2'.DataCardValue79.AccessibleLabel"
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Record status_DataCard3'.DataCardValue81.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Schedule variance (# days)_DataCard2'.DataCardValue79.AccessibleLabel",
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Record status_DataCard3'.DataCardValue81.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Deepdiving Each Project Record",
-                "type": "'Deepdiving Each Project Record'.Form2.'Schedule variance (# days)_DataCard2'.DataCardValue79"
+                "module": "Deepdiving_Each_Record",
+                "type": "Deepdiving_Each_Record.Form2.'Record status_DataCard3'.DataCardValue81"
               }
             }
           ],
@@ -1211,26 +937,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Record status_DataCard3'.DataCardValue81.AccessibleLabel"
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Record comments_DataCard2'.DataCardValue82.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Record status_DataCard3'.DataCardValue81.AccessibleLabel",
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.'Record comments_DataCard2'.DataCardValue82.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Deepdiving Each Project Record",
-                "type": "'Deepdiving Each Project Record'.Form2.'Record status_DataCard3'.DataCardValue81"
+                "module": "Deepdiving_Each_Record",
+                "type": "Deepdiving_Each_Record.Form2.'Record comments_DataCard2'.DataCardValue82"
               }
             }
           ],
@@ -1241,26 +967,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Record comments_DataCard2'.DataCardValue82.AccessibleLabel"
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.Comments_DataCard2.DataCardValue83.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.'Record comments_DataCard2'.DataCardValue82.AccessibleLabel",
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.Comments_DataCard2.DataCardValue83.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Deepdiving Each Project Record",
-                "type": "'Deepdiving Each Project Record'.Form2.'Record comments_DataCard2'.DataCardValue82"
+                "module": "Deepdiving_Each_Record",
+                "type": "Deepdiving_Each_Record.Form2.Comments_DataCard2.DataCardValue83"
               }
             }
           ],
@@ -1271,26 +997,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.Comments_DataCard2.DataCardValue83.AccessibleLabel"
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.Attachments_DataCard2.DataCardValue84.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Project Record'.Form2.Comments_DataCard2.DataCardValue83.AccessibleLabel",
+                  "fullyQualifiedName": "Deepdiving_Each_Record.Form2.Attachments_DataCard2.DataCardValue84.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Deepdiving Each Project Record",
-                "type": "'Deepdiving Each Project Record'.Form2.Comments_DataCard2.DataCardValue83"
+                "module": "Deepdiving_Each_Record",
+                "type": "Deepdiving_Each_Record.Form2.Attachments_DataCard2.DataCardValue84"
               }
             }
           ],
@@ -1301,7 +1027,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1331,7 +1057,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1361,7 +1087,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -1391,7 +1117,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1421,7 +1147,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1451,7 +1177,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1481,7 +1207,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -1511,7 +1237,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 4
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1541,7 +1267,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -1571,7 +1297,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 4
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1601,7 +1327,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -1631,7 +1357,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 4
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1661,7 +1387,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -1691,7 +1417,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1721,7 +1447,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1751,7 +1477,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1781,7 +1507,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1811,7 +1537,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1841,7 +1567,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1871,7 +1597,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1901,7 +1627,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1931,7 +1657,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1961,7 +1687,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1991,7 +1717,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2021,7 +1747,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2051,7 +1777,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2081,7 +1807,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2111,7 +1837,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2141,7 +1867,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2171,7 +1897,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2201,7 +1927,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2231,7 +1957,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2261,7 +1987,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2291,7 +2017,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2321,7 +2047,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2351,7 +2077,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2381,7 +2107,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2411,7 +2137,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2441,7 +2167,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2471,7 +2197,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2501,7 +2227,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2531,7 +2257,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2561,7 +2287,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2591,744 +2317,24 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'Account Name_DataCard2'.DataCardValue1.AccessibleLabel"
+                  "fullyQualifiedName": "App.Coforge logo (1)"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'Account Name_DataCard2'.DataCardValue1.AccessibleLabel",
+                  "fullyQualifiedName": "App.Coforge logo (1)",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
-                "module": "Deepdiving Each Account Record",
-                "type": "'Deepdiving Each Account Record'.Form3.'Account Name_DataCard2'.DataCardValue1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'Project Manager_DataCard2'.DataCardValue2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'Project Manager_DataCard2'.DataCardValue2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Deepdiving Each Account Record",
-                "type": "'Deepdiving Each Account Record'.Form3.'Project Manager_DataCard2'.DataCardValue2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'Delivery Manager_DataCard2'.DataCardValue10.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'Delivery Manager_DataCard2'.DataCardValue10.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Deepdiving Each Account Record",
-                "type": "'Deepdiving Each Account Record'.Form3.'Delivery Manager_DataCard2'.DataCardValue10"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'Delivery Head_DataCard2'.DataCardValue32.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'Delivery Head_DataCard2'.DataCardValue32.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Deepdiving Each Account Record",
-                "type": "'Deepdiving Each Account Record'.Form3.'Delivery Head_DataCard2'.DataCardValue32"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'Onsite/offshore_DataCard1'.DataCardValue33.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'Onsite/offshore_DataCard1'.DataCardValue33.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Deepdiving Each Account Record",
-                "type": "'Deepdiving Each Account Record'.Form3.'Onsite/offshore_DataCard1'.DataCardValue33"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'# projects_DataCard1'.DataCardValue34.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'# projects_DataCard1'.DataCardValue34.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Deepdiving Each Account Record",
-                "type": "'Deepdiving Each Account Record'.Form3.'# projects_DataCard1'.DataCardValue34"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.Currency_DataCard1.DataCardValue35.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.Currency_DataCard1.DataCardValue35.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Deepdiving Each Account Record",
-                "type": "'Deepdiving Each Account Record'.Form3.Currency_DataCard1.DataCardValue35"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'Account Cost in USD_DataCard1'.DataCardValue36.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'Account Cost in USD_DataCard1'.DataCardValue36.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Deepdiving Each Account Record",
-                "type": "'Deepdiving Each Account Record'.Form3.'Account Cost in USD_DataCard1'.DataCardValue36"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'Gross Margin %_DataCard1'.DataCardValue37.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'Gross Margin %_DataCard1'.DataCardValue37.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Deepdiving Each Account Record",
-                "type": "'Deepdiving Each Account Record'.Form3.'Gross Margin %_DataCard1'.DataCardValue37"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'Tax %_DataCard1'.DataCardValue38.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'Tax %_DataCard1'.DataCardValue38.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Deepdiving Each Account Record",
-                "type": "'Deepdiving Each Account Record'.Form3.'Tax %_DataCard1'.DataCardValue38"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'Tax Amount in Usd_DataCard1'.DataCardValue39.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'Tax Amount in Usd_DataCard1'.DataCardValue39.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Deepdiving Each Account Record",
-                "type": "'Deepdiving Each Account Record'.Form3.'Tax Amount in Usd_DataCard1'.DataCardValue39"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.Revenue_DataCard1.DataCardValue40.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.Revenue_DataCard1.DataCardValue40.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Deepdiving Each Account Record",
-                "type": "'Deepdiving Each Account Record'.Form3.Revenue_DataCard1.DataCardValue40"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.Cost_DataCard1.DataCardValue41.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.Cost_DataCard1.DataCardValue41.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Deepdiving Each Account Record",
-                "type": "'Deepdiving Each Account Record'.Form3.Cost_DataCard1.DataCardValue41"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'P&L_DataCard1'.DataCardValue42.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'P&L_DataCard1'.DataCardValue42.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Deepdiving Each Account Record",
-                "type": "'Deepdiving Each Account Record'.Form3.'P&L_DataCard1'.DataCardValue42"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'P&L %_DataCard1'.DataCardValue43.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'P&L %_DataCard1'.DataCardValue43.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Deepdiving Each Account Record",
-                "type": "'Deepdiving Each Account Record'.Form3.'P&L %_DataCard1'.DataCardValue43"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'Account Start date_DataCard1'.DataCardValue44.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'Account Start date_DataCard1'.DataCardValue44.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Deepdiving Each Account Record",
-                "type": "'Deepdiving Each Account Record'.Form3.'Account Start date_DataCard1'.DataCardValue44"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'Account End date_DataCard1'.DataCardValue45.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'Account End date_DataCard1'.DataCardValue45.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Deepdiving Each Account Record",
-                "type": "'Deepdiving Each Account Record'.Form3.'Account End date_DataCard1'.DataCardValue45"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.Quarter_DataCard2.DataCardValue46.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.Quarter_DataCard2.DataCardValue46.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Deepdiving Each Account Record",
-                "type": "'Deepdiving Each Account Record'.Form3.Quarter_DataCard2.DataCardValue46"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'Revenue Year_DataCard1'.DataCardValue47.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'Revenue Year_DataCard1'.DataCardValue47.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Deepdiving Each Account Record",
-                "type": "'Deepdiving Each Account Record'.Form3.'Revenue Year_DataCard1'.DataCardValue47"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'Duration in yr_DataCard1'.DataCardValue48.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'Duration in yr_DataCard1'.DataCardValue48.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Deepdiving Each Account Record",
-                "type": "'Deepdiving Each Account Record'.Form3.'Duration in yr_DataCard1'.DataCardValue48"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'Account Status_DataCard1'.DataCardValue49.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'Account Status_DataCard1'.DataCardValue49.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Deepdiving Each Account Record",
-                "type": "'Deepdiving Each Account Record'.Form3.'Account Status_DataCard1'.DataCardValue49"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'Record status_DataCard2'.DataCardValue50.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'Record status_DataCard2'.DataCardValue50.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Deepdiving Each Account Record",
-                "type": "'Deepdiving Each Account Record'.Form3.'Record status_DataCard2'.DataCardValue50"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'record comments_DataCard1'.DataCardValue51.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.'record comments_DataCard1'.DataCardValue51.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Deepdiving Each Account Record",
-                "type": "'Deepdiving Each Account Record'.Form3.'record comments_DataCard1'.DataCardValue51"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.Attachments_DataCard1.DataCardValue52.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Deepdiving Each Account Record'.Form3.Attachments_DataCard1.DataCardValue52.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Deepdiving Each Account Record",
-                "type": "'Deepdiving Each Account Record'.Form3.Attachments_DataCard1.DataCardValue52"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "App.varDealSize"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.varDealSize",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "varDealSize",
+                "member": "Coforge logo (1)",
                 "module": "App",
                 "type": "App"
               }
@@ -3340,68 +2346,8 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "App.varStartDate"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.varStartDate",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "varStartDate",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Account Dashboard Screen'.SortColumn"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Account Dashboard Screen'.SortColumn",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "SortColumn",
-                "module": "Account Dashboard Screen",
-                "type": "'Account Dashboard Screen'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 5
+          "ruleId": "app-UnusedMediaResources",
+          "ruleIndex": 3
         }
       ],
       "tool": {
@@ -3409,37 +2355,6 @@
           "fullName": "PowerApps app checker",
           "name": "PowerApps app checker",
           "rules": [
-            {
-              "id": "app-ErrInvalidName",
-              "messageStrings": {
-                "issue": {
-                  "text": "Name isn't valid. '{0}' isn't recognized."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Remove or correct the reference to the name that isn't valid."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrInvalidDot",
-              "messageStrings": {
-                "issue": {
-                  "text": "Invalid use of '.'"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
             {
               "id": "acc-AccessibleLabelNeeded",
               "messageStrings": {
@@ -3492,20 +2407,20 @@
               }
             },
             {
-              "id": "app-UnusedVariables",
+              "id": "app-UnusedMediaResources",
               "messageStrings": {
                 "issue": {
-                  "text": "Unused variable"
+                  "text": "Unused media files"
                 }
               },
               "properties": {
                 "componentType": "app",
                 "howToFix": [
-                  "Remove the unused variable."
+                  "Remove the unused media file in the Media pane."
                 ],
                 "level": "Medium",
                 "primaryCategory": "performance",
-                "whyFix": "This variable is declared but is not referenced by any control, so it is not needed."
+                "whyFix": "This media file is not referenced by any control formulas so it is not needed. Removing it will improve performance."
               }
             }
           ],
