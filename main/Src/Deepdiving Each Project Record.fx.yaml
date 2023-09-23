@@ -1,4 +1,4 @@
-Deepdiving_Each_Record As screen:
+"'Deepdiving Each Project Record' As screen":
 
     Form2 As form:
         DataSource: ='Project list_AMS'
