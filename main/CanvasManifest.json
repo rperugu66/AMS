@@ -98,7 +98,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 2,
+    "BindingErrorCount": 55,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -132,13 +132,12 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Login",
-    "Deepdiving_Each_Record",
-    "New Project",
-    "Add a new account",
     "Account Dashboard Screen",
+    "Add a new account",
     "Deepdiving Each Account Record",
     "Deepdiving Each Project Record",
+    "Login",
+    "New Project",
     "Project Dashboard Screen"
   ]
 }
