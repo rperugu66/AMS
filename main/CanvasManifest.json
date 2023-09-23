@@ -133,6 +133,7 @@
   },
   "ScreenOrder": [
     "Login",
-    "Deepdiving_Each_Record"
+    "Deepdiving_Each_Record",
+    "New Project"
   ]
 }
