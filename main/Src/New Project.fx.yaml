@@ -2,11 +2,12 @@
 
     Form1 As form:
         DataSource: ='Project list_AMS'
-        Height: =642
+        DefaultMode: =FormMode.New
+        Height: =561
         NumberOfColumns: =2
         Width: =1267
         X: =40
-        Y: =88
+        Y: =60
         ZIndex: =1
 
         "'Account Name_DataCard1' As typedDataCard.textualEditCard":
@@ -1377,7 +1378,7 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =Dropdown4.Y + Dropdown4.Height
+                Y: =Dropdown8.Y + Dropdown8.Height
                 ZIndex: =3
 
             StarVisible20 As label:
@@ -1643,4 +1644,25 @@
                 Wrap: =false
                 Y: =DataCardKey31.Y
                 ZIndex: =4
+
+    Button4 As button:
+        Fill: =RGBA(255, 191, 0, 1)
+        Text: ="Save"
+        X: =804
+        Y: =679
+        ZIndex: =2
+
+    Button5 As button:
+        Fill: =RGBA(127, 178, 57, 1)
+        Text: ="Submit"
+        X: =964
+        Y: =679
+        ZIndex: =3
+
+    Button6 As button:
+        Fill: =RGBA(255, 0, 0, 1)
+        Text: ="Cancel"
+        X: =1124
+        Y: =679
+        ZIndex: =4
 
