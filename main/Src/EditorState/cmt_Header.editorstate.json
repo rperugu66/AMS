@@ -1150,7 +1150,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Img_User_1",
-      "ParentIndex": 3,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1418,7 +1418,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_UserName_1",
-      "ParentIndex": 4,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
