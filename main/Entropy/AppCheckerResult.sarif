@@ -1364,36 +1364,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Project'.Form1.Attachments_DataCard1.DataCardValue32.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'New Project'.Form1.Attachments_DataCard1.DataCardValue32.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "New Project",
-                "type": "'New Project'.Form1.Attachments_DataCard1.DataCardValue32"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "App.Coforge logo (1)"
                 }
               ],
