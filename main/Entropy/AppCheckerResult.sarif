@@ -434,49 +434,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Project'.Form1.'Account Name_DataCard1'.DataCardValue1.AccessibleLabel"
+                  "fullyQualifiedName": "'New Project'.Form1.'Account Name_DataCard1'.Dropdown1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Project'.Form1.'Account Name_DataCard1'.DataCardValue1.AccessibleLabel",
+                  "fullyQualifiedName": "'New Project'.Form1.'Account Name_DataCard1'.Dropdown1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "New Project",
-                "type": "'New Project'.Form1.'Account Name_DataCard1'.DataCardValue1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'New Project'.Form1.Geo_DataCard1.DataCardValue2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'New Project'.Form1.Geo_DataCard1.DataCardValue2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "New Project",
-                "type": "'New Project'.Form1.Geo_DataCard1.DataCardValue2"
+                "type": "'New Project'.Form1.'Account Name_DataCard1'.Dropdown1"
               }
             }
           ],
@@ -1347,6 +1317,36 @@
                 "member": "AccessibleLabel",
                 "module": "New Project",
                 "type": "'New Project'.Form1.Comments_DataCard1.DataCardValue31"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Project'.Form1.Geo_DataCard1.Dropdown2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Project'.Form1.Geo_DataCard1.Dropdown2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "New Project",
+                "type": "'New Project'.Form1.Geo_DataCard1.Dropdown2"
               }
             }
           ],

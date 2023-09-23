@@ -76,7 +76,7 @@
             Height: =50
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Geo")
             Required: =false
-            Update: =DataCardValue2.Text
+            Update: =Dropdown2.Selected.Value
             Width: =422
             X: =1
             Y: =0
@@ -92,23 +92,6 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue2 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey2.Y + DataCardKey2.Height + 5
-                ZIndex: =2
-
             ErrorMessage2 As label:
                 AutoHeight: =true
                 Height: =10
@@ -121,7 +104,7 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue2.Y + DataCardValue2.Height
+                Y: =Dropdown2.Y + Dropdown2.Height
                 ZIndex: =3
 
             StarVisible2 As label:
@@ -133,6 +116,13 @@
                 Wrap: =false
                 Y: =DataCardKey2.Y
                 ZIndex: =4
+
+            Dropdown2 As dropdown:
+                Items: =["APAC", "MEA", "Europe", "NAM"]
+                Width: =362
+                X: =30
+                Y: =49
+                ZIndex: =5
 
         "'Project code_DataCard1' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
