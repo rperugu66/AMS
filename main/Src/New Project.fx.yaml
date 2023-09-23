@@ -18,7 +18,7 @@
             Height: =50
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Title")
             Required: =false
-            Update: =DataCardValue1.Text
+            Update: =Dropdown1.Selected.Value
             Width: =422
             X: =0
             Y: =0
@@ -34,22 +34,6 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue1 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
-                DelayOutput: =true
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey1.Y + DataCardKey1.Height + 5
-                ZIndex: =2
-
             ErrorMessage1 As label:
                 AutoHeight: =true
                 Height: =10
@@ -62,7 +46,7 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue1.Y + DataCardValue1.Height
+                Y: =Dropdown1.Y + Dropdown1.Height
                 ZIndex: =3
 
             StarVisible1 As label:
@@ -74,6 +58,13 @@
                 Wrap: =false
                 Y: =DataCardKey1.Y
                 ZIndex: =4
+
+            Dropdown1 As dropdown:
+                Items: =["NAB", "SCB", "ABC", "DB Systel", "Tokyo Marine", "AFLAC", "SEI", "Ofcom"]
+                Width: =362
+                X: =30
+                Y: =49
+                ZIndex: =5
 
         Geo_DataCard1 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid

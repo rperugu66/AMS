@@ -434,19 +434,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Project'.Form1.'Account Name_DataCard1'.DataCardValue1.AccessibleLabel"
+                  "fullyQualifiedName": "'New Project'.Form1.'Account Name_DataCard1'.Dropdown1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Project'.Form1.'Account Name_DataCard1'.DataCardValue1.AccessibleLabel",
+                  "fullyQualifiedName": "'New Project'.Form1.'Account Name_DataCard1'.Dropdown1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "New Project",
-                "type": "'New Project'.Form1.'Account Name_DataCard1'.DataCardValue1"
+                "type": "'New Project'.Form1.'Account Name_DataCard1'.Dropdown1"
               }
             }
           ],
