@@ -89,24 +89,6 @@
             Y: =10
             ZIndex: =16
 
-        NextArrow_1 As icon.ChevronRight:
-            Color: =RGBA(0, 0, 0, 1)
-            Height: =50
-            Icon: =Icon.ChevronRight
-            OnSelect: |
-                =/*Set(varSharePointList, true);
-                Set(varCurrentItem,ThisItem);
-                EditForm(Form1_1);
-                Navigate('Edit Record');*/
-            PaddingBottom: =12
-            PaddingLeft: =12
-            PaddingRight: =12
-            PaddingTop: =12
-            Width: =50
-            X: =1268
-            Y: =12
-            ZIndex: =17
-
         lbl_AccountcostinUSD_2 As label:
             Align: =Align.Center
             Font: =Font.'Segoe UI'
