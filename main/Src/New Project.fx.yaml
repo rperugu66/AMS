@@ -1147,8 +1147,6 @@
             ZIndex: =2
 
             DataCardKey17 As label:
-                AutoHeight: =true
-                Height: =35
                 Text: =Parent.DisplayName
                 Width: =281
                 X: =30
@@ -1161,13 +1159,14 @@
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Format: =TextFormat.Number
+                Height: =35
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =281
                 X: =303
                 Y: =10
                 ZIndex: =2
@@ -1303,7 +1302,7 @@
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey19.Y + DataCardKey19.Height + 5
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage19 As label:
