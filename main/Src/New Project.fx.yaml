@@ -707,7 +707,7 @@
                 BorderColor: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
                 Height: =35
-                Items: =DropDownSample
+                Items: =["T&M", "Fixed Price", "Fixed Capacity"]
                 Width: =281
                 X: =303
                 Y: =10
@@ -1349,7 +1349,7 @@
             Height: =50
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Quarter")
             Required: =false
-            Update: =DataCardValue20.Text
+            Update: =Dropdown4.Selected.Value
             Width: =633
             X: =1
             Y: =9
@@ -1364,24 +1364,6 @@
                 X: =30
                 Y: =10
                 ZIndex: =1
-
-            DataCardValue20 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
-                Height: =35
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Tooltip: =Parent.DisplayName
-                Width: =281
-                X: =303
-                Y: =10
-                ZIndex: =2
 
             ErrorMessage20 As label:
                 AutoHeight: =true
@@ -1407,6 +1389,14 @@
                 Wrap: =false
                 Y: =DataCardKey20.Y
                 ZIndex: =4
+
+            Dropdown4 As dropdown:
+                Height: =35
+                Items: =["Q1', "Q2", "Q3", "Q4"]
+                Width: =281
+                X: =303
+                Y: =10
+                ZIndex: =5
 
         "'Type of contract_DataCard1' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
