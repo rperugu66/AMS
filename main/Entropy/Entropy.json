@@ -1,45 +1,46 @@
 {
   "ComponentIndexes": {
-    "Component1": 2,
-    "Component1_1": 1
+    "Component1": 3,
+    "Component1_1": 2
   },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "btn_Signin": 21,
-    "Button1": 39,
-    "Component1": 30,
-    "Component1_1": 31,
-    "grp_header": 41,
-    "grp_logout": 42,
+    "btn_Signin": 28,
+    "Button1": 13,
+    "Component1": 4,
+    "Component1_1": 5,
+    "Deepdiving_Each_Record": 30,
+    "grp_header": 15,
+    "grp_logout": 16,
     "Host": 3,
-    "ico_EyeIcon": 29,
-    "Icon1": 35,
-    "Icon2": 37,
-    "Icon3": 40,
-    "Image1": 34,
-    "Label1": 33,
-    "Label2": 38,
-    "lbl_Don't have an account?": 28,
-    "lbl_errormessage for username and password": 27,
-    "lbl_Forgotpassword": 25,
-    "lbl_Login": 22,
-    "lbl_Password": 24,
-    "lbl-Username": 23,
-    "Login": 4,
+    "ico_EyeIcon": 25,
+    "Icon1": 9,
+    "Icon2": 11,
+    "Icon3": 14,
+    "Image1": 8,
+    "Label1": 7,
+    "Label2": 12,
+    "lbl_Don't have an account?": 29,
+    "lbl_errormessage for username and password": 26,
+    "lbl_Forgotpassword": 27,
+    "lbl_Login": 20,
+    "lbl_Password": 23,
+    "lbl-Username": 21,
+    "Login": 17,
     "rct_Login": 19,
     "rct_Login1": 18,
-    "Rectangle1": 32,
-    "Rectangle2": 36,
-    "txt_Password": 20,
-    "txt_Username": 26
+    "Rectangle1": 6,
+    "Rectangle2": 10,
+    "txt_Password": 24,
+    "txt_Username": 22
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "09/23/2023 09:07:19",
+  "HeaderLastSavedDateTimeUTC": "09/23/2023 09:14:18",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
-    "c353e36c-7f67-4df5-8123-1678d478645c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/9af857fd31f24b27931fb3d6b5e79e18\""
+    "c353e36c-7f67-4df5-8123-1678d478645c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/519b469cb1844338b58c4d7eafe73f70\""
   },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {
@@ -47,8 +48,8 @@
     "COFORGE.NS_BIG-6fe17054": "fc0e09f4-745d-4e00-a4d2-dc4a8a1f4771.png"
   },
   "LocalResourceRootPaths": {
-    "Coforge logo (1)": "https://docserverpwaprodcin.blob.core.windows.net/e673b599-0a1a-447d-9db5-67c3797812c7-1/resource/Assets0Images06baab448-211c-44d5-b82e-3226eed70c2b.png?sv=2018-03-28&sr=b&sig=kKcUPkPJ8Cyqi2NWQ4XCNAVLy2unBWofWhfbZr%2B9bTY%3D&spr=https&se=2023-09-24T09%3A18%3A12Z&sp=r",
-    "COFORGE.NS_BIG-6fe17054": "https://docserverpwaprodcin.blob.core.windows.net/e673b599-0a1a-447d-9db5-67c3797812c7-1/resource/Assets0Images08a80891b-3eb6-4834-9343-5251118f3766.png?sv=2018-03-28&sr=b&sig=if2wh1lj2eQLT32cbVHW7as3%2BJoZViwybGSoYMZ6MS8%3D&spr=https&se=2023-09-24T09%3A18%3A12Z&sp=r"
+    "Coforge logo (1)": "https://docserverpwaprodsin.blob.core.windows.net/21ccf2c6-fe2e-4c93-b8c0-db218f404c14-1/resource/Assets0Images00c3328fc-2cce-4595-bba5-1c16bce76b8c.png?sv=2018-03-28&sr=b&sig=i%2FnJvjGW4mo%2FfY4DLu0EBPjxJJqK4frWHMz6SCcM1I4%3D&spr=https&se=2023-09-24T09%3A25%3A16Z&sp=r",
+    "COFORGE.NS_BIG-6fe17054": "https://docserverpwaprodsin.blob.core.windows.net/21ccf2c6-fe2e-4c93-b8c0-db218f404c14-1/resource/Assets0Images0fc0e09f4-745d-4e00-a4d2-dc4a8a1f4771.png?sv=2018-03-28&sr=b&sig=SyfyL3WsJv%2BKV00FzIu80GwVW5UfAAVkl%2B2NQ9UE39w%3D&spr=https&se=2023-09-24T09%3A25%3A16Z&sp=r"
   },
   "OrderComponentMetadata": {
     "699152de78404eecb92d4702c879ae9a": 0,
@@ -94,6 +95,7 @@
     "Button1": {},
     "Component1": {},
     "Component1_1": {},
+    "Deepdiving_Each_Record": {},
     "grp_header": {},
     "grp_logout": {},
     "Host": {},
@@ -126,6 +128,7 @@
     "Button1": 9,
     "Component1": 0,
     "Component1_1": 0,
+    "Deepdiving_Each_Record": 0,
     "grp_header": 1,
     "grp_logout": 6,
     "Host": 0,
@@ -158,19 +161,20 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0352317,
+    "AnalysisLoadTime": 0.2093809,
     "ControlCount": {
-      "ba4b9730a2a542e9a6d7429ca58b71bc": 2,
-      "button": 3,
+      "699152de78404eecb92d4702c879ae9a": 1,
+      "ba4b9730a2a542e9a6d7429ca58b71bc": 1,
+      "button": 2,
       "group": 2,
-      "icon": 5,
+      "icon": 4,
       "image": 1,
-      "label": 14,
-      "rectangle": 6,
+      "label": 8,
+      "rectangle": 4,
       "screen": 1,
-      "text": 4
+      "text": 2
     },
-    "DeserializationLoadTime": 2.8030959
+    "DeserializationLoadTime": 1.8287327
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
