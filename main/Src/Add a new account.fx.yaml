@@ -1,0 +1,345 @@
+"'Add a new account' As screen":
+
+    Form2 As form:
+        DataSource: ='Account list- AMS'
+        Height: =748
+        NumberOfColumns: =2
+        Width: =1245
+        X: =6
+        Y: =10
+        ZIndex: =1
+
+        "'Account Name_DataCard2' As typedDataCard.textualEditCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="Title"
+            Default: =ThisItem.'Account Name'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"Title")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            MaxLength: =DataSourceInfo([@'Account list- AMS'], DataSourceInfo.MaxLength, "Title")
+            Required: =false
+            Update: =DataCardValue1.Text
+            Width: =622
+            X: =0
+            Y: =0
+            ZIndex: =2
+
+            Dropdown4 As dropdown:
+                Height: =35
+                Items: =["NAB", "SCB" , "ABC", "DB Systel", "Tokyo Marine", "AFLAC", "SEI", "Ofcom"]
+                PaddingBottom: =35
+                PaddingTop: =256
+                Width: =281
+                X: =303
+                Y: =10
+                ZIndex: =5
+
+        "'Project Manager_DataCard2' As typedDataCard.textualEditCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_1"
+            Default: =ThisItem.'Project Manager'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_1")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            MaxLength: =DataSourceInfo([@'Account list- AMS'], DataSourceInfo.MaxLength, "field_1")
+            Required: =false
+            Update: =DataCardValue2.Text
+            Width: =622
+            X: =1
+            Y: =0
+            ZIndex: =2
+
+        "'Delivery Manager_DataCard2' As typedDataCard.textualEditCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_2"
+            Default: =ThisItem.'Delivery Manager'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_2")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            MaxLength: =DataSourceInfo([@'Account list- AMS'], DataSourceInfo.MaxLength, "field_2")
+            Required: =false
+            Update: =DataCardValue10.Text
+            Width: =622
+            X: =0
+            Y: =1
+            ZIndex: =2
+
+        "'Delivery Head_DataCard2' As typedDataCard.textualEditCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_3"
+            Default: =ThisItem.'Delivery Head'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_3")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            MaxLength: =DataSourceInfo([@'Account list- AMS'], DataSourceInfo.MaxLength, "field_3")
+            Required: =false
+            Update: =DataCardValue32.Text
+            Width: =622
+            X: =1
+            Y: =1
+            ZIndex: =2
+
+        "'Onsite/offshore_DataCard1' As typedDataCard.textualEditCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_4"
+            Default: =ThisItem.'Onsite/offshore'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_4")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            MaxLength: =DataSourceInfo([@'Account list- AMS'], DataSourceInfo.MaxLength, "field_4")
+            Required: =false
+            Update: =DataCardValue33.Text
+            Width: =622
+            X: =0
+            Y: =2
+            ZIndex: =2
+
+        "'# projects_DataCard1' As typedDataCard.numberEditCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_5"
+            Default: |-
+                =ThisItem.'# projects'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_5")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =Value(DataCardValue34.Text)
+            Width: =622
+            X: =1
+            Y: =2
+            ZIndex: =2
+
+        Currency_DataCard1 As typedDataCard.textualEditCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_6"
+            Default: =ThisItem.Currency
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_6")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            MaxLength: =DataSourceInfo([@'Account list- AMS'], DataSourceInfo.MaxLength, "field_6")
+            Required: =false
+            Update: =DataCardValue35.Text
+            Width: =622
+            X: =0
+            Y: =3
+            ZIndex: =2
+
+        "'Account Cost in USD_DataCard1' As typedDataCard.numberEditCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_7"
+            Default: =ThisItem.'Account Cost in USD'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_7")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =Value(DataCardValue36.Text)
+            Width: =622
+            X: =1
+            Y: =3
+            ZIndex: =2
+
+        "'Gross Margin %_DataCard1' As typedDataCard.numberEditCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_8"
+            Default: =ThisItem.'Gross Margin %'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_8")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =Value(DataCardValue37.Text)
+            Width: =622
+            X: =0
+            Y: =4
+            ZIndex: =2
+
+        "'Tax %_DataCard1' As typedDataCard.numberEditCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_9"
+            Default: =ThisItem.'Tax %'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_9")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =Value(DataCardValue38.Text)
+            Width: =622
+            X: =1
+            Y: =4
+            ZIndex: =2
+
+        "'Tax Amount in Usd_DataCard1' As typedDataCard.numberEditCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_10"
+            Default: =ThisItem.'Tax Amount in Usd'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_10")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =Value(DataCardValue39.Text)
+            Width: =622
+            X: =0
+            Y: =5
+            ZIndex: =2
+
+        Revenue_DataCard1 As typedDataCard.numberEditCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_11"
+            Default: =ThisItem.Revenue
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_11")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =Value(DataCardValue40.Text)
+            Width: =622
+            X: =1
+            Y: =5
+            ZIndex: =2
+
+        Cost_DataCard1 As typedDataCard.numberEditCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_12"
+            Default: =ThisItem.Cost
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_12")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =Value(DataCardValue41.Text)
+            Width: =622
+            X: =0
+            Y: =6
+            ZIndex: =2
+
+        "'P&L_DataCard1' As typedDataCard.numberEditCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_13"
+            Default: =ThisItem.'P&L'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_13")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =Value(DataCardValue42.Text)
+            Width: =622
+            X: =1
+            Y: =6
+            ZIndex: =2
+
+        "'P&L %_DataCard1' As typedDataCard.numberEditCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_14"
+            Default: =ThisItem.'P&L %'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_14")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =Value(DataCardValue43.Text)
+            Width: =622
+            X: =0
+            Y: =7
+            ZIndex: =2
+
+        "'Account Start date_DataCard1' As typedDataCard.dateEditCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_15"
+            Default: =ThisItem.'Account Start date'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_15")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =DataCardValue44.SelectedDate
+            Width: =622
+            X: =1
+            Y: =7
+            ZIndex: =2
+
+        "'Account End date_DataCard1' As typedDataCard.dateEditCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_16"
+            Default: =ThisItem.'Account End date'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_16")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =DataCardValue45.SelectedDate
+            Width: =622
+            X: =0
+            Y: =8
+            ZIndex: =2
+
+        Quarter_DataCard2 As typedDataCard.textualEditCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_17"
+            Default: =ThisItem.Quarter
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_17")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            MaxLength: =DataSourceInfo([@'Account list- AMS'], DataSourceInfo.MaxLength, "field_17")
+            Required: =false
+            Update: =DataCardValue46.Text
+            Width: =622
+            X: =1
+            Y: =8
+            ZIndex: =2
+
+        "'Revenue Year_DataCard1' As typedDataCard.numberEditCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_18"
+            Default: =ThisItem.'Revenue Year'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_18")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =Value(DataCardValue47.Text)
+            Width: =622
+            X: =0
+            Y: =9
+            ZIndex: =2
+
+        "'Duration in yr_DataCard1' As typedDataCard.numberEditCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_19"
+            Default: =ThisItem.'Duration in yr'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_19")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =Value(DataCardValue48.Text)
+            Width: =622
+            X: =1
+            Y: =9
+            ZIndex: =2
+
+        "'Account Status_DataCard1' As typedDataCard.textualEditCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_20"
+            Default: =ThisItem.'Account Status'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_20")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            MaxLength: =DataSourceInfo([@'Account list- AMS'], DataSourceInfo.MaxLength, "field_20")
+            Required: =false
+            Update: =DataCardValue49.Text
+            Width: =622
+            X: =0
+            Y: =10
+            ZIndex: =2
+

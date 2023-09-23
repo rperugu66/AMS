@@ -320,3 +320,38 @@
         Y: =216
         ZIndex: =22
 
+    Button2 As button:
+        Font: =Font.'Segoe UI'
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =14
+        Text: ="Approval List"
+        X: =973
+        Y: =115
+        ZIndex: =23
+
+    Button3 As button:
+        Font: =Font.'Segoe UI'
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =14
+        Text: ="Add an Account"
+        X: =973
+        Y: =193
+        ZIndex: =24
+
+    Label6 As label:
+        Align: =Align.Center
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Size: =22
+        Text: ="Account Dashboard"
+        Width: =300
+        X: =539
+        Y: =23
+        ZIndex: =25
+

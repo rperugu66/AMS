@@ -133,10 +133,12 @@
   },
   "ScreenOrder": [
     "Login",
-    "Account Dashboard Screen",
-    "Deepdiving Each Project Record",
+    "Deepdiving_Each_Record",
     "New Project",
+    "Add a new account",
+    "Account Dashboard Screen",
     "Deepdiving Each Account Record",
+    "Deepdiving Each Project Record",
     "Project Dashboard Screen"
   ]
 }

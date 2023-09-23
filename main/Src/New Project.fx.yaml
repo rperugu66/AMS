@@ -1390,14 +1390,6 @@
                 Y: =DataCardKey20.Y
                 ZIndex: =4
 
-            Dropdown4 As dropdown:
-                Height: =35
-                Items: =["Q1", "Q2", "Q3", "Q4"]
-                Width: =281
-                X: =303
-                Y: =10
-                ZIndex: =5
-
         "'Type of contract_DataCard1' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="Type_x0020_of_x0020_contract"
