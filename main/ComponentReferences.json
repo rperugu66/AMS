@@ -8,15 +8,5 @@
     "OriginalComponentDefinitionTemplateId": "0028d09a65a64e90bf2365b14c0218da",
     "RefusedSourceLastTimeSaved": "0001-01-01T00:00:00",
     "SourceLastTimeSaved": "2023-09-11T11:11:45.879+00:00"
-  },
-  {
-    "HasLibraryLogicalName": true,
-    "InstanceCount": 0,
-    "LibraryId": "3649db36-7d13-410f-a002-e4f15b656fad",
-    "LibraryLogicalName": "cre86_componentinsuranceheader_582c4",
-    "LibraryVersion": "2023-08-11T12:19:36Z",
-    "OriginalComponentDefinitionTemplateId": "5e84380e815244d098dd910aaba1582f",
-    "RefusedSourceLastTimeSaved": "0001-01-01T00:00:00",
-    "SourceLastTimeSaved": "2023-08-13T07:01:36.44+00:00"
   }
 ]

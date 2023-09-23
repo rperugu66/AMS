@@ -133,6 +133,8 @@
   },
   "ScreenOrder": [
     "Login",
-    "Account Dashboard Screen"
+    "Account Dashboard Screen",
+    "Deepdiving_Each_Record",
+    "New Project"
   ]
 }
