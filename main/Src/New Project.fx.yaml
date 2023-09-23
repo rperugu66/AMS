@@ -1349,7 +1349,7 @@
             Height: =50
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Quarter")
             Required: =false
-            Update: =Dropdown4.Selected.Value
+            Update: =
             Width: =633
             X: =1
             Y: =9
@@ -1377,7 +1377,7 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue20.Y + DataCardValue20.Height
+                Y: =Dropdown4.Y + Dropdown4.Height
                 ZIndex: =3
 
             StarVisible20 As label:
@@ -1392,7 +1392,7 @@
 
             Dropdown4 As dropdown:
                 Height: =35
-                Items: =["Q1', "Q2", "Q3", "Q4"]
+                Items: =["Q1", "Q2", "Q3", "Q4"]
                 Width: =281
                 X: =303
                 Y: =10
@@ -1408,7 +1408,7 @@
             Height: =50
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Type_x0020_of_x0020_contract")
             Required: =false
-            Update: =DataCardValue21.Text
+            Update: =Dropdown5.Selected.Value
             Width: =633
             X: =0
             Y: =10
@@ -1424,24 +1424,6 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue21 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
-                Height: =35
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Tooltip: =Parent.DisplayName
-                Width: =281
-                X: =303
-                Y: =10
-                ZIndex: =2
-
             ErrorMessage21 As label:
                 AutoHeight: =true
                 Height: =10
@@ -1454,7 +1436,7 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue21.Y + DataCardValue21.Height
+                Y: =Dropdown5.Y + Dropdown5.Height
                 ZIndex: =3
 
             StarVisible21 As label:
@@ -1467,6 +1449,14 @@
                 Y: =DataCardKey21.Y
                 ZIndex: =4
 
+            Dropdown5 As dropdown:
+                Height: =35
+                Items: =["CR", "SOW"]
+                Width: =281
+                X: =303
+                Y: =10
+                ZIndex: =5
+
         "'Project status_DataCard1' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="Project_x0020_status"
@@ -1477,7 +1467,7 @@
             Height: =50
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Project_x0020_status")
             Required: =false
-            Update: =DataCardValue22.Text
+            Update: =Dropdown6.Selected.Value
             Width: =633
             X: =1
             Y: =10
@@ -1493,24 +1483,6 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue22 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
-                Height: =35
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Tooltip: =Parent.DisplayName
-                Width: =281
-                X: =303
-                Y: =10
-                ZIndex: =2
-
             ErrorMessage22 As label:
                 AutoHeight: =true
                 Height: =10
@@ -1523,7 +1495,7 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue22.Y + DataCardValue22.Height
+                Y: =Dropdown6.Y + Dropdown6.Height
                 ZIndex: =3
 
             StarVisible22 As label:
@@ -1536,6 +1508,14 @@
                 Y: =DataCardKey22.Y
                 ZIndex: =4
 
+            Dropdown6 As dropdown:
+                Height: =35
+                Items: =["Open", "Closed", "Onhold", "Inprogress"]
+                Width: =281
+                X: =303
+                Y: =10
+                ZIndex: =5
+
         "'Type of project_DataCard1' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="Type_x0020_of_x0020_project"
@@ -1546,7 +1526,7 @@
             Height: =50
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Type_x0020_of_x0020_project")
             Required: =false
-            Update: =DataCardValue25.Text
+            Update: =Dropdown7.Selected.Value
             Width: =633
             X: =0
             Y: =11
@@ -1562,24 +1542,6 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue25 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
-                Height: =35
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Tooltip: =Parent.DisplayName
-                Width: =281
-                X: =303
-                Y: =10
-                ZIndex: =2
-
             ErrorMessage25 As label:
                 AutoHeight: =true
                 Height: =10
@@ -1592,7 +1554,7 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue25.Y + DataCardValue25.Height
+                Y: =Dropdown7.Y + Dropdown7.Height
                 ZIndex: =3
 
             StarVisible25 As label:
@@ -1604,6 +1566,14 @@
                 Wrap: =false
                 Y: =DataCardKey25.Y
                 ZIndex: =4
+
+            Dropdown7 As dropdown:
+                Height: =35
+                Items: =["Implementation", "Support", "Both"]
+                Width: =281
+                X: =303
+                Y: =10
+                ZIndex: =5
 
         Comments_DataCard1 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
