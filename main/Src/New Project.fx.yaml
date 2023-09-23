@@ -1645,20 +1645,23 @@
                 ZIndex: =4
 
     Button4 As button:
-        Text: ="Button"
-        X: =648
-        Y: =666
+        Fill: =RGBA(255, 191, 0, 1)
+        Text: ="Save"
+        X: =804
+        Y: =679
         ZIndex: =2
 
     Button5 As button:
-        Text: ="Button"
-        X: =808
-        Y: =666
+        Fill: =RGBA(127, 178, 57, 1)
+        Text: ="Submit"
+        X: =964
+        Y: =679
         ZIndex: =3
 
     Button6 As button:
-        Text: ="Button"
-        X: =968
-        Y: =666
+        Fill: =RGBA(255, 0, 0, 1)
+        Text: ="Cancel"
+        X: =1124
+        Y: =679
         ZIndex: =4
 
