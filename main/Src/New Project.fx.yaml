@@ -3,6 +3,7 @@
     Form1 As form:
         DataSource: ='Project list_AMS'
         Height: =602
+        NumberOfColumns: =2
         Width: =1267
         X: =40
         Y: =127
@@ -19,7 +20,7 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Title")
             Required: =false
             Update: =Dropdown1.Selected.Value
-            Width: =422
+            Width: =633
             X: =0
             Y: =0
             ZIndex: =2
@@ -32,7 +33,7 @@
                 Height: =34
                 Size: =14
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -66,10 +67,11 @@
             Dropdown1 As dropdown:
                 BorderColor: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
+                Height: =35
                 Items: =["NAB", "SCB", "ABC", "DB Systel", "Tokyo Marine", "AFLAC", "SEI", "Ofcom"]
-                Width: =362
-                X: =30
-                Y: =49
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =5
 
         Geo_DataCard1 As typedDataCard.textualEditCard:
@@ -83,7 +85,7 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Geo")
             Required: =false
             Update: =Dropdown2.Selected.Value
-            Width: =422
+            Width: =633
             X: =1
             Y: =0
             ZIndex: =2
@@ -96,7 +98,7 @@
                 Height: =34
                 Size: =14
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -129,10 +131,11 @@
 
             Dropdown2 As dropdown:
                 BorderColor: =RGBA(0, 0, 0, 1)
+                Height: =35
                 Items: =["APAC", "MEA", "Europe", "NAM"]
-                Width: =362
-                X: =30
-                Y: =49
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =5
 
         "'Project code_DataCard1' As typedDataCard.textualEditCard":
@@ -146,9 +149,9 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Project_x0020_code")
             Required: =false
             Update: =DataCardValue3.Text
-            Width: =422
-            X: =2
-            Y: =0
+            Width: =633
+            X: =0
+            Y: =1
             ZIndex: =2
 
             DataCardKey3 As label:
@@ -159,7 +162,7 @@
                 Height: =34
                 Size: =14
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -170,6 +173,7 @@
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -177,9 +181,9 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey3.Y + DataCardKey3.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage3 As label:
@@ -218,8 +222,8 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Project_x0020_Name")
             Required: =false
             Update: =DataCardValue4.Text
-            Width: =422
-            X: =0
+            Width: =633
+            X: =1
             Y: =1
             ZIndex: =2
 
@@ -231,7 +235,7 @@
                 Height: =34
                 Size: =14
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -243,6 +247,7 @@
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Font: =Font.'Segoe UI'
+                Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -250,9 +255,9 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey4.Y + DataCardKey4.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage4 As label:
@@ -291,9 +296,9 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Project_x0020_Manager")
             Required: =false
             Update: =DataCardValue5.Text
-            Width: =422
-            X: =1
-            Y: =1
+            Width: =633
+            X: =0
+            Y: =2
             ZIndex: =2
 
             DataCardKey5 As label:
@@ -304,7 +309,7 @@
                 Height: =34
                 Size: =14
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -316,6 +321,7 @@
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Font: =Font.'Segoe UI'
+                Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -323,9 +329,9 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey5.Y + DataCardKey5.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage5 As label:
@@ -364,9 +370,9 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Delivery_x0020_Manager")
             Required: =false
             Update: =DataCardValue6.Text
-            Width: =422
-            X: =2
-            Y: =1
+            Width: =633
+            X: =1
+            Y: =2
             ZIndex: =2
 
             DataCardKey6 As label:
@@ -377,7 +383,7 @@
                 Height: =34
                 Size: =14
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -389,6 +395,7 @@
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Font: =Font.'Segoe UI'
+                Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -396,9 +403,9 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey6.Y + DataCardKey6.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage6 As label:
@@ -437,9 +444,9 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Delivery_x0020_Head")
             Required: =false
             Update: =DataCardValue7.Text
-            Width: =422
+            Width: =633
             X: =0
-            Y: =2
+            Y: =3
             ZIndex: =2
 
             DataCardKey7 As label:
@@ -450,7 +457,7 @@
                 Height: =34
                 Size: =14
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -461,6 +468,7 @@
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -468,9 +476,9 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey7.Y + DataCardKey7.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage7 As label:
@@ -508,9 +516,9 @@
             Height: =50
             Required: =false
             Update: =DataCardValue8.SelectedDate
-            Width: =422
+            Width: =633
             X: =1
-            Y: =2
+            Y: =3
             ZIndex: =2
 
             DataCardKey8 As label:
@@ -521,7 +529,7 @@
                 Height: =34
                 Size: =14
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -533,14 +541,15 @@
                 DisplayMode: =Parent.DisplayMode
                 EndYear: =Year(Today())+100
                 Font: =Font.'Segoe UI'
+                Height: =35
                 IsEditable: =true
                 PaddingBottom: =0
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 StartYear: =1899
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey8.Y + DataCardKey8.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage8 As label:
@@ -578,9 +587,9 @@
             Height: =50
             Required: =false
             Update: =DataCardValue9.SelectedDate
-            Width: =422
-            X: =2
-            Y: =2
+            Width: =633
+            X: =0
+            Y: =4
             ZIndex: =2
 
             DataCardKey9 As label:
@@ -591,7 +600,7 @@
                 Height: =34
                 Size: =14
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -603,14 +612,15 @@
                 DisplayMode: =Parent.DisplayMode
                 EndYear: =Year(Today())+100
                 Font: =Font.'Segoe UI'
+                Height: =35
                 IsEditable: =true
                 PaddingBottom: =0
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 StartYear: =1899
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey9.Y + DataCardKey9.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage9 As label:
@@ -649,9 +659,9 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Type_x0020_of_x0020_Engagement")
             Required: =false
             Update: =Dropdown3.Selected.Value
-            Width: =422
-            X: =0
-            Y: =3
+            Width: =633
+            X: =1
+            Y: =4
             ZIndex: =2
 
             DataCardKey10 As label:
@@ -662,7 +672,7 @@
                 Height: =34
                 Size: =14
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -696,10 +706,11 @@
             Dropdown3 As dropdown:
                 BorderColor: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
+                Height: =35
                 Items: =DropDownSample
-                Width: =362
-                X: =30
-                Y: =49
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =5
 
         "'Total Cost in USD_DataCard1' As typedDataCard.numberEditCard":
@@ -712,9 +723,9 @@
             Height: =50
             Required: =false
             Update: =Value(DataCardValue11.Text)
-            Width: =422
-            X: =1
-            Y: =3
+            Width: =633
+            X: =0
+            Y: =5
             ZIndex: =2
 
             DataCardKey11 As label:
@@ -725,7 +736,7 @@
                 Height: =34
                 Size: =14
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -738,15 +749,16 @@
                 DisplayMode: =Parent.DisplayMode
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
+                Height: =35
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey11.Y + DataCardKey11.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage11 As label:
@@ -785,9 +797,9 @@
             Height: =50
             Required: =false
             Update: =Value(DataCardValue12.Text)
-            Width: =422
-            X: =2
-            Y: =3
+            Width: =633
+            X: =1
+            Y: =5
             ZIndex: =2
 
             DataCardKey12 As label:
@@ -798,7 +810,7 @@
                 Height: =34
                 Size: =14
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -811,15 +823,16 @@
                 DisplayMode: =Parent.DisplayMode
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
+                Height: =35
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey12.Y + DataCardKey12.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage12 As label:
@@ -858,9 +871,9 @@
             Height: =50
             Required: =false
             Update: =Value(DataCardValue13.Text)
-            Width: =422
+            Width: =633
             X: =0
-            Y: =4
+            Y: =6
             ZIndex: =2
 
             DataCardKey13 As label:
@@ -871,7 +884,7 @@
                 Height: =34
                 Size: =14
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -884,15 +897,16 @@
                 DisplayMode: =Parent.DisplayMode
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
+                Height: =35
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey13.Y + DataCardKey13.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage13 As label:
@@ -931,16 +945,16 @@
             Height: =50
             Required: =false
             Update: =Value(DataCardValue14.Text)
-            Width: =422
+            Width: =633
             X: =1
-            Y: =4
+            Y: =6
             ZIndex: =2
 
             DataCardKey14 As label:
                 AutoHeight: =true
-                Height: =34
+                Height: =35
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -952,15 +966,16 @@
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Format: =TextFormat.Number
+                Height: =35
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey14.Y + DataCardKey14.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage14 As label:
@@ -998,16 +1013,16 @@
             Height: =50
             Required: =false
             Update: =Value(DataCardValue15.Text)
-            Width: =422
-            X: =2
-            Y: =4
+            Width: =633
+            X: =0
+            Y: =7
             ZIndex: =2
 
             DataCardKey15 As label:
                 AutoHeight: =true
-                Height: =34
+                Height: =35
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -1019,15 +1034,16 @@
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Format: =TextFormat.Number
+                Height: =35
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey15.Y + DataCardKey15.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage15 As label:
@@ -1065,17 +1081,16 @@
             Height: =50
             Required: =false
             Update: =Value(DataCardValue16.Text)
-            Width: =422
-            X: =0
-            Y: =5
+            Width: =633
+            X: =1
+            Y: =7
             ZIndex: =2
 
             DataCardKey16 As label:
                 AutoHeight: =true
-                Height: =34
+                Height: =35
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
+                Width: =256
                 X: =30
                 Y: =10
                 ZIndex: =1
@@ -1086,15 +1101,16 @@
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Format: =TextFormat.Number
+                Height: =35
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey16.Y + DataCardKey16.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage16 As label:
@@ -1132,17 +1148,14 @@
             Height: =50
             Required: =false
             Update: =Value(DataCardValue17.Text)
-            Width: =422
-            X: =1
-            Y: =5
+            Width: =633
+            X: =0
+            Y: =8
             ZIndex: =2
 
             DataCardKey17 As label:
-                AutoHeight: =true
-                Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
+                Width: =281
                 X: =30
                 Y: =10
                 ZIndex: =1
@@ -1153,15 +1166,16 @@
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Format: =TextFormat.Number
+                Height: =35
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey17.Y + DataCardKey17.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage17 As label:
@@ -1199,16 +1213,16 @@
             Height: =50
             Required: =false
             Update: =Value(DataCardValue18.Text)
-            Width: =422
-            X: =2
-            Y: =5
+            Width: =633
+            X: =1
+            Y: =8
             ZIndex: =2
 
             DataCardKey18 As label:
                 AutoHeight: =true
-                Height: =34
+                Height: =35
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -1220,15 +1234,16 @@
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Format: =TextFormat.Number
+                Height: =35
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey18.Y + DataCardKey18.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage18 As label:
@@ -1266,16 +1281,16 @@
             Height: =50
             Required: =false
             Update: =Value(DataCardValue19.Text)
-            Width: =422
+            Width: =633
             X: =0
-            Y: =6
+            Y: =9
             ZIndex: =2
 
             DataCardKey19 As label:
                 AutoHeight: =true
-                Height: =34
+                Height: =35
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -1287,15 +1302,16 @@
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Format: =TextFormat.Number
+                Height: =35
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey19.Y + DataCardKey19.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage19 As label:
@@ -1334,16 +1350,16 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Quarter")
             Required: =false
             Update: =DataCardValue20.Text
-            Width: =422
+            Width: =633
             X: =1
-            Y: =6
+            Y: =9
             ZIndex: =2
 
             DataCardKey20 As label:
                 AutoHeight: =true
-                Height: =34
+                Height: =35
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -1354,6 +1370,7 @@
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -1361,9 +1378,9 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey20.Y + DataCardKey20.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage20 As label:
@@ -1402,16 +1419,16 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Type_x0020_of_x0020_contract")
             Required: =false
             Update: =DataCardValue21.Text
-            Width: =422
-            X: =2
-            Y: =6
+            Width: =633
+            X: =0
+            Y: =10
             ZIndex: =2
 
             DataCardKey21 As label:
                 AutoHeight: =true
-                Height: =34
+                Height: =35
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -1422,6 +1439,7 @@
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -1429,9 +1447,9 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey21.Y + DataCardKey21.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage21 As label:
@@ -1470,16 +1488,16 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Project_x0020_status")
             Required: =false
             Update: =DataCardValue22.Text
-            Width: =422
-            X: =0
-            Y: =7
+            Width: =633
+            X: =1
+            Y: =10
             ZIndex: =2
 
             DataCardKey22 As label:
                 AutoHeight: =true
-                Height: =34
+                Height: =35
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -1490,6 +1508,7 @@
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -1497,9 +1516,9 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey22.Y + DataCardKey22.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage22 As label:
@@ -1538,16 +1557,16 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Risk_x0020_Status_x0020__x0028_R")
             Required: =false
             Update: =DataCardValue23.Text
-            Width: =422
-            X: =1
-            Y: =7
+            Width: =633
+            X: =0
+            Y: =11
             ZIndex: =2
 
             DataCardKey23 As label:
                 AutoHeight: =true
-                Height: =34
+                Height: =35
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -1558,6 +1577,7 @@
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -1565,9 +1585,9 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey23.Y + DataCardKey23.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage23 As label:
@@ -1606,16 +1626,16 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Execution_x0020_Status")
             Required: =false
             Update: =DataCardValue24.Text
-            Width: =422
-            X: =2
-            Y: =7
+            Width: =633
+            X: =1
+            Y: =11
             ZIndex: =2
 
             DataCardKey24 As label:
                 AutoHeight: =true
-                Height: =34
+                Height: =35
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -1626,6 +1646,7 @@
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -1633,9 +1654,9 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey24.Y + DataCardKey24.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage24 As label:
@@ -1674,16 +1695,16 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Type_x0020_of_x0020_project")
             Required: =false
             Update: =DataCardValue25.Text
-            Width: =422
+            Width: =633
             X: =0
-            Y: =8
+            Y: =12
             ZIndex: =2
 
             DataCardKey25 As label:
                 AutoHeight: =true
-                Height: =34
+                Height: =35
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -1694,6 +1715,7 @@
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -1701,9 +1723,9 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey25.Y + DataCardKey25.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage25 As label:
@@ -1741,16 +1763,16 @@
             Height: =50
             Required: =false
             Update: =Value(DataCardValue26.Text)
-            Width: =422
+            Width: =633
             X: =1
-            Y: =8
+            Y: =12
             ZIndex: =2
 
             DataCardKey26 As label:
                 AutoHeight: =true
-                Height: =34
+                Height: =35
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -1762,15 +1784,16 @@
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Format: =TextFormat.Number
+                Height: =35
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey26.Y + DataCardKey26.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage26 As label:
@@ -1809,16 +1832,16 @@
             Height: =50
             Required: =false
             Update: =Value(DataCardValue27.Text)
-            Width: =422
-            X: =2
-            Y: =8
+            Width: =633
+            X: =0
+            Y: =13
             ZIndex: =2
 
             DataCardKey27 As label:
                 AutoHeight: =true
-                Height: =34
+                Height: =35
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -1830,15 +1853,16 @@
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Format: =TextFormat.Number
+                Height: =35
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey27.Y + DataCardKey27.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage27 As label:
@@ -1877,16 +1901,16 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Upload_x0020_DM_x0020_approval_x")
             Required: =false
             Update: =DataCardValue28.Text
-            Width: =422
-            X: =0
-            Y: =9
+            Width: =633
+            X: =1
+            Y: =13
             ZIndex: =2
 
             DataCardKey28 As label:
                 AutoHeight: =true
-                Height: =34
+                Height: =35
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -1897,6 +1921,7 @@
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -1904,9 +1929,9 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey28.Y + DataCardKey28.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage28 As label:
@@ -1945,16 +1970,16 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Record_x0020_status")
             Required: =false
             Update: =DataCardValue29.Text
-            Width: =422
-            X: =1
-            Y: =9
+            Width: =633
+            X: =0
+            Y: =14
             ZIndex: =2
 
             DataCardKey29 As label:
                 AutoHeight: =true
-                Height: =34
+                Height: =35
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -1965,6 +1990,7 @@
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -1972,9 +1998,9 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey29.Y + DataCardKey29.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage29 As label:
@@ -2013,16 +2039,16 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Record_x0020_comments")
             Required: =false
             Update: =DataCardValue30.Text
-            Width: =422
-            X: =2
-            Y: =9
+            Width: =633
+            X: =1
+            Y: =14
             ZIndex: =2
 
             DataCardKey30 As label:
                 AutoHeight: =true
-                Height: =34
+                Height: =35
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -2033,6 +2059,7 @@
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -2040,9 +2067,9 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey30.Y + DataCardKey30.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage30 As label:
@@ -2081,16 +2108,16 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Comments")
             Required: =false
             Update: =DataCardValue31.Text
-            Width: =422
+            Width: =633
             X: =0
-            Y: =10
+            Y: =15
             ZIndex: =2
 
             DataCardKey31 As label:
                 AutoHeight: =true
-                Height: =34
+                Height: =35
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -2101,6 +2128,7 @@
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -2108,9 +2136,9 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey31.Y + DataCardKey31.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage31 As label:

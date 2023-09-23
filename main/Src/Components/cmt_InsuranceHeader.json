@@ -5,22 +5,25 @@
     "AllowAccessToGlobals": false,
     "AllowCustomization": true,
     "Description": "",
-    "Name": "Component1",
-    "TemplateGuid": "699152de78404eecb92d4702c879ae9a"
+    "Name": "cmt_InsuranceHeader",
+    "TemplateGuid": "e20a402af7de411fa32417369e90a871"
   },
   "ComponentType": "CanvasComponent",
   "CustomGroupControlTemplateName": "",
   "CustomProperties": [],
   "FirstParty": true,
   "Id": "http://microsoft.com/appmagic/Component",
-  "IsComponentLocked": false,
+  "IsComponentLocked": true,
   "IsComponentTemplate": true,
   "IsCustomGroupControlTemplate": false,
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638310594180432189",
-  "Name": "699152de78404eecb92d4702c879ae9a",
+  "LastModifiedTimestamp": "638310624736918474",
+  "Name": "e20a402af7de411fa32417369e90a871",
   "OverridableProperties": {},
-  "Version": "638310565435107701"
+  "SourceLibraryId": "3649db36-7d13-410f-a002-e4f15b656fad",
+  "SourceLibraryLogicalName": "cre86_componentinsuranceheader_582c4",
+  "TemplateOriginalName": "5e84380e815244d098dd910aaba1582f",
+  "Version": "638273265880487439"
 }

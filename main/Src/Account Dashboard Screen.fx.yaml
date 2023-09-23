@@ -1,0 +1,241 @@
+"'Account Dashboard Screen' As screen":
+
+    "Gallery3_1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =1
+        DelayItemLoading: =true
+        Height: =366
+        Items: ='Account list- AMS'
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplatePadding: =0
+        TemplateSize: =62
+        Width: =1328
+        X: =38
+        Y: =211
+        ZIndex: =1
+
+        Separator3_1 As rectangle:
+            Fill: =RGBA(0, 0, 0, 1)
+            Height: =2
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - Self.Height
+            ZIndex: =5
+
+        lbl_PlatformStatus As label:
+            Align: =Align.Center
+            Font: =Font.'Segoe UI'
+            Height: =50
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.Title
+            Width: =158
+            Y: =12
+            ZIndex: =7
+
+        lbl_Region As label:
+            Align: =Align.Center
+            Font: =Font.'Segoe UI'
+            Height: =50
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.Region.Value
+            Width: =100
+            X: =179
+            Y: =12
+            ZIndex: =10
+
+        lbl_DealType As label:
+            Align: =Align.Center
+            Font: =Font.'Segoe UI'
+            Height: =62
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.'Deal Type'.Value
+            Width: =177
+            X: =291
+            ZIndex: =11
+
+        lbl_Industry As label:
+            Align: =Align.Center
+            Font: =Font.'Segoe UI'
+            Height: =50
+            OnSelect: =Select(Parent)
+            Text: |-
+                =ThisItem.'# projects'
+            Width: =135
+            X: =465
+            Y: =12
+            ZIndex: =12
+
+        lbl_StartDt As label:
+            Font: =Font.'Segoe UI'
+            Height: =50
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.'Gross Margin %'
+            Width: =100
+            X: =805
+            Y: =12
+            ZIndex: =14
+
+        lbl_DealSize As label:
+            Font: =Font.'Segoe UI'
+            Height: =50
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.Revenue
+            Width: =110
+            X: =946
+            Y: =10
+            ZIndex: =15
+
+        lbl_Status As label:
+            Font: =Font.'Segoe UI'
+            Height: =50
+            OnSelect: =Select(Parent)
+            Size: =14
+            Text: =ThisItem.Cost
+            Width: =100
+            X: =1078
+            Y: =10
+            ZIndex: =16
+
+        NextArrow_1 As icon.ChevronRight:
+            Color: =RGBA(0, 0, 0, 1)
+            Height: =50
+            Icon: =Icon.ChevronRight
+            OnSelect: |
+                =/*Set(varSharePointList, true);
+                Set(varCurrentItem,ThisItem);
+                EditForm(Form1_1);
+                Navigate('Edit Record');*/
+            PaddingBottom: =12
+            PaddingLeft: =12
+            PaddingRight: =12
+            PaddingTop: =12
+            Width: =50
+            X: =1268
+            Y: =12
+            ZIndex: =17
+
+        lbl_Duration As label:
+            Align: =Align.Center
+            Font: =Font.'Segoe UI'
+            Height: =50
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.'Account Cost in USD'
+            Width: =100
+            X: =639
+            Y: =12
+            ZIndex: =18
+
+        lbl_Status_1 As label:
+            Font: =Font.'Segoe UI'
+            Height: =50
+            OnSelect: =Select(Parent)
+            Size: =14
+            Text: =ThisItem.'P&L'
+            Width: =100
+            X: =1178
+            Y: =12
+            ZIndex: =19
+
+    Icon_Duration As icon.ArrowUp:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =25
+        Icon: =Icon.Sort
+        OnSelect: |-
+            =Set(varDealSize, false);
+            Set(varStartDate, false);
+            Set(varDurationType, !varDurationType);
+        Width: =30
+        X: =787
+        Y: =173
+        ZIndex: =2
+
+    Icon_StartDate As icon.ArrowsUpDown:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =25
+        Icon: =Icon.Sort
+        OnSelect: |+
+            =UpdateContext({SortColumn: "ProjectStartDate",SortDecending: !SortDecending})
+            
+            /*Set(varDurationType, false);
+            Set(varDealSize, false);
+            Set(varStartDate, !varStartDate);*/
+            
+        Width: =30
+        X: =914
+        Y: =173
+        ZIndex: =3
+
+    Label7_1 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(50, 86, 160, 1)
+        Font: =Font.'Segoe UI'
+        Height: =45
+        Text: ="Account Name"
+        Width: =156
+        X: =38
+        Y: =168
+        ZIndex: =4
+
+    Label8_1 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(50, 86, 160, 1)
+        Font: =Font.'Segoe UI'
+        Height: =Label7_1.Height
+        Text: ="Geo"
+        Width: =152
+        X: =196
+        Y: =168
+        ZIndex: =5
+
+    Label9_1 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(50, 86, 160, 1)
+        Font: =Font.'Segoe UI'
+        Height: =45
+        Text: ="Country"
+        Width: =140
+        X: =348
+        Y: =168
+        ZIndex: =6
+
+    Label10_1 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(50, 86, 160, 1)
+        Font: =Font.'Segoe UI'
+        Height: =Label7_1.Height
+        Text: |-
+            ="# Projects"
+        Width: =173
+        X: =488
+        Y: =168
+        ZIndex: =7
+
+    Label11_1 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(50, 86, 160, 1)
+        Font: =Font.'Segoe UI'
+        Height: =Label7_1.Height
+        Text: ="Account Cost in USD"
+        Width: =Label7_1.Width
+        X: =661
+        Y: =168
+        ZIndex: =8
+
+    Label12_1 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(50, 86, 160, 1)
+        Font: =Font.'Segoe UI'
+        Height: =Label7_1.Height
+        Text: ="Gross Margin %"
+        Width: =129
+        X: =817
+        Y: =168
+        ZIndex: =11
+
