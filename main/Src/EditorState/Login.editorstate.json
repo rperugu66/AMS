@@ -135,7 +135,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "btn_Signin",
-      "ParentIndex": 10,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -373,7 +373,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "cmt_loginHeader_1",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -384,22 +384,22 @@
         {
           "Category": "Design",
           "PropertyName": "Height",
-          "RuleProviderType": "System"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
           "PropertyName": "Width",
-          "RuleProviderType": "System"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
           "PropertyName": "X",
-          "RuleProviderType": "System"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
           "PropertyName": "Y",
-          "RuleProviderType": "System"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
@@ -490,7 +490,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ico_EyeIcon",
-      "ParentIndex": 7,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -734,7 +734,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_Don't have an account?",
-      "ParentIndex": 11,
+      "ParentIndex": 12,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1024,7 +1024,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_errormessage for username and password",
-      "ParentIndex": 8,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1339,7 +1339,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_Forgotpassword",
-      "ParentIndex": 9,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1634,7 +1634,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_Login",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1918,7 +1918,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_Password",
-      "ParentIndex": 5,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2206,7 +2206,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl-Username",
-      "ParentIndex": 3,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2527,7 +2527,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "rct_Login",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2875,7 +2875,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "txt_Password",
-      "ParentIndex": 6,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3222,7 +3222,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "txt_Username",
-      "ParentIndex": 4,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
