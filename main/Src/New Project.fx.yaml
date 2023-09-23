@@ -1294,14 +1294,15 @@
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Format: =TextFormat.Number
+                Height: =35
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
+                Width: =281
+                X: =303
                 Y: =10
                 ZIndex: =2
 
@@ -1429,6 +1430,7 @@
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -1436,9 +1438,9 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey21.Y + DataCardKey21.Height + 5
+                Width: =281
+                X: =303
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage21 As label:
@@ -1573,7 +1575,7 @@
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
-                X: =30
+                X: =303
                 Y: =DataCardKey23.Y + DataCardKey23.Height + 5
                 ZIndex: =2
 
