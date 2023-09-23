@@ -1,0 +1,44 @@
+cmt_loginHeader As CanvasComponent:
+    Fill: =RGBA(227, 234, 243, 1)
+    Height: =85
+    Width: =1366
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Group As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =6
+
+        rct_Header_2 As rectangle:
+            BorderColor: =RGBA(56, 96, 178, 1)
+            BorderThickness: =1
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =85
+            Width: =1366
+            ZIndex: =1
+
+        img_CompanyLogo As image:
+            Height: =65
+            Image: ='Coforge logo (1)'
+            ImagePosition: =ImagePosition.Fill
+            Width: =156
+            Y: =10
+            ZIndex: =4
+
+        lbl_ClaimsLoginHeader As label:
+            Align: =Align.Center
+            Color: =RGBA(0, 16, 96, 1)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Bold
+            Height: =65
+            Size: =30
+            Text: ="Login"
+            Width: =159
+            X: =604
+            Y: =10
+            ZIndex: =5
+
