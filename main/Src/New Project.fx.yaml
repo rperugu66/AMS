@@ -1377,7 +1377,7 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =Dropdown4.Y + Dropdown4.Height
+                Y: =Dropdown8.Y + Dropdown8.Height
                 ZIndex: =3
 
             StarVisible20 As label:
@@ -1643,4 +1643,22 @@
                 Wrap: =false
                 Y: =DataCardKey31.Y
                 ZIndex: =4
+
+    Button4 As button:
+        Text: ="Button"
+        X: =648
+        Y: =666
+        ZIndex: =2
+
+    Button5 As button:
+        Text: ="Button"
+        X: =808
+        Y: =666
+        ZIndex: =3
+
+    Button6 As button:
+        Text: ="Button"
+        X: =968
+        Y: =666
+        ZIndex: =4
 
