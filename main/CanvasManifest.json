@@ -132,6 +132,7 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Login"
+    "Login",
+    "New Project"
   ]
 }
