@@ -172,7 +172,7 @@ AccountDashboard As screen:
             Text: =ThisItem.Cost
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth/6 - 86
-            X: ='lblRevenue'.X+'lblRevenue'.Width
+            X: =lblRevenue.X+lblRevenue.Width
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =10
 
@@ -190,7 +190,7 @@ AccountDashboard As screen:
             Text: =ThisItem.'P&L'
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth/6 - 86
-            X: ='lblCost'.X+'lblCost'.Width
+            X: =lblCost.X+lblCost.Width
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =11
 
