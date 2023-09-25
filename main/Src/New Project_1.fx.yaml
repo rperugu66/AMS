@@ -66,6 +66,7 @@
 
             Dropdown1_1 As dropdown:
                 BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1
                 Font: =Font.'Segoe UI'
                 Height: =35
                 Items: =["NAB", "SCB", "ABC", "DB Systel", "Tokyo Marine", "AFLAC", "SEI", "Ofcom"]
@@ -131,6 +132,7 @@
 
             Dropdown2_1 As dropdown:
                 BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1
                 Height: =35
                 Items: =["APAC", "MEA", "Europe", "US"]
                 Width: =160
@@ -170,6 +172,7 @@
 
             DataCardValue3_1 As text:
                 BorderColor: =Color.Black
+                BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
@@ -243,6 +246,7 @@
 
             DataCardValue4_1 As text:
                 BorderColor: =Color.Black
+                BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
@@ -317,6 +321,7 @@
 
             DataCardValue5_1 As text:
                 BorderColor: =Color.Black
+                BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
@@ -391,6 +396,7 @@
 
             DataCardValue6_1 As text:
                 BorderColor: =Color.Black
+                BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
@@ -465,6 +471,7 @@
 
             DataCardValue7_1 As text:
                 BorderColor: =Color.Black
+                BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
@@ -537,6 +544,7 @@
 
             DataCardValue8_1 As datepicker:
                 BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1
                 DefaultDate: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
                 EndYear: =Year(Today())+100
@@ -608,6 +616,7 @@
 
             DataCardValue9_1 As datepicker:
                 BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1
                 DefaultDate: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
                 EndYear: =Year(Today())+100
@@ -705,6 +714,7 @@
 
             Dropdown3_1 As dropdown:
                 BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1
                 Font: =Font.'Segoe UI'
                 Height: =35
                 Items: =["T&M", "Fixed Price", "Fixed Capacity"]
@@ -744,6 +754,7 @@
 
             DataCardValue11_1 As text:
                 BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
@@ -818,6 +829,7 @@
 
             DataCardValue12_1 As text:
                 BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
@@ -892,6 +904,7 @@
 
             DataCardValue13_1 As text:
                 BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
@@ -952,7 +965,11 @@
 
             DataCardKey14_1 As label:
                 AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
                 Height: =35
+                Size: =14
                 Text: ="Total Resources"
                 Width: =256
                 Wrap: =false
@@ -961,10 +978,12 @@
                 ZIndex: =1
 
             DataCardValue14_1 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =Color.Black
+                BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
                 PaddingLeft: =5
@@ -1020,7 +1039,11 @@
 
             DataCardKey15_1 As label:
                 AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
                 Height: =35
+                Size: =14
                 Text: =Parent.DisplayName
                 Width: =256
                 Wrap: =false
@@ -1029,10 +1052,12 @@
                 ZIndex: =1
 
             DataCardValue15_1 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =Color.Black
+                BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
                 PaddingLeft: =5
@@ -1088,7 +1113,11 @@
 
             DataCardKey16_1 As label:
                 AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
                 Height: =35
+                Size: =14
                 Text: ="Blended Rate Offshore"
                 Width: =256
                 X: =30
@@ -1096,10 +1125,12 @@
                 ZIndex: =1
 
             DataCardValue16_1 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =Color.Black
+                BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
                 PaddingLeft: =5
@@ -1154,6 +1185,10 @@
             ZIndex: =2
 
             DataCardKey17_1 As label:
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Size: =14
                 Text: ="Blended Rate Onsite"
                 Width: =281
                 X: =30
@@ -1161,10 +1196,12 @@
                 ZIndex: =1
 
             DataCardValue17_1 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =Color.Black
+                BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
                 PaddingLeft: =5
@@ -1220,7 +1257,11 @@
 
             DataCardKey18_1 As label:
                 AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
                 Height: =35
+                Size: =14
                 Text: ="Blended Rate"
                 Width: =256
                 Wrap: =false
@@ -1230,9 +1271,11 @@
 
             DataCardValue18_1 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
                 PaddingLeft: =5
@@ -1289,7 +1332,11 @@
 
             DataCardKey21_1 As label:
                 AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
                 Height: =35
+                Size: =14
                 Text: ="Type of Contract"
                 Width: =256
                 Wrap: =false
@@ -1323,6 +1370,9 @@
                 ZIndex: =4
 
             Dropdown5_1 As dropdown:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1
+                Font: =Font.'Segoe UI'
                 Height: =35
                 Items: =["CR", "SOW"]
                 Width: =160
@@ -1348,7 +1398,11 @@
 
             DataCardKey22_1 As label:
                 AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
                 Height: =35
+                Size: =14
                 Text: ="Project Status"
                 Width: =256
                 Wrap: =false
@@ -1382,6 +1436,9 @@
                 ZIndex: =4
 
             Dropdown6_1 As dropdown:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1
+                Font: =Font.'Segoe UI'
                 Height: =35
                 Items: =["Open", "Closed", "On-hold", "In-progress"]
                 Width: =160
@@ -1407,7 +1464,11 @@
 
             DataCardKey25_1 As label:
                 AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
                 Height: =35
+                Size: =14
                 Text: ="Type of Project"
                 Width: =256
                 Wrap: =false
@@ -1441,6 +1502,9 @@
                 ZIndex: =4
 
             Dropdown7_1 As dropdown:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1
+                Font: =Font.'Segoe UI'
                 Height: =35
                 Items: =["Implementation", "Support", "Both"]
                 Width: =160
@@ -1466,7 +1530,11 @@
 
             DataCardKey31_1 As label:
                 AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
                 Height: =35
+                Size: =14
                 Text: =Parent.DisplayName
                 Width: =256
                 Wrap: =false
@@ -1475,10 +1543,12 @@
                 ZIndex: =1
 
             DataCardValue31_1 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =Color.Black
+                BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Font: =Font.'Segoe UI'
                 Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
