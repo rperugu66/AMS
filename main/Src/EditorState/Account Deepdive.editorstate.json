@@ -1811,7 +1811,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey27",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2085,7 +2085,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey28",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2907,7 +2907,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey32",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -12951,7 +12951,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage27",
-      "ParentIndex": 0,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -13232,7 +13232,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage28",
-      "ParentIndex": 0,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -14075,7 +14075,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage32",
-      "ParentIndex": 0,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -21218,7 +21218,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible27",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -21499,7 +21499,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible28",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -22342,7 +22342,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible32",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
