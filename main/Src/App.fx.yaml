@@ -1,7 +1,10 @@
 App As appinfo:
     BackEnabled: =false
     OnStart: |-
-        =Concurrent(
+        =/*Set(varUserLogin, Office365Users.MyProfile());
+        Set(varUserDesignation, varUserLogin.DisplayName = disp*/
+        
+        Concurrent(
             Set(
                 StepsPanelCodeFontSize,
                 10
@@ -17,6 +20,11 @@ App As appinfo:
             ClearCollect(
                 NavigationMenu,
                 {
+                    Row: 1,
+                    Title: "Account Info",
+                    Image: bank
+                },
+                {
                     Row: 2,
                     Title: "Project Info",
                     Image: 'list-nested'
@@ -26,11 +34,7 @@ App As appinfo:
                     Title: "Add New Project",
                     Image: 'plus-circle-fill'
                 },
-                {
-                    Row: 1,
-                    Title: "Account Info",
-                    Image: bank
-                },
+                
                 {
                     Row: 4,
                     Title: "Approvals",
