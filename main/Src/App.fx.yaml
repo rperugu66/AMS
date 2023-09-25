@@ -1,5 +1,43 @@
 App As appinfo:
     BackEnabled: =false
+    OnStart: |-
+        =Concurrent(
+            Set(
+                StepsPanelCodeFontSize,
+                10
+            ),
+            Set(
+                _selectedTutorial,
+                {
+                    Row: 1,
+                    Title: "Account Info",
+                    Image: bank
+                }
+            ),
+            ClearCollect(
+                NavigationMenu,
+                {
+                    Row: 1,
+                    Title: "Account Info",
+                    Image: bank
+                },
+                {
+                    Row: 2,
+                    Title: "Project Info",
+                    Image: 'list-nested'
+                },
+                {
+                    Row: 3,
+                    Title: "Add New Project",
+                    Image: 'plus-circle-fill'
+                },
+                {
+                    Row: 4,
+                    Title: "Approvals",
+                    Image: 'check2-circle'
+                }
+            )
+        );
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
