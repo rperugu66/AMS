@@ -2385,7 +2385,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_#projects_2",
-      "ParentIndex": 4,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2709,7 +2709,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_AccountcostinUSD_2",
-      "ParentIndex": 6,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3019,7 +3019,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_Accountname_2",
-      "ParentIndex": 5,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3972,7 +3972,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_Cost_2",
-      "ParentIndex": 9,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4289,7 +4289,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_Country_2",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4606,7 +4606,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_Geo_2",
-      "ParentIndex": 3,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5559,7 +5559,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_Grossmargin%_2",
-      "ParentIndex": 7,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6505,7 +6505,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_P&L_2",
-      "ParentIndex": 10,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7769,7 +7769,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_Revenue_2",
-      "ParentIndex": 8,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8406,7 +8406,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%TemplateBrowseGallerySeparator1.ID%",
       "Name": "Separator_1",
-      "ParentIndex": 11,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

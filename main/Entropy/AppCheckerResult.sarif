@@ -94,32 +94,32 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Account Name_DataCard2'.Update"
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.Item"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Account Name_DataCard2'.Update",
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.Item",
                   "relativeAddress": 0
                 },
                 "region": {
                   "charLength": 14,
                   "charOffset": 0,
                   "snippet": {
-                    "text": "DataCardValue1"
+                    "text": "varCurrentItem"
                   }
                 }
               },
               "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Account Name_DataCard2'"
+                "member": "Item",
+                "module": "Project Approval",
+                "type": "'Project Approval'.Form1_2"
               }
             }
           ],
           "message": {
             "arguments": [
-              "DataCardValue1"
+              "varCurrentItem"
             ],
             "id": "issue"
           },
@@ -134,17 +134,417 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Account Name_DataCard2'.Update"
+                  "fullyQualifiedName": "Screen1.GalleryNavigation.galleryTemplate1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Account Name_DataCard2'.Update",
+                  "fullyQualifiedName": "Screen1.GalleryNavigation.galleryTemplate1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 92,
+                  "snippet": {
+                    "text": "DashboardScreen"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen1",
+                "type": "Screen1.GalleryNavigation.galleryTemplate1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DashboardScreen"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1.GalleryNavigation.galleryTemplate1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1.GalleryNavigation.galleryTemplate1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 185,
+                  "snippet": {
+                    "text": "AccountInfo"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen1",
+                "type": "Screen1.GalleryNavigation.galleryTemplate1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "AccountInfo"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1.GalleryNavigation.galleryTemplate1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1.GalleryNavigation.galleryTemplate1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 274,
+                  "snippet": {
+                    "text": "AccountInfo"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen1",
+                "type": "Screen1.GalleryNavigation.galleryTemplate1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "AccountInfo"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1_1.GalleryNavigation_1.galleryTemplate1_1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1_1.GalleryNavigation_1.galleryTemplate1_1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 92,
+                  "snippet": {
+                    "text": "DashboardScreen"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen1_1",
+                "type": "Screen1_1.GalleryNavigation_1.galleryTemplate1_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DashboardScreen"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1_1.GalleryNavigation_1.galleryTemplate1_1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1_1.GalleryNavigation_1.galleryTemplate1_1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 185,
+                  "snippet": {
+                    "text": "AccountInfo"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen1_1",
+                "type": "Screen1_1.GalleryNavigation_1.galleryTemplate1_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "AccountInfo"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1_1.GalleryNavigation_1.galleryTemplate1_1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1_1.GalleryNavigation_1.galleryTemplate1_1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 274,
+                  "snippet": {
+                    "text": "AccountInfo"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen1_1",
+                "type": "Screen1_1.GalleryNavigation_1.galleryTemplate1_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "AccountInfo"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1_2.GalleryNavigation_2.galleryTemplate1_2.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1_2.GalleryNavigation_2.galleryTemplate1_2.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 92,
+                  "snippet": {
+                    "text": "DashboardScreen"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen1_2",
+                "type": "Screen1_2.GalleryNavigation_2.galleryTemplate1_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DashboardScreen"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1_2.GalleryNavigation_2.galleryTemplate1_2.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1_2.GalleryNavigation_2.galleryTemplate1_2.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 185,
+                  "snippet": {
+                    "text": "AccountInfo"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen1_2",
+                "type": "Screen1_2.GalleryNavigation_2.galleryTemplate1_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "AccountInfo"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1_2.GalleryNavigation_2.galleryTemplate1_2.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1_2.GalleryNavigation_2.galleryTemplate1_2.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 274,
+                  "snippet": {
+                    "text": "AccountInfo"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen1_2",
+                "type": "Screen1_2.GalleryNavigation_2.galleryTemplate1_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "AccountInfo"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'# projects_DataCard1'.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'# projects_DataCard1'.Update",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 6,
+                  "snippet": {
+                    "text": "DataCardValue21"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.'# projects_DataCard1'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataCardValue21"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'# projects_DataCard1'.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'# projects_DataCard1'.Update",
                   "relativeAddress": 0
                 },
                 "region": {
                   "charLength": 5,
-                  "charOffset": 14,
+                  "charOffset": 21,
                   "snippet": {
                     "text": ".Text"
                   }
@@ -152,8 +552,8 @@
               },
               "properties": {
                 "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Account Name_DataCard2'"
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.'# projects_DataCard1'"
               }
             }
           ],
@@ -171,32 +571,728 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Project Manager_DataCard2'.Update"
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'# projects_DataCard1'.Update"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Project Manager_DataCard2'.Update",
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'# projects_DataCard1'.Update",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 27,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Value(DataCardValue21.Text)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.'# projects_DataCard1'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Value"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'# projects_DataCard1'.ErrorMessage27.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'# projects_DataCard1'.ErrorMessage27.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataCardValue21"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.'# projects_DataCard1'.ErrorMessage27"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataCardValue21"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'# projects_DataCard1'.ErrorMessage27.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'# projects_DataCard1'.ErrorMessage27.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 15,
+                  "snippet": {
+                    "text": ".Y"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.'# projects_DataCard1'.ErrorMessage27"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'# projects_DataCard1'.ErrorMessage27.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'# projects_DataCard1'.ErrorMessage27.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 20,
+                  "snippet": {
+                    "text": "DataCardValue21"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.'# projects_DataCard1'.ErrorMessage27"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataCardValue21"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'# projects_DataCard1'.ErrorMessage27.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'# projects_DataCard1'.ErrorMessage27.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 35,
+                  "snippet": {
+                    "text": ".Height"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.'# projects_DataCard1'.ErrorMessage27"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.Currency_DataCard1.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.Currency_DataCard1.Update",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataCardValue22"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.Currency_DataCard1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataCardValue22"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.Currency_DataCard1.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.Currency_DataCard1.Update",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 15,
+                  "snippet": {
+                    "text": ".Text"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.Currency_DataCard1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.Currency_DataCard1.ErrorMessage28.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.Currency_DataCard1.ErrorMessage28.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataCardValue22"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.Currency_DataCard1.ErrorMessage28"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataCardValue22"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.Currency_DataCard1.ErrorMessage28.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.Currency_DataCard1.ErrorMessage28.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 15,
+                  "snippet": {
+                    "text": ".Y"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.Currency_DataCard1.ErrorMessage28"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.Currency_DataCard1.ErrorMessage28.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.Currency_DataCard1.ErrorMessage28.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 20,
+                  "snippet": {
+                    "text": "DataCardValue22"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.Currency_DataCard1.ErrorMessage28"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataCardValue22"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.Currency_DataCard1.ErrorMessage28.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.Currency_DataCard1.ErrorMessage28.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 35,
+                  "snippet": {
+                    "text": ".Height"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.Currency_DataCard1.ErrorMessage28"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Tax %_DataCard1'.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Tax %_DataCard1'.Update",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 6,
+                  "snippet": {
+                    "text": "DataCardValue25"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.'Tax %_DataCard1'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataCardValue25"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Tax %_DataCard1'.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Tax %_DataCard1'.Update",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 21,
+                  "snippet": {
+                    "text": ".Text"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.'Tax %_DataCard1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Tax %_DataCard1'.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Tax %_DataCard1'.Update",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 27,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Value(DataCardValue25.Text)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.'Tax %_DataCard1'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Value"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Tax %_DataCard1'.ErrorMessage32.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Tax %_DataCard1'.ErrorMessage32.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataCardValue25"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.'Tax %_DataCard1'.ErrorMessage32"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataCardValue25"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Tax %_DataCard1'.ErrorMessage32.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Tax %_DataCard1'.ErrorMessage32.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 15,
+                  "snippet": {
+                    "text": ".Y"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.'Tax %_DataCard1'.ErrorMessage32"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Tax %_DataCard1'.ErrorMessage32.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Tax %_DataCard1'.ErrorMessage32.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 20,
+                  "snippet": {
+                    "text": "DataCardValue25"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.'Tax %_DataCard1'.ErrorMessage32"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataCardValue25"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Tax %_DataCard1'.ErrorMessage32.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Tax %_DataCard1'.ErrorMessage32.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 35,
+                  "snippet": {
+                    "text": ".Height"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.'Tax %_DataCard1'.ErrorMessage32"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Deepdiving Each Record Project'.Form1_3.Item"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Deepdiving Each Record Project'.Form1_3.Item",
                   "relativeAddress": 0
                 },
                 "region": {
                   "charLength": 14,
                   "charOffset": 0,
                   "snippet": {
-                    "text": "DataCardValue2"
+                    "text": "varCurrentItem"
                   }
                 }
               },
               "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Project Manager_DataCard2'"
+                "member": "Item",
+                "module": "Deepdiving Each Record Project",
+                "type": "'Deepdiving Each Record Project'.Form1_3"
               }
             }
           ],
           "message": {
             "arguments": [
-              "DataCardValue2"
+              "varCurrentItem"
             ],
             "id": "issue"
           },
@@ -205,2137 +1301,6 @@
           },
           "ruleId": "app-ErrInvalidName",
           "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Project Manager_DataCard2'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Project Manager_DataCard2'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 14,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Project Manager_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Delivery Manager_DataCard2'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Delivery Manager_DataCard2'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataCardValue10"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Delivery Manager_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue10"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Delivery Manager_DataCard2'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Delivery Manager_DataCard2'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 15,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Delivery Manager_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Delivery Head_DataCard2'.DataCardValue21.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Delivery Head_DataCard2'.DataCardValue21.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 13,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataCardKey27"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Delivery Head_DataCard2'.DataCardValue21"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardKey27"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Delivery Head_DataCard2'.DataCardValue21.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Delivery Head_DataCard2'.DataCardValue21.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 13,
-                  "snippet": {
-                    "text": ".Y"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Delivery Head_DataCard2'.DataCardValue21"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Delivery Head_DataCard2'.DataCardValue21.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Delivery Head_DataCard2'.DataCardValue21.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 13,
-                  "charOffset": 18,
-                  "snippet": {
-                    "text": "DataCardKey27"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Delivery Head_DataCard2'.DataCardValue21"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardKey27"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Delivery Head_DataCard2'.DataCardValue21.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Delivery Head_DataCard2'.DataCardValue21.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 31,
-                  "snippet": {
-                    "text": ".Height"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Delivery Head_DataCard2'.DataCardValue21"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Onsite/offshore_DataCard2'.DataCardValue22.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Onsite/offshore_DataCard2'.DataCardValue22.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 13,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataCardKey28"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Onsite/offshore_DataCard2'.DataCardValue22"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardKey28"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Onsite/offshore_DataCard2'.DataCardValue22.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Onsite/offshore_DataCard2'.DataCardValue22.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 13,
-                  "snippet": {
-                    "text": ".Y"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Onsite/offshore_DataCard2'.DataCardValue22"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Onsite/offshore_DataCard2'.DataCardValue22.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Onsite/offshore_DataCard2'.DataCardValue22.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 13,
-                  "charOffset": 18,
-                  "snippet": {
-                    "text": "DataCardKey28"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Onsite/offshore_DataCard2'.DataCardValue22"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardKey28"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Onsite/offshore_DataCard2'.DataCardValue22.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Onsite/offshore_DataCard2'.DataCardValue22.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 31,
-                  "snippet": {
-                    "text": ".Height"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Onsite/offshore_DataCard2'.DataCardValue22"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'# projects_DataCard2'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'# projects_DataCard2'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 6,
-                  "snippet": {
-                    "text": "DataCardValue23"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'# projects_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue23"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'# projects_DataCard2'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'# projects_DataCard2'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 21,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'# projects_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'# projects_DataCard2'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'# projects_DataCard2'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 27,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Value(DataCardValue23.Text)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'# projects_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Value"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.Currency_DataCard2.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.Currency_DataCard2.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataCardValue24"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.Currency_DataCard2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue24"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.Currency_DataCard2.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.Currency_DataCard2.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 15,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.Currency_DataCard2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Account Cost in USD_DataCard2'.DataCardValue25.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Account Cost in USD_DataCard2'.DataCardValue25.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 13,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataCardKey32"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Account Cost in USD_DataCard2'.DataCardValue25"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardKey32"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Account Cost in USD_DataCard2'.DataCardValue25.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Account Cost in USD_DataCard2'.DataCardValue25.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 13,
-                  "snippet": {
-                    "text": ".Y"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Account Cost in USD_DataCard2'.DataCardValue25"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Account Cost in USD_DataCard2'.DataCardValue25.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Account Cost in USD_DataCard2'.DataCardValue25.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 13,
-                  "charOffset": 18,
-                  "snippet": {
-                    "text": "DataCardKey32"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Account Cost in USD_DataCard2'.DataCardValue25"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardKey32"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Account Cost in USD_DataCard2'.DataCardValue25.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Account Cost in USD_DataCard2'.DataCardValue25.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 31,
-                  "snippet": {
-                    "text": ".Height"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Account Cost in USD_DataCard2'.DataCardValue25"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Gross Margin %_DataCard2'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Gross Margin %_DataCard2'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 6,
-                  "snippet": {
-                    "text": "DataCardValue26"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Gross Margin %_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue26"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Gross Margin %_DataCard2'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Gross Margin %_DataCard2'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 21,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Gross Margin %_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Gross Margin %_DataCard2'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Gross Margin %_DataCard2'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 27,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Value(DataCardValue26.Text)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Gross Margin %_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Value"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Tax %_DataCard2'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Tax %_DataCard2'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 6,
-                  "snippet": {
-                    "text": "DataCardValue27"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Tax %_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue27"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Tax %_DataCard2'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Tax %_DataCard2'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 21,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Tax %_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Tax %_DataCard2'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Tax %_DataCard2'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 27,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Value(DataCardValue27.Text)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Tax %_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Value"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Tax Amount in Usd_DataCard2'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Tax Amount in Usd_DataCard2'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 6,
-                  "snippet": {
-                    "text": "DataCardValue28"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Tax Amount in Usd_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue28"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Tax Amount in Usd_DataCard2'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Tax Amount in Usd_DataCard2'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 21,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Tax Amount in Usd_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Tax Amount in Usd_DataCard2'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Tax Amount in Usd_DataCard2'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 27,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Value(DataCardValue28.Text)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Tax Amount in Usd_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Value"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.Revenue_DataCard2.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.Revenue_DataCard2.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 6,
-                  "snippet": {
-                    "text": "DataCardValue29"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.Revenue_DataCard2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue29"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.Revenue_DataCard2.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.Revenue_DataCard2.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 21,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.Revenue_DataCard2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.Revenue_DataCard2.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.Revenue_DataCard2.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 27,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Value(DataCardValue29.Text)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.Revenue_DataCard2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Value"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.Cost_DataCard2.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.Cost_DataCard2.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 6,
-                  "snippet": {
-                    "text": "DataCardValue30"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.Cost_DataCard2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue30"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.Cost_DataCard2.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.Cost_DataCard2.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 21,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.Cost_DataCard2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.Cost_DataCard2.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.Cost_DataCard2.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 27,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Value(DataCardValue30.Text)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.Cost_DataCard2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Value"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'P&L_DataCard2'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'P&L_DataCard2'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 6,
-                  "snippet": {
-                    "text": "DataCardValue32"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'P&L_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue32"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'P&L_DataCard2'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'P&L_DataCard2'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 21,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'P&L_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'P&L_DataCard2'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'P&L_DataCard2'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 27,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Value(DataCardValue32.Text)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'P&L_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Value"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'P&L %_DataCard2'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'P&L %_DataCard2'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 6,
-                  "snippet": {
-                    "text": "DataCardValue33"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'P&L %_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue33"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'P&L %_DataCard2'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'P&L %_DataCard2'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 21,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'P&L %_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'P&L %_DataCard2'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'P&L %_DataCard2'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 27,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Value(DataCardValue33.Text)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'P&L %_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Value"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Account Start date_DataCard2'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Account Start date_DataCard2'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataCardValue34"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Account Start date_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue34"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Account Start date_DataCard2'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Account Start date_DataCard2'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 13,
-                  "charOffset": 15,
-                  "snippet": {
-                    "text": ".SelectedDate"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Account Start date_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Account End date_DataCard2'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Account End date_DataCard2'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataCardValue35"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Account End date_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue35"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Account End date_DataCard2'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Account End date_DataCard2'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 13,
-                  "charOffset": 15,
-                  "snippet": {
-                    "text": ".SelectedDate"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Account End date_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.Quarter_DataCard2.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.Quarter_DataCard2.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataCardValue36"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.Quarter_DataCard2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue36"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.Quarter_DataCard2.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.Quarter_DataCard2.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 15,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.Quarter_DataCard2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Revenue Year_DataCard2'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Revenue Year_DataCard2'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 6,
-                  "snippet": {
-                    "text": "DataCardValue37"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Revenue Year_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue37"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Revenue Year_DataCard2'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Revenue Year_DataCard2'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 21,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Revenue Year_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Revenue Year_DataCard2'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Revenue Year_DataCard2'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 27,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Value(DataCardValue37.Text)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Revenue Year_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Value"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Duration in yr_DataCard2'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Duration in yr_DataCard2'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 6,
-                  "snippet": {
-                    "text": "DataCardValue38"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Duration in yr_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue38"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Duration in yr_DataCard2'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Duration in yr_DataCard2'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 21,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Duration in yr_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Duration in yr_DataCard2'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Duration in yr_DataCard2'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 27,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Value(DataCardValue38.Text)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Duration in yr_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Value"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Account Status_DataCard2'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Account Status_DataCard2'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataCardValue39"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Account Status_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue39"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Account Status_DataCard2'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Account Status_DataCard2'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 15,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Account Status_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
         },
         {
           "locations": [
@@ -3242,19 +2207,48 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Project Dashboard Screen'.gal_AccountList_1.Icon4.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Project Dashboard Screen'.gal_AccountList_1.Icon4.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "module": "Screen1",
+                "type": "Screen1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Low"
+          },
+          "ruleId": "acc-ReadableScreenNameNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1.iconHamburgerMenu_6.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1.iconHamburgerMenu_6.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Project Dashboard Screen",
-                "type": "'Project Dashboard Screen'.gal_AccountList_1.Icon4"
+                "module": "Screen1",
+                "type": "Screen1.iconHamburgerMenu_6"
               }
             }
           ],
@@ -3272,19 +2266,287 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Project Dashboard Screen'.gal_AccountList_1.Icon4.TabIndex"
+                  "fullyQualifiedName": "Screen1.GalleryNavigation.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Project Dashboard Screen'.gal_AccountList_1.Icon4.TabIndex",
+                  "fullyQualifiedName": "Screen1.GalleryNavigation.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen1",
+                "type": "Screen1.GalleryNavigation"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1.GalleryNavigation.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1.GalleryNavigation.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Project Dashboard Screen",
-                "type": "'Project Dashboard Screen'.gal_AccountList_1.Icon4"
+                "module": "Screen1",
+                "type": "Screen1.GalleryNavigation"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1_1"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1_1",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "module": "Screen1_1",
+                "type": "Screen1_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Low"
+          },
+          "ruleId": "acc-ReadableScreenNameNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1_1.iconHamburgerMenu_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1_1.iconHamburgerMenu_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen1_1",
+                "type": "Screen1_1.iconHamburgerMenu_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1_1.GalleryNavigation_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1_1.GalleryNavigation_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen1_1",
+                "type": "Screen1_1.GalleryNavigation_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1_1.GalleryNavigation_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1_1.GalleryNavigation_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Screen1_1",
+                "type": "Screen1_1.GalleryNavigation_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1_2"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1_2",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "module": "Screen1_2",
+                "type": "Screen1_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Low"
+          },
+          "ruleId": "acc-ReadableScreenNameNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1_2.iconHamburgerMenu_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1_2.iconHamburgerMenu_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen1_2",
+                "type": "Screen1_2.iconHamburgerMenu_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1_2.GalleryNavigation_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1_2.GalleryNavigation_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen1_2",
+                "type": "Screen1_2.GalleryNavigation_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1_2.GalleryNavigation_2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1_2.GalleryNavigation_2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Screen1_2",
+                "type": "Screen1_2.GalleryNavigation_2"
               }
             }
           ],
@@ -3512,19 +2774,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Account Name_DataCard2'.Dropdown4.AccessibleLabel"
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.Geo.TextInput4.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Account Name_DataCard2'.Dropdown4.AccessibleLabel",
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.Geo.TextInput4.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Account Name_DataCard2'.Dropdown4"
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.Geo.TextInput4"
               }
             }
           ],
@@ -3542,19 +2804,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Delivery Head_DataCard2'.DataCardValue21.AccessibleLabel"
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.Country.TextInput4_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Delivery Head_DataCard2'.DataCardValue21.AccessibleLabel",
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.Country.TextInput4_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Delivery Head_DataCard2'.DataCardValue21"
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.Country.TextInput4_2"
               }
             }
           ],
@@ -3572,19 +2834,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Onsite/offshore_DataCard2'.DataCardValue22.AccessibleLabel"
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.DataCard3.TextInput4_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Onsite/offshore_DataCard2'.DataCardValue22.AccessibleLabel",
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.DataCard3.TextInput4_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Onsite/offshore_DataCard2'.DataCardValue22"
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.DataCard3.TextInput4_1"
               }
             }
           ],
@@ -3602,19 +2864,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Account Cost in USD_DataCard2'.DataCardValue25.AccessibleLabel"
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Onsite/offshore_DataCard1'.DataCardValue20.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Add a new account'.Form4.'Account Cost in USD_DataCard2'.DataCardValue25.AccessibleLabel",
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Onsite/offshore_DataCard1'.DataCardValue20.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Add a new account",
-                "type": "'Add a new account'.Form4.'Account Cost in USD_DataCard2'.DataCardValue25"
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.'Onsite/offshore_DataCard1'.DataCardValue20"
               }
             }
           ],
@@ -3626,6 +2888,576 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Account Cost in USD_DataCard1'.DataCardValue23.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Account Cost in USD_DataCard1'.DataCardValue23.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.'Account Cost in USD_DataCard1'.DataCardValue23"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Gross Margin %_DataCard1'.DataCardValue24.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Gross Margin %_DataCard1'.DataCardValue24.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.'Gross Margin %_DataCard1'.DataCardValue24"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Tax Amount in Usd_DataCard1'.DataCardValue26.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Tax Amount in Usd_DataCard1'.DataCardValue26.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.'Tax Amount in Usd_DataCard1'.DataCardValue26"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.Revenue_DataCard1.DataCardValue27.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.Revenue_DataCard1.DataCardValue27.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.Revenue_DataCard1.DataCardValue27"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.Cost_DataCard1.DataCardValue28.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.Cost_DataCard1.DataCardValue28.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.Cost_DataCard1.DataCardValue28"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'P&L_DataCard1'.DataCardValue29.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'P&L_DataCard1'.DataCardValue29.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.'P&L_DataCard1'.DataCardValue29"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'P&L %_DataCard1'.DataCardValue30.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'P&L %_DataCard1'.DataCardValue30.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.'P&L %_DataCard1'.DataCardValue30"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Account Start date_DataCard1'.DataCardValue32.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Account Start date_DataCard1'.DataCardValue32.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.'Account Start date_DataCard1'.DataCardValue32"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Account End date_DataCard1'.DataCardValue33.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Account End date_DataCard1'.DataCardValue33.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.'Account End date_DataCard1'.DataCardValue33"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.Quarter_DataCard1.DataCardValue34.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.Quarter_DataCard1.DataCardValue34.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.Quarter_DataCard1.DataCardValue34"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Revenue Year_DataCard1'.DataCardValue35.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Revenue Year_DataCard1'.DataCardValue35.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.'Revenue Year_DataCard1'.DataCardValue35"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Duration in yr_DataCard1'.DataCardValue36.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Duration in yr_DataCard1'.DataCardValue36.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.'Duration in yr_DataCard1'.DataCardValue36"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Account Status_DataCard1'.DataCardValue37.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Account Status_DataCard1'.DataCardValue37.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.'Account Status_DataCard1'.DataCardValue37"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Record status_DataCard1'.DataCardValue38.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Record status_DataCard1'.DataCardValue38.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.'Record status_DataCard1'.DataCardValue38"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Account Status_DataCard3'.DataCardValue42.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Account Status_DataCard3'.DataCardValue42.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.'Account Status_DataCard3'.DataCardValue42"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Edit Comments'.TextInput5.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'Edit Comments'.TextInput5.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.'Edit Comments'.TextInput5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'record comments_DataCard1'.DataCardValue39.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Account Deepdive'.Form2.'record comments_DataCard1'.DataCardValue39.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Account Deepdive",
+                "type": "'Account Deepdive'.Form2.'record comments_DataCard1'.DataCardValue39"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Deepdiving Each Record Project'.Icon5.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Deepdiving Each Record Project'.Icon5.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Deepdiving Each Record Project",
+                "type": "'Deepdiving Each Record Project'.Icon5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Deepdiving Each Record Project'.Icon5.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Deepdiving Each Record Project'.Icon5.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Deepdiving Each Record Project",
+                "type": "'Deepdiving Each Record Project'.Icon5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -4495,7 +4327,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 6
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -4555,7 +4387,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 6
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -4615,7 +4447,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 6
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -5972,17 +5804,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.varSharePointList"
+                  "fullyQualifiedName": "App.StepsPanelCodeFontSize"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.varSharePointList",
+                  "fullyQualifiedName": "App.StepsPanelCodeFontSize",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "varSharePointList",
+                "member": "StepsPanelCodeFontSize",
                 "module": "App",
                 "type": "App"
               }
@@ -5995,7 +5827,97 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 7
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.Coforge Logo"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.Coforge Logo",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Coforge Logo",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedMediaResources",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.Coforge Logo_1"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.Coforge Logo_1",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Coforge Logo_1",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedMediaResources",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.download (2)"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.download (2)",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "download (2)",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedMediaResources",
+          "ruleIndex": 9
         }
       ],
       "tool": {
@@ -6097,6 +6019,23 @@
               }
             },
             {
+              "id": "acc-ReadableScreenNameNeeded",
+              "messageStrings": {
+                "issue": {
+                  "text": "Revise screen name"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Give the screen  a title that describes what's on the screen or what it's used for."
+                ],
+                "level": "Low",
+                "primaryCategory": "accessibility",
+                "whyFix": "People who are blind, have low vision, or a reading disability rely on screen titles to navigate using the screen reader. "
+              }
+            },
+            {
               "id": "acc-FocusBorderShouldBeVisible",
               "messageStrings": {
                 "issue": {
@@ -6128,6 +6067,23 @@
                 "level": "Medium",
                 "primaryCategory": "performance",
                 "whyFix": "This variable is declared but is not referenced by any control, so it is not needed."
+              }
+            },
+            {
+              "id": "app-UnusedMediaResources",
+              "messageStrings": {
+                "issue": {
+                  "text": "Unused media files"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove the unused media file in the Media pane."
+                ],
+                "level": "Medium",
+                "primaryCategory": "performance",
+                "whyFix": "This media file is not referenced by any control formulas so it is not needed. Removing it will improve performance."
               }
             }
           ],

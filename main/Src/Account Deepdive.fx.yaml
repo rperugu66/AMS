@@ -343,7 +343,7 @@
         "'Account Cost in USD_DataCard1' As typedDataCard.numberEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_7"
-            Default: =ThisItem.'Account Cost in USD'
+            Default: =ThisItem.'Account Revenue FTY'
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_7")
             Fill: =RGBA(0, 0, 0, 0)
