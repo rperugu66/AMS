@@ -62,6 +62,7 @@
                 DisplayMode: =DisplayMode.View
                 Height: =DataCardKey1_3.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey1_3.Y
@@ -137,6 +138,7 @@
                 DisplayMode: =DisplayMode.View
                 Height: =DataCardKey2_3.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey2_3.Y
@@ -228,6 +230,7 @@
                 Color: =RGBA(255, 0, 0, 1)
                 Height: =DataCardKey3_3.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey3_3.Y
@@ -303,6 +306,7 @@
                 Color: =RGBA(255, 0, 0, 1)
                 Height: =DataCardKey4_3.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey4_3.Y
@@ -378,6 +382,7 @@
                 Color: =RGBA(255, 0, 0, 1)
                 Height: =DataCardKey5_3.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey5_3.Y
@@ -453,6 +458,7 @@
                 Color: =RGBA(255, 0, 0, 1)
                 Height: =DataCardKey6_3.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey6_3.Y
@@ -527,6 +533,7 @@
                 Color: =RGBA(255, 0, 0, 1)
                 Height: =DataCardKey7_3.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey7_3.Y
@@ -601,6 +608,7 @@
                 Color: =RGBA(255, 0, 0, 1)
                 Height: =DataCardKey8_3.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey8_3.Y
@@ -730,6 +738,7 @@
                 Color: =RGBA(255, 0, 0, 1)
                 Height: =DataCardKey10_3.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey10_3.Y
@@ -822,6 +831,7 @@
                 Color: =RGBA(255, 0, 0, 1)
                 Height: =DataCardKey11_3.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey11_3.Y
@@ -897,6 +907,7 @@
                 Color: =RGBA(255, 0, 0, 1)
                 Height: =DataCardKey12_3.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey12_3.Y
@@ -972,6 +983,7 @@
                 Color: =RGBA(255, 0, 0, 1)
                 Height: =DataCardKey13_3.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey13_3.Y
@@ -1122,6 +1134,7 @@
                 Color: =RGBA(255, 0, 0, 1)
                 Height: =DataCardKey15_3.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey15_3.Y
@@ -1195,6 +1208,7 @@
                 Color: =RGBA(255, 0, 0, 1)
                 Height: =DataCardKey16_3.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey16_3.Y
@@ -1266,6 +1280,7 @@
                 Color: =RGBA(255, 0, 0, 1)
                 Height: =DataCardKey17_3.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey17_3.Y
@@ -1340,6 +1355,7 @@
                 Color: =RGBA(255, 0, 0, 1)
                 Height: =DataCardKey18_3.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey18_3.Y
@@ -1395,6 +1411,7 @@
                 Color: =RGBA(255, 0, 0, 1)
                 Height: =DataCardKey21_3.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey21_3.Y
@@ -1468,6 +1485,7 @@
                 Color: =RGBA(255, 0, 0, 1)
                 Height: =DataCardKey22_3.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey22_3.Y
@@ -1541,6 +1559,7 @@
                 Color: =RGBA(255, 0, 0, 1)
                 Height: =DataCardKey25_3.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey25_3.Y
