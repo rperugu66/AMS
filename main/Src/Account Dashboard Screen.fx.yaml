@@ -28,7 +28,7 @@
             Font: =Font.'Segoe UI'
             Height: =50
             OnSelect: =Select(Parent)
-            Text: =ThisItem.Title
+            Text: =ThisItem.'Account Name'
             Width: =158
             Y: =12
             ZIndex: =7
@@ -134,9 +134,9 @@
             Font: =Font.'Segoe UI'
             Height: =50
             OnSelect: =Select(Parent)
-            Text: =ThisItem.Currency
-            Width: =100
-            X: =322
+            Text: =LookUp('Account-Geo  List', ThisItem.'Account Name' = 'Account Name').Country
+            Width: =200
+            X: =292
             Y: =12
             ZIndex: =20
 
@@ -145,6 +145,7 @@
         Color: =RGBA(255, 255, 255, 1)
         Fill: =RGBA(50, 86, 160, 1)
         Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
         Height: =54
         Text: ="Account Name"
         Width: =156
@@ -157,6 +158,7 @@
         Color: =RGBA(255, 255, 255, 1)
         Fill: =RGBA(50, 86, 160, 1)
         Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
         Height: =54
         Text: ="Geo"
         Width: =152
@@ -169,8 +171,9 @@
         Color: =RGBA(255, 255, 255, 1)
         Fill: =RGBA(50, 86, 160, 1)
         Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
         Height: =54
-        Text: ="Currency"
+        Text: ="Country"
         Width: =142
         X: =326
         Y: =271
@@ -181,9 +184,9 @@
         Color: =RGBA(255, 255, 255, 1)
         Fill: =RGBA(50, 86, 160, 1)
         Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
         Height: =54
-        Text: |-
-            ="# Projects"
+        Text: ="No of Projects"
         Width: =173
         X: =468
         Y: =271
@@ -195,7 +198,7 @@
         Fill: =RGBA(50, 86, 160, 1)
         Font: =Font.'Segoe UI'
         Height: =54
-        Text: ="Account Cost in USD"
+        Text: ="Account Revenue FTY"
         Width: =lbl_Accountname.Width
         X: =641
         Y: =271
@@ -206,9 +209,10 @@
         Color: =RGBA(255, 255, 255, 1)
         Fill: =RGBA(50, 86, 160, 1)
         Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
         Height: =54
         Text: ="Gross Margin %"
-        Width: =129
+        Width: =135
         X: =797
         Y: =271
         ZIndex: =11
@@ -218,6 +222,7 @@
         Color: =RGBA(255, 255, 255, 1)
         Fill: =RGBA(50, 86, 160, 1)
         Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
         Height: =54
         Text: ="Revenue"
         Width: =129
@@ -230,6 +235,7 @@
         Color: =RGBA(255, 255, 255, 1)
         Fill: =RGBA(50, 86, 160, 1)
         Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
         Height: =54
         Text: ="Cost"
         Width: =129
@@ -242,6 +248,7 @@
         Color: =RGBA(255, 255, 255, 1)
         Fill: =RGBA(50, 86, 160, 1)
         Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
         Height: =54
         Text: ="P & L"
         Width: =129

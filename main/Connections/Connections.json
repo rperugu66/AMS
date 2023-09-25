@@ -28,5 +28,19 @@
     "dependencies": {},
     "dependents": [],
     "id": "c353e36c-7f67-4df5-8123-1678d478645c"
+  },
+  "f2a77fb0-237f-472b-8df3-8333920eb309": {
+    "connectionRef": {
+      "displayName": "Office 365 Users",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/laborbol/partial-builds/ase-v3/1.0.1653.3402/office365users/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365users"
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Users"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "f2a77fb0-237f-472b-8df3-8333920eb309"
   }
 }

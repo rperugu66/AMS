@@ -121,7 +121,7 @@
     "ShowStatusBar": false
   },
   "PublishInfo": {
-    "AppName": "Accounts Management System",
+    "AppName": "Account Management System",
     "BackgroundColor": "RGBA(0,176,240,1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",
@@ -133,12 +133,14 @@
   },
   "ScreenOrder": [
     "Account Dashboard Screen",
+    "Account Deepdive",
     "Login",
     "New Project",
     "New Project_1",
     "Deepdiving Each Record Project",
     "Project Approval",
     "Project Dashboard Screen",
-    "Approval for Project"
+    "Approval for Project",
+    "Screen1"
   ]
 }
