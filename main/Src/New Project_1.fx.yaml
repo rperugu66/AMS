@@ -563,6 +563,8 @@
                 EndYear: =Year(Today())+100
                 Font: =Font.'Segoe UI'
                 Height: =35
+                IconBackground: =RGBA(0,0,0,0)
+                IconFill: =Color.Black
                 IsEditable: =true
                 PaddingBottom: =0
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
@@ -635,6 +637,8 @@
                 EndYear: =Year(Today())+100
                 Font: =Font.'Segoe UI'
                 Height: =35
+                IconBackground: =RGBA(0,0,0,0)
+                IconFill: =Color.Black
                 IsEditable: =true
                 PaddingBottom: =0
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
@@ -1391,9 +1395,15 @@
             Dropdown5_1 As dropdown:
                 BorderColor: =RGBA(0, 0, 0, 1)
                 BorderThickness: =1
+                ChevronBackground: =RGBA(255, 255, 255, 1)
+                ChevronFill: =RGBA(0, 0, 0, 1)
+                ChevronHoverBackground: =RGBA(202,202,202,1)
                 Font: =Font.'Segoe UI'
                 Height: =35
+                HoverFill: =RGBA(202, 202, 202, 1)
                 Items: =["CR", "SOW"]
+                PressedFill: =RGBA(202, 202, 202, 1)
+                SelectionFill: =RGBA(202, 202, 202, 1)
                 Width: =160
                 X: =271
                 Y: =10
@@ -1457,9 +1467,15 @@
             Dropdown6_1 As dropdown:
                 BorderColor: =RGBA(0, 0, 0, 1)
                 BorderThickness: =1
+                ChevronBackground: =RGBA(255, 255, 255, 1)
+                ChevronFill: =RGBA(0, 0, 0, 1)
+                ChevronHoverBackground: =RGBA(202,202,202,1)
                 Font: =Font.'Segoe UI'
                 Height: =35
+                HoverFill: =RGBA(202, 202, 202, 1)
                 Items: =["Open", "Closed", "On-hold", "In-progress"]
+                PressedFill: =RGBA(202, 202, 202, 1)
+                SelectionFill: =RGBA(202, 202, 202, 1)
                 Width: =160
                 X: =271
                 Y: =10
@@ -1523,9 +1539,15 @@
             Dropdown7_1 As dropdown:
                 BorderColor: =RGBA(0, 0, 0, 1)
                 BorderThickness: =1
+                ChevronBackground: =RGBA(255, 255, 255, 1)
+                ChevronFill: =RGBA(0, 0, 0, 1)
+                ChevronHoverBackground: =RGBA(202,202,202,1)
                 Font: =Font.'Segoe UI'
                 Height: =35
+                HoverFill: =RGBA(202, 202, 202, 1)
                 Items: =["Implementation", "Support", "Both"]
+                PressedFill: =RGBA(202, 202, 202, 1)
+                SelectionFill: =RGBA(202, 202, 202, 1)
                 Width: =160
                 X: =271
                 Y: =10
