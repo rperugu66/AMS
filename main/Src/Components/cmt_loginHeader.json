@@ -79,7 +79,7 @@
         "Name": "rct_Header_2",
         "Parent": "cmt_loginHeader",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 16,
+        "PublishOrderIndex": 552,
         "Rules": [
           {
             "Category": "Design",
@@ -293,7 +293,7 @@
         "Name": "img_CompanyLogo",
         "Parent": "cmt_loginHeader",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 17,
+        "PublishOrderIndex": 553,
         "Rules": [
           {
             "Category": "Data",
@@ -611,7 +611,7 @@
         "Name": "lbl_ClaimsLoginHeader",
         "Parent": "cmt_loginHeader",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 18,
+        "PublishOrderIndex": 554,
         "Rules": [
           {
             "Category": "Data",
@@ -892,7 +892,7 @@
         "Name": "Group",
         "Parent": "cmt_loginHeader",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 19,
+        "PublishOrderIndex": 555,
         "Rules": [
           {
             "Category": "Design",

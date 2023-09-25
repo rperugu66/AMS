@@ -4,7 +4,7 @@
         BorderColor: =RGBA(227, 234, 243, 1)
         BorderThickness: =2
         DataSource: ='Project list_AMS'
-        DefaultMode: =FormMode.New
+        DefaultMode: =FormMode.View
         Height: =469
         Item: =varCurrentItem
         Width: =1315
@@ -873,7 +873,11 @@
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =DisplayMode.View
+                DisplayMode: |-
+                    =If(varedit,
+                       DisplayMode.Edit,
+                       DisplayMode.View
+                    )
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
@@ -883,7 +887,6 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Visible: =false
                 Width: =160
                 X: =271
                 Y: =10
@@ -1704,6 +1707,7 @@
         Icon5 As icon.Edit:
             Height: =25
             Icon: =Icon.Edit
+            OnSelect: =Set(varedit, !varedit)
             Width: =25
             X: =1310
             Y: =139
