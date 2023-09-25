@@ -1694,19 +1694,16 @@
         Y: =60
         ZIndex: =9
 
-        Circle1 As circle:
-            BorderThickness: =2
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =40
-            Width: =40
-            X: =1303
-            Y: =132
-            ZIndex: =6
+    Group1 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =9
 
         Icon5 As icon.Edit:
             Height: =25
             Icon: =Icon.Edit
-            OnSelect: =Set(TextInputVisible, !TextInputVisible)
             Width: =25
             X: =1310
             Y: =139
