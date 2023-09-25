@@ -387,7 +387,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "cmt_Header_1",
-      "ParentIndex": 9,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -486,7 +486,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "gal_AccountList",
-      "ParentIndex": 20,
+      "ParentIndex": 19,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1012,7 +1012,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label4",
-      "ParentIndex": 4,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1288,7 +1288,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label5",
-      "ParentIndex": 7,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1592,7 +1592,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label6",
-      "ParentIndex": 5,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1910,7 +1910,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_#Projects",
-      "ParentIndex": 13,
+      "ParentIndex": 12,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2538,7 +2538,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_AccountcostinUSD",
-      "ParentIndex": 14,
+      "ParentIndex": 13,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3187,7 +3187,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_Accountname",
-      "ParentIndex": 10,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3815,7 +3815,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_Blank",
-      "ParentIndex": 19,
+      "ParentIndex": 18,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4133,7 +4133,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_Cost",
-      "ParentIndex": 17,
+      "ParentIndex": 16,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4761,7 +4761,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_Country",
-      "ParentIndex": 12,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5403,7 +5403,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_Geo",
-      "ParentIndex": 11,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6038,7 +6038,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_Grossmargin%",
-      "ParentIndex": 15,
+      "ParentIndex": 14,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6666,7 +6666,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_P&L",
-      "ParentIndex": 18,
+      "ParentIndex": 17,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7294,7 +7294,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_Revenue",
-      "ParentIndex": 16,
+      "ParentIndex": 15,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8574,7 +8574,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "TextInput2",
-      "ParentIndex": 6,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8865,7 +8865,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "TextInput3",
-      "ParentIndex": 8,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

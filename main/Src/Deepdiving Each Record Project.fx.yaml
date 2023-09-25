@@ -871,7 +871,7 @@
             DataCardValue12_3 As text:
                 BorderColor: =RGBA(0, 0, 0, 1)
                 BorderThickness: =1
-                Default: =DisplayMode.Edit
+                Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
@@ -883,7 +883,7 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Visible: =TextInputVisible
+                Visible: =false
                 Width: =160
                 X: =271
                 Y: =10
