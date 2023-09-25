@@ -1674,6 +1674,17 @@
         Y: =692
         ZIndex: =4
 
+    Label8_1 As label:
+        Color: =RGBA(255, 0, 0, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Size: =14
+        Text: ="* All currencies are in USD"
+        Width: =238
+        X: =1097
+        Y: =588
+        ZIndex: =7
+
     "'grp_edit icon' As group":
         Height: =5
         Width: =5
