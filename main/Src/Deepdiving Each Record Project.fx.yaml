@@ -5,11 +5,10 @@
         BorderThickness: =2
         DataSource: ='Project list_AMS'
         DefaultMode: =FormMode.View
-        Height: =469
-        Item: =varCurrentItem
+        Height: =518
         Width: =1315
         X: =26
-        Y: =186
+        Y: =158
         ZIndex: =1
 
         "'Account Name_DataCard1_3' As typedDataCard.textualEditCard":
@@ -1698,12 +1697,12 @@
         ZIndex: =9
 
         Icon5 As icon.Edit:
-            Height: =25
+            Height: =45
             Icon: =Icon.Edit
             OnSelect: =Set(varedit, !varedit)
             Width: =25
-            X: =1310
-            Y: =139
+            X: =1322
+            Y: =87
             ZIndex: =8
 
     grp_edit As group:
@@ -1712,4 +1711,11 @@
         X: =60
         Y: =60
         ZIndex: =9
+
+    Image2_3 As image:
+        Height: =61
+        Image: ='download (1)'
+        ImagePosition: =ImagePosition.Fill
+        Width: =258
+        ZIndex: =15
 
