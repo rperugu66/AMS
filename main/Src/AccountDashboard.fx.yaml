@@ -8,6 +8,7 @@ AccountDashboard As screen:
         BorderColor: =RGBA(219, 219, 219, 1)
         BorderThickness: =1
         DelayItemLoading: =true
+        Fill: =Color.White
         Height: =478
         Items: ='Account list- AMS'
         Layout: =Layout.Vertical
@@ -19,7 +20,7 @@ AccountDashboard As screen:
         Y: =190
         ZIndex: =1
 
-        lblAccountName As label:
+        lblAccountNameVal As label:
             Font: =Font.'Segoe UI'
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Bold, FontWeight.Semibold)
             Height: =Self.Size * 1.8
@@ -31,7 +32,7 @@ AccountDashboard As screen:
             Size: =13
             Text: =ThisItem.'Account Name'
             VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth/6 - 86
+            Width: =Parent.TemplateWidth/6 - 70
             X: =16
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =1
@@ -68,7 +69,7 @@ AccountDashboard As screen:
             Width: =4
             ZIndex: =4
 
-        lblGEO As label:
+        lblGEOVal As label:
             Font: =Font.'Segoe UI'
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Bold, FontWeight.Semibold)
             Height: =Self.Size * 1.8
@@ -80,12 +81,12 @@ AccountDashboard As screen:
             Size: =13
             Text: =LookUp('Project list_AMS', ThisItem.'Account Name' = 'Account Name').Geo
             VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth/6 - 86
-            X: =lblAccountName.X+lblAccountName.Width
+            Width: =Parent.TemplateWidth/6 - 70
+            X: =lblAccountNameVal.X+lblAccountNameVal.Width
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =5
 
-        lblCountry As label:
+        lblCountryVal As label:
             Font: =Font.'Segoe UI'
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Bold, FontWeight.Semibold)
             Height: =Self.Size * 1.8
@@ -97,12 +98,12 @@ AccountDashboard As screen:
             Size: =13
             Text: =LookUp('Account-Geo  List', ThisItem.'Account Name' = 'Account Name').Country
             VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth/6 - 86
-            X: =lblGEO.X+lblGEO.Width
+            Width: =Parent.TemplateWidth/6 - 50
+            X: =lblGEOVal.X+lblGEOVal.Width
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =6
 
-        "'lbl#Projects' As label":
+        "'lbl#ProjectsVal' As label":
             Align: =Align.Center
             Font: =Font.'Segoe UI'
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Bold, FontWeight.Semibold)
@@ -117,11 +118,11 @@ AccountDashboard As screen:
                 =ThisItem.'# projects'
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth/6 - 86
-            X: =lblCountry.X+lblCountry.Width
+            X: =lblCountryVal.X+lblCountryVal.Width
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =7
 
-        "'lblGrossMargin%' As label":
+        "'lblGrossMargin%Val' As label":
             Align: =Align.Center
             Font: =Font.'Segoe UI'
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Bold, FontWeight.Semibold)
@@ -136,11 +137,11 @@ AccountDashboard As screen:
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth/6 - 86
             X: |-
-                ='lbl#Projects'.X+'lbl#Projects'.Width
+                ='lbl#ProjectsVal'.X+'lbl#ProjectsVal'.Width
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =8
 
-        lblRevenue As label:
+        lblRevenueVal As label:
             Align: =Align.Center
             Font: =Font.'Segoe UI'
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Bold, FontWeight.Semibold)
@@ -153,12 +154,12 @@ AccountDashboard As screen:
             Size: =13
             Text: =ThisItem.Revenue
             VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth/6 - 86
-            X: ='lblGrossMargin%'.X+'lblGrossMargin%'.Width
+            Width: =Parent.TemplateWidth/6 - 70
+            X: ='lblGrossMargin%Val'.X+'lblGrossMargin%Val'.Width
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =9
 
-        lblCost As label:
+        lblCostVal As label:
             Align: =Align.Center
             Font: =Font.'Segoe UI'
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Bold, FontWeight.Semibold)
@@ -171,12 +172,12 @@ AccountDashboard As screen:
             Size: =13
             Text: =ThisItem.Cost
             VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth/6 - 86
-            X: ='lblRevenue'.X+'lblRevenue'.Width
+            Width: =Parent.TemplateWidth/6 - 75
+            X: =lblRevenueVal.X+lblRevenueVal.Width
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =10
 
-        "'lblP&L' As label":
+        "'lblP&LVal' As label":
             Align: =Align.Center
             Font: =Font.'Segoe UI'
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Bold, FontWeight.Semibold)
@@ -189,12 +190,12 @@ AccountDashboard As screen:
             Size: =13
             Text: =ThisItem.'P&L'
             VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth/6 - 86
-            X: ='lblCost'.X+'lblCost'.Width
+            Width: =Parent.TemplateWidth/6 - 75
+            X: =lblCostVal.X+lblCostVal.Width
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =11
 
-        lblAccountStatus As label:
+        lblAccountStatusVal As label:
             Align: =Align.Center
             Font: =Font.'Segoe UI'
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Bold, FontWeight.Semibold)
@@ -208,7 +209,7 @@ AccountDashboard As screen:
             Text: =ThisItem.'Account Status'
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth/6 - 86
-            X: ='lblP&L'.X+'lblP&L'.Width
+            X: ='lblP&LVal'.X+'lblP&LVal'.Width
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =12
 
@@ -224,7 +225,7 @@ AccountDashboard As screen:
             Height: =707
             Width: =If(IsExpand, 50, 200)
             Y: =60
-            ZIndex: =1
+            ZIndex: =2
 
         GalleryNavigation As gallery.galleryVertical:
             BorderColor: =RGBA(101, 128, 187, 1)
@@ -269,52 +270,52 @@ AccountDashboard As screen:
             Y: =109+0
             ZIndex: =8
 
-            Image1_1 As image:
+            imgGlryIcon As image:
                 BorderColor: =RGBA(101, 128, 187, 1)
-                FocusedBorderColor: =Image1_1.BorderColor
+                FocusedBorderColor: =imgGlryIcon.BorderColor
                 Height: =Parent.TemplateHeight
-                HoverBorderColor: =ColorFade(Image1_1.BorderColor, 20%)
-                HoverFill: =ColorFade(Image1_1.Fill, 20%)
+                HoverBorderColor: =ColorFade(imgGlryIcon.BorderColor, 20%)
+                HoverFill: =ColorFade(imgGlryIcon.Fill, 20%)
                 Image: =ThisItem.Image
                 OnSelect: =Select(Parent)
                 PaddingBottom: =12
                 PaddingTop: =12
-                PressedBorderColor: =ColorFade(Image1_1.BorderColor, -20%)
-                PressedFill: =ColorFade(Image1_1.Fill, -20%)
-                Width: =Image1_1.Height - 10
+                PressedBorderColor: =ColorFade(imgGlryIcon.BorderColor, -20%)
+                PressedFill: =ColorFade(imgGlryIcon.Fill, -20%)
+                Width: =imgGlryIcon.Height - 10
                 X: =15
                 ZIndex: =1
 
-            Label4_2 As label:
+            lblLeftNavVal As label:
                 BorderColor: =RGBA(101, 128, 187, 1)
                 Color: =RGBA(47,41,43,1)
-                FocusedBorderColor: =Label4_2.BorderColor
+                FocusedBorderColor: =lblLeftNavVal.BorderColor
                 FocusedBorderThickness: =2
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =42
-                HoverBorderColor: =Label4_2.BorderColor
-                HoverColor: =Label4_2.Color
-                HoverFill: =Label4_2.Fill
+                HoverBorderColor: =lblLeftNavVal.BorderColor
+                HoverColor: =lblLeftNavVal.Color
+                HoverFill: =lblLeftNavVal.Fill
                 OnSelect: =Select(Parent)
-                PressedBorderColor: =Label4_2.BorderColor
-                PressedColor: =Label4_2.Color
-                PressedFill: =Label4_2.Fill
+                PressedBorderColor: =lblLeftNavVal.BorderColor
+                PressedColor: =lblLeftNavVal.Color
+                PressedFill: =lblLeftNavVal.Fill
                 Size: =10
                 TabIndex: =0
                 Text: =ThisItem.Title
                 X: =50
                 ZIndex: =2
 
-            Rectangle1_1 As rectangle:
+            rectGlrySelected As rectangle:
                 BorderColor: =RGBA(101, 128, 187, 1)
-                DisabledFill: =Rectangle1_1.Fill
+                DisabledFill: =rectGlrySelected.Fill
                 Fill: =RGBA(116, 39, 116, 1)
-                FocusedBorderColor: =Rectangle1_1.BorderColor
+                FocusedBorderColor: =rectGlrySelected.BorderColor
                 Height: =20
-                HoverFill: =Rectangle1_1.Fill
+                HoverFill: =rectGlrySelected.Fill
                 OnSelect: =Select(Parent)
-                PressedFill: =Rectangle1_1.Fill
+                PressedFill: =rectGlrySelected.Fill
                 Visible: =ThisItem.Row = _selectedTutorial.Row
                 Width: =4
                 X: =11
@@ -353,7 +354,19 @@ AccountDashboard As screen:
             Width: =1
             X: =If(!IsExpand, 200, 50)
             Y: =61+0
-            ZIndex: =10
+            ZIndex: =11
+
+    lblAccount As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(8, 35, 64, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =50
+        Size: =14
+        Text: ="Account Name  GEO"
+        Width: =1160
+        X: =204
+        Y: =136
+        ZIndex: =12
 
     GroupHeader As group:
         Height: =5
@@ -371,7 +384,7 @@ AccountDashboard As screen:
             HoverFill: =WelcomeScreenTitleBackground.Fill
             PressedFill: =WelcomeScreenTitleBackground.Fill
             Width: =1366
-            ZIndex: =2
+            ZIndex: =3
 
         ImagePowerAppsLogo As image:
             BorderColor: =RGBA(51, 51, 51, 1)
@@ -390,7 +403,7 @@ AccountDashboard As screen:
             Width: =48
             X: =1311
             Y: =6
-            ZIndex: =3
+            ZIndex: =4
 
         lblAppName As label:
             Align: =Align.Center
@@ -402,7 +415,7 @@ AccountDashboard As screen:
             Text: ="HBU Financials"
             Width: =413
             X: =488
-            ZIndex: =4
+            ZIndex: =5
 
         lblUserName As label:
             Align: =Align.Right
@@ -438,5 +451,5 @@ AccountDashboard As screen:
             ImagePosition: =ImagePosition.Fill
             Width: =195
             Y: =10
-            ZIndex: =11
+            ZIndex: =10
 
