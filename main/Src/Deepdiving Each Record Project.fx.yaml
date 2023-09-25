@@ -4,8 +4,9 @@
         BorderColor: =RGBA(227, 234, 243, 1)
         BorderThickness: =2
         DataSource: ='Project list_AMS'
-        DefaultMode: =FormMode.View
+        DefaultMode: =FormMode.New
         Height: =469
+        Item: =varCurrentItem
         Width: =1315
         X: =26
         Y: =186
@@ -271,7 +272,7 @@
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =Parent.DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Height: =35
                 MaxLength: =Parent.MaxLength
@@ -872,7 +873,7 @@
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
@@ -882,6 +883,7 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
+                Visible: =false
                 Width: =160
                 X: =271
                 Y: =10
@@ -1685,27 +1687,25 @@
         Y: =588
         ZIndex: =7
 
-    "'grp_edit icon' As group":
+    Group1 As group:
         Height: =5
         Width: =5
         X: =40
         Y: =40
-        ZIndex: =7
+        ZIndex: =9
 
-        Icon4 As icon.Edit:
+        Icon5 As icon.Edit:
             Height: =25
             Icon: =Icon.Edit
             Width: =25
             X: =1310
             Y: =139
-            ZIndex: =5
+            ZIndex: =8
 
-        Circle1 As circle:
-            BorderThickness: =2
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =40
-            Width: =40
-            X: =1303
-            Y: =132
-            ZIndex: =6
+    grp_edit As group:
+        Height: =5
+        Width: =5
+        X: =60
+        Y: =60
+        ZIndex: =9
 
