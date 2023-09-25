@@ -3,10 +3,10 @@
     Form1_1 As form:
         DataSource: ='Project list_AMS'
         DefaultMode: =FormMode.New
-        Height: =561
+        Height: =469
         Width: =1302
         X: =40
-        Y: =95
+        Y: =186
         ZIndex: =1
 
         "'Account Name_DataCard1_1' As typedDataCard.textualEditCard":
@@ -161,7 +161,7 @@
                 FontWeight: =FontWeight.Semibold
                 Height: =34
                 Size: =14
-                Text: =Parent.DisplayName
+                Text: ="Project Code"
                 Width: =256
                 Wrap: =false
                 X: =30
@@ -599,7 +599,7 @@
                 FontWeight: =FontWeight.Semibold
                 Height: =34
                 Size: =14
-                Text: =Parent.DisplayName
+                Text: ="Project End Date"
                 Width: =256
                 Wrap: =false
                 X: =30
@@ -735,7 +735,7 @@
                 FontWeight: =FontWeight.Semibold
                 Height: =34
                 Size: =14
-                Text: =Parent.DisplayName
+                Text: ="Total Cost"
                 Width: =256
                 Wrap: =false
                 X: =30
@@ -809,7 +809,7 @@
                 FontWeight: =FontWeight.Semibold
                 Height: =34
                 Size: =14
-                Text: =Parent.DisplayName
+                Text: ="Onsite Resources"
                 Width: =256
                 Wrap: =false
                 X: =30
@@ -883,7 +883,7 @@
                 FontWeight: =FontWeight.Semibold
                 Height: =34
                 Size: =14
-                Text: =Parent.DisplayName
+                Text: ="Offshore Resources"
                 Width: =256
                 Wrap: =false
                 X: =30
@@ -953,7 +953,7 @@
             DataCardKey14_1 As label:
                 AutoHeight: =true
                 Height: =35
-                Text: =Parent.DisplayName
+                Text: ="Total Resources"
                 Width: =256
                 Wrap: =false
                 X: =30
@@ -1089,7 +1089,7 @@
             DataCardKey16_1 As label:
                 AutoHeight: =true
                 Height: =35
-                Text: =Parent.DisplayName
+                Text: ="Blended Rate Offshore"
                 Width: =256
                 X: =30
                 Y: =10
@@ -1154,7 +1154,7 @@
             ZIndex: =2
 
             DataCardKey17_1 As label:
-                Text: =Parent.DisplayName
+                Text: ="Blended Rate Onsite"
                 Width: =281
                 X: =30
                 Y: =10
@@ -1221,7 +1221,7 @@
             DataCardKey18_1 As label:
                 AutoHeight: =true
                 Height: =35
-                Text: =Parent.DisplayName
+                Text: ="Blended Rate"
                 Width: =256
                 Wrap: =false
                 X: =30
@@ -1290,7 +1290,7 @@
             DataCardKey21_1 As label:
                 AutoHeight: =true
                 Height: =35
-                Text: =Parent.DisplayName
+                Text: ="Type of Contract"
                 Width: =256
                 Wrap: =false
                 X: =30
@@ -1349,7 +1349,7 @@
             DataCardKey22_1 As label:
                 AutoHeight: =true
                 Height: =35
-                Text: =Parent.DisplayName
+                Text: ="Project Status"
                 Width: =256
                 Wrap: =false
                 X: =30
@@ -1408,7 +1408,7 @@
             DataCardKey25_1 As label:
                 AutoHeight: =true
                 Height: =35
-                Text: =Parent.DisplayName
+                Text: ="Type of Project"
                 Width: =256
                 Wrap: =false
                 X: =30
