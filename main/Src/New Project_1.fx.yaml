@@ -69,7 +69,7 @@
                 Font: =Font.'Segoe UI'
                 Height: =35
                 Items: =["NAB", "SCB", "ABC", "DB Systel", "Tokyo Marine", "AFLAC", "SEI", "Ofcom"]
-                Width: =150
+                Width: =160
                 X: =271
                 Y: =10
                 ZIndex: =5
@@ -133,7 +133,7 @@
                 BorderColor: =RGBA(0, 0, 0, 1)
                 Height: =35
                 Items: =["APAC", "MEA", "Europe", "US"]
-                Width: =150
+                Width: =160
                 X: =271
                 Y: =10
                 ZIndex: =5
@@ -181,7 +181,7 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =150
+                Width: =160
                 X: =271
                 Y: =10
                 ZIndex: =2
@@ -255,7 +255,7 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =150
+                Width: =160
                 X: =271
                 Y: =10
                 ZIndex: =2
@@ -329,7 +329,7 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =150
+                Width: =160
                 X: =271
                 Y: =10
                 ZIndex: =2
@@ -403,7 +403,7 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =150
+                Width: =160
                 X: =271
                 Y: =10
                 ZIndex: =2
@@ -476,7 +476,7 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =150
+                Width: =160
                 X: =271
                 Y: =10
                 ZIndex: =2
@@ -547,7 +547,7 @@
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 StartYear: =1899
                 Tooltip: =Parent.DisplayName
-                Width: =150
+                Width: =160
                 X: =271
                 Y: =10
                 ZIndex: =2
@@ -618,7 +618,7 @@
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 StartYear: =1899
                 Tooltip: =Parent.DisplayName
-                Width: =150
+                Width: =160
                 X: =271
                 Y: =10
                 ZIndex: =2
@@ -708,7 +708,7 @@
                 Font: =Font.'Segoe UI'
                 Height: =35
                 Items: =["T&M", "Fixed Price", "Fixed Capacity"]
-                Width: =150
+                Width: =160
                 X: =271
                 Y: =10
                 ZIndex: =5
@@ -756,7 +756,7 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =150
+                Width: =160
                 X: =271
                 Y: =10
                 ZIndex: =2
@@ -830,7 +830,7 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =150
+                Width: =160
                 X: =271
                 Y: =10
                 ZIndex: =2
@@ -904,7 +904,7 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =150
+                Width: =160
                 X: =271
                 Y: =10
                 ZIndex: =2
@@ -973,7 +973,7 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =150
+                Width: =160
                 X: =271
                 Y: =10
                 ZIndex: =2
@@ -1041,7 +1041,7 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =150
+                Width: =160
                 X: =271
                 Y: =10
                 ZIndex: =2
@@ -1108,7 +1108,7 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =150
+                Width: =160
                 X: =271
                 Y: =10
                 ZIndex: =2
@@ -1173,7 +1173,7 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =150
+                Width: =160
                 X: =271
                 Y: =10
                 ZIndex: =2
@@ -1241,7 +1241,7 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =150
+                Width: =160
                 X: =271
                 Y: =10
                 ZIndex: =2
@@ -1325,7 +1325,7 @@
             Dropdown5_1 As dropdown:
                 Height: =35
                 Items: =["CR", "SOW"]
-                Width: =150
+                Width: =160
                 X: =271
                 Y: =10
                 ZIndex: =5
@@ -1384,7 +1384,7 @@
             Dropdown6_1 As dropdown:
                 Height: =35
                 Items: =["Open", "Closed", "On-hold", "In-progress"]
-                Width: =150
+                Width: =160
                 X: =271
                 Y: =10
                 ZIndex: =5
@@ -1443,7 +1443,7 @@
             Dropdown7_1 As dropdown:
                 Height: =35
                 Items: =["Implementation", "Support", "Both"]
-                Width: =150
+                Width: =160
                 X: =271
                 Y: =10
                 ZIndex: =5
@@ -1487,7 +1487,7 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =150
+                Width: =160
                 X: =271
                 Y: =10
                 ZIndex: =2
