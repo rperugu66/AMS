@@ -67,9 +67,16 @@
             Dropdown1_1 As dropdown:
                 BorderColor: =RGBA(0, 0, 0, 1)
                 BorderThickness: =1
+                ChevronBackground: =RGBA(255, 255, 255, 1)
+                ChevronFill: =RGBA(0, 0, 0, 1)
+                ChevronHoverBackground: =
+                ChevronHoverFill: =RGBA(202, 202, 202, 1)
                 Font: =Font.'Segoe UI'
                 Height: =35
+                HoverFill: =RGBA(202, 202, 202, 1)
                 Items: =["NAB", "SCB", "ABC", "DB Systel", "Tokyo Marine", "AFLAC", "SEI", "Ofcom"]
+                PressedFill: =RGBA(219, 219, 219, 1)
+                SelectionFill: =RGBA(202, 202, 202, 1)
                 Width: =160
                 X: =271
                 Y: =10
@@ -133,8 +140,14 @@
             Dropdown2_1 As dropdown:
                 BorderColor: =RGBA(0, 0, 0, 1)
                 BorderThickness: =1
+                ChevronBackground: =RGBA(255, 255, 255, 1)
+                ChevronFill: =RGBA(0, 0, 0, 1)
+                ChevronHoverBackground: =RGBA(202,202,202,1)
                 Height: =35
+                HoverFill: =RGBA(202, 202, 202, 1)
                 Items: =["APAC", "MEA", "Europe", "US"]
+                PressedFill: =RGBA(202, 202, 202, 1)
+                SelectionFill: =RGBA(202, 202, 202, 1)
                 Width: =160
                 X: =271
                 Y: =10
@@ -715,9 +728,15 @@
             Dropdown3_1 As dropdown:
                 BorderColor: =RGBA(0, 0, 0, 1)
                 BorderThickness: =1
+                ChevronBackground: =RGBA(255, 255, 255, 1)
+                ChevronFill: =RGBA(0, 0, 0, 1)
+                ChevronHoverBackground: =RGBA(202,202,202,1)
                 Font: =Font.'Segoe UI'
                 Height: =35
+                HoverFill: =RGBA(202, 202, 202, 1)
                 Items: =["T&M", "Fixed Price", "Fixed Capacity"]
+                PressedFill: =RGBA(202, 202, 202, 1)
+                SelectionFill: =RGBA(202, 202, 202, 1)
                 Width: =160
                 X: =271
                 Y: =10
