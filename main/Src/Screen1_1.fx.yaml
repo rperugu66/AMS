@@ -1,36 +1,36 @@
-Screen1 As screen:
+Screen1_1 As screen:
     BackgroundImage: ='MicrosoftTeams-image (7)'
     OnVisible: |-
         =Set(_selectedTutorial,{Row:1,Title:"Account Info",Image:bank});
 
-    GroupHeader As group:
+    GroupHeader_1 As group:
         Height: =5
         Width: =5
         X: =40
         Y: =40
         ZIndex: =7
 
-        WelcomeScreenTitleBackground As rectangle:
+        WelcomeScreenTitleBackground_1 As rectangle:
             BorderColor: =RGBA(51, 51, 51, 1)
-            DisabledFill: =WelcomeScreenTitleBackground.Fill
+            DisabledFill: =WelcomeScreenTitleBackground_1.Fill
             Fill: =RGBA(8, 35, 64, 1)
-            FocusedBorderColor: =WelcomeScreenTitleBackground.BorderColor
+            FocusedBorderColor: =WelcomeScreenTitleBackground_1.BorderColor
             Height: =60
-            HoverFill: =WelcomeScreenTitleBackground.Fill
-            PressedFill: =WelcomeScreenTitleBackground.Fill
+            HoverFill: =WelcomeScreenTitleBackground_1.Fill
+            PressedFill: =WelcomeScreenTitleBackground_1.Fill
             Width: =1366
             ZIndex: =2
 
-        ImagePowerAppsLogo As image:
+        ImagePowerAppsLogo_1 As image:
             BorderColor: =RGBA(51, 51, 51, 1)
             Fill: =RGBA(8, 35, 64, 1)
-            FocusedBorderColor: =ImagePowerAppsLogo.BorderColor
+            FocusedBorderColor: =ImagePowerAppsLogo_1.BorderColor
             Height: =48
-            HoverBorderColor: =ColorFade(ImagePowerAppsLogo.BorderColor, 20%)
-            HoverFill: =ColorFade(ImagePowerAppsLogo.Fill, 20%)
+            HoverBorderColor: =ColorFade(ImagePowerAppsLogo_1.BorderColor, 20%)
+            HoverFill: =ColorFade(ImagePowerAppsLogo_1.Fill, 20%)
             Image: =User().Image
-            PressedBorderColor: =ColorFade(ImagePowerAppsLogo.BorderColor, -20%)
-            PressedFill: =ColorFade(ImagePowerAppsLogo.Fill, -20%)
+            PressedBorderColor: =ColorFade(ImagePowerAppsLogo_1.BorderColor, -20%)
+            PressedFill: =ColorFade(ImagePowerAppsLogo_1.Fill, -20%)
             RadiusBottomLeft: =48
             RadiusBottomRight: =48
             RadiusTopLeft: =48
@@ -40,7 +40,7 @@ Screen1 As screen:
             Y: =6
             ZIndex: =3
 
-        lblAppName As label:
+        lblAppName_1 As label:
             Align: =Align.Center
             Color: =RGBA(255, 255, 255, 1)
             Font: =Font.'Segoe UI'
@@ -52,7 +52,7 @@ Screen1 As screen:
             X: =488
             ZIndex: =4
 
-        lblUserName As label:
+        lblUserName_1 As label:
             Align: =Align.Right
             Color: =Color.White
             Font: =Font.'Segoe UI'
@@ -67,7 +67,7 @@ Screen1 As screen:
             X: =1032
             ZIndex: =6
 
-        lblDesignation As label:
+        lblDesignation_1 As label:
             Align: =Align.Right
             Color: =Color.White
             Font: =Font.'Segoe UI'
@@ -80,37 +80,37 @@ Screen1 As screen:
             Y: =33
             ZIndex: =7
 
-    Image2 As image:
+    Image2_1 As image:
         Height: =61
         Image: ='download (1)'
         ImagePosition: =ImagePosition.Fill
         Width: =258
         ZIndex: =11
 
-    GroupNavigation As group:
+    GroupNavigation_1 As group:
         Height: =5
         Width: =5
         X: =40
         Y: =-21
         ZIndex: =11
 
-        Rectangle2_1 As rectangle:
+        Rectangle2_2 As rectangle:
             Fill: =Color.White
             Height: =707
             Width: =If(IsExpand, 50, 200)
             Y: =60
             ZIndex: =1
 
-        GalleryNavigation As gallery.galleryVertical:
+        GalleryNavigation_1 As gallery.galleryVertical:
             BorderColor: =RGBA(101, 128, 187, 1)
-            DisabledBorderColor: =GalleryNavigation.BorderColor
-            DisabledFill: =GalleryNavigation.Fill
+            DisabledBorderColor: =GalleryNavigation_1.BorderColor
+            DisabledFill: =GalleryNavigation_1.Fill
             Fill: =Color.White
-            HoverBorderColor: =GalleryNavigation.BorderColor
-            HoverFill: =GalleryNavigation.Fill
+            HoverBorderColor: =GalleryNavigation_1.BorderColor
+            HoverFill: =GalleryNavigation_1.Fill
             Items: =NavigationMenu
             Layout: =Layout.Vertical
-            LoadingSpinnerColor: =GalleryNavigation.BorderColor
+            LoadingSpinnerColor: =GalleryNavigation_1.BorderColor
             OnSelect: |
                 =Set(
                     _selectedTutorial,
@@ -133,8 +133,8 @@ Screen1 As screen:
                         BorderStyle.None
                     )
                 );
-            PressedBorderColor: =GalleryNavigation.BorderColor
-            PressedFill: =GalleryNavigation.Fill
+            PressedBorderColor: =GalleryNavigation_1.BorderColor
+            PressedFill: =GalleryNavigation_1.Fill
             ShowScrollbar: =false
             TemplateFill: =If(ThisItem.Row = _selectedTutorial.Row, RGBA(220, 220, 220, 1), RGBA(0,0,0,0))
             TemplatePadding: =0
@@ -144,87 +144,87 @@ Screen1 As screen:
             Y: =109+0
             ZIndex: =8
 
-            Image1_1 As image:
+            Image1_2 As image:
                 BorderColor: =RGBA(101, 128, 187, 1)
-                FocusedBorderColor: =Image1_1.BorderColor
+                FocusedBorderColor: =Image1_2.BorderColor
                 Height: =Parent.TemplateHeight
-                HoverBorderColor: =ColorFade(Image1_1.BorderColor, 20%)
-                HoverFill: =ColorFade(Image1_1.Fill, 20%)
+                HoverBorderColor: =ColorFade(Image1_2.BorderColor, 20%)
+                HoverFill: =ColorFade(Image1_2.Fill, 20%)
                 Image: =ThisItem.Image
                 OnSelect: =Select(Parent)
                 PaddingBottom: =12
                 PaddingTop: =12
-                PressedBorderColor: =ColorFade(Image1_1.BorderColor, -20%)
-                PressedFill: =ColorFade(Image1_1.Fill, -20%)
-                Width: =Image1_1.Height - 10
+                PressedBorderColor: =ColorFade(Image1_2.BorderColor, -20%)
+                PressedFill: =ColorFade(Image1_2.Fill, -20%)
+                Width: =Image1_2.Height - 10
                 X: =15
                 ZIndex: =1
 
-            Label4_2 As label:
+            Label4_3 As label:
                 BorderColor: =RGBA(101, 128, 187, 1)
                 Color: =RGBA(47,41,43,1)
-                FocusedBorderColor: =Label4_2.BorderColor
+                FocusedBorderColor: =Label4_3.BorderColor
                 FocusedBorderThickness: =2
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =42
-                HoverBorderColor: =Label4_2.BorderColor
-                HoverColor: =Label4_2.Color
-                HoverFill: =Label4_2.Fill
+                HoverBorderColor: =Label4_3.BorderColor
+                HoverColor: =Label4_3.Color
+                HoverFill: =Label4_3.Fill
                 OnSelect: =Select(Parent)
-                PressedBorderColor: =Label4_2.BorderColor
-                PressedColor: =Label4_2.Color
-                PressedFill: =Label4_2.Fill
+                PressedBorderColor: =Label4_3.BorderColor
+                PressedColor: =Label4_3.Color
+                PressedFill: =Label4_3.Fill
                 Size: =10
                 TabIndex: =0
                 Text: =ThisItem.Title
                 X: =50
                 ZIndex: =2
 
-            Rectangle1_1 As rectangle:
+            Rectangle1_2 As rectangle:
                 BorderColor: =RGBA(101, 128, 187, 1)
-                DisabledFill: =Rectangle1_1.Fill
+                DisabledFill: =Rectangle1_2.Fill
                 Fill: =RGBA(116, 39, 116, 1)
-                FocusedBorderColor: =Rectangle1_1.BorderColor
+                FocusedBorderColor: =Rectangle1_2.BorderColor
                 Height: =20
-                HoverFill: =Rectangle1_1.Fill
+                HoverFill: =Rectangle1_2.Fill
                 OnSelect: =Select(Parent)
-                PressedFill: =Rectangle1_1.Fill
+                PressedFill: =Rectangle1_2.Fill
                 Visible: =ThisItem.Row = _selectedTutorial.Row
                 Width: =4
                 X: =11
                 Y: =11
                 ZIndex: =3
 
-        iconHamburgerMenu_6 As icon.Hamburger:
+        iconHamburgerMenu_7 As icon.Hamburger:
             BorderColor: =RGBA(101, 128, 187, 1)
             Color: =RGBA(51, 51, 51, 1)
-            DisabledFill: =iconHamburgerMenu_6.Fill
+            DisabledFill: =iconHamburgerMenu_7.Fill
             Fill: =Color.White
-            FocusedBorderColor: =iconHamburgerMenu_6.BorderColor
+            FocusedBorderColor: =iconHamburgerMenu_7.BorderColor
             Height: =16
-            HoverBorderColor: =ColorFade(iconHamburgerMenu_6.BorderColor, 20%)
-            HoverColor: =ColorFade(iconHamburgerMenu_6.Color, 20%)
-            HoverFill: =iconHamburgerMenu_6.Fill
+            HoverBorderColor: =ColorFade(iconHamburgerMenu_7.BorderColor, 20%)
+            HoverColor: =ColorFade(iconHamburgerMenu_7.Color, 20%)
+            HoverFill: =iconHamburgerMenu_7.Fill
             Icon: =Icon.Hamburger
             OnSelect: =Set(IsExpand, !IsExpand)
-            PressedBorderColor: =ColorFade(iconHamburgerMenu_6.BorderColor, -20%)
-            PressedColor: =ColorFade(iconHamburgerMenu_6.Color, -20%)
-            PressedFill: =iconHamburgerMenu_6.Fill
+            PressedBorderColor: =ColorFade(iconHamburgerMenu_7.BorderColor, -20%)
+            PressedColor: =ColorFade(iconHamburgerMenu_7.Color, -20%)
+            PressedFill: =iconHamburgerMenu_7.Fill
             TabIndex: =0
             Width: =16
             X: =24+0
             Y: =76+0
             ZIndex: =9
 
-        Rectangle2_5 As rectangle:
+        Rectangle2_6 As rectangle:
             BorderColor: =RGBA(101, 128, 187, 1)
-            DisabledFill: =Rectangle2_5.Fill
+            DisabledFill: =Rectangle2_6.Fill
             Fill: =Color.White
-            FocusedBorderColor: =Rectangle2_5.BorderColor
+            FocusedBorderColor: =Rectangle2_6.BorderColor
             Height: =707
-            HoverFill: =Rectangle2_5.Fill
-            PressedFill: =Rectangle2_5.Fill
+            HoverFill: =Rectangle2_6.Fill
+            PressedFill: =Rectangle2_6.Fill
             Width: =1
             X: =If(!IsExpand, 200, 50)
             Y: =61+0

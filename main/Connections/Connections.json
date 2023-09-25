@@ -11,6 +11,9 @@
           "Account list- AMS": {
             "tableName": "c307ed13-d9b7-4778-ae70-3a171bd380f6"
           },
+          "Account-Geo  List": {
+            "tableName": "21e98a9e-621b-40a0-96ae-493be524d183"
+          },
           "AMS-Roles": {
             "tableName": "bab79d69-be21-447d-a4de-320746cfb13a"
           },
@@ -23,7 +26,8 @@
     "dataSources": [
       "Account list- AMS",
       "Project list_AMS",
-      "AMS-Roles"
+      "AMS-Roles",
+      "Account-Geo  List"
     ],
     "dependencies": {},
     "dependents": [],

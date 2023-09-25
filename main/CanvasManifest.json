@@ -98,7 +98,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 63,
+    "BindingErrorCount": 11,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -133,14 +133,15 @@
   },
   "ScreenOrder": [
     "Account Dashboard Screen",
-    "Add a new account",
+    "Approval for Project",
+    "Deepdiving Each Record Project",
     "Login",
     "New Project",
     "New Project_1",
-    "Deepdiving Each Record Project",
     "Project Approval",
     "Project Dashboard Screen",
-    "Approval for Project",
-    "Screen1"
+    "Screen1",
+    "Screen1_1",
+    "Screen1_2"
   ]
 }

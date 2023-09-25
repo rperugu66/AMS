@@ -112,7 +112,7 @@
             Font: =Font.'Segoe UI'
             Height: =50
             OnSelect: =Select(Parent)
-            Text: =ThisItem.'Account Cost in USD'
+            Text: =ThisItem.'Account Revenue FTY'
             Width: =100
             X: =645
             Y: =12
