@@ -1,6 +1,6 @@
 App As appinfo:
     BackEnabled: =false
-    OnStart: |-
+    OnStart: |
         =Concurrent(
             Set(
                 StepsPanelCodeFontSize,
@@ -17,6 +17,11 @@ App As appinfo:
             ClearCollect(
                 NavigationMenu,
                 {
+                    Row: 1,
+                    Title: "Account Info",
+                    Image: bank
+                },
+                {
                     Row: 2,
                     Title: "Project Info",
                     Image: 'list-nested'
@@ -25,11 +30,6 @@ App As appinfo:
                     Row: 3,
                     Title: "Add New Project",
                     Image: 'plus-circle-fill'
-                },
-                {
-                    Row: 1,
-                    Title: "Account Info",
-                    Image: bank
                 },
                 {
                     Row: 4,

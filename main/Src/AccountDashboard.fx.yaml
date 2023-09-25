@@ -1,0 +1,442 @@
+AccountDashboard As screen:
+    BackgroundImage: ='MicrosoftTeams-image (7)'
+    ImagePosition: =ImagePosition.Fill
+    OnVisible: |-
+        =Set(_selectedTutorial,{Row:1,Title:"Account Info",Image:bank});
+
+    "glryAccountDetails As gallery.'BrowseLayout_Vertical_OneTextVariant_ver5.0'":
+        BorderColor: =RGBA(219, 219, 219, 1)
+        BorderThickness: =1
+        DelayItemLoading: =true
+        Height: =478
+        Items: ='Account list- AMS'
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplatePadding: =0
+        TemplateSize: =80
+        Width: =1160
+        X: =If(IsExpand, 50, 204)
+        Y: =190
+        ZIndex: =1
+
+        lblAccountName As label:
+            Font: =Font.'Segoe UI'
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Bold, FontWeight.Semibold)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =13
+            Text: =ThisItem.'Account Name'
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth/6 - 86
+            X: =16
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =1
+
+        NextArrow2 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            Color: =RGBA(166, 166, 166, 1)
+            Height: =50
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
+            PaddingBottom: =12
+            PaddingLeft: =12
+            PaddingRight: =12
+            PaddingTop: =12
+            Tooltip: ="View item details"
+            Width: =50
+            X: =Parent.TemplateWidth - Self.Width - 12
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =2
+
+        Separator2 As rectangle:
+            BorderColor: =RGBA(219, 219, 219, 1)
+            BorderThickness: =1
+            Height: =4
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - Self.Height
+            ZIndex: =3
+
+        Rectangle4 As rectangle:
+            Height: =Parent.TemplateHeight - Separator2.Height
+            OnSelect: =Select(Parent)
+            Visible: =false //ThisItem.IsSelected
+            Width: =4
+            ZIndex: =4
+
+        lblGEO As label:
+            Font: =Font.'Segoe UI'
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Bold, FontWeight.Semibold)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =13
+            Text: =LookUp('Project list_AMS', ThisItem.'Account Name' = 'Account Name').Geo
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth/6 - 86
+            X: =lblAccountName.X+lblAccountName.Width
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =5
+
+        lblCountry As label:
+            Font: =Font.'Segoe UI'
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Bold, FontWeight.Semibold)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =13
+            Text: =LookUp('Account-Geo  List', ThisItem.'Account Name' = 'Account Name').Country
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth/6 - 86
+            X: =lblGEO.X+lblGEO.Width
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =6
+
+        "'lbl#Projects' As label":
+            Align: =Align.Center
+            Font: =Font.'Segoe UI'
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Bold, FontWeight.Semibold)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =13
+            Text: |-
+                =ThisItem.'# projects'
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth/6 - 86
+            X: =lblCountry.X+lblCountry.Width
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =7
+
+        "'lblGrossMargin%' As label":
+            Align: =Align.Center
+            Font: =Font.'Segoe UI'
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Bold, FontWeight.Semibold)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =13
+            Text: =ThisItem.'Gross Margin %'
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth/6 - 86
+            X: |-
+                ='lbl#Projects'.X+'lbl#Projects'.Width
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =8
+
+        lblRevenue As label:
+            Align: =Align.Center
+            Font: =Font.'Segoe UI'
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Bold, FontWeight.Semibold)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =13
+            Text: =ThisItem.Revenue
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth/6 - 86
+            X: ='lblGrossMargin%'.X+'lblGrossMargin%'.Width
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =9
+
+        lblCost As label:
+            Align: =Align.Center
+            Font: =Font.'Segoe UI'
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Bold, FontWeight.Semibold)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =13
+            Text: =ThisItem.Cost
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth/6 - 86
+            X: ='lblRevenue'.X+'lblRevenue'.Width
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =10
+
+        "'lblP&L' As label":
+            Align: =Align.Center
+            Font: =Font.'Segoe UI'
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Bold, FontWeight.Semibold)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =13
+            Text: =ThisItem.'P&L'
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth/6 - 86
+            X: ='lblCost'.X+'lblCost'.Width
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =11
+
+        lblAccountStatus As label:
+            Align: =Align.Center
+            Font: =Font.'Segoe UI'
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Bold, FontWeight.Semibold)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =13
+            Text: =ThisItem.'Account Status'
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth/6 - 86
+            X: ='lblP&L'.X+'lblP&L'.Width
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =12
+
+    GroupNavigation As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =-21
+        ZIndex: =11
+
+        rectLeftNavBackground As rectangle:
+            Fill: =Color.White
+            Height: =707
+            Width: =If(IsExpand, 50, 200)
+            Y: =60
+            ZIndex: =1
+
+        GalleryNavigation As gallery.galleryVertical:
+            BorderColor: =RGBA(101, 128, 187, 1)
+            DisabledBorderColor: =GalleryNavigation.BorderColor
+            DisabledFill: =GalleryNavigation.Fill
+            Fill: =Color.White
+            HoverBorderColor: =GalleryNavigation.BorderColor
+            HoverFill: =GalleryNavigation.Fill
+            Items: =NavigationMenu
+            Layout: =Layout.Vertical
+            LoadingSpinnerColor: =GalleryNavigation.BorderColor
+            OnSelect: |
+                =Set(
+                    _selectedTutorial,
+                    ThisItem
+                );
+                If(
+                    ThisItem.Row = 1,
+                    Navigate(
+                        DashboardScreen,
+                        BorderStyle.None
+                    ),
+                    ThisItem.Row = 2,
+                    Navigate(
+                        AccountInfo,
+                        BorderStyle.None
+                    ),
+                    ThisItem.Row = 3,
+                    Navigate(
+                        AccountInfo,
+                        BorderStyle.None
+                    )
+                );
+            PressedBorderColor: =GalleryNavigation.BorderColor
+            PressedFill: =GalleryNavigation.Fill
+            ShowScrollbar: =false
+            TemplateFill: =If(ThisItem.Row = _selectedTutorial.Row, RGBA(220, 220, 220, 1), RGBA(0,0,0,0))
+            TemplatePadding: =0
+            TemplateSize: =42
+            Width: =If(IsExpand, 50, 200)
+            X: =0+0
+            Y: =109+0
+            ZIndex: =8
+
+            Image1_1 As image:
+                BorderColor: =RGBA(101, 128, 187, 1)
+                FocusedBorderColor: =Image1_1.BorderColor
+                Height: =Parent.TemplateHeight
+                HoverBorderColor: =ColorFade(Image1_1.BorderColor, 20%)
+                HoverFill: =ColorFade(Image1_1.Fill, 20%)
+                Image: =ThisItem.Image
+                OnSelect: =Select(Parent)
+                PaddingBottom: =12
+                PaddingTop: =12
+                PressedBorderColor: =ColorFade(Image1_1.BorderColor, -20%)
+                PressedFill: =ColorFade(Image1_1.Fill, -20%)
+                Width: =Image1_1.Height - 10
+                X: =15
+                ZIndex: =1
+
+            Label4_2 As label:
+                BorderColor: =RGBA(101, 128, 187, 1)
+                Color: =RGBA(47,41,43,1)
+                FocusedBorderColor: =Label4_2.BorderColor
+                FocusedBorderThickness: =2
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =42
+                HoverBorderColor: =Label4_2.BorderColor
+                HoverColor: =Label4_2.Color
+                HoverFill: =Label4_2.Fill
+                OnSelect: =Select(Parent)
+                PressedBorderColor: =Label4_2.BorderColor
+                PressedColor: =Label4_2.Color
+                PressedFill: =Label4_2.Fill
+                Size: =10
+                TabIndex: =0
+                Text: =ThisItem.Title
+                X: =50
+                ZIndex: =2
+
+            Rectangle1_1 As rectangle:
+                BorderColor: =RGBA(101, 128, 187, 1)
+                DisabledFill: =Rectangle1_1.Fill
+                Fill: =RGBA(116, 39, 116, 1)
+                FocusedBorderColor: =Rectangle1_1.BorderColor
+                Height: =20
+                HoverFill: =Rectangle1_1.Fill
+                OnSelect: =Select(Parent)
+                PressedFill: =Rectangle1_1.Fill
+                Visible: =ThisItem.Row = _selectedTutorial.Row
+                Width: =4
+                X: =11
+                Y: =11
+                ZIndex: =3
+
+        iconHamburgerMenu_6 As icon.Hamburger:
+            BorderColor: =RGBA(101, 128, 187, 1)
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledFill: =iconHamburgerMenu_6.Fill
+            Fill: =Color.White
+            FocusedBorderColor: =iconHamburgerMenu_6.BorderColor
+            Height: =16
+            HoverBorderColor: =ColorFade(iconHamburgerMenu_6.BorderColor, 20%)
+            HoverColor: =ColorFade(iconHamburgerMenu_6.Color, 20%)
+            HoverFill: =iconHamburgerMenu_6.Fill
+            Icon: =Icon.Hamburger
+            OnSelect: =Set(IsExpand, !IsExpand)
+            PressedBorderColor: =ColorFade(iconHamburgerMenu_6.BorderColor, -20%)
+            PressedColor: =ColorFade(iconHamburgerMenu_6.Color, -20%)
+            PressedFill: =iconHamburgerMenu_6.Fill
+            TabIndex: =0
+            Width: =16
+            X: =24+0
+            Y: =76+0
+            ZIndex: =9
+
+        rectSeparator As rectangle:
+            BorderColor: =RGBA(101, 128, 187, 1)
+            DisabledFill: =rectSeparator.Fill
+            Fill: =Color.White
+            FocusedBorderColor: =rectSeparator.BorderColor
+            Height: =707
+            HoverFill: =rectSeparator.Fill
+            PressedFill: =rectSeparator.Fill
+            Width: =1
+            X: =If(!IsExpand, 200, 50)
+            Y: =61+0
+            ZIndex: =10
+
+    GroupHeader As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =12
+
+        WelcomeScreenTitleBackground As rectangle:
+            BorderColor: =RGBA(51, 51, 51, 1)
+            DisabledFill: =WelcomeScreenTitleBackground.Fill
+            Fill: =RGBA(8, 35, 64, 1)
+            FocusedBorderColor: =WelcomeScreenTitleBackground.BorderColor
+            Height: =60
+            HoverFill: =WelcomeScreenTitleBackground.Fill
+            PressedFill: =WelcomeScreenTitleBackground.Fill
+            Width: =1366
+            ZIndex: =2
+
+        ImagePowerAppsLogo As image:
+            BorderColor: =RGBA(51, 51, 51, 1)
+            Fill: =RGBA(8, 35, 64, 1)
+            FocusedBorderColor: =ImagePowerAppsLogo.BorderColor
+            Height: =48
+            HoverBorderColor: =ColorFade(ImagePowerAppsLogo.BorderColor, 20%)
+            HoverFill: =ColorFade(ImagePowerAppsLogo.Fill, 20%)
+            Image: =User().Image
+            PressedBorderColor: =ColorFade(ImagePowerAppsLogo.BorderColor, -20%)
+            PressedFill: =ColorFade(ImagePowerAppsLogo.Fill, -20%)
+            RadiusBottomLeft: =48
+            RadiusBottomRight: =48
+            RadiusTopLeft: =48
+            RadiusTopRight: =48
+            Width: =48
+            X: =1311
+            Y: =6
+            ZIndex: =3
+
+        lblAppName As label:
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Bold
+            Height: =60
+            Size: =18
+            Text: ="HBU Financials"
+            Width: =413
+            X: =488
+            ZIndex: =4
+
+        lblUserName As label:
+            Align: =Align.Right
+            Color: =Color.White
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Bold
+            Height: =59
+            PaddingBottom: =15
+            PaddingTop: =0
+            Size: =16
+            Text: |
+                =User().FullName
+            Width: =270
+            X: =1032
+            ZIndex: =6
+
+        lblDesignation As label:
+            Align: =Align.Right
+            Color: =Color.White
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Semibold
+            Height: =27
+            Size: =10
+            Text: =Office365Users.MyProfile().JobTitle
+            Width: =314
+            X: =993
+            Y: =33
+            ZIndex: =7
+
+        imgCompanyLog As image:
+            Height: =50
+            Image: ='coforge-logo'
+            ImagePosition: =ImagePosition.Fill
+            Width: =195
+            Y: =10
+            ZIndex: =11
+
