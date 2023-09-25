@@ -6,6 +6,7 @@
         DataSource: ='Project list_AMS'
         DefaultMode: =FormMode.New
         Height: =469
+        Item: =varCurrentItem
         Width: =1315
         X: =26
         Y: =186
