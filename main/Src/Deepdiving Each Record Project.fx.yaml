@@ -6,6 +6,7 @@
         DataSource: ='Project list_AMS'
         DefaultMode: =FormMode.View
         Height: =469
+        Item: =varCurrentItem
         Width: =1315
         X: =26
         Y: =186
@@ -271,7 +272,7 @@
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =Parent.DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Height: =35
                 MaxLength: =Parent.MaxLength

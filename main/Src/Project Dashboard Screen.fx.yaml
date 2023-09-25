@@ -130,8 +130,8 @@
             OnSelect: |-
                 =Set(varSharePointList, true);
                 Set(varCurrentItem,ThisItem);
-                EditForm(Form1_2);
-                Navigate('Project Approval')
+                EditForm(Form1_3);
+                Navigate('Deepdiving Each Record Project')
             PaddingBottom: =12
             PaddingLeft: =12
             PaddingRight: =12

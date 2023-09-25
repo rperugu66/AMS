@@ -664,7 +664,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Button5_3",
-      "ParentIndex": 3,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -917,7 +917,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Button6_3",
-      "ParentIndex": 4,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1160,7 +1160,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Circle1",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -11726,8 +11726,8 @@
         },
         {
           "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": true,
-          "AutoRuleBindingString": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "Parent.DisplayMode",
           "InvariantPropertyName": "DisplayMode",
           "IsLockable": true,
           "NameMapSourceSchema": "?"
@@ -22758,6 +22758,14 @@
           "InvariantPropertyName": "BorderThickness",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Item",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
         }
       ],
       "HasDynamicProperties": false,
@@ -22770,7 +22778,7 @@
       "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "Form1_3",
-      "ParentIndex": 5,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -22781,6 +22789,11 @@
         {
           "Category": "Data",
           "PropertyName": "DataSource",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "Item",
           "RuleProviderType": "Unknown"
         },
         {
@@ -23168,7 +23181,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "grp_edit icon",
-      "ParentIndex": 6,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -23288,7 +23301,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label8_1",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
