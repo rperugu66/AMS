@@ -1,6 +1,6 @@
 App As appinfo:
     BackEnabled: =false
-    OnStart: |
+    OnStart: |-
         =Concurrent(
             Set(
                 StepsPanelCodeFontSize,
@@ -13,7 +13,7 @@ App As appinfo:
                     Title: "Account Info",
                     Image: bank
                 }
-            ), 
+            ),
             ClearCollect(
                 NavigationMenu,
                 {
