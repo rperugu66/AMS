@@ -1,0 +1,214 @@
+AccountDashboard As screen:
+    BackgroundImage: ='MicrosoftTeams-image (7)'
+    ImagePosition: =ImagePosition.Fill
+    OnVisible: |-
+        =Set(_selectedTutorial,{Row:1,Title:"Account Info",Image:bank});
+
+    "glryAccountDetails As gallery.'BrowseLayout_Vertical_OneTextVariant_ver5.0'":
+        BorderColor: =RGBA(219, 219, 219, 1)
+        BorderThickness: =1
+        DelayItemLoading: =true
+        Height: =478
+        Items: ='Account list- AMS'
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplatePadding: =0
+        TemplateSize: =80
+        Width: =1160
+        X: =If(IsExpand, 50, 204)
+        Y: =190
+        ZIndex: =1
+
+        lblAccountName As label:
+            Font: =Font.'Segoe UI'
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Bold, FontWeight.Semibold)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =13
+            Text: =ThisItem.'Account Name'
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth/6 - 86
+            X: =16
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =1
+
+        NextArrow2 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            Color: =RGBA(166, 166, 166, 1)
+            Height: =50
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
+            PaddingBottom: =12
+            PaddingLeft: =12
+            PaddingRight: =12
+            PaddingTop: =12
+            Tooltip: ="View item details"
+            Width: =50
+            X: =Parent.TemplateWidth - Self.Width - 12
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =2
+
+        Separator2 As rectangle:
+            BorderColor: =RGBA(219, 219, 219, 1)
+            BorderThickness: =1
+            Height: =4
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - Self.Height
+            ZIndex: =3
+
+        Rectangle4 As rectangle:
+            Height: =Parent.TemplateHeight - Separator2.Height
+            OnSelect: =Select(Parent)
+            Visible: =false //ThisItem.IsSelected
+            Width: =4
+            ZIndex: =4
+
+        lblGEO As label:
+            Font: =Font.'Segoe UI'
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Bold, FontWeight.Semibold)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =13
+            Text: =LookUp('Project list_AMS', ThisItem.'Account Name' = 'Account Name').Geo
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth/6 - 86
+            X: =lblAccountName.X+lblAccountName.Width
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =5
+
+        lblCountry As label:
+            Font: =Font.'Segoe UI'
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Bold, FontWeight.Semibold)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =13
+            Text: =LookUp('Account-Geo  List', ThisItem.'Account Name' = 'Account Name').Country
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth/6 - 86
+            X: =lblGEO.X+lblGEO.Width
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =6
+
+        "'lbl#Projects' As label":
+            Align: =Align.Center
+            Font: =Font.'Segoe UI'
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Bold, FontWeight.Semibold)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =13
+            Text: |-
+                =ThisItem.'# projects'
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth/6 - 86
+            X: =lblCountry.X+lblCountry.Width
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =7
+
+        "'lblGrossMargin%' As label":
+            Align: =Align.Center
+            Font: =Font.'Segoe UI'
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Bold, FontWeight.Semibold)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =13
+            Text: =ThisItem.'Gross Margin %'
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth/6 - 86
+            X: |-
+                ='lbl#Projects'.X+'lbl#Projects'.Width
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =8
+
+        lblRevenue As label:
+            Align: =Align.Center
+            Font: =Font.'Segoe UI'
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Bold, FontWeight.Semibold)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =13
+            Text: =ThisItem.Revenue
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth/6 - 86
+            X: ='lblGrossMargin%'.X+'lblGrossMargin%'.Width
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =9
+
+        lblCost As label:
+            Align: =Align.Center
+            Font: =Font.'Segoe UI'
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Bold, FontWeight.Semibold)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =13
+            Text: =ThisItem.Cost
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth/6 - 86
+            X: ='lblRevenue'.X+'lblRevenue'.Width
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =10
+
+        "'lblP&L' As label":
+            Align: =Align.Center
+            Font: =Font.'Segoe UI'
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Bold, FontWeight.Semibold)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =13
+            Text: =ThisItem.'P&L'
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth/6 - 86
+            X: ='lblCost'.X+'lblCost'.Width
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =11
+
+        lblAccountStatus As label:
+            Align: =Align.Center
+            Font: =Font.'Segoe UI'
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Bold, FontWeight.Semibold)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =13
+            Text: =ThisItem.'Account Status'
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth/6 - 86
+            X: ='lblP&L'.X+'lblP&L'.Width
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =12
+
