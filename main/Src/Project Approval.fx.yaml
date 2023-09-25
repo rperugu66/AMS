@@ -1674,3 +1674,14 @@
         Y: =692
         ZIndex: =4
 
+    Label8_2 As label:
+        Color: =RGBA(255, 0, 0, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Size: =14
+        Text: ="* All currencies are in USD"
+        Width: =238
+        X: =1103
+        Y: =602
+        ZIndex: =5
+
