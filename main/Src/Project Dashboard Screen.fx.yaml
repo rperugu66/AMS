@@ -5,7 +5,7 @@
         BorderThickness: =1
         DelayItemLoading: =true
         Height: =428
-        Items: ='Account list- AMS'
+        Items: ='Project list_AMS'
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
@@ -49,8 +49,7 @@
             Font: =Font.'Segoe UI'
             Height: =50
             OnSelect: =Select(Parent)
-            Text: |-
-                =ThisItem.'# projects'
+            Text: =ThisItem.'Project Name'
             Width: =135
             X: =465
             Y: =12
@@ -61,7 +60,8 @@
             Font: =Font.'Segoe UI'
             Height: =50
             OnSelect: =Select(Parent)
-            Text: =ThisItem.'Gross Margin %'
+            Text: |-
+                =ThisItem.'Offshore #'
             Width: =100
             X: =785
             Y: =12
@@ -72,7 +72,7 @@
             Font: =Font.'Segoe UI'
             Height: =50
             OnSelect: =Select(Parent)
-            Text: =ThisItem.Revenue
+            Text: =ThisItem.'Total Cost in USD'
             Width: =110
             X: =915
             Y: =10
@@ -83,7 +83,7 @@
             Font: =Font.'Segoe UI'
             Height: =50
             OnSelect: =Select(Parent)
-            Text: =ThisItem.Cost
+            Text: =ThisItem.'GM %' * 100 & "%"
             Width: =100
             X: =1054
             Y: =10
@@ -94,7 +94,8 @@
             Font: =Font.'Segoe UI'
             Height: =50
             OnSelect: =Select(Parent)
-            Text: =ThisItem.'Account Cost in USD'
+            Text: |-
+                =ThisItem.'Onsite #'
             Width: =100
             X: =645
             Y: =12
@@ -105,7 +106,7 @@
             Font: =Font.'Segoe UI'
             Height: =50
             OnSelect: =Select(Parent)
-            Text: =ThisItem.'P&L'
+            Text: =ThisItem.'Project status'
             Width: =100
             X: =1179
             Y: =12
@@ -116,11 +117,29 @@
             Font: =Font.'Segoe UI'
             Height: =50
             OnSelect: =Select(Parent)
-            Text: =ThisItem.Currency
+            Text: =ThisItem.'Project code'
             Width: =100
             X: =322
             Y: =12
             ZIndex: =20
+
+        Icon4 As icon.ChevronRight:
+            Color: =RGBA(0, 0, 0, 1)
+            Height: =50
+            Icon: =Icon.ChevronRight
+            OnSelect: |-
+                =Set(varSharePointList, true);
+                Set(varCurrentItem,ThisItem);
+                EditForm(Form1_2);
+                Navigate('Project Approval')
+            PaddingBottom: =12
+            PaddingLeft: =12
+            PaddingRight: =12
+            PaddingTop: =12
+            Width: =50
+            X: =1278
+            Y: =12
+            ZIndex: =21
 
     lbl_Accountname_3 As label:
         Align: =Align.Center
@@ -146,7 +165,7 @@
         Y: =294
         ZIndex: =3
 
-    lbl_Country_3 As label:
+    lbl_Projectcode As label:
         Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
         Fill: =RGBA(50, 86, 160, 1)
@@ -158,7 +177,7 @@
         Y: =294
         ZIndex: =4
 
-    "'lbl_#Projects_1' As label":
+    lbl_Projectname As label:
         Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
         Fill: =RGBA(50, 86, 160, 1)
@@ -170,7 +189,7 @@
         Y: =294
         ZIndex: =5
 
-    lbl_AccountcostinUSD_3 As label:
+    lbl_Onshoreresources As label:
         Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
         Fill: =RGBA(50, 86, 160, 1)
@@ -182,7 +201,7 @@
         Y: =294
         ZIndex: =6
 
-    "'lbl_Grossmargin%_3' As label":
+    lbl_Offshoreresources As label:
         Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
         Fill: =RGBA(50, 86, 160, 1)
@@ -194,7 +213,7 @@
         Y: =294
         ZIndex: =7
 
-    lbl_Revenue_3 As label:
+    lbl_TotalcostinUSD As label:
         Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
         Fill: =RGBA(50, 86, 160, 1)
@@ -206,7 +225,7 @@
         Y: =294
         ZIndex: =8
 
-    lbl_Cost_3 As label:
+    "'lbl_GM%' As label":
         Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
         Fill: =RGBA(50, 86, 160, 1)
@@ -218,7 +237,7 @@
         Y: =294
         ZIndex: =9
 
-    "'lbl_P&L_3' As label":
+    lbl_Projectstatus As label:
         Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
         Fill: =RGBA(50, 86, 160, 1)
@@ -321,7 +340,7 @@
         RadiusTopLeft: =0
         RadiusTopRight: =0
         Size: =14
-        Text: ="Add an Account"
+        Text: ="Add an Project"
         X: =973
         Y: =193
         ZIndex: =20
