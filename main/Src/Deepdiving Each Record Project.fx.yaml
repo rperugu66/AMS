@@ -1,18 +1,17 @@
-"'Project Approval' As screen":
+"'Deepdiving Each Record Project' As screen":
 
-    Form1_2 As form:
+    Form1_3 As form:
         BorderColor: =RGBA(227, 234, 243, 1)
         BorderThickness: =2
         DataSource: ='Project list_AMS'
-        DefaultMode: =FormMode.New
+        DefaultMode: =FormMode.View
         Height: =469
-        Item: =varCurrentItem
         Width: =1315
         X: =26
         Y: =186
         ZIndex: =1
 
-        "'Account Name_DataCard1_2' As typedDataCard.textualEditCard":
+        "'Account Name_DataCard1_3' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="Title"
             Default: =ThisItem.'Account Name'
@@ -22,13 +21,13 @@
             Height: =50
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Title")
             Required: =false
-            Update: =Dropdown1_2.Selected.Value
+            Update: =Dropdown1_3.Selected.Value
             Width: =437
             X: =0
             Y: =0
             ZIndex: =2
 
-            DataCardKey1_2 As label:
+            DataCardKey1_3 As label:
                 AutoHeight: =true
                 Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
@@ -42,7 +41,7 @@
                 Y: =10
                 ZIndex: =1
 
-            ErrorMessage1_2 As label:
+            ErrorMessage1_3 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -54,24 +53,24 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =Dropdown1_2.Y + Dropdown1_2.Height
+                Y: =Dropdown1_3.Y + Dropdown1_3.Height
                 ZIndex: =3
 
-            StarVisible1_2 As label:
+            StarVisible1_3 As label:
                 Align: =Align.Center
                 Color: =RGBA(255, 0, 0, 1)
                 DisplayMode: =DisplayMode.View
-                Height: =DataCardKey1_2.Height
+                Height: =DataCardKey1_3.Height
                 Text: ="*"
                 Visible: =false
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey1_2.Y
+                Y: =DataCardKey1_3.Y
                 ZIndex: =4
 
-            Dropdown1_2 As dropdown:
+            Dropdown1_3 As dropdown:
                 BorderColor: =RGBA(0, 0, 0, 1)
-                BorderThickness: =1
+                BorderThickness: =0
                 ChevronBackground: =RGBA(255, 255, 255, 1)
                 ChevronFill: =RGBA(0, 0, 0, 1)
                 ChevronHoverBackground: =
@@ -88,7 +87,7 @@
                 Y: =10
                 ZIndex: =5
 
-        Geo_DataCard1_2 As typedDataCard.textualEditCard:
+        Geo_DataCard1_3 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="Geo"
             Default: =ThisItem.Geo
@@ -98,13 +97,13 @@
             Height: =50
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Geo")
             Required: =false
-            Update: =Dropdown2_2.Selected.Value
+            Update: =Dropdown2_3.Selected.Value
             Width: =437
             X: =1
             Y: =0
             ZIndex: =2
 
-            DataCardKey2_2 As label:
+            DataCardKey2_3 As label:
                 AutoHeight: =true
                 Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
@@ -118,7 +117,7 @@
                 Y: =10
                 ZIndex: =1
 
-            ErrorMessage2_2 As label:
+            ErrorMessage2_3 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -130,24 +129,24 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =Dropdown2_2.Y + Dropdown2_2.Height
+                Y: =Dropdown2_3.Y + Dropdown2_3.Height
                 ZIndex: =3
 
-            StarVisible2_2 As label:
+            StarVisible2_3 As label:
                 Align: =Align.Center
                 Color: =RGBA(255, 0, 0, 1)
                 DisplayMode: =DisplayMode.View
-                Height: =DataCardKey2_2.Height
+                Height: =DataCardKey2_3.Height
                 Text: ="*"
                 Visible: =false
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey2_2.Y
+                Y: =DataCardKey2_3.Y
                 ZIndex: =4
 
-            Dropdown2_2 As dropdown:
+            Dropdown2_3 As dropdown:
                 BorderColor: =RGBA(0, 0, 0, 1)
-                BorderThickness: =1
+                BorderThickness: =0
                 ChevronBackground: =RGBA(255, 255, 255, 1)
                 ChevronFill: =RGBA(0, 0, 0, 1)
                 ChevronHoverBackground: =RGBA(202,202,202,1)
@@ -162,7 +161,7 @@
                 Y: =10
                 ZIndex: =5
 
-        "'Project code_DataCard1_2' As typedDataCard.textualEditCard":
+        "'Project code_DataCard1_3' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="Project_x0020_code"
             Default: =ThisItem.'Project code'
@@ -172,13 +171,13 @@
             Height: =50
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Project_x0020_code")
             Required: =false
-            Update: =DataCardValue3_2.Text
+            Update: =DataCardValue3_3.Text
             Width: =437
             X: =2
             Y: =0
             ZIndex: =2
 
-            DataCardKey3_2 As label:
+            DataCardKey3_3 As label:
                 AutoHeight: =true
                 Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
@@ -192,12 +191,12 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue3_2 As text:
+            DataCardValue3_3 As text:
                 BorderColor: =Color.Black
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =DisplayMode.View
+                DisplayMode: =Parent.DisplayMode
                 Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
@@ -211,7 +210,7 @@
                 Y: =10
                 ZIndex: =2
 
-            ErrorMessage3_2 As label:
+            ErrorMessage3_3 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -223,21 +222,21 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue3_2.Y + DataCardValue3_2.Height
+                Y: =DataCardValue3_3.Y + DataCardValue3_3.Height
                 ZIndex: =3
 
-            StarVisible3_2 As label:
+            StarVisible3_3 As label:
                 Align: =Align.Center
                 Color: =RGBA(255, 0, 0, 1)
-                Height: =DataCardKey3_2.Height
+                Height: =DataCardKey3_3.Height
                 Text: ="*"
                 Visible: =false
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey3_2.Y
+                Y: =DataCardKey3_3.Y
                 ZIndex: =4
 
-        "'Project Name_DataCard1_2' As typedDataCard.textualEditCard":
+        "'Project Name_DataCard1_3' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="Project_x0020_Name"
             Default: =ThisItem.'Project Name'
@@ -247,13 +246,13 @@
             Height: =50
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Project_x0020_Name")
             Required: =false
-            Update: =DataCardValue4_2.Text
+            Update: =DataCardValue4_3.Text
             Width: =437
             X: =0
             Y: =1
             ZIndex: =2
 
-            DataCardKey4_2 As label:
+            DataCardKey4_3 As label:
                 AutoHeight: =true
                 Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
@@ -267,12 +266,12 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue4_2 As text:
+            DataCardValue4_3 As text:
                 BorderColor: =Color.Black
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =DisplayMode.View
+                DisplayMode: =Parent.DisplayMode
                 Font: =Font.'Segoe UI'
                 Height: =35
                 MaxLength: =Parent.MaxLength
@@ -287,7 +286,7 @@
                 Y: =10
                 ZIndex: =2
 
-            ErrorMessage4_2 As label:
+            ErrorMessage4_3 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -299,21 +298,21 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue4_2.Y + DataCardValue4_2.Height
+                Y: =DataCardValue4_3.Y + DataCardValue4_3.Height
                 ZIndex: =3
 
-            StarVisible4_2 As label:
+            StarVisible4_3 As label:
                 Align: =Align.Center
                 Color: =RGBA(255, 0, 0, 1)
-                Height: =DataCardKey4_2.Height
+                Height: =DataCardKey4_3.Height
                 Text: ="*"
                 Visible: =false
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey4_2.Y
+                Y: =DataCardKey4_3.Y
                 ZIndex: =4
 
-        "'Project Manager_DataCard1_2' As typedDataCard.textualEditCard":
+        "'Project Manager_DataCard1_3' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="Project_x0020_Manager"
             Default: =ThisItem.'Project Manager'
@@ -323,13 +322,13 @@
             Height: =50
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Project_x0020_Manager")
             Required: =false
-            Update: =DataCardValue5_2.Text
+            Update: =DataCardValue5_3.Text
             Width: =437
             X: =1
             Y: =1
             ZIndex: =2
 
-            DataCardKey5_2 As label:
+            DataCardKey5_3 As label:
                 AutoHeight: =true
                 Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
@@ -343,12 +342,12 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue5_2 As text:
+            DataCardValue5_3 As text:
                 BorderColor: =Color.Black
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =DisplayMode.View
+                DisplayMode: =Parent.DisplayMode
                 Font: =Font.'Segoe UI'
                 Height: =35
                 MaxLength: =Parent.MaxLength
@@ -363,7 +362,7 @@
                 Y: =10
                 ZIndex: =2
 
-            ErrorMessage5_2 As label:
+            ErrorMessage5_3 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -375,21 +374,21 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue5_2.Y + DataCardValue5_2.Height
+                Y: =DataCardValue5_3.Y + DataCardValue5_3.Height
                 ZIndex: =3
 
-            StarVisible5_2 As label:
+            StarVisible5_3 As label:
                 Align: =Align.Center
                 Color: =RGBA(255, 0, 0, 1)
-                Height: =DataCardKey5_2.Height
+                Height: =DataCardKey5_3.Height
                 Text: ="*"
                 Visible: =false
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey5_2.Y
+                Y: =DataCardKey5_3.Y
                 ZIndex: =4
 
-        "'Delivery Manager_DataCard1_2' As typedDataCard.textualEditCard":
+        "'Delivery Manager_DataCard1_3' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="Delivery_x0020_Manager"
             Default: =ThisItem.'Delivery Manager'
@@ -399,13 +398,13 @@
             Height: =50
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Delivery_x0020_Manager")
             Required: =false
-            Update: =DataCardValue6_2.Text
+            Update: =DataCardValue6_3.Text
             Width: =437
             X: =2
             Y: =1
             ZIndex: =2
 
-            DataCardKey6_2 As label:
+            DataCardKey6_3 As label:
                 AutoHeight: =true
                 Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
@@ -419,12 +418,12 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue6_2 As text:
+            DataCardValue6_3 As text:
                 BorderColor: =Color.Black
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =DisplayMode.View
+                DisplayMode: =Parent.DisplayMode
                 Font: =Font.'Segoe UI'
                 Height: =35
                 MaxLength: =Parent.MaxLength
@@ -439,7 +438,7 @@
                 Y: =10
                 ZIndex: =2
 
-            ErrorMessage6_2 As label:
+            ErrorMessage6_3 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -451,21 +450,21 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue6_2.Y + DataCardValue6_2.Height
+                Y: =DataCardValue6_3.Y + DataCardValue6_3.Height
                 ZIndex: =3
 
-            StarVisible6_2 As label:
+            StarVisible6_3 As label:
                 Align: =Align.Center
                 Color: =RGBA(255, 0, 0, 1)
-                Height: =DataCardKey6_2.Height
+                Height: =DataCardKey6_3.Height
                 Text: ="*"
                 Visible: =false
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey6_2.Y
+                Y: =DataCardKey6_3.Y
                 ZIndex: =4
 
-        "'Delivery Head_DataCard1_2' As typedDataCard.textualEditCard":
+        "'Delivery Head_DataCard1_3' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="Delivery_x0020_Head"
             Default: =ThisItem.'Delivery Head'
@@ -475,13 +474,13 @@
             Height: =50
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Delivery_x0020_Head")
             Required: =false
-            Update: =DataCardValue7_2.Text
+            Update: =DataCardValue7_3.Text
             Width: =437
             X: =0
             Y: =2
             ZIndex: =2
 
-            DataCardKey7_2 As label:
+            DataCardKey7_3 As label:
                 AutoHeight: =true
                 Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
@@ -495,12 +494,12 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue7_2 As text:
+            DataCardValue7_3 As text:
                 BorderColor: =Color.Black
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =DisplayMode.View
+                DisplayMode: =Parent.DisplayMode
                 Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
@@ -514,7 +513,7 @@
                 Y: =10
                 ZIndex: =2
 
-            ErrorMessage7_2 As label:
+            ErrorMessage7_3 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -526,21 +525,21 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue7_2.Y + DataCardValue7_2.Height
+                Y: =DataCardValue7_3.Y + DataCardValue7_3.Height
                 ZIndex: =3
 
-            StarVisible7_2 As label:
+            StarVisible7_3 As label:
                 Align: =Align.Center
                 Color: =RGBA(255, 0, 0, 1)
-                Height: =DataCardKey7_2.Height
+                Height: =DataCardKey7_3.Height
                 Text: ="*"
                 Visible: =false
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey7_2.Y
+                Y: =DataCardKey7_3.Y
                 ZIndex: =4
 
-        "'Project Start Date_DataCard1_2' As typedDataCard.dateEditCard":
+        "'Project Start Date_DataCard1_3' As typedDataCard.dateEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="Project_x0020_Start_x0020_Date"
             Default: =ThisItem.'Project Start Date'
@@ -549,13 +548,13 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =DataCardValue8_2.SelectedDate
+            Update: =DataCardValue8_3.SelectedDate
             Width: =437
             X: =1
             Y: =2
             ZIndex: =2
 
-            DataCardKey8_2 As label:
+            DataCardKey8_3 As label:
                 AutoHeight: =true
                 Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
@@ -569,11 +568,11 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue8_2 As datepicker:
+            DataCardValue8_3 As datepicker:
                 BorderColor: =RGBA(0, 0, 0, 1)
                 BorderThickness: =1
                 DefaultDate: =Parent.Default
-                DisplayMode: =DisplayMode.View
+                DisplayMode: =Parent.DisplayMode
                 EndYear: =Year(Today())+100
                 Font: =Font.'Segoe UI'
                 Height: =35
@@ -589,7 +588,7 @@
                 Y: =10
                 ZIndex: =2
 
-            ErrorMessage8_2 As label:
+            ErrorMessage8_3 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -601,21 +600,21 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue8_2.Y + DataCardValue8_2.Height
+                Y: =DataCardValue8_3.Y + DataCardValue8_3.Height
                 ZIndex: =3
 
-            StarVisible8_2 As label:
+            StarVisible8_3 As label:
                 Align: =Align.Center
                 Color: =RGBA(255, 0, 0, 1)
-                Height: =DataCardKey8_2.Height
+                Height: =DataCardKey8_3.Height
                 Text: ="*"
                 Visible: =false
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey8_2.Y
+                Y: =DataCardKey8_3.Y
                 ZIndex: =4
 
-        "'Project end date_DataCard1_2' As typedDataCard.dateEditCard":
+        "'Project end date_DataCard1_3' As typedDataCard.dateEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="Project_x0020_end_x0020_date"
             Default: =ThisItem.'Project end date'
@@ -624,13 +623,13 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =DataCardValue9_2.SelectedDate
+            Update: =DataCardValue9_3.SelectedDate
             Width: =437
             X: =2
             Y: =2
             ZIndex: =2
 
-            DataCardKey9_2 As label:
+            DataCardKey9_3 As label:
                 AutoHeight: =true
                 Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
@@ -644,11 +643,11 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue9_2 As datepicker:
+            DataCardValue9_3 As datepicker:
                 BorderColor: =RGBA(0, 0, 0, 1)
                 BorderThickness: =1
                 DefaultDate: =Parent.Default
-                DisplayMode: =DisplayMode.View
+                DisplayMode: =Parent.DisplayMode
                 EndYear: =Year(Today())+100
                 Font: =Font.'Segoe UI'
                 Height: =35
@@ -664,7 +663,7 @@
                 Y: =10
                 ZIndex: =2
 
-            ErrorMessage9_2 As label:
+            ErrorMessage9_3 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -676,20 +675,20 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue9_2.Y + DataCardValue9_2.Height
+                Y: =DataCardValue9_3.Y + DataCardValue9_3.Height
                 ZIndex: =3
 
-            StarVisible9_2 As label:
+            StarVisible9_3 As label:
                 Align: =Align.Center
-                Height: =DataCardKey9_2.Height
+                Height: =DataCardKey9_3.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey9_2.Y
+                Y: =DataCardKey9_3.Y
                 ZIndex: =4
 
-        "'Type of Engagement_DataCard1_2' As typedDataCard.textualEditCard":
+        "'Type of Engagement_DataCard1_3' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="Type_x0020_of_x0020_Engagement"
             Default: =ThisItem.'Type of Engagement'
@@ -699,13 +698,13 @@
             Height: =50
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Type_x0020_of_x0020_Engagement")
             Required: =false
-            Update: =Dropdown3_2.Selected.Value
+            Update: =Dropdown3_3.Selected.Value
             Width: =437
             X: =0
             Y: =3
             ZIndex: =2
 
-            DataCardKey10_2 As label:
+            DataCardKey10_3 As label:
                 AutoHeight: =true
                 Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
@@ -719,7 +718,7 @@
                 Y: =10
                 ZIndex: =1
 
-            ErrorMessage10_2 As label:
+            ErrorMessage10_3 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -731,23 +730,23 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =Dropdown3_2.Y + Dropdown3_2.Height
+                Y: =Dropdown3_3.Y + Dropdown3_3.Height
                 ZIndex: =3
 
-            StarVisible10_2 As label:
+            StarVisible10_3 As label:
                 Align: =Align.Center
                 Color: =RGBA(255, 0, 0, 1)
-                Height: =DataCardKey10_2.Height
+                Height: =DataCardKey10_3.Height
                 Text: ="*"
                 Visible: =false
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey10_2.Y
+                Y: =DataCardKey10_3.Y
                 ZIndex: =4
 
-            Dropdown3_2 As dropdown:
+            Dropdown3_3 As dropdown:
                 BorderColor: =RGBA(0, 0, 0, 1)
-                BorderThickness: =1
+                BorderThickness: =0
                 ChevronBackground: =RGBA(255, 255, 255, 1)
                 ChevronFill: =RGBA(0, 0, 0, 1)
                 ChevronHoverBackground: =RGBA(202,202,202,1)
@@ -763,7 +762,7 @@
                 Y: =10
                 ZIndex: =5
 
-        "'Total Cost in USD_DataCard1_2' As typedDataCard.numberEditCard":
+        "'Total Cost in USD_DataCard1_3' As typedDataCard.numberEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="Total_x0020_Cost_x0020_in_x0020_"
             Default: =ThisItem.'Total Cost in USD'
@@ -772,13 +771,13 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =Value(DataCardValue11_2.Text)
+            Update: =Value(DataCardValue11_3.Text)
             Width: =437
             X: =1
             Y: =3
             ZIndex: =2
 
-            DataCardKey11_2 As label:
+            DataCardKey11_3 As label:
                 AutoHeight: =true
                 Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
@@ -792,12 +791,12 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue11_2 As text:
+            DataCardValue11_3 As text:
                 BorderColor: =RGBA(0, 0, 0, 1)
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =DisplayMode.View
+                DisplayMode: =Parent.DisplayMode
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
@@ -812,7 +811,7 @@
                 Y: =10
                 ZIndex: =2
 
-            ErrorMessage11_2 As label:
+            ErrorMessage11_3 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -824,21 +823,21 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue11_2.Y + DataCardValue11_2.Height
+                Y: =DataCardValue11_3.Y + DataCardValue11_3.Height
                 ZIndex: =3
 
-            StarVisible11_2 As label:
+            StarVisible11_3 As label:
                 Align: =Align.Center
                 Color: =RGBA(255, 0, 0, 1)
-                Height: =DataCardKey11_2.Height
+                Height: =DataCardKey11_3.Height
                 Text: ="*"
                 Visible: =false
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey11_2.Y
+                Y: =DataCardKey11_3.Y
                 ZIndex: =4
 
-        "'Onsite #_DataCard1_2' As typedDataCard.numberEditCard":
+        "'Onsite #_DataCard1_3' As typedDataCard.numberEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="Onsite_x0020__x0023_"
             Default: |-
@@ -848,13 +847,13 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =Value(DataCardValue12_2.Text)
+            Update: =Value(DataCardValue12_3.Text)
             Width: =437
             X: =2
             Y: =3
             ZIndex: =2
 
-            DataCardKey12_2 As label:
+            DataCardKey12_3 As label:
                 AutoHeight: =true
                 Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
@@ -868,12 +867,12 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue12_2 As text:
+            DataCardValue12_3 As text:
                 BorderColor: =RGBA(0, 0, 0, 1)
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =DisplayMode.View
+                DisplayMode: =Parent.DisplayMode
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
@@ -888,7 +887,7 @@
                 Y: =10
                 ZIndex: =2
 
-            ErrorMessage12_2 As label:
+            ErrorMessage12_3 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -900,21 +899,21 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue12_2.Y + DataCardValue12_2.Height
+                Y: =DataCardValue12_3.Y + DataCardValue12_3.Height
                 ZIndex: =3
 
-            StarVisible12_2 As label:
+            StarVisible12_3 As label:
                 Align: =Align.Center
                 Color: =RGBA(255, 0, 0, 1)
-                Height: =DataCardKey12_2.Height
+                Height: =DataCardKey12_3.Height
                 Text: ="*"
                 Visible: =false
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey12_2.Y
+                Y: =DataCardKey12_3.Y
                 ZIndex: =4
 
-        "'Offshore #_DataCard1_2' As typedDataCard.numberEditCard":
+        "'Offshore #_DataCard1_3' As typedDataCard.numberEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="Offshore_x0020__x0023_"
             Default: |-
@@ -924,13 +923,13 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =Value(DataCardValue13_2.Text)
+            Update: =Value(DataCardValue13_3.Text)
             Width: =437
             X: =0
             Y: =4
             ZIndex: =2
 
-            DataCardKey13_2 As label:
+            DataCardKey13_3 As label:
                 AutoHeight: =true
                 Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
@@ -944,12 +943,12 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue13_2 As text:
+            DataCardValue13_3 As text:
                 BorderColor: =RGBA(0, 0, 0, 1)
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =DisplayMode.View
+                DisplayMode: =Parent.DisplayMode
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
@@ -964,7 +963,7 @@
                 Y: =10
                 ZIndex: =2
 
-            ErrorMessage13_2 As label:
+            ErrorMessage13_3 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -976,21 +975,21 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue13_2.Y + DataCardValue13_2.Height
+                Y: =DataCardValue13_3.Y + DataCardValue13_3.Height
                 ZIndex: =3
 
-            StarVisible13_2 As label:
+            StarVisible13_3 As label:
                 Align: =Align.Center
                 Color: =RGBA(255, 0, 0, 1)
-                Height: =DataCardKey13_2.Height
+                Height: =DataCardKey13_3.Height
                 Text: ="*"
                 Visible: =false
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey13_2.Y
+                Y: =DataCardKey13_3.Y
                 ZIndex: =4
 
-        "'Total #_DataCard1_2' As typedDataCard.numberEditCard":
+        "'Total #_DataCard1_3' As typedDataCard.numberEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="Total_x0020__x0023_"
             Default: |-
@@ -1000,13 +999,13 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =Value(DataCardValue14_2.Text)
+            Update: =Value(DataCardValue14_3.Text)
             Width: =437
             X: =1
             Y: =4
             ZIndex: =2
 
-            DataCardKey14_2 As label:
+            DataCardKey14_3 As label:
                 AutoHeight: =true
                 Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
@@ -1020,12 +1019,12 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue14_2 As text:
+            DataCardValue14_3 As text:
                 BorderColor: =Color.Black
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =DisplayMode.View
+                DisplayMode: =Parent.DisplayMode
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
@@ -1040,7 +1039,7 @@
                 Y: =10
                 ZIndex: =2
 
-            ErrorMessage14_2 As label:
+            ErrorMessage14_3 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -1052,21 +1051,21 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue14_2.Y + DataCardValue14_2.Height
+                Y: =DataCardValue14_3.Y + DataCardValue14_3.Height
                 ZIndex: =3
 
-            StarVisible14_2 As label:
+            StarVisible14_3 As label:
                 Align: =Align.Center
                 Color: =RGBA(255, 0, 0, 1)
-                Height: =DataCardKey14_2.Height
+                Height: =DataCardKey14_3.Height
                 Text: ="*"
                 Visible: =false
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey14_2.Y
+                Y: =DataCardKey14_3.Y
                 ZIndex: =4
 
-        "'GM %_DataCard1_2' As typedDataCard.numberEditCard":
+        "'GM %_DataCard1_3' As typedDataCard.numberEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="GM_x0020__x0025_"
             Default: =ThisItem.'GM %'
@@ -1075,13 +1074,13 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =Value(DataCardValue15_2.Text)
+            Update: =Value(DataCardValue15_3.Text)
             Width: =437
             X: =2
             Y: =4
             ZIndex: =2
 
-            DataCardKey15_2 As label:
+            DataCardKey15_3 As label:
                 AutoHeight: =true
                 Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
@@ -1095,12 +1094,12 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue15_2 As text:
+            DataCardValue15_3 As text:
                 BorderColor: =Color.Black
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =DisplayMode.View
+                DisplayMode: =Parent.DisplayMode
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
@@ -1115,7 +1114,7 @@
                 Y: =10
                 ZIndex: =2
 
-            ErrorMessage15_2 As label:
+            ErrorMessage15_3 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -1127,21 +1126,21 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue15_2.Y + DataCardValue15_2.Height
+                Y: =DataCardValue15_3.Y + DataCardValue15_3.Height
                 ZIndex: =3
 
-            StarVisible15_2 As label:
+            StarVisible15_3 As label:
                 Align: =Align.Center
                 Color: =RGBA(255, 0, 0, 1)
-                Height: =DataCardKey15_2.Height
+                Height: =DataCardKey15_3.Height
                 Text: ="*"
                 Visible: =false
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey15_2.Y
+                Y: =DataCardKey15_3.Y
                 ZIndex: =4
 
-        "'Blended rate offshore (Per Month in USD)_DataCard1_2' As typedDataCard.numberEditCard":
+        "'Blended rate offshore (Per Month in USD)_DataCard1_3' As typedDataCard.numberEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="Blended_x0020_rate_x0020_offshor"
             Default: =ThisItem.'Blended rate offshore (Per Month in USD)'
@@ -1150,13 +1149,13 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =Value(DataCardValue16_2.Text)
+            Update: =Value(DataCardValue16_3.Text)
             Width: =437
             X: =0
             Y: =5
             ZIndex: =2
 
-            DataCardKey16_2 As label:
+            DataCardKey16_3 As label:
                 AutoHeight: =true
                 Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
@@ -1169,12 +1168,12 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue16_2 As text:
+            DataCardValue16_3 As text:
                 BorderColor: =Color.Black
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =DisplayMode.View
+                DisplayMode: =Parent.DisplayMode
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
@@ -1189,7 +1188,7 @@
                 Y: =10
                 ZIndex: =2
 
-            ErrorMessage16_2 As label:
+            ErrorMessage16_3 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -1201,21 +1200,21 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue16_2.Y + DataCardValue16_2.Height
+                Y: =DataCardValue16_3.Y + DataCardValue16_3.Height
                 ZIndex: =3
 
-            StarVisible16_2 As label:
+            StarVisible16_3 As label:
                 Align: =Align.Center
                 Color: =RGBA(255, 0, 0, 1)
-                Height: =DataCardKey16_2.Height
+                Height: =DataCardKey16_3.Height
                 Text: ="*"
                 Visible: =false
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey16_2.Y
+                Y: =DataCardKey16_3.Y
                 ZIndex: =4
 
-        "'Blended rate onsite (Per Month in USD)_DataCard1_2' As typedDataCard.numberEditCard":
+        "'Blended rate onsite (Per Month in USD)_DataCard1_3' As typedDataCard.numberEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="Blended_x0020_rate_x0020_onsite_"
             Default: =ThisItem.'Blended rate onsite (Per Month in USD)'
@@ -1224,13 +1223,13 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =Value(DataCardValue17_2.Text)
+            Update: =Value(DataCardValue17_3.Text)
             Width: =437
             X: =1
             Y: =5
             ZIndex: =2
 
-            DataCardKey17_2 As label:
+            DataCardKey17_3 As label:
                 Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
@@ -1241,12 +1240,12 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue17_2 As text:
+            DataCardValue17_3 As text:
                 BorderColor: =Color.Black
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =DisplayMode.View
+                DisplayMode: =Parent.DisplayMode
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
@@ -1261,7 +1260,7 @@
                 Y: =10
                 ZIndex: =2
 
-            ErrorMessage17_2 As label:
+            ErrorMessage17_3 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -1273,21 +1272,21 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue17_2.Y + DataCardValue17_2.Height
+                Y: =DataCardValue17_3.Y + DataCardValue17_3.Height
                 ZIndex: =3
 
-            StarVisible17_2 As label:
+            StarVisible17_3 As label:
                 Align: =Align.Center
                 Color: =RGBA(255, 0, 0, 1)
-                Height: =DataCardKey17_2.Height
+                Height: =DataCardKey17_3.Height
                 Text: ="*"
                 Visible: =false
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey17_2.Y
+                Y: =DataCardKey17_3.Y
                 ZIndex: =4
 
-        "'Blended rate in USD_DataCard1_2' As typedDataCard.numberEditCard":
+        "'Blended rate in USD_DataCard1_3' As typedDataCard.numberEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="Blended_x0020_rate_x0020_in_x002"
             Default: =ThisItem.'Blended rate in USD'
@@ -1296,13 +1295,13 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =Value(DataCardValue18_2.Text)
+            Update: =Value(DataCardValue18_3.Text)
             Width: =437
             X: =2
             Y: =5
             ZIndex: =2
 
-            DataCardKey18_2 As label:
+            DataCardKey18_3 As label:
                 AutoHeight: =true
                 Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
@@ -1316,12 +1315,12 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue18_2 As text:
+            DataCardValue18_3 As text:
                 BorderColor: =Color.Black
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =DisplayMode.View
+                DisplayMode: =Parent.DisplayMode
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
@@ -1336,7 +1335,7 @@
                 Y: =10
                 ZIndex: =2
 
-            ErrorMessage18_2 As label:
+            ErrorMessage18_3 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -1348,21 +1347,21 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue18_2.Y + DataCardValue18_2.Height
+                Y: =DataCardValue18_3.Y + DataCardValue18_3.Height
                 ZIndex: =3
 
-            StarVisible18_2 As label:
+            StarVisible18_3 As label:
                 Align: =Align.Center
                 Color: =RGBA(255, 0, 0, 1)
-                Height: =DataCardKey18_2.Height
+                Height: =DataCardKey18_3.Height
                 Text: ="*"
                 Visible: =false
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey18_2.Y
+                Y: =DataCardKey18_3.Y
                 ZIndex: =4
 
-        "'Type of contract_DataCard1_2' As typedDataCard.textualEditCard":
+        "'Type of contract_DataCard1_3' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="Type_x0020_of_x0020_contract"
             Default: =ThisItem.'Type of contract'
@@ -1372,13 +1371,13 @@
             Height: =50
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Type_x0020_of_x0020_contract")
             Required: =false
-            Update: =Dropdown5_2.Selected.Value
+            Update: =Dropdown5_3.Selected.Value
             Width: =437
             X: =0
             Y: =6
             ZIndex: =2
 
-            DataCardKey21_2 As label:
+            DataCardKey21_3 As label:
                 AutoHeight: =true
                 Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
@@ -1392,7 +1391,7 @@
                 Y: =10
                 ZIndex: =1
 
-            ErrorMessage21_2 As label:
+            ErrorMessage21_3 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -1404,23 +1403,23 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =Dropdown5_2.Y + Dropdown5_2.Height
+                Y: =Dropdown5_3.Y + Dropdown5_3.Height
                 ZIndex: =3
 
-            StarVisible21_2 As label:
+            StarVisible21_3 As label:
                 Align: =Align.Center
                 Color: =RGBA(255, 0, 0, 1)
-                Height: =DataCardKey21_2.Height
+                Height: =DataCardKey21_3.Height
                 Text: ="*"
                 Visible: =false
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey21_2.Y
+                Y: =DataCardKey21_3.Y
                 ZIndex: =4
 
-            Dropdown5_2 As dropdown:
+            Dropdown5_3 As dropdown:
                 BorderColor: =RGBA(0, 0, 0, 1)
-                BorderThickness: =1
+                BorderThickness: =0
                 ChevronBackground: =RGBA(255, 255, 255, 1)
                 ChevronFill: =RGBA(0, 0, 0, 1)
                 ChevronHoverBackground: =RGBA(202,202,202,1)
@@ -1436,7 +1435,7 @@
                 Y: =10
                 ZIndex: =5
 
-        "'Project status_DataCard1_2' As typedDataCard.textualEditCard":
+        "'Project status_DataCard1_3' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="Project_x0020_status"
             Default: =ThisItem.'Project status'
@@ -1446,13 +1445,13 @@
             Height: =50
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Project_x0020_status")
             Required: =false
-            Update: =Dropdown6_2.Selected.Value
+            Update: =Dropdown6_3.Selected.Value
             Width: =437
             X: =1
             Y: =6
             ZIndex: =2
 
-            DataCardKey22_2 As label:
+            DataCardKey22_3 As label:
                 AutoHeight: =true
                 Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
@@ -1466,7 +1465,7 @@
                 Y: =10
                 ZIndex: =1
 
-            ErrorMessage22_2 As label:
+            ErrorMessage22_3 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -1478,23 +1477,23 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =Dropdown6_2.Y + Dropdown6_2.Height
+                Y: =Dropdown6_3.Y + Dropdown6_3.Height
                 ZIndex: =3
 
-            StarVisible22_2 As label:
+            StarVisible22_3 As label:
                 Align: =Align.Center
                 Color: =RGBA(255, 0, 0, 1)
-                Height: =DataCardKey22_2.Height
+                Height: =DataCardKey22_3.Height
                 Text: ="*"
                 Visible: =false
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey22_2.Y
+                Y: =DataCardKey22_3.Y
                 ZIndex: =4
 
-            Dropdown6_2 As dropdown:
+            Dropdown6_3 As dropdown:
                 BorderColor: =RGBA(0, 0, 0, 1)
-                BorderThickness: =1
+                BorderThickness: =0
                 ChevronBackground: =RGBA(255, 255, 255, 1)
                 ChevronFill: =RGBA(0, 0, 0, 1)
                 ChevronHoverBackground: =RGBA(202,202,202,1)
@@ -1510,7 +1509,7 @@
                 Y: =10
                 ZIndex: =5
 
-        "'Type of project_DataCard1_2' As typedDataCard.textualEditCard":
+        "'Type of project_DataCard1_3' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="Type_x0020_of_x0020_project"
             Default: =ThisItem.'Type of project'
@@ -1520,13 +1519,13 @@
             Height: =50
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Type_x0020_of_x0020_project")
             Required: =false
-            Update: =Dropdown7_2.Selected.Value
+            Update: =Dropdown7_3.Selected.Value
             Width: =437
             X: =2
             Y: =6
             ZIndex: =2
 
-            DataCardKey25_2 As label:
+            DataCardKey25_3 As label:
                 AutoHeight: =true
                 Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
@@ -1540,7 +1539,7 @@
                 Y: =10
                 ZIndex: =1
 
-            ErrorMessage25_2 As label:
+            ErrorMessage25_3 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -1552,23 +1551,23 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =Dropdown7_2.Y + Dropdown7_2.Height
+                Y: =Dropdown7_3.Y + Dropdown7_3.Height
                 ZIndex: =3
 
-            StarVisible25_2 As label:
+            StarVisible25_3 As label:
                 Align: =Align.Center
                 Color: =RGBA(255, 0, 0, 1)
-                Height: =DataCardKey25_2.Height
+                Height: =DataCardKey25_3.Height
                 Text: ="*"
                 Visible: =false
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey25_2.Y
+                Y: =DataCardKey25_3.Y
                 ZIndex: =4
 
-            Dropdown7_2 As dropdown:
+            Dropdown7_3 As dropdown:
                 BorderColor: =RGBA(0, 0, 0, 1)
-                BorderThickness: =1
+                BorderThickness: =0
                 ChevronBackground: =RGBA(255, 255, 255, 1)
                 ChevronFill: =RGBA(0, 0, 0, 1)
                 ChevronHoverBackground: =RGBA(202,202,202,1)
@@ -1584,7 +1583,7 @@
                 Y: =10
                 ZIndex: =5
 
-        Comments_DataCard1_2 As typedDataCard.textualEditCard:
+        Comments_DataCard1_3 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="Comments"
             Default: =ThisItem.Comments
@@ -1594,13 +1593,13 @@
             Height: =50
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Comments")
             Required: =false
-            Update: =DataCardValue31_2.Text
+            Update: =DataCardValue31_3.Text
             Width: =437
             X: =0
             Y: =7
             ZIndex: =2
 
-            DataCardKey31_2 As label:
+            DataCardKey31_3 As label:
                 AutoHeight: =true
                 Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
@@ -1614,12 +1613,12 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue31_2 As text:
+            DataCardValue31_3 As text:
                 BorderColor: =Color.Black
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =DisplayMode.View
+                DisplayMode: =Parent.DisplayMode
                 Font: =Font.'Segoe UI'
                 Height: =35
                 MaxLength: =Parent.MaxLength
@@ -1635,7 +1634,7 @@
                 Y: =10
                 ZIndex: =2
 
-            ErrorMessage31_2 As label:
+            ErrorMessage31_3 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -1647,42 +1646,58 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue31_2.Y + DataCardValue31_2.Height
+                Y: =DataCardValue31_3.Y + DataCardValue31_3.Height
                 ZIndex: =3
 
-            StarVisible31_2 As label:
+            StarVisible31_3 As label:
                 Align: =Align.Center
-                Height: =DataCardKey31_2.Height
+                Height: =DataCardKey31_3.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey31_2.Y
+                Y: =DataCardKey31_3.Y
                 ZIndex: =4
 
-    Button5_2 As button:
+    Button5_3 As button:
         Fill: =RGBA(127, 178, 57, 1)
-        Text: ="Approve"
-        X: =1108
+        Text: ="Submit"
+        X: =964
         Y: =692
         ZIndex: =3
 
-    Button6_2 As button:
+    Button6_3 As button:
         Fill: =RGBA(255, 0, 0, 1)
         OnSelect: =Navigate('Project Dashboard Screen')
-        Text: ="Reject"
-        X: =948
+        Text: ="Cancel"
+        X: =1124
         Y: =692
         ZIndex: =4
 
-    Label8_2 As label:
+    Label8_1 As label:
         Color: =RGBA(255, 0, 0, 1)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
         Size: =14
         Text: ="* All currencies are in USD"
         Width: =238
-        X: =1103
-        Y: =602
-        ZIndex: =5
+        X: =1097
+        Y: =588
+        ZIndex: =7
+
+    "'grp_edit icon' As group":
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =7
+
+        Circle1 As circle:
+            BorderThickness: =2
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Width: =40
+            X: =1303
+            Y: =132
+            ZIndex: =6
 
