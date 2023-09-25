@@ -62,6 +62,7 @@
                 DisplayMode: =DisplayMode.View
                 Height: =DataCardKey1_2.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey1_2.Y
@@ -74,6 +75,7 @@
                 ChevronFill: =RGBA(0, 0, 0, 1)
                 ChevronHoverBackground: =
                 ChevronHoverFill: =RGBA(202, 202, 202, 1)
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Height: =35
                 HoverFill: =RGBA(202, 202, 202, 1)
@@ -136,6 +138,7 @@
                 DisplayMode: =DisplayMode.View
                 Height: =DataCardKey2_2.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey2_2.Y
@@ -147,6 +150,7 @@
                 ChevronBackground: =RGBA(255, 255, 255, 1)
                 ChevronFill: =RGBA(0, 0, 0, 1)
                 ChevronHoverBackground: =RGBA(202,202,202,1)
+                DisplayMode: =DisplayMode.View
                 Height: =35
                 HoverFill: =RGBA(202, 202, 202, 1)
                 Items: =["APAC", "MEA", "Europe", "US"]
@@ -192,7 +196,7 @@
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =DisplayMode.View
                 Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
@@ -226,6 +230,7 @@
                 Color: =RGBA(255, 0, 0, 1)
                 Height: =DataCardKey3_2.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey3_2.Y
@@ -266,7 +271,7 @@
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Height: =35
                 MaxLength: =Parent.MaxLength
@@ -301,6 +306,7 @@
                 Color: =RGBA(255, 0, 0, 1)
                 Height: =DataCardKey4_2.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey4_2.Y
@@ -341,7 +347,7 @@
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Height: =35
                 MaxLength: =Parent.MaxLength
@@ -376,6 +382,7 @@
                 Color: =RGBA(255, 0, 0, 1)
                 Height: =DataCardKey5_2.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey5_2.Y
@@ -416,7 +423,7 @@
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Height: =35
                 MaxLength: =Parent.MaxLength
@@ -451,6 +458,7 @@
                 Color: =RGBA(255, 0, 0, 1)
                 Height: =DataCardKey6_2.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey6_2.Y
@@ -491,7 +499,7 @@
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =DisplayMode.View
                 Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
@@ -525,6 +533,7 @@
                 Color: =RGBA(255, 0, 0, 1)
                 Height: =DataCardKey7_2.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey7_2.Y
@@ -563,7 +572,7 @@
                 BorderColor: =RGBA(0, 0, 0, 1)
                 BorderThickness: =1
                 DefaultDate: =Parent.Default
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =DisplayMode.View
                 EndYear: =Year(Today())+100
                 Font: =Font.'Segoe UI'
                 Height: =35
@@ -599,6 +608,7 @@
                 Color: =RGBA(255, 0, 0, 1)
                 Height: =DataCardKey8_2.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey8_2.Y
@@ -637,7 +647,7 @@
                 BorderColor: =RGBA(0, 0, 0, 1)
                 BorderThickness: =1
                 DefaultDate: =Parent.Default
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =DisplayMode.View
                 EndYear: =Year(Today())+100
                 Font: =Font.'Segoe UI'
                 Height: =35
@@ -728,6 +738,7 @@
                 Color: =RGBA(255, 0, 0, 1)
                 Height: =DataCardKey10_2.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey10_2.Y
@@ -739,6 +750,7 @@
                 ChevronBackground: =RGBA(255, 255, 255, 1)
                 ChevronFill: =RGBA(0, 0, 0, 1)
                 ChevronHoverBackground: =RGBA(202,202,202,1)
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Height: =35
                 HoverFill: =RGBA(202, 202, 202, 1)
@@ -784,7 +796,7 @@
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
@@ -819,6 +831,7 @@
                 Color: =RGBA(255, 0, 0, 1)
                 Height: =DataCardKey11_2.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey11_2.Y
@@ -859,7 +872,7 @@
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
@@ -894,6 +907,7 @@
                 Color: =RGBA(255, 0, 0, 1)
                 Height: =DataCardKey12_2.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey12_2.Y
@@ -934,7 +948,7 @@
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
@@ -969,6 +983,7 @@
                 Color: =RGBA(255, 0, 0, 1)
                 Height: =DataCardKey13_2.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey13_2.Y
@@ -1009,7 +1024,7 @@
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
@@ -1084,7 +1099,7 @@
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
@@ -1119,6 +1134,7 @@
                 Color: =RGBA(255, 0, 0, 1)
                 Height: =DataCardKey15_2.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey15_2.Y
@@ -1157,7 +1173,7 @@
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
@@ -1192,6 +1208,7 @@
                 Color: =RGBA(255, 0, 0, 1)
                 Height: =DataCardKey16_2.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey16_2.Y
@@ -1228,7 +1245,7 @@
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
@@ -1263,6 +1280,7 @@
                 Color: =RGBA(255, 0, 0, 1)
                 Height: =DataCardKey17_2.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey17_2.Y
@@ -1302,7 +1320,7 @@
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
@@ -1337,6 +1355,7 @@
                 Color: =RGBA(255, 0, 0, 1)
                 Height: =DataCardKey18_2.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey18_2.Y
@@ -1392,6 +1411,7 @@
                 Color: =RGBA(255, 0, 0, 1)
                 Height: =DataCardKey21_2.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey21_2.Y
@@ -1403,6 +1423,7 @@
                 ChevronBackground: =RGBA(255, 255, 255, 1)
                 ChevronFill: =RGBA(0, 0, 0, 1)
                 ChevronHoverBackground: =RGBA(202,202,202,1)
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Height: =35
                 HoverFill: =RGBA(202, 202, 202, 1)
@@ -1464,6 +1485,7 @@
                 Color: =RGBA(255, 0, 0, 1)
                 Height: =DataCardKey22_2.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey22_2.Y
@@ -1475,6 +1497,7 @@
                 ChevronBackground: =RGBA(255, 255, 255, 1)
                 ChevronFill: =RGBA(0, 0, 0, 1)
                 ChevronHoverBackground: =RGBA(202,202,202,1)
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Height: =35
                 HoverFill: =RGBA(202, 202, 202, 1)
@@ -1536,6 +1559,7 @@
                 Color: =RGBA(255, 0, 0, 1)
                 Height: =DataCardKey25_2.Height
                 Text: ="*"
+                Visible: =false
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey25_2.Y
@@ -1547,6 +1571,7 @@
                 ChevronBackground: =RGBA(255, 255, 255, 1)
                 ChevronFill: =RGBA(0, 0, 0, 1)
                 ChevronHoverBackground: =RGBA(202,202,202,1)
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Height: =35
                 HoverFill: =RGBA(202, 202, 202, 1)
@@ -1593,10 +1618,11 @@
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Height: =35
                 MaxLength: =Parent.MaxLength
+                Mode: =TextMode.MultiLine
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
