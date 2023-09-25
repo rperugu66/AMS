@@ -4,7 +4,7 @@
         BorderColor: =RGBA(227, 234, 243, 1)
         BorderThickness: =2
         DataSource: ='Project list_AMS'
-        DefaultMode: =FormMode.View
+        DefaultMode: =FormMode.New
         Height: =469
         Item: =varCurrentItem
         Width: =1315
@@ -871,9 +871,9 @@
             DataCardValue12_3 As text:
                 BorderColor: =RGBA(0, 0, 0, 1)
                 BorderThickness: =1
-                Default: =Parent.Default
+                Default: =DisplayMode.Edit
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
@@ -883,6 +883,7 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
+                Visible: =TextInputVisible
                 Width: =160
                 X: =271
                 Y: =10
@@ -1705,6 +1706,7 @@
         Icon5 As icon.Edit:
             Height: =25
             Icon: =Icon.Edit
+            OnSelect: =Set(TextInputVisible, !TextInputVisible)
             Width: =25
             X: =1310
             Y: =139
