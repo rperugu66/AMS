@@ -115,7 +115,7 @@
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
     "ManualOfflineProfileId": "",
-    "Name": "Account Management System",
+    "Name": "Accounts Management System",
     "OriginatingVersion": "1.334",
     "ParserErrorCount": 0,
     "ShowStatusBar": false
@@ -142,6 +142,7 @@
     "Project Dashboard Screen",
     "Screen1",
     "Screen1_1",
-    "Screen1_2"
+    "Screen1_2",
+    "Account Deepdive"
   ]
 }

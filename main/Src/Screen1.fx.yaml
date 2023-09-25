@@ -80,13 +80,6 @@ Screen1 As screen:
             Y: =33
             ZIndex: =7
 
-    Image2 As image:
-        Height: =61
-        Image: ='download (1)'
-        ImagePosition: =ImagePosition.Fill
-        Width: =258
-        ZIndex: =11
-
     GroupNavigation As group:
         Height: =5
         Width: =5
@@ -229,4 +222,11 @@ Screen1 As screen:
             X: =If(!IsExpand, 200, 50)
             Y: =61+0
             ZIndex: =10
+
+    Image2 As image:
+        Height: =61
+        Image: ='download (1)'
+        ImagePosition: =ImagePosition.Fill
+        Width: =258
+        ZIndex: =11
 
