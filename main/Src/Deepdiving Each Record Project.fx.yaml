@@ -74,6 +74,7 @@
                 ChevronFill: =RGBA(0, 0, 0, 1)
                 ChevronHoverBackground: =
                 ChevronHoverFill: =RGBA(202, 202, 202, 1)
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Height: =35
                 HoverFill: =RGBA(202, 202, 202, 1)
@@ -147,6 +148,7 @@
                 ChevronBackground: =RGBA(255, 255, 255, 1)
                 ChevronFill: =RGBA(0, 0, 0, 1)
                 ChevronHoverBackground: =RGBA(202,202,202,1)
+                DisplayMode: =DisplayMode.View
                 Height: =35
                 HoverFill: =RGBA(202, 202, 202, 1)
                 Items: =["APAC", "MEA", "Europe", "US"]
@@ -739,6 +741,7 @@
                 ChevronBackground: =RGBA(255, 255, 255, 1)
                 ChevronFill: =RGBA(0, 0, 0, 1)
                 ChevronHoverBackground: =RGBA(202,202,202,1)
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Height: =35
                 HoverFill: =RGBA(202, 202, 202, 1)
@@ -1403,6 +1406,7 @@
                 ChevronBackground: =RGBA(255, 255, 255, 1)
                 ChevronFill: =RGBA(0, 0, 0, 1)
                 ChevronHoverBackground: =RGBA(202,202,202,1)
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Height: =35
                 HoverFill: =RGBA(202, 202, 202, 1)
@@ -1475,6 +1479,7 @@
                 ChevronBackground: =RGBA(255, 255, 255, 1)
                 ChevronFill: =RGBA(0, 0, 0, 1)
                 ChevronHoverBackground: =RGBA(202,202,202,1)
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Height: =35
                 HoverFill: =RGBA(202, 202, 202, 1)
@@ -1547,6 +1552,7 @@
                 ChevronBackground: =RGBA(255, 255, 255, 1)
                 ChevronFill: =RGBA(0, 0, 0, 1)
                 ChevronHoverBackground: =RGBA(202,202,202,1)
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Height: =35
                 HoverFill: =RGBA(202, 202, 202, 1)
@@ -1597,6 +1603,7 @@
                 Font: =Font.'Segoe UI'
                 Height: =35
                 MaxLength: =Parent.MaxLength
+                Mode: =TextMode.MultiLine
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
