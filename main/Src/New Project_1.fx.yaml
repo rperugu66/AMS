@@ -1296,7 +1296,7 @@
                 ZIndex: =1
 
             DataCardValue18_1 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =Color.Black
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
@@ -1647,6 +1647,7 @@
 
     Button6_1 As button:
         Fill: =RGBA(255, 0, 0, 1)
+        OnSelect: =Navigate('Project Dashboard Screen')
         Text: ="Cancel"
         X: =1124
         Y: =692
