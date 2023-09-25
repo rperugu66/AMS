@@ -41,7 +41,7 @@
     "DatasetName": "https://ntlgnoida.sharepoint.com/sites/LCNCPowerPlatformPractice",
     "EncodeDataset": true,
     "IsSampleData": false,
-    "IsWritable": true,
+    "IsWritable": false,
     "Name": "AMS-Roles",
     "Type": "ConnectedDataSourceInfo"
   }

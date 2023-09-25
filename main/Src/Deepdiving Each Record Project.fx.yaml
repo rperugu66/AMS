@@ -5,11 +5,10 @@
         BorderThickness: =2
         DataSource: ='Project list_AMS'
         DefaultMode: =FormMode.View
-        Height: =469
-        Item: =varCurrentItem
+        Height: =518
         Width: =1315
         X: =26
-        Y: =186
+        Y: =158
         ZIndex: =1
 
         "'Account Name_DataCard1_3' As typedDataCard.textualEditCard":
@@ -1698,12 +1697,12 @@
         ZIndex: =9
 
         Icon5 As icon.Edit:
-            Height: =25
+            Height: =45
             Icon: =Icon.Edit
             OnSelect: =Set(varedit, !varedit)
             Width: =25
-            X: =1310
-            Y: =139
+            X: =1322
+            Y: =87
             ZIndex: =8
 
     grp_edit As group:
@@ -1712,4 +1711,87 @@
         X: =60
         Y: =60
         ZIndex: =9
+
+    GroupHeader_3 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =20
+        ZIndex: =14
+
+        WelcomeScreenTitleBackground_3 As rectangle:
+            BorderColor: =RGBA(51, 51, 51, 1)
+            DisabledFill: =WelcomeScreenTitleBackground_3.Fill
+            Fill: =RGBA(8, 35, 64, 1)
+            FocusedBorderColor: =WelcomeScreenTitleBackground_3.BorderColor
+            Height: =60
+            HoverFill: =WelcomeScreenTitleBackground_3.Fill
+            PressedFill: =WelcomeScreenTitleBackground_3.Fill
+            Width: =1366
+            ZIndex: =9
+
+        ImagePowerAppsLogo_3 As image:
+            BorderColor: =RGBA(51, 51, 51, 1)
+            Fill: =RGBA(8, 35, 64, 1)
+            FocusedBorderColor: =ImagePowerAppsLogo_3.BorderColor
+            Height: =48
+            HoverBorderColor: =ColorFade(ImagePowerAppsLogo_3.BorderColor, 20%)
+            HoverFill: =ColorFade(ImagePowerAppsLogo_3.Fill, 20%)
+            Image: =User().Image
+            PressedBorderColor: =ColorFade(ImagePowerAppsLogo_3.BorderColor, -20%)
+            PressedFill: =ColorFade(ImagePowerAppsLogo_3.Fill, -20%)
+            RadiusBottomLeft: =48
+            RadiusBottomRight: =48
+            RadiusTopLeft: =48
+            RadiusTopRight: =48
+            Width: =48
+            X: =1311
+            ZIndex: =10
+
+        lblAppName_3 As label:
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Bold
+            Height: =60
+            Size: =18
+            Text: ="HBU Financials"
+            Width: =413
+            X: =488
+            ZIndex: =11
+
+        lblUserName_3 As label:
+            Align: =Align.Right
+            Color: =Color.White
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Bold
+            Height: =59
+            PaddingBottom: =15
+            PaddingTop: =0
+            Size: =16
+            Text: |
+                =User().FullName
+            Width: =270
+            X: =1032
+            ZIndex: =12
+
+        lblDesignation_3 As label:
+            Align: =Align.Right
+            Color: =Color.White
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Semibold
+            Height: =27
+            Size: =10
+            Text: =Office365Users.MyProfile().JobTitle
+            Width: =314
+            X: =993
+            Y: =27
+            ZIndex: =13
+
+    Image2_3 As image:
+        Height: =61
+        Image: ='download (1)'
+        ImagePosition: =ImagePosition.Fill
+        Width: =258
+        ZIndex: =15
 

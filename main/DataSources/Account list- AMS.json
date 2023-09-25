@@ -59,7 +59,7 @@
     "DatasetName": "https://ntlgnoida.sharepoint.com/sites/LCNCPowerPlatformPractice",
     "EncodeDataset": true,
     "IsSampleData": false,
-    "IsWritable": true,
+    "IsWritable": false,
     "Name": "Account list- AMS",
     "Type": "ConnectedDataSourceInfo"
   }
