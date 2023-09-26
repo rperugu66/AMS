@@ -6875,6 +6875,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Deepdiving Each Record Project'.Form1_3.'Risk Status (RAG)_DataCard1'.DataCardValue1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Deepdiving Each Record Project'.Form1_3.'Risk Status (RAG)_DataCard1'.DataCardValue1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Deepdiving Each Record Project",
+                "type": "'Deepdiving Each Record Project'.Form1_3.'Risk Status (RAG)_DataCard1'.DataCardValue1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.StepsPanelCodeFontSize"
                 }
               ],
