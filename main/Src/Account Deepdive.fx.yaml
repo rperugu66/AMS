@@ -718,10 +718,11 @@
                 ZIndex: =1
 
             DataCardValue9_5 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Black)
+                BorderThickness: =0
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =DisplayMode.View
+                DisplayMode: =If(varedit,DisplayMode.View, DisplayMode.Edit)
                 Font: =Font.'Segoe UI'
                 Height: =35
                 MaxLength: =Parent.MaxLength
@@ -1689,10 +1690,11 @@
                 ZIndex: =1
 
             DataCardValue37_1 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Black)
+                BorderThickness: =0
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =DisplayMode.View
+                DisplayMode: =If(varedit,DisplayMode.View, DisplayMode.Edit)
                 Font: =Font.'Segoe UI'
                 Height: =35
                 MaxLength: =Parent.MaxLength
