@@ -1661,14 +1661,14 @@
                 ZIndex: =4
 
     Button5_2 As button:
-        Fill: =RGBA(127, 178, 57, 1)
+        Fill: =RGBA(0, 18, 107, 1)
         Text: ="Approve"
-        X: =1108
+        X: =1147
         Y: =692
         ZIndex: =3
 
     Button6_2 As button:
-        Fill: =RGBA(255, 0, 0, 1)
+        Fill: =RGBA(0, 18, 107, 1)
         OnSelect: =Navigate('Project Dashboard Screen')
         Text: ="Reject"
         X: =948

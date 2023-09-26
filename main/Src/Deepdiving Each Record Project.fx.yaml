@@ -1664,14 +1664,14 @@
                 ZIndex: =4
 
     Button5_3 As button:
-        Fill: =RGBA(127, 178, 57, 1)
+        Fill: =RGBA(0, 18, 107, 1)
         Text: ="Submit"
-        X: =964
+        X: =938
         Y: =692
         ZIndex: =3
 
     Button6_3 As button:
-        Fill: =RGBA(255, 0, 0, 1)
+        Fill: =RGBA(0, 18, 107, 1)
         OnSelect: =Navigate('Project Dashboard Screen')
         Text: ="Cancel"
         X: =1124
