@@ -1264,9 +1264,10 @@
 
             DataCardValue30_1 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderThickness: =0
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =DisplayMode.View
+                DisplayMode: =If(varedit,DisplayMode.View, DisplayMode.Edit)
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
