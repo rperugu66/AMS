@@ -48,7 +48,7 @@
                 BorderThickness: =0
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =DisplayMode.View
+                DisplayMode: =If(varedit,DisplayMode.View, DisplayMode.Edit)
                 Font: =Font.'Segoe UI'
                 Height: =35
                 MaxLength: =Parent.MaxLength
@@ -178,6 +178,7 @@
             ZIndex: =1
 
             DataCardKey7_5 As label:
+                Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =35
@@ -317,8 +318,10 @@
             ZIndex: =1
 
             TextInput4_3 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =0
                 Default: =LookUp('Account-Geo  List', ThisItem.'Account Name' = 'Account Name').Geo
-                DisplayMode: =DisplayMode.View
+                DisplayMode: =If(varedit,DisplayMode.View, DisplayMode.Edit)
                 Font: =Font.'Segoe UI'
                 Height: =35
                 Width: =200
@@ -327,7 +330,6 @@
                 ZIndex: =1
 
             Label7_3 As label:
-                Color: =RGBA(9, 33, 98, 1)
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =35
