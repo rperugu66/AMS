@@ -3,233 +3,6 @@
     OnVisible: |-
         =Set(_selectedTutorial,{Row:1,Title:"Account Info",Image:bank});
 
-    GroupHeader_1 As group:
-        Height: =5
-        Width: =5
-        X: =40
-        Y: =40
-        ZIndex: =7
-
-        WelcomeScreenTitleBackground_1 As rectangle:
-            BorderColor: =RGBA(51, 51, 51, 1)
-            DisabledFill: =WelcomeScreenTitleBackground_1.Fill
-            Fill: =RGBA(8, 35, 64, 1)
-            FocusedBorderColor: =WelcomeScreenTitleBackground_1.BorderColor
-            Height: =60
-            HoverFill: =WelcomeScreenTitleBackground_1.Fill
-            PressedFill: =WelcomeScreenTitleBackground_1.Fill
-            Width: =1366
-            ZIndex: =2
-
-        ImagePowerAppsLogo_1 As image:
-            BorderColor: =RGBA(51, 51, 51, 1)
-            Fill: =RGBA(8, 35, 64, 1)
-            FocusedBorderColor: =ImagePowerAppsLogo_1.BorderColor
-            Height: =48
-            HoverBorderColor: =ColorFade(ImagePowerAppsLogo_1.BorderColor, 20%)
-            HoverFill: =ColorFade(ImagePowerAppsLogo_1.Fill, 20%)
-            Image: =User().Image
-            PressedBorderColor: =ColorFade(ImagePowerAppsLogo_1.BorderColor, -20%)
-            PressedFill: =ColorFade(ImagePowerAppsLogo_1.Fill, -20%)
-            RadiusBottomLeft: =48
-            RadiusBottomRight: =48
-            RadiusTopLeft: =48
-            RadiusTopRight: =48
-            Width: =48
-            X: =1311
-            Y: =6
-            ZIndex: =3
-
-        lblAppName_1 As label:
-            Align: =Align.Center
-            Color: =RGBA(255, 255, 255, 1)
-            Font: =Font.'Segoe UI'
-            FontWeight: =FontWeight.Bold
-            Height: =60
-            Size: =18
-            Text: ="HBU Financials"
-            Width: =413
-            X: =488
-            ZIndex: =4
-
-        lblUserName_1 As label:
-            Align: =Align.Right
-            Color: =Color.White
-            Font: =Font.'Segoe UI'
-            FontWeight: =FontWeight.Bold
-            Height: =59
-            PaddingBottom: =15
-            PaddingTop: =0
-            Size: =16
-            Text: |
-                =User().FullName
-            Width: =270
-            X: =1032
-            ZIndex: =6
-
-        lblDesignation_1 As label:
-            Align: =Align.Right
-            Color: =Color.White
-            Font: =Font.'Segoe UI'
-            FontWeight: =FontWeight.Semibold
-            Height: =27
-            Size: =10
-            Text: =Office365Users.MyProfile().JobTitle
-            Width: =314
-            X: =993
-            Y: =33
-            ZIndex: =7
-
-    Image2_1 As image:
-        Height: =61
-        Image: ='download (1)'
-        ImagePosition: =ImagePosition.Fill
-        Width: =258
-        ZIndex: =11
-
-    GroupNavigation_1 As group:
-        Height: =5
-        Width: =5
-        X: =40
-        Y: =-21
-        ZIndex: =11
-
-        Rectangle2_2 As rectangle:
-            Fill: =Color.White
-            Height: =707
-            Width: =If(IsExpand, 50, 200)
-            Y: =60
-            ZIndex: =1
-
-        GalleryNavigation_1 As gallery.galleryVertical:
-            BorderColor: =RGBA(101, 128, 187, 1)
-            DisabledBorderColor: =GalleryNavigation_1.BorderColor
-            DisabledFill: =GalleryNavigation_1.Fill
-            Fill: =Color.White
-            HoverBorderColor: =GalleryNavigation_1.BorderColor
-            HoverFill: =GalleryNavigation_1.Fill
-            Items: =NavigationMenu
-            Layout: =Layout.Vertical
-            LoadingSpinnerColor: =GalleryNavigation_1.BorderColor
-            OnSelect: |
-                =Set(
-                    _selectedTutorial,
-                    ThisItem
-                );
-                If(
-                    ThisItem.Row = 1,
-                    Navigate(
-                        DashboardScreen,
-                        BorderStyle.None
-                    ),
-                    ThisItem.Row = 2,
-                    Navigate(
-                        AccountInfo,
-                        BorderStyle.None
-                    ),
-                    ThisItem.Row = 3,
-                    Navigate(
-                        AccountInfo,
-                        BorderStyle.None
-                    )
-                );
-            PressedBorderColor: =GalleryNavigation_1.BorderColor
-            PressedFill: =GalleryNavigation_1.Fill
-            ShowScrollbar: =false
-            TemplateFill: =If(ThisItem.Row = _selectedTutorial.Row, RGBA(220, 220, 220, 1), RGBA(0,0,0,0))
-            TemplatePadding: =0
-            TemplateSize: =42
-            Width: =If(IsExpand, 50, 200)
-            X: =0+0
-            Y: =109+0
-            ZIndex: =8
-
-            Image1_2 As image:
-                BorderColor: =RGBA(101, 128, 187, 1)
-                FocusedBorderColor: =Image1_2.BorderColor
-                Height: =Parent.TemplateHeight
-                HoverBorderColor: =ColorFade(Image1_2.BorderColor, 20%)
-                HoverFill: =ColorFade(Image1_2.Fill, 20%)
-                Image: =ThisItem.Image
-                OnSelect: =Select(Parent)
-                PaddingBottom: =12
-                PaddingTop: =12
-                PressedBorderColor: =ColorFade(Image1_2.BorderColor, -20%)
-                PressedFill: =ColorFade(Image1_2.Fill, -20%)
-                Width: =Image1_2.Height - 10
-                X: =15
-                ZIndex: =1
-
-            Label4_3 As label:
-                BorderColor: =RGBA(101, 128, 187, 1)
-                Color: =RGBA(47,41,43,1)
-                FocusedBorderColor: =Label4_3.BorderColor
-                FocusedBorderThickness: =2
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
-                Height: =42
-                HoverBorderColor: =Label4_3.BorderColor
-                HoverColor: =Label4_3.Color
-                HoverFill: =Label4_3.Fill
-                OnSelect: =Select(Parent)
-                PressedBorderColor: =Label4_3.BorderColor
-                PressedColor: =Label4_3.Color
-                PressedFill: =Label4_3.Fill
-                Size: =10
-                TabIndex: =0
-                Text: =ThisItem.Title
-                X: =50
-                ZIndex: =2
-
-            Rectangle1_2 As rectangle:
-                BorderColor: =RGBA(101, 128, 187, 1)
-                DisabledFill: =Rectangle1_2.Fill
-                Fill: =RGBA(116, 39, 116, 1)
-                FocusedBorderColor: =Rectangle1_2.BorderColor
-                Height: =20
-                HoverFill: =Rectangle1_2.Fill
-                OnSelect: =Select(Parent)
-                PressedFill: =Rectangle1_2.Fill
-                Visible: =ThisItem.Row = _selectedTutorial.Row
-                Width: =4
-                X: =11
-                Y: =11
-                ZIndex: =3
-
-        iconHamburgerMenu_7 As icon.Hamburger:
-            BorderColor: =RGBA(101, 128, 187, 1)
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledFill: =iconHamburgerMenu_7.Fill
-            Fill: =Color.White
-            FocusedBorderColor: =iconHamburgerMenu_7.BorderColor
-            Height: =16
-            HoverBorderColor: =ColorFade(iconHamburgerMenu_7.BorderColor, 20%)
-            HoverColor: =ColorFade(iconHamburgerMenu_7.Color, 20%)
-            HoverFill: =iconHamburgerMenu_7.Fill
-            Icon: =Icon.Hamburger
-            OnSelect: =Set(IsExpand, !IsExpand)
-            PressedBorderColor: =ColorFade(iconHamburgerMenu_7.BorderColor, -20%)
-            PressedColor: =ColorFade(iconHamburgerMenu_7.Color, -20%)
-            PressedFill: =iconHamburgerMenu_7.Fill
-            TabIndex: =0
-            Width: =16
-            X: =24+0
-            Y: =76+0
-            ZIndex: =9
-
-        Rectangle2_6 As rectangle:
-            BorderColor: =RGBA(101, 128, 187, 1)
-            DisabledFill: =Rectangle2_6.Fill
-            Fill: =Color.White
-            FocusedBorderColor: =Rectangle2_6.BorderColor
-            Height: =707
-            HoverFill: =Rectangle2_6.Fill
-            PressedFill: =Rectangle2_6.Fill
-            Width: =1
-            X: =If(!IsExpand, 200, 50)
-            Y: =61+0
-            ZIndex: =10
-
     Form2_1 As form:
         DataSource: ='Account list- AMS' 
         DefaultMode: =FormMode.New
@@ -384,77 +157,6 @@
                 Y: =DataCardKey8_5.Y
                 ZIndex: =4
 
-        "'Delivery Manager_DataCard1_5' As typedDataCard.textualEditCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="field_2"
-            Default: =ThisItem.'Delivery Manager'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_2")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =55
-            MaxLength: =DataSourceInfo([@'Account list- AMS'], DataSourceInfo.MaxLength, "field_2")
-            Required: =false
-            Update: =DataCardValue7_5.Text
-            Width: =502
-            X: =0
-            Y: =1
-            ZIndex: =1
-
-            DataCardKey7_5 As label:
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
-                Height: =35
-                Size: =14
-                Text: =Parent.DisplayName
-                Width: =200
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue7_5 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
-                Height: =35
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Tooltip: =Parent.DisplayName
-                Width: =200
-                X: =195
-                Y: =10
-                ZIndex: =2
-
-            ErrorMessage7_5 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue7_5.Y + DataCardValue7_5.Height
-                ZIndex: =3
-
-            StarVisible7_5 As label:
-                Align: =Align.Center
-                Height: =DataCardKey7_5.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey7_5.Y
-                ZIndex: =4
-
         "'Delivery Head_DataCard1_5' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_3"
@@ -525,6 +227,77 @@
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey6_5.Y
+                ZIndex: =4
+
+        "'Delivery Manager_DataCard1_5' As typedDataCard.textualEditCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_2"
+            Default: =ThisItem.'Delivery Manager'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_2")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =55
+            MaxLength: =DataSourceInfo([@'Account list- AMS'], DataSourceInfo.MaxLength, "field_2")
+            Required: =false
+            Update: =DataCardValue7_5.Text
+            Width: =502
+            X: =0
+            Y: =1
+            ZIndex: =1
+
+            DataCardKey7_5 As label:
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =35
+                Size: =14
+                Text: =Parent.DisplayName
+                Width: =200
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue7_5 As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                Default: =Parent.Default
+                DelayOutput: =true
+                DisplayMode: =Parent.DisplayMode
+                Height: =35
+                MaxLength: =Parent.MaxLength
+                PaddingLeft: =5
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Tooltip: =Parent.DisplayName
+                Width: =200
+                X: =195
+                Y: =10
+                ZIndex: =2
+
+            ErrorMessage7_5 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue7_5.Y + DataCardValue7_5.Height
+                ZIndex: =3
+
+            StarVisible7_5 As label:
+                Align: =Align.Center
+                Height: =DataCardKey7_5.Height
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey7_5.Y
                 ZIndex: =4
 
         Geo_1 As typedDataCard.blankCard:
