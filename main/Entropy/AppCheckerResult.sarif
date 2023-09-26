@@ -94,32 +94,112 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.Item"
+                  "fullyQualifiedName": "AccountDashboard.GalleryNavigation.galleryTemplate1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.Item",
+                  "fullyQualifiedName": "AccountDashboard.GalleryNavigation.galleryTemplate1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 14,
-                  "charOffset": 0,
+                  "charLength": 15,
+                  "charOffset": 92,
                   "snippet": {
-                    "text": "varCurrentItem"
+                    "text": "DashboardScreen"
                   }
                 }
               },
               "properties": {
-                "member": "Item",
-                "module": "Project Approval",
-                "type": "'Project Approval'.Form1_2"
+                "member": "OnSelect",
+                "module": "AccountDashboard",
+                "type": "AccountDashboard.GalleryNavigation.galleryTemplate1"
               }
             }
           ],
           "message": {
             "arguments": [
-              "varCurrentItem"
+              "DashboardScreen"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AccountDashboard.GalleryNavigation.galleryTemplate1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AccountDashboard.GalleryNavigation.galleryTemplate1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 185,
+                  "snippet": {
+                    "text": "AccountInfo"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "AccountDashboard",
+                "type": "AccountDashboard.GalleryNavigation.galleryTemplate1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "AccountInfo"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AccountDashboard.GalleryNavigation.galleryTemplate1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AccountDashboard.GalleryNavigation.galleryTemplate1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 274,
+                  "snippet": {
+                    "text": "AccountInfo"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "AccountDashboard",
+                "type": "AccountDashboard.GalleryNavigation.galleryTemplate1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "AccountInfo"
             ],
             "id": "issue"
           },
@@ -1147,152 +1227,32 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "AccountDashboard.GalleryNavigation_3.galleryTemplate1_3.OnSelect"
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.Item"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "AccountDashboard.GalleryNavigation_3.galleryTemplate1_3.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 92,
-                  "snippet": {
-                    "text": "DashboardScreen"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "AccountDashboard",
-                "type": "AccountDashboard.GalleryNavigation_3.galleryTemplate1_3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DashboardScreen"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AccountDashboard.GalleryNavigation_3.galleryTemplate1_3.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AccountDashboard.GalleryNavigation_3.galleryTemplate1_3.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 11,
-                  "charOffset": 185,
-                  "snippet": {
-                    "text": "AccountInfo"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "AccountDashboard",
-                "type": "AccountDashboard.GalleryNavigation_3.galleryTemplate1_3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "AccountInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AccountDashboard.GalleryNavigation_3.galleryTemplate1_3.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AccountDashboard.GalleryNavigation_3.galleryTemplate1_3.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 11,
-                  "charOffset": 274,
-                  "snippet": {
-                    "text": "AccountInfo"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "AccountDashboard",
-                "type": "AccountDashboard.GalleryNavigation_3.galleryTemplate1_3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "AccountInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'New Project_2'.imgCompanyLogo.Image"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'New Project_2'.imgCompanyLogo.Image",
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.Item",
                   "relativeAddress": 0
                 },
                 "region": {
                   "charLength": 14,
                   "charOffset": 0,
                   "snippet": {
-                    "text": "'Coforge logo'"
+                    "text": "varCurrentItem"
                   }
                 }
               },
               "properties": {
-                "member": "Image",
-                "module": "New Project_2",
-                "type": "'New Project_2'.imgCompanyLogo"
+                "member": "Item",
+                "module": "Project Approval",
+                "type": "'Project Approval'.Form1_2"
               }
             }
           ],
           "message": {
             "arguments": [
-              "Coforge logo"
+              "varCurrentItem"
             ],
             "id": "issue"
           },
@@ -1307,112 +1267,32 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Project_2'.GalleryNavigation.galleryTemplate1.OnSelect"
+                  "fullyQualifiedName": "'Deepdiving Each Record Project'.Form1_3.Item"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Project_2'.GalleryNavigation.galleryTemplate1.OnSelect",
+                  "fullyQualifiedName": "'Deepdiving Each Record Project'.Form1_3.Item",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 15,
-                  "charOffset": 92,
+                  "charLength": 14,
+                  "charOffset": 0,
                   "snippet": {
-                    "text": "DashboardScreen"
+                    "text": "varCurrentItem"
                   }
                 }
               },
               "properties": {
-                "member": "OnSelect",
-                "module": "New Project_2",
-                "type": "'New Project_2'.GalleryNavigation.galleryTemplate1"
+                "member": "Item",
+                "module": "Deepdiving Each Record Project",
+                "type": "'Deepdiving Each Record Project'.Form1_3"
               }
             }
           ],
           "message": {
             "arguments": [
-              "DashboardScreen"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'New Project_2'.GalleryNavigation.galleryTemplate1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'New Project_2'.GalleryNavigation.galleryTemplate1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 11,
-                  "charOffset": 185,
-                  "snippet": {
-                    "text": "AccountInfo"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "New Project_2",
-                "type": "'New Project_2'.GalleryNavigation.galleryTemplate1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "AccountInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'New Project_2'.GalleryNavigation.galleryTemplate1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'New Project_2'.GalleryNavigation.galleryTemplate1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 11,
-                  "charOffset": 274,
-                  "snippet": {
-                    "text": "AccountInfo"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "New Project_2",
-                "type": "'New Project_2'.GalleryNavigation.galleryTemplate1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "AccountInfo"
+              "varCurrentItem"
             ],
             "id": "issue"
           },
@@ -1481,1326 +1361,6 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Account Name_DataCard1_1'.Dropdown1_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Account Name_DataCard1_1'.Dropdown1_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "New Project_1",
-                "type": "'New Project_1'.Form1_1.'Account Name_DataCard1_1'.Dropdown1_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.Geo_DataCard1_1.Dropdown2_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.Geo_DataCard1_1.Dropdown2_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "New Project_1",
-                "type": "'New Project_1'.Form1_1.Geo_DataCard1_1.Dropdown2_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Project code_DataCard1_1'.DataCardValue3_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Project code_DataCard1_1'.DataCardValue3_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "New Project_1",
-                "type": "'New Project_1'.Form1_1.'Project code_DataCard1_1'.DataCardValue3_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Project Name_DataCard1_1'.DataCardValue4_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Project Name_DataCard1_1'.DataCardValue4_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "New Project_1",
-                "type": "'New Project_1'.Form1_1.'Project Name_DataCard1_1'.DataCardValue4_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Project Manager_DataCard1_1'.DataCardValue5_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Project Manager_DataCard1_1'.DataCardValue5_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "New Project_1",
-                "type": "'New Project_1'.Form1_1.'Project Manager_DataCard1_1'.DataCardValue5_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Delivery Manager_DataCard1_1'.DataCardValue6_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Delivery Manager_DataCard1_1'.DataCardValue6_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "New Project_1",
-                "type": "'New Project_1'.Form1_1.'Delivery Manager_DataCard1_1'.DataCardValue6_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Delivery Head_DataCard1_1'.DataCardValue7_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Delivery Head_DataCard1_1'.DataCardValue7_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "New Project_1",
-                "type": "'New Project_1'.Form1_1.'Delivery Head_DataCard1_1'.DataCardValue7_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Project Start Date_DataCard1_1'.DataCardValue8_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Project Start Date_DataCard1_1'.DataCardValue8_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "New Project_1",
-                "type": "'New Project_1'.Form1_1.'Project Start Date_DataCard1_1'.DataCardValue8_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Project end date_DataCard1_1'.DataCardValue9_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Project end date_DataCard1_1'.DataCardValue9_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "New Project_1",
-                "type": "'New Project_1'.Form1_1.'Project end date_DataCard1_1'.DataCardValue9_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Type of Engagement_DataCard1_1'.Dropdown3_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Type of Engagement_DataCard1_1'.Dropdown3_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "New Project_1",
-                "type": "'New Project_1'.Form1_1.'Type of Engagement_DataCard1_1'.Dropdown3_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Total Cost in USD_DataCard1_1'.DataCardValue11_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Total Cost in USD_DataCard1_1'.DataCardValue11_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "New Project_1",
-                "type": "'New Project_1'.Form1_1.'Total Cost in USD_DataCard1_1'.DataCardValue11_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Onsite #_DataCard1_1'.DataCardValue12_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Onsite #_DataCard1_1'.DataCardValue12_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "New Project_1",
-                "type": "'New Project_1'.Form1_1.'Onsite #_DataCard1_1'.DataCardValue12_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Offshore #_DataCard1_1'.DataCardValue13_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Offshore #_DataCard1_1'.DataCardValue13_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "New Project_1",
-                "type": "'New Project_1'.Form1_1.'Offshore #_DataCard1_1'.DataCardValue13_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Total #_DataCard1_1'.DataCardValue14_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Total #_DataCard1_1'.DataCardValue14_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "New Project_1",
-                "type": "'New Project_1'.Form1_1.'Total #_DataCard1_1'.DataCardValue14_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'GM %_DataCard1_1'.DataCardValue15_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'GM %_DataCard1_1'.DataCardValue15_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "New Project_1",
-                "type": "'New Project_1'.Form1_1.'GM %_DataCard1_1'.DataCardValue15_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Blended rate offshore (Per Month in USD)_DataCard1_1'.DataCardValue16_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Blended rate offshore (Per Month in USD)_DataCard1_1'.DataCardValue16_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "New Project_1",
-                "type": "'New Project_1'.Form1_1.'Blended rate offshore (Per Month in USD)_DataCard1_1'.DataCardValue16_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Blended rate onsite (Per Month in USD)_DataCard1_1'.DataCardValue17_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Blended rate onsite (Per Month in USD)_DataCard1_1'.DataCardValue17_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "New Project_1",
-                "type": "'New Project_1'.Form1_1.'Blended rate onsite (Per Month in USD)_DataCard1_1'.DataCardValue17_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Blended rate in USD_DataCard1_1'.DataCardValue18_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Blended rate in USD_DataCard1_1'.DataCardValue18_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "New Project_1",
-                "type": "'New Project_1'.Form1_1.'Blended rate in USD_DataCard1_1'.DataCardValue18_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Type of contract_DataCard1_1'.Dropdown5_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Type of contract_DataCard1_1'.Dropdown5_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "New Project_1",
-                "type": "'New Project_1'.Form1_1.'Type of contract_DataCard1_1'.Dropdown5_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Project status_DataCard1_1'.Dropdown6_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Project status_DataCard1_1'.Dropdown6_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "New Project_1",
-                "type": "'New Project_1'.Form1_1.'Project status_DataCard1_1'.Dropdown6_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Type of project_DataCard1_1'.Dropdown7_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Type of project_DataCard1_1'.Dropdown7_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "New Project_1",
-                "type": "'New Project_1'.Form1_1.'Type of project_DataCard1_1'.Dropdown7_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.Comments_DataCard1_1.DataCardValue31_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'New Project_1'.Form1_1.Comments_DataCard1_1.DataCardValue31_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "New Project_1",
-                "type": "'New Project_1'.Form1_1.Comments_DataCard1_1.DataCardValue31_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Account Name_DataCard1_2'.Dropdown1_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Account Name_DataCard1_2'.Dropdown1_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Project Approval",
-                "type": "'Project Approval'.Form1_2.'Account Name_DataCard1_2'.Dropdown1_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.Geo_DataCard1_2.Dropdown2_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.Geo_DataCard1_2.Dropdown2_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Project Approval",
-                "type": "'Project Approval'.Form1_2.Geo_DataCard1_2.Dropdown2_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Project code_DataCard1_2'.DataCardValue3_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Project code_DataCard1_2'.DataCardValue3_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Project Approval",
-                "type": "'Project Approval'.Form1_2.'Project code_DataCard1_2'.DataCardValue3_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Project Name_DataCard1_2'.DataCardValue4_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Project Name_DataCard1_2'.DataCardValue4_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Project Approval",
-                "type": "'Project Approval'.Form1_2.'Project Name_DataCard1_2'.DataCardValue4_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Project Manager_DataCard1_2'.DataCardValue5_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Project Manager_DataCard1_2'.DataCardValue5_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Project Approval",
-                "type": "'Project Approval'.Form1_2.'Project Manager_DataCard1_2'.DataCardValue5_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Delivery Manager_DataCard1_2'.DataCardValue6_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Delivery Manager_DataCard1_2'.DataCardValue6_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Project Approval",
-                "type": "'Project Approval'.Form1_2.'Delivery Manager_DataCard1_2'.DataCardValue6_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Delivery Head_DataCard1_2'.DataCardValue7_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Delivery Head_DataCard1_2'.DataCardValue7_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Project Approval",
-                "type": "'Project Approval'.Form1_2.'Delivery Head_DataCard1_2'.DataCardValue7_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Project Start Date_DataCard1_2'.DataCardValue8_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Project Start Date_DataCard1_2'.DataCardValue8_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Project Approval",
-                "type": "'Project Approval'.Form1_2.'Project Start Date_DataCard1_2'.DataCardValue8_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Project end date_DataCard1_2'.DataCardValue9_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Project end date_DataCard1_2'.DataCardValue9_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Project Approval",
-                "type": "'Project Approval'.Form1_2.'Project end date_DataCard1_2'.DataCardValue9_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Type of Engagement_DataCard1_2'.Dropdown3_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Type of Engagement_DataCard1_2'.Dropdown3_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Project Approval",
-                "type": "'Project Approval'.Form1_2.'Type of Engagement_DataCard1_2'.Dropdown3_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Total Cost in USD_DataCard1_2'.DataCardValue11_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Total Cost in USD_DataCard1_2'.DataCardValue11_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Project Approval",
-                "type": "'Project Approval'.Form1_2.'Total Cost in USD_DataCard1_2'.DataCardValue11_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Onsite #_DataCard1_2'.DataCardValue12_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Onsite #_DataCard1_2'.DataCardValue12_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Project Approval",
-                "type": "'Project Approval'.Form1_2.'Onsite #_DataCard1_2'.DataCardValue12_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Offshore #_DataCard1_2'.DataCardValue13_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Offshore #_DataCard1_2'.DataCardValue13_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Project Approval",
-                "type": "'Project Approval'.Form1_2.'Offshore #_DataCard1_2'.DataCardValue13_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Total #_DataCard1_2'.DataCardValue14_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Total #_DataCard1_2'.DataCardValue14_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Project Approval",
-                "type": "'Project Approval'.Form1_2.'Total #_DataCard1_2'.DataCardValue14_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'GM %_DataCard1_2'.DataCardValue15_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'GM %_DataCard1_2'.DataCardValue15_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Project Approval",
-                "type": "'Project Approval'.Form1_2.'GM %_DataCard1_2'.DataCardValue15_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Blended rate offshore (Per Month in USD)_DataCard1_2'.DataCardValue16_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Blended rate offshore (Per Month in USD)_DataCard1_2'.DataCardValue16_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Project Approval",
-                "type": "'Project Approval'.Form1_2.'Blended rate offshore (Per Month in USD)_DataCard1_2'.DataCardValue16_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Blended rate onsite (Per Month in USD)_DataCard1_2'.DataCardValue17_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Blended rate onsite (Per Month in USD)_DataCard1_2'.DataCardValue17_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Project Approval",
-                "type": "'Project Approval'.Form1_2.'Blended rate onsite (Per Month in USD)_DataCard1_2'.DataCardValue17_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Blended rate in USD_DataCard1_2'.DataCardValue18_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Blended rate in USD_DataCard1_2'.DataCardValue18_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Project Approval",
-                "type": "'Project Approval'.Form1_2.'Blended rate in USD_DataCard1_2'.DataCardValue18_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Type of contract_DataCard1_2'.Dropdown5_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Type of contract_DataCard1_2'.Dropdown5_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Project Approval",
-                "type": "'Project Approval'.Form1_2.'Type of contract_DataCard1_2'.Dropdown5_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Project status_DataCard1_2'.Dropdown6_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Project status_DataCard1_2'.Dropdown6_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Project Approval",
-                "type": "'Project Approval'.Form1_2.'Project status_DataCard1_2'.Dropdown6_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Type of project_DataCard1_2'.Dropdown7_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Type of project_DataCard1_2'.Dropdown7_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Project Approval",
-                "type": "'Project Approval'.Form1_2.'Type of project_DataCard1_2'.Dropdown7_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.Comments_DataCard1_2.DataCardValue31_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Project Approval'.Form1_2.Comments_DataCard1_2.DataCardValue31_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Project Approval",
-                "type": "'Project Approval'.Form1_2.Comments_DataCard1_2.DataCardValue31_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
         },
         {
           "locations": [
@@ -2970,6 +1530,96 @@
                 "member": "TabIndex",
                 "module": "Project Dashboard Screen",
                 "type": "'Project Dashboard Screen'.gal_AccountList_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AccountDashboard.iconHamburgerMenu_6.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AccountDashboard.iconHamburgerMenu_6.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "AccountDashboard",
+                "type": "AccountDashboard.iconHamburgerMenu_6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AccountDashboard.GalleryNavigation.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AccountDashboard.GalleryNavigation.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "AccountDashboard",
+                "type": "AccountDashboard.GalleryNavigation"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AccountDashboard.GalleryNavigation.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AccountDashboard.GalleryNavigation.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "AccountDashboard",
+                "type": "AccountDashboard.GalleryNavigation"
               }
             }
           ],
@@ -4065,19 +2715,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "AccountDashboard.glryAccountDetails.AccessibleLabel"
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Account Name_DataCard1_2'.Dropdown1_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "AccountDashboard.glryAccountDetails.AccessibleLabel",
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Account Name_DataCard1_2'.Dropdown1_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "AccountDashboard",
-                "type": "AccountDashboard.glryAccountDetails"
+                "module": "Project Approval",
+                "type": "'Project Approval'.Form1_2.'Account Name_DataCard1_2'.Dropdown1_2"
               }
             }
           ],
@@ -4095,49 +2745,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "AccountDashboard.glryAccountDetails.TabIndex"
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.Geo_DataCard1_2.Dropdown2_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "AccountDashboard.glryAccountDetails.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "AccountDashboard",
-                "type": "AccountDashboard.glryAccountDetails"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AccountDashboard.iconHamburgerMenu_9.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AccountDashboard.iconHamburgerMenu_9.AccessibleLabel",
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.Geo_DataCard1_2.Dropdown2_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "AccountDashboard",
-                "type": "AccountDashboard.iconHamburgerMenu_9"
+                "module": "Project Approval",
+                "type": "'Project Approval'.Form1_2.Geo_DataCard1_2.Dropdown2_2"
               }
             }
           ],
@@ -4155,19 +2775,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "AccountDashboard.GalleryNavigation_3.AccessibleLabel"
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Project code_DataCard1_2'.DataCardValue3_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "AccountDashboard.GalleryNavigation_3.AccessibleLabel",
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Project code_DataCard1_2'.DataCardValue3_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "AccountDashboard",
-                "type": "AccountDashboard.GalleryNavigation_3"
+                "module": "Project Approval",
+                "type": "'Project Approval'.Form1_2.'Project code_DataCard1_2'.DataCardValue3_2"
               }
             }
           ],
@@ -4185,19 +2805,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "AccountDashboard.GalleryNavigation_3.TabIndex"
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Project Name_DataCard1_2'.DataCardValue4_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "AccountDashboard.GalleryNavigation_3.TabIndex",
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Project Name_DataCard1_2'.DataCardValue4_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "TabIndex",
-                "module": "AccountDashboard",
-                "type": "AccountDashboard.GalleryNavigation_3"
+                "member": "AccessibleLabel",
+                "module": "Project Approval",
+                "type": "'Project Approval'.Form1_2.'Project Name_DataCard1_2'.DataCardValue4_2"
               }
             }
           ],
@@ -4207,8 +2827,548 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Project Manager_DataCard1_2'.DataCardValue5_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Project Manager_DataCard1_2'.DataCardValue5_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Project Approval",
+                "type": "'Project Approval'.Form1_2.'Project Manager_DataCard1_2'.DataCardValue5_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Delivery Manager_DataCard1_2'.DataCardValue6_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Delivery Manager_DataCard1_2'.DataCardValue6_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Project Approval",
+                "type": "'Project Approval'.Form1_2.'Delivery Manager_DataCard1_2'.DataCardValue6_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Delivery Head_DataCard1_2'.DataCardValue7_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Delivery Head_DataCard1_2'.DataCardValue7_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Project Approval",
+                "type": "'Project Approval'.Form1_2.'Delivery Head_DataCard1_2'.DataCardValue7_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Project Start Date_DataCard1_2'.DataCardValue8_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Project Start Date_DataCard1_2'.DataCardValue8_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Project Approval",
+                "type": "'Project Approval'.Form1_2.'Project Start Date_DataCard1_2'.DataCardValue8_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Project end date_DataCard1_2'.DataCardValue9_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Project end date_DataCard1_2'.DataCardValue9_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Project Approval",
+                "type": "'Project Approval'.Form1_2.'Project end date_DataCard1_2'.DataCardValue9_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Type of Engagement_DataCard1_2'.Dropdown3_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Type of Engagement_DataCard1_2'.Dropdown3_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Project Approval",
+                "type": "'Project Approval'.Form1_2.'Type of Engagement_DataCard1_2'.Dropdown3_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Total Cost in USD_DataCard1_2'.DataCardValue11_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Total Cost in USD_DataCard1_2'.DataCardValue11_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Project Approval",
+                "type": "'Project Approval'.Form1_2.'Total Cost in USD_DataCard1_2'.DataCardValue11_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Onsite #_DataCard1_2'.DataCardValue12_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Onsite #_DataCard1_2'.DataCardValue12_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Project Approval",
+                "type": "'Project Approval'.Form1_2.'Onsite #_DataCard1_2'.DataCardValue12_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Offshore #_DataCard1_2'.DataCardValue13_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Offshore #_DataCard1_2'.DataCardValue13_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Project Approval",
+                "type": "'Project Approval'.Form1_2.'Offshore #_DataCard1_2'.DataCardValue13_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Total #_DataCard1_2'.DataCardValue14_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Total #_DataCard1_2'.DataCardValue14_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Project Approval",
+                "type": "'Project Approval'.Form1_2.'Total #_DataCard1_2'.DataCardValue14_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'GM %_DataCard1_2'.DataCardValue15_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'GM %_DataCard1_2'.DataCardValue15_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Project Approval",
+                "type": "'Project Approval'.Form1_2.'GM %_DataCard1_2'.DataCardValue15_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Blended rate offshore (Per Month in USD)_DataCard1_2'.DataCardValue16_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Blended rate offshore (Per Month in USD)_DataCard1_2'.DataCardValue16_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Project Approval",
+                "type": "'Project Approval'.Form1_2.'Blended rate offshore (Per Month in USD)_DataCard1_2'.DataCardValue16_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Blended rate onsite (Per Month in USD)_DataCard1_2'.DataCardValue17_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Blended rate onsite (Per Month in USD)_DataCard1_2'.DataCardValue17_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Project Approval",
+                "type": "'Project Approval'.Form1_2.'Blended rate onsite (Per Month in USD)_DataCard1_2'.DataCardValue17_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Blended rate in USD_DataCard1_2'.DataCardValue18_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Blended rate in USD_DataCard1_2'.DataCardValue18_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Project Approval",
+                "type": "'Project Approval'.Form1_2.'Blended rate in USD_DataCard1_2'.DataCardValue18_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Type of contract_DataCard1_2'.Dropdown5_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Type of contract_DataCard1_2'.Dropdown5_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Project Approval",
+                "type": "'Project Approval'.Form1_2.'Type of contract_DataCard1_2'.Dropdown5_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Project status_DataCard1_2'.Dropdown6_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Project status_DataCard1_2'.Dropdown6_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Project Approval",
+                "type": "'Project Approval'.Form1_2.'Project status_DataCard1_2'.Dropdown6_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Type of project_DataCard1_2'.Dropdown7_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.'Type of project_DataCard1_2'.Dropdown7_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Project Approval",
+                "type": "'Project Approval'.Form1_2.'Type of project_DataCard1_2'.Dropdown7_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.Comments_DataCard1_2.DataCardValue31_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Project Approval'.Form1_2.Comments_DataCard1_2.DataCardValue31_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Project Approval",
+                "type": "'Project Approval'.Form1_2.Comments_DataCard1_2.DataCardValue31_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -5955,19 +5115,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Account Name_DataCard1_4'.Dropdown1_4.AccessibleLabel"
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Account Name_DataCard1_1'.Dropdown1_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Account Name_DataCard1_4'.Dropdown1_4.AccessibleLabel",
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Account Name_DataCard1_1'.Dropdown1_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "New Project_2",
-                "type": "'New Project_2'.Form1_4.'Account Name_DataCard1_4'.Dropdown1_4"
+                "module": "New Project_1",
+                "type": "'New Project_1'.Form1_1.'Account Name_DataCard1_1'.Dropdown1_1"
               }
             }
           ],
@@ -5985,19 +5145,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.Geo_DataCard1_4.Dropdown2_4.AccessibleLabel"
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.Geo_DataCard1_1.Dropdown2_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.Geo_DataCard1_4.Dropdown2_4.AccessibleLabel",
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.Geo_DataCard1_1.Dropdown2_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "New Project_2",
-                "type": "'New Project_2'.Form1_4.Geo_DataCard1_4.Dropdown2_4"
+                "module": "New Project_1",
+                "type": "'New Project_1'.Form1_1.Geo_DataCard1_1.Dropdown2_1"
               }
             }
           ],
@@ -6015,19 +5175,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Project code_DataCard1_4'.DataCardValue3_4.AccessibleLabel"
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Project code_DataCard1_1'.DataCardValue3_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Project code_DataCard1_4'.DataCardValue3_4.AccessibleLabel",
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Project code_DataCard1_1'.DataCardValue3_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "New Project_2",
-                "type": "'New Project_2'.Form1_4.'Project code_DataCard1_4'.DataCardValue3_4"
+                "module": "New Project_1",
+                "type": "'New Project_1'.Form1_1.'Project code_DataCard1_1'.DataCardValue3_1"
               }
             }
           ],
@@ -6045,19 +5205,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Project Name_DataCard1_4'.DataCardValue4_4.AccessibleLabel"
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Project Name_DataCard1_1'.DataCardValue4_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Project Name_DataCard1_4'.DataCardValue4_4.AccessibleLabel",
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Project Name_DataCard1_1'.DataCardValue4_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "New Project_2",
-                "type": "'New Project_2'.Form1_4.'Project Name_DataCard1_4'.DataCardValue4_4"
+                "module": "New Project_1",
+                "type": "'New Project_1'.Form1_1.'Project Name_DataCard1_1'.DataCardValue4_1"
               }
             }
           ],
@@ -6075,19 +5235,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Project Manager_DataCard1_4'.DataCardValue5_4.AccessibleLabel"
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Project Manager_DataCard1_1'.DataCardValue5_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Project Manager_DataCard1_4'.DataCardValue5_4.AccessibleLabel",
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Project Manager_DataCard1_1'.DataCardValue5_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "New Project_2",
-                "type": "'New Project_2'.Form1_4.'Project Manager_DataCard1_4'.DataCardValue5_4"
+                "module": "New Project_1",
+                "type": "'New Project_1'.Form1_1.'Project Manager_DataCard1_1'.DataCardValue5_1"
               }
             }
           ],
@@ -6105,19 +5265,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Delivery Manager_DataCard1_4'.DataCardValue6_4.AccessibleLabel"
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Delivery Manager_DataCard1_1'.DataCardValue6_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Delivery Manager_DataCard1_4'.DataCardValue6_4.AccessibleLabel",
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Delivery Manager_DataCard1_1'.DataCardValue6_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "New Project_2",
-                "type": "'New Project_2'.Form1_4.'Delivery Manager_DataCard1_4'.DataCardValue6_4"
+                "module": "New Project_1",
+                "type": "'New Project_1'.Form1_1.'Delivery Manager_DataCard1_1'.DataCardValue6_1"
               }
             }
           ],
@@ -6135,19 +5295,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Delivery Head_DataCard1_4'.DataCardValue7_4.AccessibleLabel"
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Delivery Head_DataCard1_1'.DataCardValue7_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Delivery Head_DataCard1_4'.DataCardValue7_4.AccessibleLabel",
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Delivery Head_DataCard1_1'.DataCardValue7_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "New Project_2",
-                "type": "'New Project_2'.Form1_4.'Delivery Head_DataCard1_4'.DataCardValue7_4"
+                "module": "New Project_1",
+                "type": "'New Project_1'.Form1_1.'Delivery Head_DataCard1_1'.DataCardValue7_1"
               }
             }
           ],
@@ -6165,19 +5325,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Project Start Date_DataCard1_4'.DataCardValue8_4.AccessibleLabel"
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Project Start Date_DataCard1_1'.DataCardValue8_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Project Start Date_DataCard1_4'.DataCardValue8_4.AccessibleLabel",
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Project Start Date_DataCard1_1'.DataCardValue8_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "New Project_2",
-                "type": "'New Project_2'.Form1_4.'Project Start Date_DataCard1_4'.DataCardValue8_4"
+                "module": "New Project_1",
+                "type": "'New Project_1'.Form1_1.'Project Start Date_DataCard1_1'.DataCardValue8_1"
               }
             }
           ],
@@ -6195,19 +5355,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Project end date_DataCard1_4'.DataCardValue9_4.AccessibleLabel"
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Project end date_DataCard1_1'.DataCardValue9_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Project end date_DataCard1_4'.DataCardValue9_4.AccessibleLabel",
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Project end date_DataCard1_1'.DataCardValue9_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "New Project_2",
-                "type": "'New Project_2'.Form1_4.'Project end date_DataCard1_4'.DataCardValue9_4"
+                "module": "New Project_1",
+                "type": "'New Project_1'.Form1_1.'Project end date_DataCard1_1'.DataCardValue9_1"
               }
             }
           ],
@@ -6225,19 +5385,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Type of Engagement_DataCard1_4'.Dropdown3_4.AccessibleLabel"
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Type of Engagement_DataCard1_1'.Dropdown3_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Type of Engagement_DataCard1_4'.Dropdown3_4.AccessibleLabel",
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Type of Engagement_DataCard1_1'.Dropdown3_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "New Project_2",
-                "type": "'New Project_2'.Form1_4.'Type of Engagement_DataCard1_4'.Dropdown3_4"
+                "module": "New Project_1",
+                "type": "'New Project_1'.Form1_1.'Type of Engagement_DataCard1_1'.Dropdown3_1"
               }
             }
           ],
@@ -6255,19 +5415,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Total Cost in USD_DataCard1_4'.DataCardValue11_4.AccessibleLabel"
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Total Cost in USD_DataCard1_1'.DataCardValue11_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Total Cost in USD_DataCard1_4'.DataCardValue11_4.AccessibleLabel",
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Total Cost in USD_DataCard1_1'.DataCardValue11_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "New Project_2",
-                "type": "'New Project_2'.Form1_4.'Total Cost in USD_DataCard1_4'.DataCardValue11_4"
+                "module": "New Project_1",
+                "type": "'New Project_1'.Form1_1.'Total Cost in USD_DataCard1_1'.DataCardValue11_1"
               }
             }
           ],
@@ -6285,19 +5445,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Onsite #_DataCard1_4'.DataCardValue12_4.AccessibleLabel"
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Onsite #_DataCard1_1'.DataCardValue12_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Onsite #_DataCard1_4'.DataCardValue12_4.AccessibleLabel",
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Onsite #_DataCard1_1'.DataCardValue12_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "New Project_2",
-                "type": "'New Project_2'.Form1_4.'Onsite #_DataCard1_4'.DataCardValue12_4"
+                "module": "New Project_1",
+                "type": "'New Project_1'.Form1_1.'Onsite #_DataCard1_1'.DataCardValue12_1"
               }
             }
           ],
@@ -6315,19 +5475,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Offshore #_DataCard1_4'.DataCardValue13_4.AccessibleLabel"
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Offshore #_DataCard1_1'.DataCardValue13_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Offshore #_DataCard1_4'.DataCardValue13_4.AccessibleLabel",
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Offshore #_DataCard1_1'.DataCardValue13_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "New Project_2",
-                "type": "'New Project_2'.Form1_4.'Offshore #_DataCard1_4'.DataCardValue13_4"
+                "module": "New Project_1",
+                "type": "'New Project_1'.Form1_1.'Offshore #_DataCard1_1'.DataCardValue13_1"
               }
             }
           ],
@@ -6345,19 +5505,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Total #_DataCard1_4'.DataCardValue14_4.AccessibleLabel"
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Total #_DataCard1_1'.DataCardValue14_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Total #_DataCard1_4'.DataCardValue14_4.AccessibleLabel",
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Total #_DataCard1_1'.DataCardValue14_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "New Project_2",
-                "type": "'New Project_2'.Form1_4.'Total #_DataCard1_4'.DataCardValue14_4"
+                "module": "New Project_1",
+                "type": "'New Project_1'.Form1_1.'Total #_DataCard1_1'.DataCardValue14_1"
               }
             }
           ],
@@ -6375,19 +5535,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'GM %_DataCard1_4'.DataCardValue15_4.AccessibleLabel"
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'GM %_DataCard1_1'.DataCardValue15_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'GM %_DataCard1_4'.DataCardValue15_4.AccessibleLabel",
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'GM %_DataCard1_1'.DataCardValue15_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "New Project_2",
-                "type": "'New Project_2'.Form1_4.'GM %_DataCard1_4'.DataCardValue15_4"
+                "module": "New Project_1",
+                "type": "'New Project_1'.Form1_1.'GM %_DataCard1_1'.DataCardValue15_1"
               }
             }
           ],
@@ -6405,19 +5565,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Blended rate offshore (Per Month in USD)_DataCard1_4'.DataCardValue16_4.AccessibleLabel"
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Blended rate offshore (Per Month in USD)_DataCard1_1'.DataCardValue16_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Blended rate offshore (Per Month in USD)_DataCard1_4'.DataCardValue16_4.AccessibleLabel",
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Blended rate offshore (Per Month in USD)_DataCard1_1'.DataCardValue16_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "New Project_2",
-                "type": "'New Project_2'.Form1_4.'Blended rate offshore (Per Month in USD)_DataCard1_4'.DataCardValue16_4"
+                "module": "New Project_1",
+                "type": "'New Project_1'.Form1_1.'Blended rate offshore (Per Month in USD)_DataCard1_1'.DataCardValue16_1"
               }
             }
           ],
@@ -6435,19 +5595,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Blended rate onsite (Per Month in USD)_DataCard1_4'.DataCardValue17_4.AccessibleLabel"
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Blended rate onsite (Per Month in USD)_DataCard1_1'.DataCardValue17_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Blended rate onsite (Per Month in USD)_DataCard1_4'.DataCardValue17_4.AccessibleLabel",
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Blended rate onsite (Per Month in USD)_DataCard1_1'.DataCardValue17_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "New Project_2",
-                "type": "'New Project_2'.Form1_4.'Blended rate onsite (Per Month in USD)_DataCard1_4'.DataCardValue17_4"
+                "module": "New Project_1",
+                "type": "'New Project_1'.Form1_1.'Blended rate onsite (Per Month in USD)_DataCard1_1'.DataCardValue17_1"
               }
             }
           ],
@@ -6465,19 +5625,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Blended rate in USD_DataCard1_4'.DataCardValue18_4.AccessibleLabel"
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Blended rate in USD_DataCard1_1'.DataCardValue18_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Blended rate in USD_DataCard1_4'.DataCardValue18_4.AccessibleLabel",
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Blended rate in USD_DataCard1_1'.DataCardValue18_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "New Project_2",
-                "type": "'New Project_2'.Form1_4.'Blended rate in USD_DataCard1_4'.DataCardValue18_4"
+                "module": "New Project_1",
+                "type": "'New Project_1'.Form1_1.'Blended rate in USD_DataCard1_1'.DataCardValue18_1"
               }
             }
           ],
@@ -6495,19 +5655,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Type of contract_DataCard1_4'.Dropdown5_4.AccessibleLabel"
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Type of contract_DataCard1_1'.Dropdown5_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Type of contract_DataCard1_4'.Dropdown5_4.AccessibleLabel",
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Type of contract_DataCard1_1'.Dropdown5_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "New Project_2",
-                "type": "'New Project_2'.Form1_4.'Type of contract_DataCard1_4'.Dropdown5_4"
+                "module": "New Project_1",
+                "type": "'New Project_1'.Form1_1.'Type of contract_DataCard1_1'.Dropdown5_1"
               }
             }
           ],
@@ -6525,19 +5685,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Project status_DataCard1_4'.Dropdown6_4.AccessibleLabel"
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Project status_DataCard1_1'.Dropdown6_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Project status_DataCard1_4'.Dropdown6_4.AccessibleLabel",
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Project status_DataCard1_1'.Dropdown6_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "New Project_2",
-                "type": "'New Project_2'.Form1_4.'Project status_DataCard1_4'.Dropdown6_4"
+                "module": "New Project_1",
+                "type": "'New Project_1'.Form1_1.'Project status_DataCard1_1'.Dropdown6_1"
               }
             }
           ],
@@ -6555,19 +5715,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Type of project_DataCard1_4'.Dropdown7_4.AccessibleLabel"
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Type of project_DataCard1_1'.Dropdown7_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.'Type of project_DataCard1_4'.Dropdown7_4.AccessibleLabel",
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.'Type of project_DataCard1_1'.Dropdown7_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "New Project_2",
-                "type": "'New Project_2'.Form1_4.'Type of project_DataCard1_4'.Dropdown7_4"
+                "module": "New Project_1",
+                "type": "'New Project_1'.Form1_1.'Type of project_DataCard1_1'.Dropdown7_1"
               }
             }
           ],
@@ -6585,19 +5745,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.Comments_DataCard1_4.DataCardValue31_4.AccessibleLabel"
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.Comments_DataCard1_1.DataCardValue31_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Project_2'.Form1_4.Comments_DataCard1_4.DataCardValue31_4.AccessibleLabel",
+                  "fullyQualifiedName": "'New Project_1'.Form1_1.Comments_DataCard1_1.DataCardValue31_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "New Project_2",
-                "type": "'New Project_2'.Form1_4.Comments_DataCard1_4.DataCardValue31_4"
+                "module": "New Project_1",
+                "type": "'New Project_1'.Form1_1.Comments_DataCard1_1.DataCardValue31_1"
               }
             }
           ],
@@ -6615,19 +5775,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Project_2'.iconHamburgerMenu_6.AccessibleLabel"
+                  "fullyQualifiedName": "AccountDashboard.glryAccountDetails.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Project_2'.iconHamburgerMenu_6.AccessibleLabel",
+                  "fullyQualifiedName": "AccountDashboard.glryAccountDetails.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "New Project_2",
-                "type": "'New Project_2'.iconHamburgerMenu_6"
+                "module": "AccountDashboard",
+                "type": "AccountDashboard.glryAccountDetails"
               }
             }
           ],
@@ -6645,49 +5805,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Project_2'.GalleryNavigation.AccessibleLabel"
+                  "fullyQualifiedName": "AccountDashboard.glryAccountDetails.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Project_2'.GalleryNavigation.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "New Project_2",
-                "type": "'New Project_2'.GalleryNavigation"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'New Project_2'.GalleryNavigation.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'New Project_2'.GalleryNavigation.TabIndex",
+                  "fullyQualifiedName": "AccountDashboard.glryAccountDetails.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "New Project_2",
-                "type": "'New Project_2'.GalleryNavigation"
+                "module": "AccountDashboard",
+                "type": "AccountDashboard.glryAccountDetails"
               }
             }
           ],
@@ -6776,36 +5906,6 @@
               },
               "properties": {
                 "member": "Coforge Logo_1",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "App.coforge-logo"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.coforge-logo",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "coforge-logo",
                 "module": "App",
                 "type": "App"
               }
