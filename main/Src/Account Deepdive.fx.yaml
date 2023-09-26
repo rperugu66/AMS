@@ -715,7 +715,7 @@
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Height: =35
                 MaxLength: =Parent.MaxLength
@@ -779,6 +779,7 @@
 
             TextInput5_1 As text:
                 Default: =""
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Height: =35
                 Width: =200
@@ -1534,7 +1535,7 @@
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =DisplayMode.View
                 Format: =TextFormat.Number
                 Height: =35
                 PaddingLeft: =5
@@ -1676,7 +1677,7 @@
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Height: =35
                 MaxLength: =Parent.MaxLength
@@ -1748,7 +1749,7 @@
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Height: =35
                 MaxLength: =Parent.MaxLength
