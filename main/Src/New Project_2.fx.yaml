@@ -5,11 +5,11 @@
         BorderThickness: =2
         DataSource: ='Project list_AMS'
         DefaultMode: =FormMode.New
-        Height: =575
+        Height: =578
         NumberOfColumns: =2
         Width: =1162
         X: =If(IsExpand, 50, 204)
-        Y: =79
+        Y: =76
         ZIndex: =1
 
         "'Account Name_DataCard1_4' As typedDataCard.textualEditCard":
