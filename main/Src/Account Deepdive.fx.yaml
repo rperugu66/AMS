@@ -1796,6 +1796,8 @@
                 ZIndex: =4
 
     Button5_5 As button:
+        BorderThickness: =1
+        DisplayMode: =If(varedit,DisplayMode.Edit, DisplayMode.View)
         Fill: =RGBA(127, 178, 57, 1)
         Text: ="Submit"
         X: =934
@@ -1803,6 +1805,8 @@
         ZIndex: =13
 
     Button6_5 As button:
+        BorderThickness: =1
+        DisplayMode: =If(varedit,DisplayMode.Edit, DisplayMode.View)
         Fill: =RGBA(255, 0, 0, 1)
         OnSelect: =
         Text: ="Cancel"
