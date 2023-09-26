@@ -2,6 +2,7 @@
     BackgroundImage: ='MicrosoftTeams-image (7)'
     OnVisible: |-
         =Set(_selectedTutorial,{Row:1,Title:"Account Info",Image:bank});
+        Set(varedit,false);
 
     Form2_1 As form:
         DataSource: ='Account list- AMS' 
@@ -1812,7 +1813,7 @@
 
     Icon6 As icon.Edit:
         Icon: =Icon.Edit
-        OnSelect: =Set(varedit,true;EditForm(Form2_1))
+        OnSelect: =Set(varedit,true;EditForm(Form2_1));
         X: =1222
         Y: =76
         ZIndex: =16
