@@ -780,8 +780,10 @@
                 ZIndex: =1
 
             TextInput5_1 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1
                 Default: =""
-                DisplayMode: =DisplayMode.View
+                DisplayMode: =If(varedit,DisplayMode.Edit, DisplayMode.View)
                 Font: =Font.'Segoe UI'
                 Height: =35
                 Width: =200
