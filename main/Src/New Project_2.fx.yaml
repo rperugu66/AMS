@@ -1720,10 +1720,9 @@
             BorderColor: =RGBA(8, 35, 64, 1)
             BorderThickness: =1
             Height: =58
-            Image: ='Coforge logo'
+            Image: ='download (1)'
             ImagePosition: =ImagePosition.Fill
             Width: =195
-            X: =45
             ZIndex: =9
 
         lblUserName As label:

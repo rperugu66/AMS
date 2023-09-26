@@ -94,46 +94,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Project_2'.imgCompanyLogo.Image"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'New Project_2'.imgCompanyLogo.Image",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "'Coforge logo'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Image",
-                "module": "New Project_2",
-                "type": "'New Project_2'.imgCompanyLogo"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Coforge logo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Project Approval'.Form1_2.Item"
                 }
               ],
