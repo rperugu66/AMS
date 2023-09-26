@@ -5,10 +5,11 @@
         BorderThickness: =2
         DataSource: ='Project list_AMS'
         DefaultMode: =FormMode.View
-        Height: =518
-        Width: =1315
-        X: =26
-        Y: =158
+        Height: =544
+        NumberOfColumns: =2
+        Width: =1101
+        X: =258
+        Y: =132
         ZIndex: =1
 
         "'Account Name_DataCard1_3' As typedDataCard.textualEditCard":
@@ -22,7 +23,7 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Title")
             Required: =false
             Update: =Dropdown1_3.Selected.Value
-            Width: =437
+            Width: =549
             X: =0
             Y: =0
             ZIndex: =2
@@ -98,7 +99,7 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Geo")
             Required: =false
             Update: =Dropdown2_3.Selected.Value
-            Width: =437
+            Width: =549
             X: =1
             Y: =0
             ZIndex: =2
@@ -172,9 +173,9 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Project_x0020_code")
             Required: =false
             Update: =DataCardValue3_3.Text
-            Width: =437
-            X: =2
-            Y: =0
+            Width: =549
+            X: =0
+            Y: =1
             ZIndex: =2
 
             DataCardKey3_3 As label:
@@ -247,8 +248,8 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Project_x0020_Name")
             Required: =false
             Update: =DataCardValue4_3.Text
-            Width: =437
-            X: =0
+            Width: =549
+            X: =1
             Y: =1
             ZIndex: =2
 
@@ -323,9 +324,9 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Project_x0020_Manager")
             Required: =false
             Update: =DataCardValue5_3.Text
-            Width: =437
-            X: =1
-            Y: =1
+            Width: =549
+            X: =0
+            Y: =2
             ZIndex: =2
 
             DataCardKey5_3 As label:
@@ -399,9 +400,9 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Delivery_x0020_Manager")
             Required: =false
             Update: =DataCardValue6_3.Text
-            Width: =437
-            X: =2
-            Y: =1
+            Width: =549
+            X: =1
+            Y: =2
             ZIndex: =2
 
             DataCardKey6_3 As label:
@@ -475,9 +476,9 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Delivery_x0020_Head")
             Required: =false
             Update: =DataCardValue7_3.Text
-            Width: =437
+            Width: =549
             X: =0
-            Y: =2
+            Y: =3
             ZIndex: =2
 
             DataCardKey7_3 As label:
@@ -549,9 +550,9 @@
             Height: =50
             Required: =false
             Update: =DataCardValue8_3.SelectedDate
-            Width: =437
+            Width: =549
             X: =1
-            Y: =2
+            Y: =3
             ZIndex: =2
 
             DataCardKey8_3 As label:
@@ -624,9 +625,9 @@
             Height: =50
             Required: =false
             Update: =DataCardValue9_3.SelectedDate
-            Width: =437
-            X: =2
-            Y: =2
+            Width: =549
+            X: =0
+            Y: =4
             ZIndex: =2
 
             DataCardKey9_3 As label:
@@ -699,9 +700,9 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Type_x0020_of_x0020_Engagement")
             Required: =false
             Update: =Dropdown3_3.Selected.Value
-            Width: =437
-            X: =0
-            Y: =3
+            Width: =549
+            X: =1
+            Y: =4
             ZIndex: =2
 
             DataCardKey10_3 As label:
@@ -772,9 +773,9 @@
             Height: =50
             Required: =false
             Update: =Value(DataCardValue11_3.Text)
-            Width: =437
-            X: =1
-            Y: =3
+            Width: =549
+            X: =0
+            Y: =5
             ZIndex: =2
 
             DataCardKey11_3 As label:
@@ -848,9 +849,9 @@
             Height: =50
             Required: =false
             Update: =Value(DataCardValue12_3.Text)
-            Width: =437
-            X: =2
-            Y: =3
+            Width: =549
+            X: =1
+            Y: =5
             ZIndex: =2
 
             DataCardKey12_3 As label:
@@ -928,9 +929,9 @@
             Height: =50
             Required: =false
             Update: =Value(DataCardValue13_3.Text)
-            Width: =437
+            Width: =549
             X: =0
-            Y: =4
+            Y: =6
             ZIndex: =2
 
             DataCardKey13_3 As label:
@@ -1004,9 +1005,9 @@
             Height: =50
             Required: =false
             Update: =Value(DataCardValue14_3.Text)
-            Width: =437
+            Width: =549
             X: =1
-            Y: =4
+            Y: =6
             ZIndex: =2
 
             DataCardKey14_3 As label:
@@ -1079,9 +1080,9 @@
             Height: =50
             Required: =false
             Update: =Value(DataCardValue15_3.Text)
-            Width: =437
-            X: =2
-            Y: =4
+            Width: =549
+            X: =0
+            Y: =7
             ZIndex: =2
 
             DataCardKey15_3 As label:
@@ -1154,9 +1155,9 @@
             Height: =50
             Required: =false
             Update: =Value(DataCardValue16_3.Text)
-            Width: =437
-            X: =0
-            Y: =5
+            Width: =549
+            X: =1
+            Y: =7
             ZIndex: =2
 
             DataCardKey16_3 As label:
@@ -1228,9 +1229,9 @@
             Height: =50
             Required: =false
             Update: =Value(DataCardValue17_3.Text)
-            Width: =437
-            X: =1
-            Y: =5
+            Width: =549
+            X: =0
+            Y: =8
             ZIndex: =2
 
             DataCardKey17_3 As label:
@@ -1300,9 +1301,9 @@
             Height: =50
             Required: =false
             Update: =Value(DataCardValue18_3.Text)
-            Width: =437
-            X: =2
-            Y: =5
+            Width: =549
+            X: =1
+            Y: =8
             ZIndex: =2
 
             DataCardKey18_3 As label:
@@ -1376,9 +1377,9 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Type_x0020_of_x0020_contract")
             Required: =false
             Update: =Dropdown5_3.Selected.Value
-            Width: =437
+            Width: =549
             X: =0
-            Y: =6
+            Y: =9
             ZIndex: =2
 
             DataCardKey21_3 As label:
@@ -1450,9 +1451,9 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Project_x0020_status")
             Required: =false
             Update: =Dropdown6_3.Selected.Value
-            Width: =437
+            Width: =549
             X: =1
-            Y: =6
+            Y: =9
             ZIndex: =2
 
             DataCardKey22_3 As label:
@@ -1524,9 +1525,9 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Type_x0020_of_x0020_project")
             Required: =false
             Update: =Dropdown7_3.Selected.Value
-            Width: =437
-            X: =2
-            Y: =6
+            Width: =549
+            X: =0
+            Y: =10
             ZIndex: =2
 
             DataCardKey25_3 As label:
@@ -1598,9 +1599,9 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Comments")
             Required: =false
             Update: =DataCardValue31_3.Text
-            Width: =437
-            X: =0
-            Y: =7
+            Width: =549
+            X: =1
+            Y: =10
             ZIndex: =2
 
             DataCardKey31_3 As label:
@@ -1702,7 +1703,7 @@
             OnSelect: =Set(varedit, !varedit)
             Width: =25
             X: =1322
-            Y: =87
+            Y: =74
             ZIndex: =8
 
     grp_edit As group:
@@ -1794,4 +1795,148 @@
         ImagePosition: =ImagePosition.Fill
         Width: =258
         ZIndex: =22
+
+    GroupNavigation_4 As group:
+        Height: =5
+        Width: =5
+        X: =20
+        Y: =-21
+        ZIndex: =27
+
+        Rectangle2_10 As rectangle:
+            Fill: =Color.White
+            Height: =707
+            Width: =If(IsExpand, 50, 200)
+            X: =20
+            Y: =61
+            ZIndex: =23
+
+        GalleryNavigation_4 As gallery.galleryVertical:
+            BorderColor: =RGBA(101, 128, 187, 1)
+            DisabledBorderColor: =GalleryNavigation_4.BorderColor
+            DisabledFill: =GalleryNavigation_4.Fill
+            Fill: =Color.White
+            HoverBorderColor: =GalleryNavigation_4.BorderColor
+            HoverFill: =GalleryNavigation_4.Fill
+            Items: =NavigationMenu
+            Layout: =Layout.Vertical
+            LoadingSpinnerColor: =GalleryNavigation_4.BorderColor
+            OnSelect: |
+                =Set(
+                    _selectedTutorial,
+                    ThisItem
+                );
+                If(
+                    ThisItem.Row = 1,
+                    Navigate(
+                        DashboardScreen,
+                        BorderStyle.None
+                    ),
+                    ThisItem.Row = 2,
+                    Navigate(
+                        AccountInfo,
+                        BorderStyle.None
+                    ),
+                    ThisItem.Row = 3,
+                    Navigate(
+                        AccountInfo,
+                        BorderStyle.None
+                    )
+                );
+            PressedBorderColor: =GalleryNavigation_4.BorderColor
+            PressedFill: =GalleryNavigation_4.Fill
+            ShowScrollbar: =false
+            TemplateFill: =If(ThisItem.Row = _selectedTutorial.Row, RGBA(220, 220, 220, 1), RGBA(0,0,0,0))
+            TemplatePadding: =0
+            TemplateSize: =42
+            Width: =If(IsExpand, 50, 200)
+            X: =0+0
+            Y: =109+0
+            ZIndex: =24
+
+            Image1_4 As image:
+                BorderColor: =RGBA(101, 128, 187, 1)
+                FocusedBorderColor: =Image1_4.BorderColor
+                Height: =Parent.TemplateHeight
+                HoverBorderColor: =ColorFade(Image1_4.BorderColor, 20%)
+                HoverFill: =ColorFade(Image1_4.Fill, 20%)
+                Image: =ThisItem.Image
+                OnSelect: =Select(Parent)
+                PaddingBottom: =12
+                PaddingTop: =12
+                PressedBorderColor: =ColorFade(Image1_4.BorderColor, -20%)
+                PressedFill: =ColorFade(Image1_4.Fill, -20%)
+                Width: =Image1_4.Height - 10
+                X: =15
+                ZIndex: =1
+
+            Label4_5 As label:
+                BorderColor: =RGBA(101, 128, 187, 1)
+                Color: =RGBA(47,41,43,1)
+                FocusedBorderColor: =Label4_5.BorderColor
+                FocusedBorderThickness: =2
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =42
+                HoverBorderColor: =Label4_5.BorderColor
+                HoverColor: =Label4_5.Color
+                HoverFill: =Label4_5.Fill
+                OnSelect: =Select(Parent)
+                PressedBorderColor: =Label4_5.BorderColor
+                PressedColor: =Label4_5.Color
+                PressedFill: =Label4_5.Fill
+                Size: =10
+                TabIndex: =0
+                Text: =ThisItem.Title
+                X: =50
+                ZIndex: =2
+
+            Rectangle1_4 As rectangle:
+                BorderColor: =RGBA(101, 128, 187, 1)
+                DisabledFill: =Rectangle1_4.Fill
+                Fill: =RGBA(116, 39, 116, 1)
+                FocusedBorderColor: =Rectangle1_4.BorderColor
+                Height: =20
+                HoverFill: =Rectangle1_4.Fill
+                OnSelect: =Select(Parent)
+                PressedFill: =Rectangle1_4.Fill
+                Visible: =ThisItem.Row = _selectedTutorial.Row
+                Width: =4
+                X: =11
+                Y: =11
+                ZIndex: =3
+
+        iconHamburgerMenu_10 As icon.Hamburger:
+            BorderColor: =RGBA(101, 128, 187, 1)
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledFill: =iconHamburgerMenu_10.Fill
+            Fill: =Color.White
+            FocusedBorderColor: =iconHamburgerMenu_10.BorderColor
+            Height: =16
+            HoverBorderColor: =ColorFade(iconHamburgerMenu_10.BorderColor, 20%)
+            HoverColor: =ColorFade(iconHamburgerMenu_10.Color, 20%)
+            HoverFill: =iconHamburgerMenu_10.Fill
+            Icon: =Icon.Hamburger
+            OnSelect: =Set(IsExpand, !IsExpand)
+            PressedBorderColor: =ColorFade(iconHamburgerMenu_10.BorderColor, -20%)
+            PressedColor: =ColorFade(iconHamburgerMenu_10.Color, -20%)
+            PressedFill: =iconHamburgerMenu_10.Fill
+            TabIndex: =0
+            Width: =16
+            X: =24+0
+            Y: =76+0
+            ZIndex: =25
+
+        Rectangle2_9 As rectangle:
+            BorderColor: =RGBA(101, 128, 187, 1)
+            DisabledFill: =Rectangle2_9.Fill
+            Fill: =Color.White
+            FocusedBorderColor: =Rectangle2_9.BorderColor
+            Height: =707
+            HoverFill: =Rectangle2_9.Fill
+            PressedFill: =Rectangle2_9.Fill
+            Width: =1
+            X: =If(!IsExpand, 200, 50)
+            Y: =61+0
+            ZIndex: =26
 
