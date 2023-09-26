@@ -2,6 +2,7 @@
     BackgroundImage: ='MicrosoftTeams-image (7)'
     OnVisible: |-
         =Set(_selectedTutorial,{Row:1,Title:"Account Info",Image:bank});
+        Set(varedit,false);
 
     Form2_1 As form:
         DataSource: ='Account list- AMS' 
@@ -30,6 +31,7 @@
             ZIndex: =1
 
             DataCardKey1_5 As label:
+                Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =35
@@ -42,10 +44,11 @@
                 ZIndex: =1
 
             DataCardValue1_1 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =Color.Black
+                BorderThickness: =0
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =If(varedit,DisplayMode.View, DisplayMode.Edit)
                 Font: =Font.'Segoe UI'
                 Height: =35
                 MaxLength: =Parent.MaxLength
@@ -114,10 +117,11 @@
                 ZIndex: =1
 
             DataCardValue8_5 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Black)
+                BorderThickness: =0
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =If(varedit,DisplayMode.View, DisplayMode.Edit)
                 Font: =Font.'Segoe UI'
                 Height: =35
                 MaxLength: =Parent.MaxLength
@@ -186,10 +190,11 @@
                 ZIndex: =1
 
             DataCardValue6_5 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Black)
+                BorderThickness: =0
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =If(varedit,DisplayMode.View, DisplayMode.Edit)
                 Font: =Font.'Segoe UI'
                 Height: =35
                 MaxLength: =Parent.MaxLength
@@ -246,6 +251,7 @@
             ZIndex: =1
 
             DataCardKey7_5 As label:
+                Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =35
@@ -258,10 +264,11 @@
                 ZIndex: =1
 
             DataCardValue7_5 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Black)
+                BorderThickness: =0
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =If(varedit,DisplayMode.View, DisplayMode.Edit)
                 Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
@@ -311,7 +318,10 @@
             ZIndex: =1
 
             TextInput4_3 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =0
                 Default: =LookUp('Account-Geo  List', ThisItem.'Account Name' = 'Account Name').Geo
+                DisplayMode: =If(varedit,DisplayMode.View, DisplayMode.Edit)
                 Font: =Font.'Segoe UI'
                 Height: =35
                 Width: =200
@@ -320,7 +330,6 @@
                 ZIndex: =1
 
             Label7_3 As label:
-                Color: =RGBA(9, 33, 98, 1)
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =35
@@ -354,7 +363,10 @@
                 ZIndex: =1
 
             TextInput4_4 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =0
                 Default: =LookUp('Account-Geo  List', ThisItem.'Account Name' = 'Account Name').Country
+                DisplayMode: =If(varedit,DisplayMode.View, DisplayMode.Edit)
                 Font: =Font.'Segoe UI'
                 Height: =35
                 Width: =200
@@ -373,7 +385,6 @@
             ZIndex: =1
 
             Label7_5 As label:
-                Color: =RGBA(9, 33, 98, 1)
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =35
@@ -385,7 +396,10 @@
                 ZIndex: =1
 
             TextInput4_5 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =0
                 Default: =LookUp('Account-Geo  List', ThisItem.'Account Name' = 'Account Name').Location
+                DisplayMode: =If(varedit,DisplayMode.View, DisplayMode.Edit)
                 Font: =Font.'Segoe UI'
                 Height: =35
                 Width: =200
@@ -422,10 +436,11 @@
                 ZIndex: =1
 
             DataCardValue2_1 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Black)
+                BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =If(varedit,DisplayMode.Edit, DisplayMode.View)
                 Font: =Font.'Segoe UI'
                 Height: =35
                 MaxLength: =Parent.MaxLength
@@ -482,6 +497,7 @@
             ZIndex: =1
 
             DataCardKey3_5 As label:
+                Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =35
@@ -494,10 +510,11 @@
                 ZIndex: =1
 
             DataCardValue3_5 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Black)
+                BorderThickness: =0
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =If(varedit,DisplayMode.View, DisplayMode.Edit)
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
@@ -566,10 +583,11 @@
                 ZIndex: =1
 
             DataCardValue5_5 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Black)
+                BorderThickness: =0
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =If(varedit,DisplayMode.View, DisplayMode.Edit)
                 Font: =Font.'Segoe UI'
                 Height: =35
                 MaxLength: =Parent.MaxLength
@@ -625,6 +643,7 @@
             ZIndex: =1
 
             DataCardKey4_5 As label:
+                Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =35
@@ -637,10 +656,11 @@
                 ZIndex: =1
 
             DataCardValue4_5 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Black)
+                BorderThickness: =0
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =If(varedit,DisplayMode.View, DisplayMode.Edit)
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
@@ -709,10 +729,11 @@
                 ZIndex: =1
 
             DataCardValue9_5 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Black)
+                BorderThickness: =0
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =If(varedit,DisplayMode.View, DisplayMode.Edit)
                 Font: =Font.'Segoe UI'
                 Height: =35
                 MaxLength: =Parent.MaxLength
@@ -763,7 +784,6 @@
             ZIndex: =1
 
             Label9_1 As label:
-                Color: =RGBA(9, 33, 98, 1)
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =35
@@ -775,13 +795,25 @@
                 ZIndex: =1
 
             TextInput5_1 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1
                 Default: =""
+                DisplayMode: =If(varedit,DisplayMode.Edit, DisplayMode.View)
                 Font: =Font.'Segoe UI'
                 Height: =35
                 Width: =200
                 X: =195
                 Y: =10
                 ZIndex: =2
+
+            Label7 As label:
+                Color: =RGBA(255, 0, 0, 1)
+                Height: =16
+                Text: ="*"
+                Width: =20
+                X: =10
+                Y: =19
+                ZIndex: =3
 
         "'Account Cost in USD_DataCard1_1' As typedDataCard.numberEditCard":
             BorderStyle: =BorderStyle.Solid
@@ -799,6 +831,7 @@
             ZIndex: =2
 
             DataCardKey29_1 As label:
+                Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =35
@@ -811,10 +844,11 @@
                 ZIndex: =1
 
             DataCardValue23_1 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Black)
+                BorderThickness: =0
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =If(varedit,DisplayMode.View, DisplayMode.Edit)
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
@@ -882,10 +916,11 @@
                 ZIndex: =1
 
             DataCardValue24_1 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Black)
+                BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =If(varedit,DisplayMode.Edit, DisplayMode.View)
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
@@ -953,10 +988,11 @@
                 ZIndex: =1
 
             DataCardValue26_1 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Black)
+                BorderThickness: =0
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =If(varedit,DisplayMode.View, DisplayMode.Edit)
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
@@ -1012,6 +1048,7 @@
             ZIndex: =2
 
             DataCardKey34_1 As label:
+                Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =35
@@ -1024,10 +1061,11 @@
                 ZIndex: =1
 
             DataCardValue27_1 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Black)
+                BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =If(varedit,DisplayMode.Edit, DisplayMode.View)
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
@@ -1095,10 +1133,11 @@
                 ZIndex: =1
 
             DataCardValue28_1 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Black)
+                BorderThickness: =0
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =If(varedit,DisplayMode.View, DisplayMode.Edit)
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
@@ -1154,6 +1193,7 @@
             ZIndex: =2
 
             DataCardKey36_1 As label:
+                Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =35
@@ -1166,10 +1206,11 @@
                 ZIndex: =1
 
             DataCardValue29_1 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Black)
+                BorderThickness: =0
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =If(varedit,DisplayMode.View, DisplayMode.Edit)
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
@@ -1237,10 +1278,11 @@
                 ZIndex: =1
 
             DataCardValue30_1 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Black)
+                BorderThickness: =0
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =If(varedit,DisplayMode.View, DisplayMode.Edit)
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
@@ -1296,6 +1338,7 @@
             ZIndex: =2
 
             DataCardKey38_1 As label:
+                Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =35
@@ -1308,9 +1351,10 @@
                 ZIndex: =1
 
             DataCardValue32_1 As datepicker:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Black)
+                BorderThickness: =0
                 DefaultDate: =Parent.Default
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =If(varedit,DisplayMode.View, DisplayMode.Edit)
                 EndYear: =Year(Today())+100
                 Font: =Font.'Segoe UI'
                 Height: =35
@@ -1378,9 +1422,10 @@
                 ZIndex: =1
 
             DataCardValue33_1 As datepicker:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Black)
+                BorderThickness: =0
                 DefaultDate: =Parent.Default
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =If(varedit,DisplayMode.View, DisplayMode.Edit)
                 EndYear: =Year(Today())+100
                 Font: =Font.'Segoe UI'
                 Height: =35
@@ -1437,6 +1482,7 @@
             ZIndex: =2
 
             DataCardKey40_1 As label:
+                Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =35
@@ -1449,10 +1495,11 @@
                 ZIndex: =1
 
             DataCardValue34_1 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Black)
+                BorderThickness: =0
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =If(varedit,DisplayMode.View, DisplayMode.Edit)
                 Height: =35
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
@@ -1519,10 +1566,11 @@
                 ZIndex: =1
 
             DataCardValue35_1 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Black)
+                BorderThickness: =0
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =If(varedit,DisplayMode.View, DisplayMode.Edit)
                 Format: =TextFormat.Number
                 Height: =35
                 PaddingLeft: =5
@@ -1577,6 +1625,7 @@
             ZIndex: =2
 
             DataCardKey42_1 As label:
+                Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =35
@@ -1589,10 +1638,11 @@
                 ZIndex: =1
 
             DataCardValue36_1 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Black)
+                BorderThickness: =0
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =If(varedit,DisplayMode.View, DisplayMode.Edit)
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
@@ -1661,10 +1711,11 @@
                 ZIndex: =1
 
             DataCardValue37_1 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Black)
+                BorderThickness: =0
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =If(varedit,DisplayMode.View, DisplayMode.Edit)
                 Font: =Font.'Segoe UI'
                 Height: =35
                 MaxLength: =Parent.MaxLength
@@ -1721,6 +1772,7 @@
             ZIndex: =2
 
             DataCardKey44_1 As label:
+                Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =35
@@ -1733,10 +1785,11 @@
                 ZIndex: =1
 
             DataCardValue38_1 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Black)
+                BorderThickness: =0
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =If(varedit,DisplayMode.View, DisplayMode.Edit)
                 Font: =Font.'Segoe UI'
                 Height: =35
                 MaxLength: =Parent.MaxLength
@@ -1777,29 +1830,44 @@
                 ZIndex: =4
 
     Button5_5 As button:
-        Fill: =RGBA(127, 178, 57, 1)
+        BorderThickness: =1
+        DisplayMode: =If(varedit,DisplayMode.Edit, DisplayMode.View)
+        Fill: |-
+            =
+            
+            RGBA(8, 35, 64, 1)
         Text: ="Submit"
         X: =934
         Y: =716
         ZIndex: =13
 
     Button6_5 As button:
-        Fill: =RGBA(255, 0, 0, 1)
+        BorderThickness: =1
+        DisplayMode: =If(varedit,DisplayMode.Edit, DisplayMode.View)
+        Fill: =RGBA(8, 35, 64, 1)
         OnSelect: =
         Text: ="Cancel"
         X: =1094
         Y: =716
         ZIndex: =14
 
-    Icon4 As icon.BackArrow:
-        Icon: =Icon.BackArrow
-        X: =232
-        Y: =76
-        ZIndex: =15
-
     Icon6 As icon.Edit:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =25
         Icon: =Icon.Edit
-        X: =1222
-        Y: =76
+        OnSelect: =Set(varedit,true;EditForm(Form2_1));
+        Width: =25
+        X: =1299
+        Y: =84
         ZIndex: =16
+
+    Circle1 As circle:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =1
+        Fill: =RGBA(0,0,0,0)
+        Height: =35
+        Width: =35
+        X: =1294
+        Y: =79
+        ZIndex: =17
 
