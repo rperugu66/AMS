@@ -45,7 +45,7 @@
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Height: =35
                 MaxLength: =Parent.MaxLength
@@ -117,7 +117,7 @@
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Height: =35
                 MaxLength: =Parent.MaxLength
@@ -157,6 +157,77 @@
                 Y: =DataCardKey8_5.Y
                 ZIndex: =4
 
+        "'Delivery Manager_DataCard1_5' As typedDataCard.textualEditCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_2"
+            Default: =ThisItem.'Delivery Manager'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_2")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =55
+            MaxLength: =DataSourceInfo([@'Account list- AMS'], DataSourceInfo.MaxLength, "field_2")
+            Required: =false
+            Update: =DataCardValue7_5.Text
+            Width: =502
+            X: =0
+            Y: =1
+            ZIndex: =1
+
+            DataCardKey7_5 As label:
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =35
+                Size: =14
+                Text: =Parent.DisplayName
+                Width: =200
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue7_5 As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                Default: =Parent.Default
+                DelayOutput: =true
+                DisplayMode: =DisplayMode.View
+                Height: =35
+                MaxLength: =Parent.MaxLength
+                PaddingLeft: =5
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Tooltip: =Parent.DisplayName
+                Width: =200
+                X: =195
+                Y: =10
+                ZIndex: =2
+
+            ErrorMessage7_5 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue7_5.Y + DataCardValue7_5.Height
+                ZIndex: =3
+
+            StarVisible7_5 As label:
+                Align: =Align.Center
+                Height: =DataCardKey7_5.Height
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey7_5.Y
+                ZIndex: =4
+
         "'Delivery Head_DataCard1_5' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_3"
@@ -189,7 +260,7 @@
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Height: =35
                 MaxLength: =Parent.MaxLength
@@ -229,77 +300,6 @@
                 Y: =DataCardKey6_5.Y
                 ZIndex: =4
 
-        "'Delivery Manager_DataCard1_5' As typedDataCard.textualEditCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="field_2"
-            Default: =ThisItem.'Delivery Manager'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Account list- AMS'],DataSourceInfo.DisplayName,"field_2")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =55
-            MaxLength: =DataSourceInfo([@'Account list- AMS'], DataSourceInfo.MaxLength, "field_2")
-            Required: =false
-            Update: =DataCardValue7_5.Text
-            Width: =502
-            X: =0
-            Y: =1
-            ZIndex: =1
-
-            DataCardKey7_5 As label:
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
-                Height: =35
-                Size: =14
-                Text: =Parent.DisplayName
-                Width: =200
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue7_5 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
-                Height: =35
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Tooltip: =Parent.DisplayName
-                Width: =200
-                X: =195
-                Y: =10
-                ZIndex: =2
-
-            ErrorMessage7_5 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue7_5.Y + DataCardValue7_5.Height
-                ZIndex: =3
-
-            StarVisible7_5 As label:
-                Align: =Align.Center
-                Height: =DataCardKey7_5.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey7_5.Y
-                ZIndex: =4
-
         Geo_1 As typedDataCard.blankCard:
             BorderStyle: =BorderStyle.Solid
             DisplayMode: =DisplayMode.Edit
@@ -312,6 +312,7 @@
 
             TextInput4_3 As text:
                 Default: =LookUp('Account-Geo  List', ThisItem.'Account Name' = 'Account Name').Geo
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Height: =35
                 Width: =200
@@ -355,6 +356,7 @@
 
             TextInput4_4 As text:
                 Default: =LookUp('Account-Geo  List', ThisItem.'Account Name' = 'Account Name').Country
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Height: =35
                 Width: =200
@@ -386,6 +388,7 @@
 
             TextInput4_5 As text:
                 Default: =LookUp('Account-Geo  List', ThisItem.'Account Name' = 'Account Name').Location
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Height: =35
                 Width: =200
@@ -425,7 +428,7 @@
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Height: =35
                 MaxLength: =Parent.MaxLength
@@ -569,7 +572,7 @@
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Height: =35
                 MaxLength: =Parent.MaxLength
@@ -894,7 +897,7 @@
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
@@ -965,7 +968,7 @@
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =DisplayMode.View
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
