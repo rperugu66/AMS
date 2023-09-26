@@ -79,7 +79,7 @@
         "Name": "rct_Header_2",
         "Parent": "cmt_loginHeader",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 871,
+        "PublishOrderIndex": 16,
         "Rules": [
           {
             "Category": "Design",
@@ -293,7 +293,7 @@
         "Name": "img_CompanyLogo",
         "Parent": "cmt_loginHeader",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 872,
+        "PublishOrderIndex": 17,
         "Rules": [
           {
             "Category": "Data",
@@ -611,7 +611,7 @@
         "Name": "lbl_ClaimsLoginHeader",
         "Parent": "cmt_loginHeader",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 873,
+        "PublishOrderIndex": 18,
         "Rules": [
           {
             "Category": "Data",
@@ -892,7 +892,7 @@
         "Name": "Group",
         "Parent": "cmt_loginHeader",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 874,
+        "PublishOrderIndex": 19,
         "Rules": [
           {
             "Category": "Design",
@@ -971,7 +971,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638313026666781913",
+    "LastModifiedTimestamp": "638313061640204588",
     "Name": "cmt_loginHeader",
     "Rules": [
       {
@@ -1030,7 +1030,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638313026666781913",
+  "LastModifiedTimestamp": "638313061640204588",
   "Name": "3117ead71d154f21b8f2684993e2a127",
   "OverridableProperties": {},
   "TemplateOriginalName": "ce840afadf094b4dba7c344ad0323311",

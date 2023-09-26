@@ -47,7 +47,11 @@
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: |-
+                    =If(varedit,
+                       DisplayMode.Edit,
+                       DisplayMode.View
+                    )
                 Font: =Font.'Segoe UI'
                 Height: =35
                 MaxLength: =Parent.MaxLength
@@ -880,7 +884,11 @@
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: |-
+                    =If(varedit,
+                       DisplayMode.Edit,
+                       DisplayMode.View
+                    )
                 Font: =Font.'Segoe UI'
                 Format: =TextFormat.Number
                 Height: =35
@@ -1593,7 +1601,11 @@
                 ChevronBackground: =RGBA(255, 255, 255, 1)
                 ChevronFill: =RGBA(0, 0, 0, 1)
                 ChevronHoverBackground: =RGBA(202,202,202,1)
-                DisplayMode: =DisplayMode.View
+                DisplayMode: |-
+                    =If(varedit,
+                       DisplayMode.Edit,
+                       DisplayMode.View
+                    )
                 Font: =Font.'Segoe UI'
                 Height: =35
                 HoverFill: =RGBA(202, 202, 202, 1)
@@ -1714,7 +1726,11 @@
                 BorderThickness: =1
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: |-
+                    =If(varedit,
+                       DisplayMode.Edit,
+                       DisplayMode.View
+                    )
                 Font: =Font.'Segoe UI'
                 Height: =35
                 MaxLength: =Parent.MaxLength
