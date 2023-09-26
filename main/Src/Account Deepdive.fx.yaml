@@ -385,7 +385,6 @@
             ZIndex: =1
 
             Label7_5 As label:
-                Color: =RGBA(9, 33, 98, 1)
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =35
@@ -498,6 +497,7 @@
             ZIndex: =1
 
             DataCardKey3_5 As label:
+                Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =35
@@ -643,6 +643,7 @@
             ZIndex: =1
 
             DataCardKey4_5 As label:
+                Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =35
@@ -783,7 +784,6 @@
             ZIndex: =1
 
             Label9_1 As label:
-                Color: =RGBA(9, 33, 98, 1)
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =35
@@ -831,6 +831,7 @@
             ZIndex: =2
 
             DataCardKey29_1 As label:
+                Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =35
@@ -1047,6 +1048,7 @@
             ZIndex: =2
 
             DataCardKey34_1 As label:
+                Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =35
@@ -1191,6 +1193,7 @@
             ZIndex: =2
 
             DataCardKey36_1 As label:
+                Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =35
@@ -1335,6 +1338,7 @@
             ZIndex: =2
 
             DataCardKey38_1 As label:
+                Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =35
@@ -1478,6 +1482,7 @@
             ZIndex: =2
 
             DataCardKey40_1 As label:
+                Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =35
@@ -1620,6 +1625,7 @@
             ZIndex: =2
 
             DataCardKey42_1 As label:
+                Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =35
@@ -1766,6 +1772,7 @@
             ZIndex: =2
 
             DataCardKey44_1 As label:
+                Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =35
