@@ -5,11 +5,11 @@
         BorderThickness: =2
         DataSource: ='Project list_AMS'
         DefaultMode: =FormMode.View
-        Height: =544
+        Height: =525
         NumberOfColumns: =2
-        Width: =1101
-        X: =258
-        Y: =132
+        Width: =1162
+        X: =If(IsExpand, 50, 204)
+        Y: =119
         ZIndex: =1
 
         "'Account Name_DataCard1_3' As typedDataCard.textualEditCard":
@@ -23,7 +23,7 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Title")
             Required: =false
             Update: =Dropdown1_3.Selected.Value
-            Width: =549
+            Width: =580
             X: =0
             Y: =0
             ZIndex: =2
@@ -99,7 +99,7 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Geo")
             Required: =false
             Update: =Dropdown2_3.Selected.Value
-            Width: =549
+            Width: =580
             X: =1
             Y: =0
             ZIndex: =2
@@ -173,7 +173,7 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Project_x0020_code")
             Required: =false
             Update: =DataCardValue3_3.Text
-            Width: =549
+            Width: =580
             X: =0
             Y: =1
             ZIndex: =2
@@ -248,7 +248,7 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Project_x0020_Name")
             Required: =false
             Update: =DataCardValue4_3.Text
-            Width: =549
+            Width: =580
             X: =1
             Y: =1
             ZIndex: =2
@@ -324,7 +324,7 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Project_x0020_Manager")
             Required: =false
             Update: =DataCardValue5_3.Text
-            Width: =549
+            Width: =580
             X: =0
             Y: =2
             ZIndex: =2
@@ -400,7 +400,7 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Delivery_x0020_Manager")
             Required: =false
             Update: =DataCardValue6_3.Text
-            Width: =549
+            Width: =580
             X: =1
             Y: =2
             ZIndex: =2
@@ -476,7 +476,7 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Delivery_x0020_Head")
             Required: =false
             Update: =DataCardValue7_3.Text
-            Width: =549
+            Width: =580
             X: =0
             Y: =3
             ZIndex: =2
@@ -550,7 +550,7 @@
             Height: =50
             Required: =false
             Update: =DataCardValue8_3.SelectedDate
-            Width: =549
+            Width: =580
             X: =1
             Y: =3
             ZIndex: =2
@@ -625,7 +625,7 @@
             Height: =50
             Required: =false
             Update: =DataCardValue9_3.SelectedDate
-            Width: =549
+            Width: =580
             X: =0
             Y: =4
             ZIndex: =2
@@ -700,7 +700,7 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Type_x0020_of_x0020_Engagement")
             Required: =false
             Update: =Dropdown3_3.Selected.Value
-            Width: =549
+            Width: =580
             X: =1
             Y: =4
             ZIndex: =2
@@ -773,7 +773,7 @@
             Height: =50
             Required: =false
             Update: =Value(DataCardValue11_3.Text)
-            Width: =549
+            Width: =580
             X: =0
             Y: =5
             ZIndex: =2
@@ -849,7 +849,7 @@
             Height: =50
             Required: =false
             Update: =Value(DataCardValue12_3.Text)
-            Width: =549
+            Width: =580
             X: =1
             Y: =5
             ZIndex: =2
@@ -929,7 +929,7 @@
             Height: =50
             Required: =false
             Update: =Value(DataCardValue13_3.Text)
-            Width: =549
+            Width: =580
             X: =0
             Y: =6
             ZIndex: =2
@@ -1005,7 +1005,7 @@
             Height: =50
             Required: =false
             Update: =Value(DataCardValue14_3.Text)
-            Width: =549
+            Width: =580
             X: =1
             Y: =6
             ZIndex: =2
@@ -1080,7 +1080,7 @@
             Height: =50
             Required: =false
             Update: =Value(DataCardValue15_3.Text)
-            Width: =549
+            Width: =580
             X: =0
             Y: =7
             ZIndex: =2
@@ -1155,7 +1155,7 @@
             Height: =50
             Required: =false
             Update: =Value(DataCardValue16_3.Text)
-            Width: =549
+            Width: =580
             X: =1
             Y: =7
             ZIndex: =2
@@ -1229,7 +1229,7 @@
             Height: =50
             Required: =false
             Update: =Value(DataCardValue17_3.Text)
-            Width: =549
+            Width: =580
             X: =0
             Y: =8
             ZIndex: =2
@@ -1301,7 +1301,7 @@
             Height: =50
             Required: =false
             Update: =Value(DataCardValue18_3.Text)
-            Width: =549
+            Width: =580
             X: =1
             Y: =8
             ZIndex: =2
@@ -1377,7 +1377,7 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Type_x0020_of_x0020_contract")
             Required: =false
             Update: =Dropdown5_3.Selected.Value
-            Width: =549
+            Width: =580
             X: =0
             Y: =9
             ZIndex: =2
@@ -1451,7 +1451,7 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Project_x0020_status")
             Required: =false
             Update: =Dropdown6_3.Selected.Value
-            Width: =549
+            Width: =580
             X: =1
             Y: =9
             ZIndex: =2
@@ -1525,7 +1525,7 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Type_x0020_of_x0020_project")
             Required: =false
             Update: =Dropdown7_3.Selected.Value
-            Width: =549
+            Width: =580
             X: =0
             Y: =10
             ZIndex: =2
@@ -1599,7 +1599,7 @@
             MaxLength: =DataSourceInfo([@'Project list_AMS'], DataSourceInfo.MaxLength, "Comments")
             Required: =false
             Update: =DataCardValue31_3.Text
-            Width: =549
+            Width: =580
             X: =1
             Y: =10
             ZIndex: =2
@@ -1686,8 +1686,8 @@
         Size: =14
         Text: ="* All currencies are in USD"
         Width: =238
-        X: =1097
-        Y: =588
+        X: =1109
+        Y: =644
         ZIndex: =7
 
     Group1 As group:
