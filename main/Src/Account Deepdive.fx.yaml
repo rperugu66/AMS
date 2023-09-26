@@ -1405,9 +1405,10 @@
                 ZIndex: =1
 
             DataCardValue33_1 As datepicker:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Black)
+                BorderThickness: =0
                 DefaultDate: =Parent.Default
-                DisplayMode: =DisplayMode.View
+                DisplayMode: =If(varedit,DisplayMode.View, DisplayMode.Edit)
                 EndYear: =Year(Today())+100
                 Font: =Font.'Segoe UI'
                 Height: =35
@@ -1547,10 +1548,11 @@
                 ZIndex: =1
 
             DataCardValue35_1 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Black)
+                BorderThickness: =0
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =DisplayMode.View
+                DisplayMode: =If(varedit,DisplayMode.View, DisplayMode.Edit)
                 Format: =TextFormat.Number
                 Height: =35
                 PaddingLeft: =5
