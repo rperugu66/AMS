@@ -1712,10 +1712,86 @@
         Y: =60
         ZIndex: =9
 
-    Image2_3 As image:
+    GroupHeader_4 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =20
+        ZIndex: =21
+
+        WelcomeScreenTitleBackground_4 As rectangle:
+            BorderColor: =RGBA(51, 51, 51, 1)
+            DisabledFill: =WelcomeScreenTitleBackground_4.Fill
+            Fill: =RGBA(8, 35, 64, 1)
+            FocusedBorderColor: =WelcomeScreenTitleBackground_4.BorderColor
+            Height: =60
+            HoverFill: =WelcomeScreenTitleBackground_4.Fill
+            PressedFill: =WelcomeScreenTitleBackground_4.Fill
+            Width: =1366
+            ZIndex: =16
+
+        ImagePowerAppsLogo_4 As image:
+            BorderColor: =RGBA(51, 51, 51, 1)
+            Fill: =RGBA(8, 35, 64, 1)
+            FocusedBorderColor: =ImagePowerAppsLogo_4.BorderColor
+            Height: =48
+            HoverBorderColor: =ColorFade(ImagePowerAppsLogo_4.BorderColor, 20%)
+            HoverFill: =ColorFade(ImagePowerAppsLogo_4.Fill, 20%)
+            Image: =User().Image
+            PressedBorderColor: =ColorFade(ImagePowerAppsLogo_4.BorderColor, -20%)
+            PressedFill: =ColorFade(ImagePowerAppsLogo_4.Fill, -20%)
+            RadiusBottomLeft: =48
+            RadiusBottomRight: =48
+            RadiusTopLeft: =48
+            RadiusTopRight: =48
+            Width: =48
+            X: =1311
+            ZIndex: =17
+
+        lblAppName_4 As label:
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Bold
+            Height: =60
+            Size: =18
+            Text: ="HBU Financials"
+            Width: =413
+            X: =488
+            ZIndex: =18
+
+        lblUserName_4 As label:
+            Align: =Align.Right
+            Color: =Color.White
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Bold
+            Height: =59
+            PaddingBottom: =15
+            PaddingTop: =0
+            Size: =16
+            Text: |
+                =User().FullName
+            Width: =270
+            X: =1032
+            ZIndex: =19
+
+        lblDesignation_4 As label:
+            Align: =Align.Right
+            Color: =Color.White
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Semibold
+            Height: =27
+            Size: =10
+            Text: =Office365Users.MyProfile().JobTitle
+            Width: =314
+            X: =1008
+            Y: =29
+            ZIndex: =20
+
+    Image2_4 As image:
         Height: =61
         Image: ='download (1)'
         ImagePosition: =ImagePosition.Fill
         Width: =258
-        ZIndex: =15
+        ZIndex: =22
 
