@@ -397,8 +397,10 @@
                 ZIndex: =1
 
             TextInput4_5 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =0
                 Default: =LookUp('Account-Geo  List', ThisItem.'Account Name' = 'Account Name').Location
-                DisplayMode: =DisplayMode.View
+                DisplayMode: =If(varedit,DisplayMode.View, DisplayMode.Edit)
                 Font: =Font.'Segoe UI'
                 Height: =35
                 Width: =200
